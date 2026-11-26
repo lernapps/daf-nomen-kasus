@@ -1,0 +1,96 @@
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
+title:
+  de: "Dativ und Artikel"
+  en: "Dative Case and Articles"
+description:
+  de: "Bestimmte, unbestimmte und negative Artikel im Dativ (dem, der, dem, den + -n) verwenden."
+  en: "Use definite, indefinite, and negative articles in the dative case (dem, der, dem, den + -n)."
+competencies: [dativ-artikel]
+blocks:
+  - type: section
+    id: dativ-zeile
+    title:
+      de: "Wer bekommt das Geschenk? — Zeile 3 im Dativ"
+      en: "Who Gets the Gift? — Row 3 in the Dative"
+    blocks:
+      - type: text
+        text:
+          de: "Sam verteilt seine Geschenke an Familie Weber. Die Person, die etwas bekommt (das indirekte Objekt — **Wem?**), steht im **Dativ**. Im Dativ ändern sich **alle vier Spalten**: Maskulin und Neutrum bekommen **-m** (*dem/einem*), Feminin wird zu **-r** (*der/einer*) und Plural wird zu **den + -n** am Nomen!"
+          en: "Sam hands out his gifts to the Weber family. The recipient (indirect object — **Wem?** / to whom?) takes the **dative case**. In the dative, **all four columns change**: masculine and neuter take **-m** (*dem/einem*), feminine changes to **-r** (*der/einer*), and plural takes **den + -n** on the noun!"
+      - type: figure
+        image: images/case-table-ch3.svg
+        source:
+          de: "Eigene Zeichnung"
+          en: "Own diagram"
+        licence: CC-BY-SA-4.0
+        alt:
+          de: "4-Fälle-Farbtabelle mit Nominativ, Akkusativ und neu der Dativ-Zeile: dem/einem (m), der/einer (f), dem/einem (n), den + -n (pl)."
+          en: "4-Case Color Table with Nominative, Accusative, and the new Dative row: dem/einem (m), der/einer (f), dem/einem (n), den + -n (pl)."
+        caption:
+          de: "Zeile 3 (Dativ): Merkwort M-R-M-N (dem, der, dem, den + -n am Pluralnomen)."
+          en: "Row 3 (Dative): Remember M-R-M-N (dem, der, dem, den + -n on the plural noun)."
+      - type: note
+        title:
+          de: "Das Extra-n im Dativ Plural"
+          en: "The Extra -n in Dative Plural"
+        blocks:
+          - type: text
+            text:
+              de: "Im Dativ Plural bekommt das Nomen ein **-n**, wenn der Plural nicht schon auf **-n** oder **-s** endet: *die Kinder → den Kinder**n***, *die Freunde → den Freunde**n***, aber *die Fotos → den Fotos* (endet auf -s)."
+              en: "In the dative plural, add **-n** to the noun unless its plural already ends in **-n** or **-s**: *die Kinder → den Kinder**n***, *die Freunde → den Freunde**n***, but *die Fotos → den Fotos* (ends in -s)."
+  - type: section
+    id: uebung
+    title:
+      de: "Übung"
+      en: "Practice"
+    blocks:
+      - type: language-task
+        id: dativ-artikel-wahl
+        languages: { source: en, target: de }
+        mode: choice
+        task:
+          de: "Wähle den richtigen Dativartikel für die Empfänger."
+          en: "Choose the right dative article for each recipient."
+        items:
+          - source: "Sam gives the brother (der Bruder) a book."
+            target: "Sam schenkt [dem] Bruder ein Buch."
+            distractors: [[den, der]]
+          - source: "Sam gives the sister (die Schwester) a ball."
+            target: "Sam schenkt [der] Schwester einen Ball."
+            distractors: [[die, dem]]
+          - source: "Sam gives the child (das Kind) a game."
+            target: "Sam schenkt [dem] Kind ein Spiel."
+            distractors: [[das, der]]
+          - source: "Sam gives a friend (ein Freund) a card."
+            target: "Sam schenkt [einem] Freund eine Karte."
+            distractors: [[einen, einer]]
+        explanation:
+          de: "Dativ-Artikel: maskulin *dem/einem*, feminin *der/einer*, neutrum *dem/einem*, Plural *den*."
+          en: "Dative articles: masculine *dem/einem*, feminine *der/einer*, neuter *dem/einem*, plural *den*."
+      - type: language-task
+        id: dativ-plural-luecken
+        languages: { source: en, target: de }
+        mode: gap
+        task:
+          de: "Ergänze Artikel und Pluralnomen im Dativ (denke an das -n!)."
+          en: "Fill in the dative plural article and noun (remember the extra -n!)."
+        items:
+          - source: "Sam writes cards to the friends (die Freunde)."
+            target: "Sam schreibt [den Freunden] Karten."
+            mistakes:
+              - answer: "den Freunde"
+                message:
+                  de: "Im Dativ Plural braucht *Freunde* das Extra-*-n*: *den Freunden*."
+                  en: "In the dative plural, *Freunde* needs the extra *-n*: *den Freunden*."
+          - source: "Frau Weber reads a story to the children (die Kinder)."
+            target: "Frau Weber liest [den Kindern] eine Geschichte vor."
+            mistakes:
+              - answer: "den Kinder"
+                message:
+                  de: "*die Kinder* bekommt im Dativ Plural ein *-n*: *den Kindern*."
+                  en: "*die Kinder* adds *-n* in the dative plural: *den Kindern*."
+          - source: "He gives a girl (eine Freundin) flowers."
+            target: "Er schenkt [einer Freundin] Blumen."
+        explanation:
+          de: "Im Dativ Plural steht *den* und das Nomen bekommt ein *-n*, falls es nicht schon auf *-n* oder *-s* endet."
+          en: "Dative plural uses *den* and adds *-n* to the noun unless it already ends in *-n* or *-s*."

@@ -1,0 +1,15 @@
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
+title:
+  de: "Dativ, Dativverben und Reflexivpronomen"
+  en: "Dative Case, Verbs and Reflexive Pronouns"
+summary:
+  de: "Ich kann Dativartikel, Dativpronomen, Possessivartikel im Dativ, Dativverben, Sätze mit zwei Objekten, reflexive Verben sowie Demonstrativ- und Indefinitpronomen verwenden."
+  en: "I can use dative articles, pronouns, possessives, dative verbs, two-object sentences, reflexive verbs, and common demonstratives and indefinites."
+pages:
+  - dativ-artikel
+  - dativ-pronomen
+  - verben-mit-dativ
+  - dativ-und-akkusativ
+  - possessivartikel-dativ
+  - reflexive-verben
+  - demonstrativ-indefinitpronomen

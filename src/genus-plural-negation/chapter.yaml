@@ -1,0 +1,12 @@
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
+title:
+  de: "Genus, Plural und Negation"
+  en: "Gender, Plurals and Negation"
+summary:
+  de: "Ich kann der/die/das und ein/eine verwenden, häufige Pluralformen bilden und mit nicht und kein verneinen."
+  en: "I can use der/die/das and ein/eine, form common plurals, and negate with nicht and kein."
+pages:
+  - vorwissen
+  - artikel-genus
+  - pluralbildung
+  - negation-nicht-kein

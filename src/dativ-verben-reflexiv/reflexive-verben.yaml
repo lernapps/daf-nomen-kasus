@@ -1,0 +1,114 @@
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
+title:
+  de: "Reflexive Verben"
+  en: "Reflexive Verbs"
+description:
+  de: "Häufige reflexive Verben wie sich freuen, sich treffen und sich die Hände waschen richtig verwenden."
+  en: "Use common reflexive verbs like sich freuen, sich treffen, and sich die Hände waschen."
+competencies: [reflexive-verben]
+blocks:
+  - type: section
+    id: morgen-in-lindenberg
+    title:
+      de: "Sams Morgen: Akkusativ oder Dativ beim Reflexivpronomen?"
+      en: "Sam's Morning: Accusative or Dative Reflexive Pronoun?"
+    blocks:
+      - type: text
+        text:
+          de: "Bei einem **reflexiven Verb** zeigt die Handlung auf das Subjekt zurück: *Sam freut **sich** auf die Schule.* Meistens steht das Reflexivpronomen im **Akkusativ** (*mich, dich, sich, uns, euch, sich*). Kommt aber ein **zweites Akkusativobjekt** (z. B. ein Körperteil oder ein Gegenstand) dazu, wechseln *ich* und *du* in den **Dativ** (*mir, dir*)!"
+          en: "With a **reflexive verb**, the action refers back to the subject: *Sam freut **sich** auf die Schule.* Usually the reflexive pronoun is **accusative** (*mich, dich, sich, uns, euch, sich*). However, when there is a **second accusative object** (such as a body part or item), *ich* and *du* switch to **dative** (*mir, dir*)!"
+      - type: table
+        caption:
+          de: "Reflexivpronomen: Akkusativ vs. Dativ"
+          en: "Reflexive Pronouns: Accusative vs. Dative"
+        header:
+          - { de: "Person", en: "Person" }
+          - { de: "Akkusativ (Standard)", en: "Accusative (default)" }
+          - { de: "Dativ (+ 2. Objekt)", en: "Dative (+ 2nd object)" }
+        rows:
+          - - { de: "ich", en: "ich" }
+            - { de: "mich (Ich wasche mich.)", en: "mich (Ich wasche mich.)" }
+            - { de: "mir (Ich wasche mir die Hände.)", en: "mir (Ich wasche mir die Hände.)" }
+          - - { de: "du", en: "du" }
+            - { de: "dich (Du freust dich.)", en: "dich (Du freust dich.)" }
+            - { de: "dir (Du putzt dir die Zähne.)", en: "dir (Du putzt dir die Zähne.)" }
+          - - { de: "er / sie / es / sie / Sie", en: "er / sie / es / sie / Sie" }
+            - { de: "sich", en: "sich" }
+            - { de: "sich", en: "sich" }
+          - - { de: "wir / ihr", en: "wir / ihr" }
+            - { de: "uns / euch", en: "uns / euch" }
+            - { de: "uns / euch", en: "uns / euch" }
+      - type: note
+        title:
+          de: "Nur ich und du unterscheiden sich!"
+          en: "Only ich and du Differ!"
+        blocks:
+          - type: text
+            text:
+              de: "Bei *er/sie/es, wir, ihr, sie/Sie* sind Akkusativ- und Dativ-Reflexivpronomen identisch (*sich, uns, euch*). Häufige reflexive Verben: *sich freuen, sich beeilen, sich treffen, sich interessieren, sich die Hände waschen, sich die Zähne putzen*."
+              en: "For *er/sie/es, wir, ihr, sie/Sie*, accusative and dative reflexive pronouns are identical (*sich, uns, euch*). Common reflexive verbs: *sich freuen, sich beeilen, sich treffen, sich interessieren, sich die Hände waschen, sich die Zähne putzen*."
+  - type: section
+    id: uebung
+    title:
+      de: "Übung"
+      en: "Practice"
+    blocks:
+      - type: language-task
+        id: reflexiv-luecken
+        languages: { source: en, target: de }
+        mode: gap
+        task:
+          de: "Ergänze das passende Reflexivpronomen (mich, mir, dich, dir, sich, uns)."
+          en: "Fill in the right reflexive pronoun (mich, mir, dich, dir, sich, uns)."
+        items:
+          - source: "I am looking forward to the weekend."
+            target: "Ich freue [mich] auf das Wochenende."
+            mistakes:
+              - answer: "mir"
+                message:
+                  de: "Hier gibt es kein zweites Akkusativobjekt → *sich freuen* steht mit Akkusativ *mich*."
+                  en: "There is no second accusative object → *sich freuen* takes accusative *mich*."
+          - source: "I wash my hands before breakfast."
+            target: "Ich wasche [mir] vor dem Frühstück die Hände."
+            mistakes:
+              - answer: "mich"
+                message:
+                  de: "*die Hände* ist bereits das Akkusativobjekt, deshalb wechselt das Reflexivpronomen zu Dativ *mir*."
+                  en: "*die Hände* is already the accusative object, so the reflexive pronoun shifts to dative *mir*."
+          - source: "Sam and Nadia meet at the sports club."
+            target: "Sam und Nadia treffen [sich] im Sportverein."
+          - source: "You (du) buy yourself a new bike."
+            target: "Du kaufst [dir] ein neues Fahrrad."
+        explanation:
+          de: "Ohne weiteres Objekt steht Akkusativ (*mich, dich*), mit zusätzlichem Akkusativobjekt (*die Hände, ein Fahrrad*) steht Dativ (*mir, dir*)."
+          en: "Without another object use accusative (*mich, dich*); with an extra accusative object (*die Hände, ein Fahrrad*) use dative (*mir, dir*)."
+      - type: single-choice
+        id: reflexiv-dativ-erkennen
+        text:
+          de: "In welchem Satz braucht man das Dativ-Reflexivpronomen *dir*?"
+          en: "In which sentence do you need the dative reflexive pronoun *dir*?"
+        options:
+          - text:
+              de: "Du putzt ___ jeden Morgen die Zähne."
+              en: "Du putzt ___ jeden Morgen die Zähne."
+            correct: true
+            info:
+              de: "Richtig! *die Zähne* ist das Akkusativobjekt, also steht die Person im Dativ: *dir*."
+              en: "Correct! *die Zähne* is the accusative object, so the reflexive pronoun takes dative *dir*."
+          - text:
+              de: "Du beeilst ___ für den Bus."
+              en: "Du beeilst ___ für den Bus."
+            correct: false
+            info:
+              de: "*sich beeilen* hat kein zweites Akkusativobjekt → Akkusativ *dich*."
+              en: "*sich beeilen* has no second accusative object → accusative *dich*."
+          - text:
+              de: "Du interessierst ___ für Musik."
+              en: "Du interessierst ___ für Musik."
+            correct: false
+            info:
+              de: "*sich interessieren für* steht mit Akkusativ → *dich*."
+              en: "*sich interessieren für* uses the accusative → *dich*."
+        explanation:
+          de: "Sobald ein Körperteil oder Gegenstand als direktes Objekt im Satz steht, weicht das Reflexivpronomen in den Dativ aus."
+          en: "As soon as a body part or item appears as a direct object, the reflexive pronoun shifts to the dative."

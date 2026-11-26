@@ -1,0 +1,110 @@
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
+title:
+  de: "Akkusativ und Artikel"
+  en: "Accusative Case and Articles"
+description:
+  de: "Bestimmte, unbestimmte und negative Artikel im Akkusativ für direkte Objekte verwenden."
+  en: "Use definite, indefinite, and negative articles in the accusative case for direct objects."
+competencies: [akkusativ-artikel]
+blocks:
+  - type: section
+    id: geschenke-kaufen
+    title:
+      de: "Geschenke für Familie Weber"
+      en: "Buying Gifts for the Webers"
+    blocks:
+      - type: text
+        text:
+          de: "Sam kauft in der Lindenberger Innenstadt kleine Geschenke für Familie Weber. In *Sam kauft **einen Rucksack*** ist *Sam* das Subjekt (**Nominativ** — Wer?) und *einen Rucksack* das direkte Objekt (**Akkusativ** — Wen oder was?). Die gute Nachricht: Im Akkusativ ändert sich **nur Maskulin**!"
+          en: "Sam is shopping in central Lindenberg for small gifts for the Webers. In *Sam kauft **einen Rucksack***, *Sam* is the subject (**nominative** — who?) and *einen Rucksack* is the direct object (**accusative** — whom or what?). The good news: in the accusative, **only masculine changes**!"
+      - type: figure
+        image: images/case-table-ch2.svg
+        source:
+          de: "Eigene Zeichnung"
+          en: "Own diagram"
+        licence: CC-BY-SA-4.0
+        alt:
+          de: "4-Fälle-Farbtabelle mit Nominativ und Akkusativ: Im Akkusativ ändert sich nur Maskulin von der/ein/kein zu den/einen/keinen."
+          en: "4-Case Color Table with Nominative and Accusative rows: in the accusative, only masculine changes from der/ein/kein to den/einen/keinen."
+        caption:
+          de: "Zeile 2 kommt dazu: Nur in der blauen Maskulin-Spalte wird aus der/ein/kein → den/einen/keinen."
+          en: "Row 2 joins the table: only the blue masculine column changes from der/ein/kein → den/einen/keinen."
+      - type: example
+        title:
+          de: "Typische Verben mit Akkusativ"
+          en: "Common Verbs Taking Accusative"
+        blocks:
+          - type: text
+            text:
+              de: "Verben wie **haben, kaufen, suchen, brauchen, sehen, finden, nehmen, lesen** verlangen ein Akkusativobjekt: *Sam sucht **den** Schlüssel. Er kauft **einen** Ball, **eine** Tasche und **ein** Buch. Er hat **keinen** Regenschirm.*"
+              en: "Verbs like **haben, kaufen, suchen, brauchen, sehen, finden, nehmen, lesen** take an accusative direct object: *Sam sucht **den** Schlüssel. Er kauft **einen** Ball, **eine** Tasche und **ein** Buch. Er hat **keinen** Regenschirm.*"
+  - type: section
+    id: uebung
+    title:
+      de: "Übung"
+      en: "Practice"
+    blocks:
+      - type: language-task
+        id: akkusativ-artikel-luecken
+        languages: { source: en, target: de }
+        mode: gap
+        task:
+          de: "Ergänze den passenden Artikel im Akkusativ (den, einen, eine, ein, keinen)."
+          en: "Fill in the right accusative article (den, einen, eine, ein, keinen)."
+        items:
+          - source: "Sam buys a backpack (der Rucksack)."
+            target: "Sam kauft [einen] Rucksack."
+            mistakes:
+              - answer: "ein"
+                message:
+                  de: "*Rucksack* ist maskulin (*der*) und direktes Objekt → Akkusativ *einen*."
+                  en: "*Rucksack* is masculine (*der*) and the direct object → accusative *einen*."
+          - source: "He sees the desk (der Schreibtisch)."
+            target: "Er sieht [den] Schreibtisch."
+            mistakes:
+              - answer: "der"
+                message:
+                  de: "Nach *sehen* steht das direkte Objekt im Akkusativ: *der* wird zu *den*."
+                  en: "After *sehen*, the direct object takes the accusative: *der* becomes *den*."
+          - source: "Mina reads a newspaper (die Zeitung)."
+            target: "Mina liest [eine] Zeitung."
+          - source: "Lukas has no ball (der Ball)."
+            target: "Lukas hat [keinen] Ball."
+            mistakes:
+              - answer: "kein"
+                message:
+                  de: "*Ball* ist maskulin (*der*). Im Akkusativ wird *kein* zu *keinen*."
+                  en: "*Ball* is masculine (*der*). In the accusative, *kein* becomes *keinen*."
+        explanation:
+          de: "Im Akkusativ ändert sich nur Maskulin (*der→den, ein→einen, kein→keinen*). Feminin, Neutrum und Plural bleiben gleich."
+          en: "In the accusative, only masculine changes (*der→den, ein→einen, kein→keinen*). Feminine, neuter, and plural stay the same."
+      - type: single-choice
+        id: subjekt-oder-objekt
+        text:
+          de: "Im Satz *Den Stuhl braucht Sam heute* — was ist das Subjekt im Nominativ?"
+          en: "In the sentence *Den Stuhl braucht Sam heute* — what is the nominative subject?"
+        options:
+          - text:
+              de: "Sam"
+              en: "Sam"
+            correct: true
+            info:
+              de: "Richtig! *Den Stuhl* steht zwar vorne, ist aber wegen *den* klar der Akkusativ. *Sam* ist das Subjekt."
+              en: "Correct! Even though *Den Stuhl* stands first, *den* marks it as accusative. *Sam* is the subject."
+          - text:
+              de: "Den Stuhl"
+              en: "Den Stuhl"
+            correct: false
+            info:
+              de: "*den* zeigt den Akkusativ an. Im Deutschen zeigen die Fälle die Rolle — nicht immer die Wortstellung!"
+              en: "*den* marks the accusative case. In German, cases show grammatical role — not always word order!"
+          - text:
+              de: "heute"
+              en: "heute"
+            correct: false
+            info:
+              de: "*heute* ist eine Zeitangabe, kein Subjekt."
+              en: "*heute* is a time adverb, not a subject."
+        explanation:
+          de: "Der Artikel *den* markiert den Akkusativ eindeutig — auch wenn das Objekt vor dem Verb steht."
+          en: "The article *den* clearly marks the accusative — even when the object stands before the verb."

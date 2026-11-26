@@ -1,0 +1,114 @@
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
+title:
+  de: "Genitiv und Genitivpräpositionen"
+  en: "Genitive Case & Prepositions"
+description:
+  de: "Den Genitiv (des, der, eines, einer) für Besitz und nach wegen, trotz, während und statt verwenden."
+  en: "Use the genitive case (des, der, eines, einer) for possession and after wegen, trotz, während, and statt."
+competencies: [genitiv-artikel]
+blocks:
+  - type: section
+    id: genitiv-komplett
+    title:
+      de: "Wessen Fahrrad ist das? — Zeile 4 macht die Tabelle komplett"
+      en: "Whose Bike Is That? — Row 4 Completes the Table"
+    blocks:
+      - type: text
+        text:
+          de: "Mit dem **Genitiv** (Wessen?) ist unsere 4-Fälle-Farbtabelle komplett! Der Genitiv zeigt **Besitz und Zugehörigkeit** (*das Fahrrad **des Bruders***) und steht nach wichtigen Präpositionen: **wegen, trotz, während, statt**."
+          en: "With the **genitive** (whose?), our 4-Case Color Table is complete! The genitive expresses **possession and belonging** (*das Fahrrad **des Bruders***) and follows key prepositions: **wegen, trotz, während, statt**."
+      - type: figure
+        image: images/case-table-ch4.svg
+        source:
+          de: "Eigene Zeichnung"
+          en: "Own diagram"
+        licence: CC-BY-SA-4.0
+        alt:
+          de: "Komplette 4-Fälle-Farbtabelle mit Nominativ, Akkusativ, Dativ und neu der Genitiv-Zeile: des/eines + -(e)s (m/n), der/einer (f), der/keiner (pl)."
+          en: "Complete 4-Case Color Table with Nominative, Accusative, Dative, and the new Genitive row: des/eines + -(e)s (m/n), der/einer (f), der/keiner (pl)."
+        caption:
+          de: "Zeile 4 (Genitiv): Maskulin und Neutrum tragen des/eines + -(e)s am Nomen; Feminin und Plural nehmen der/einer/keiner."
+          en: "Row 4 (Genitive): Masculine and neuter take des/eines + -(e)s on the noun; feminine and plural take der/einer/keiner."
+      - type: note
+        title:
+          de: "Wann -s, wann -es — und was gilt bei Namen?"
+          en: "When -s vs. -es — and What About Names?"
+        blocks:
+          - type: text
+            text:
+              de: "Maskuline und neutrale Nomen erhalten meist **-s** (*des Lehrers, des Regens*). Kurze einsilbige Nomen oder Wörter auf *s, ß, x, z* erhalten **-es** (*des Tages, des Hauses*). Eigennamen stehen mit **-s** vor dem Nomen: *Sams Zimmer, Minas Gitarre*."
+              en: "Masculine and neuter nouns usually add **-s** (*des Lehrers, des Regens*). Short one-syllable nouns or words ending in *s, ß, x, z* add **-es** (*des Tages, des Hauses*). Proper names take **-s** before the noun: *Sams Zimmer, Minas Gitarre*."
+      - type: example
+        title:
+          de: "Die vier Genitivpräpositionen in Lindenberg"
+          en: "The Four Genitive Prepositions in Lindenberg"
+        blocks:
+          - type: text
+            text:
+              de: "**wegen** (because of): *Wegen **des Regens** fährt Sam mit dem Bus.* · **trotz** (despite): *Trotz **der Kälte** trainiert Mina draußen.* · **während** (during): *Während **des Unterrichts** macht Sam Notizen.* · **statt** (instead of): *Statt **eines Buches** kauft er ein Spiel.*"
+              en: "**wegen** (because of): *Wegen **des Regens** fährt Sam mit dem Bus.* · **trotz** (despite): *Trotz **der Kälte** trainiert Mina draußen.* · **während** (during): *Während **des Unterrichts** macht Sam Notizen.* · **statt** (instead of): *Statt **eines Buches** kauft er ein Spiel.*"
+  - type: section
+    id: uebung
+    title:
+      de: "Übung"
+      en: "Practice"
+    blocks:
+      - type: language-task
+        id: genitiv-luecken
+        languages: { source: en, target: de }
+        mode: gap
+        task:
+          de: "Ergänze Artikel und Nomen im Genitiv (achte auf -(e)s bei Maskulin/Neutrum)."
+          en: "Fill in the genitive article and noun (watch for -(e)s on masculine/neuter nouns)."
+        items:
+          - source: "Because of the rain (der Regen), we stay at home."
+            target: "Wegen [des Regens] bleiben wir zu Hause."
+            mistakes:
+              - answer: "des Regen"
+                message:
+                  de: "Im Genitiv braucht das maskuline Nomen *Regen* die Endung *-s*: *des Regens*."
+                  en: "In the genitive, masculine *Regen* needs the *-s* ending: *des Regens*."
+          - source: "That is the jacket of the sister (die Schwester)."
+            target: "Das ist die Jacke [der Schwester]."
+            mistakes:
+              - answer: "der Schwesters"
+                message:
+                  de: "Feminine Nomen bekommen im Genitiv **kein** *-s*: *der Schwester*."
+                  en: "Feminine nouns do **not** take *-s* in the genitive: *der Schwester*."
+          - source: "During the weekend (das Wochenende), Sam visits Nadia."
+            target: "Während [des Wochenendes] besucht Sam Nadia."
+          - source: "Despite the cold (die Kälte), Lukas rides his bike."
+            target: "Trotz [der Kälte] fährt Lukas Fahrrad."
+        explanation:
+          de: "Maskulin und Neutrum bilden den Genitiv mit *des/eines* + *-(e)s* am Nomen; Feminin und Plural mit *der/einer/keiner* ohne *-s*."
+          en: "Masculine and neuter form the genitive with *des/eines* + *-(e)s* on the noun; feminine and plural use *der/einer/keiner* with no *-s*."
+      - type: single-choice
+        id: genitiv-besitz-check
+        text:
+          de: "Wie fragt Sam richtig nach dem Zimmer seines Gastbruders (*mein Gastbruder*, m)?"
+          en: "How does Sam correctly refer to the room of his host brother (*mein Gastbruder*, m)?"
+        options:
+          - text:
+              de: "Das ist das Zimmer meines Gastbruders."
+              en: "Das ist das Zimmer meines Gastbruders."
+            correct: true
+            info:
+              de: "Richtig! Possessivartikel *meines* (Genitiv m) + Nomen *Gastbruders* (+ *-s*)."
+              en: "Correct! Possessive *meines* (masculine genitive) + noun *Gastbruders* (+ *-s*)."
+          - text:
+              de: "Das ist das Zimmer meinem Gastbruder."
+              en: "Das ist das Zimmer meinem Gastbruder."
+            correct: false
+            info:
+              de: "*meinem* ist Dativ. Für direkten Besitz ohne Präposition braucht man den Genitiv: *meines Gastbruders*."
+              en: "*meinem* is dative. Direct possession without a preposition uses the genitive: *meines Gastbruders*."
+          - text:
+              de: "Das ist das Zimmer meines Gastbruder."
+              en: "Das ist das Zimmer meines Gastbruder."
+            correct: false
+            info:
+              de: "Am maskulinen Nomen fehlt das Genitiv-*-s*: *meines Gastbruders*."
+              en: "The masculine noun is missing its genitive *-s*: *meines Gastbruders*."
+        explanation:
+          de: "Im Genitiv bekommen sowohl Artikel/Possessivartikel (*des/meines*) als auch maskuline und neutrale Nomen ein *-(e)s*."
+          en: "In the genitive, both the determiner (*des/meines*) and masculine/neuter nouns take *-(e)s*."

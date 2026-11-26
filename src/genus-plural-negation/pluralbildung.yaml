@@ -1,0 +1,132 @@
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
+title:
+  de: "Pluralbildung"
+  en: "Noun Plurals"
+description:
+  de: "Häufige deutsche Pluralformen bilden und mit dem Pluralartikel die verwenden."
+  en: "Form common German noun plurals and use them with the plural article die."
+competencies: [pluralbildung]
+blocks:
+  - type: section
+    id: kisten-auspacken
+    title:
+      de: "Sam packt seine Kisten aus"
+      en: "Sam Unpacks His Boxes"
+    blocks:
+      - type: text
+        text:
+          de: "In Sams Umzugskisten liegen nicht nur ein Buch und ein Foto, sondern viele Dinge! Im Plural haben **alle** deutschen Nomen den bestimmten Artikel **die** — egal ob sie im Singular *der*, *die* oder *das* heißen. Es gibt keinen unbestimmten Artikel im Plural."
+          en: "Sam's moving boxes hold more than one book and one photo! In the plural, **every** German noun uses the definite article **die** — whether it was *der*, *die*, or *das* in the singular. There is no indefinite article in the plural."
+      - type: table
+        caption:
+          de: "Die fünf häufigsten Pluralmuster"
+          en: "The Five Most Common Plural Patterns"
+        header:
+          - { de: "Endung", en: "Ending" }
+          - { de: "Singular → Plural", en: "Singular → Plural" }
+          - { de: "Typisch für", en: "Typical for" }
+        rows:
+          - - { de: "-n / -en", en: "-n / -en" }
+            - { de: "die Lampe → die Lampen", en: "die Lampe → die Lampen" }
+            - { de: "fast alle femininen Nomen", en: "most feminine nouns" }
+          - - { de: "-e (oft + Umlaut)", en: "-e (often + umlaut)" }
+            - { de: "der Stuhl → die Stühle", en: "der Stuhl → die Stühle" }
+            - { de: "viele maskuline/neutrale Nomen", en: "many masc./neuter nouns" }
+          - - { de: "-er (oft + Umlaut)", en: "-er (often + umlaut)" }
+            - { de: "das Buch → die Bücher", en: "das Buch → die Bücher" }
+            - { de: "kurze neutrale Nomen", en: "short neuter nouns" }
+          - - { de: "-s", en: "-s" }
+            - { de: "das Foto → die Fotos", en: "das Foto → die Fotos" }
+            - { de: "Wörter auf a, i, o, u & Lehnwörter", en: "words ending in a, i, o, u & loanwords" }
+          - - { de: "— (oft + Umlaut)", en: "— (often + umlaut)" }
+            - { de: "das Zimmer → die Zimmer", en: "das Zimmer → die Zimmer" }
+            - { de: "Nomen auf -er, -el, -en, -chen", en: "nouns ending in -er, -el, -en, -chen" }
+      - type: vocabulary
+        caption:
+          de: "Wichtige Pluralformen für Sams Zimmer"
+          en: "Key Plurals for Sam's Room"
+        languages: { source: en, target: de }
+        entries:
+          - target: der Tisch
+            source: table
+            forms: ["die Tische"]
+          - target: der Stuhl
+            source: chair
+            forms: ["die Stühle"]
+          - target: die Lampe
+            source: lamp
+            forms: ["die Lampen"]
+          - target: das Buch
+            source: book
+            forms: ["die Bücher"]
+          - target: das Foto
+            source: photo
+            forms: ["die Fotos"]
+          - target: das Zimmer
+            source: room
+            forms: ["die Zimmer"]
+  - type: section
+    id: uebung
+    title:
+      de: "Übung"
+      en: "Practice"
+    blocks:
+      - type: language-task
+        id: plural-schreiben
+        languages: { source: en, target: de }
+        mode: gap
+        task:
+          de: "Schreibe die passende Pluralform mit dem Artikel die in die Lücke."
+          en: "Type the matching plural form with the article die in each gap."
+        items:
+          - source: "The books are on the shelf."
+            target: "[Die Bücher] stehen im Regal."
+            mistakes:
+              - answer: "Die Buchs"
+                message:
+                  de: "*das Buch* bildet den Plural mit Umlaut und *-er*: *die Bücher*."
+                  en: "*das Buch* forms its plural with an umlaut and *-er*: *die Bücher*."
+          - source: "The chairs are new."
+            target: "[Die Stühle] sind neu."
+            mistakes:
+              - answer: "Die Stuhle"
+                message:
+                  de: "Bei *der Stuhl* kommt im Plural ein Umlaut dazu: *die Stühle*."
+                  en: "*der Stuhl* takes an umlaut in the plural: *die Stühle*."
+          - source: "The lamps are bright."
+            target: "[Die Lampen] sind hell."
+          - source: "The photos are from home."
+            target: "[Die Fotos] sind von zu Hause."
+        explanation:
+          de: "Im Plural steht immer *die*. Achte auf Umlaute (*Stühle, Bücher*) und typische Endungen (*-n, -e, -er, -s*)."
+          en: "Plural always uses *die*. Watch for umlauts (*Stühle, Bücher*) and common endings (*-n, -e, -er, -s*)."
+      - type: single-choice
+        id: plural-artikel-regel
+        text:
+          de: "Welche Aussage über den deutschen Plural stimmt?"
+          en: "Which statement about German plurals is true?"
+        options:
+          - text:
+              de: "Im Nominativ Plural haben alle Nomen den bestimmten Artikel die."
+              en: "In the nominative plural, all nouns take the definite article die."
+            correct: true
+            info:
+              de: "Richtig! Die drei Singular-Geschlechter fallen im Plural unter *die* zusammen."
+              en: "Correct! All three singular genders merge under *die* in the plural."
+          - text:
+              de: "Maskuline Nomen behalten im Plural den Artikel der."
+              en: "Masculine nouns keep the article der in the plural."
+            correct: false
+            info:
+              de: "Nein, auch maskuline Nomen wie *der Stuhl* werden im Plural zu *die Stühle*."
+              en: "No, masculine nouns like *der Stuhl* also change to *die Stühle* in the plural."
+          - text:
+              de: "Jedes deutsche Nomen bildet den Plural mit -s."
+              en: "Every German noun forms its plural by adding -s."
+            correct: false
+            info:
+              de: "Nur bestimmte Wörter (wie *Fotos, Autos*) nehmen *-s*. Meistens enden Plurale auf *-n/-en, -e, -er* oder bleiben unverändert."
+              en: "Only certain words (like *Fotos, Autos*) take *-s*. Most plurals use *-n/-en, -e, -er*, or no ending."
+        explanation:
+          de: "Im Plural steht im Nominativ immer *die*, und die Pluralendung hängt vom jeweiligen Nomen ab."
+          en: "Nominative plural always takes *die*, and the plural ending depends on the noun."

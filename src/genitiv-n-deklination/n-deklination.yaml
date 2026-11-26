@@ -1,0 +1,131 @@
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
+title:
+  de: "Schwache maskuline Nomen (n-Deklination)"
+  en: "Weak Masculine Nouns (n-Declension)"
+description:
+  de: "Häufige schwache maskuline Nomen wie der Mensch, der Kollege und der Student außerhalb des Nominativ Singular mit -n/-en beugen."
+  en: "Decline common weak masculine nouns like der Mensch, der Kollege, and der Student with -n/-en outside the nominative singular."
+competencies: [n-deklination]
+blocks:
+  - type: section
+    id: n-deklination-karte
+    title:
+      de: "Die Musterkarte für schwache maskuline Nomen"
+      en: "The Pattern Card for Weak Masculine Nouns"
+    blocks:
+      - type: text
+        text:
+          de: "Bei einem Nachbarschaftsfest in Lindenberg lernt Sam einen Kollegen von Herr Weber, den Nachbarn und einen Studenten kennen. Eine besondere Gruppe **maskuliner Nomen** — die **n-Deklination** — hängt in **allen Fällen außer Nominativ Singular** ein **-n** oder **-en** an!"
+          en: "At a neighborhood party in Lindenberg, Sam meets a colleague of Herr Weber, the neighbor, and a university student. A special group of **masculine nouns** — the **n-declension** — adds **-n** or **-en** in **every case except nominative singular**!"
+      - type: figure
+        image: images/n-declension-card.svg
+        source:
+          de: "Eigene Zeichnung"
+          en: "Own diagram"
+        licence: CC-BY-SA-4.0
+        alt:
+          de: "Musterkarte zur n-Deklination: Nominativ Singular der Kollege / der Mensch, aber Akkusativ den Kollegen / den Menschen, Dativ dem Kollegen / dem Menschen, Genitiv des Kollegen / des Menschen."
+          en: "Pattern card for n-declension: Nominative singular der Kollege / der Mensch, but Accusative den Kollegen / den Menschen, Dative dem Kollegen / dem Menschen, Genitive des Kollegen / des Menschen."
+        caption:
+          de: "Nur im Nominativ Singular steht die Grundform; in Akkusativ, Dativ, Genitiv (und Plural) kommt -n/-en dazu."
+          en: "Only nominative singular keeps the base form; accusative, dative, genitive (and plural) all add -n/-en."
+      - type: vocabulary
+        caption:
+          de: "Wichtige Nomen der n-Deklination"
+          en: "Key Weak Masculine Nouns"
+        languages: { source: en, target: de }
+        entries:
+          - target: der Mensch
+            source: person / human being
+            forms: ["den/dem/des Menschen"]
+          - target: der Kollege
+            source: colleague (male)
+            forms: ["den/dem/des Kollegen"]
+          - target: der Student
+            source: university student (male)
+            forms: ["den/dem/des Studenten"]
+          - target: der Nachbar
+            source: neighbor (male)
+            forms: ["den/dem/des Nachbarn"]
+          - target: der Junge
+            source: boy
+            forms: ["den/dem/des Jungen"]
+          - target: der Herr
+            source: gentleman / Mr.
+            forms: ["den/dem/des Herrn"]
+          - target: der Name
+            source: name
+            forms: ["den/dem Namen", "des Namens"]
+            note:
+              de: "Im Genitiv kommt noch ein *-s* dazu: *des Namens*."
+              en: "In the genitive, an extra *-s* is added: *des Namens*."
+  - type: section
+    id: uebung
+    title:
+      de: "Übung"
+      en: "Practice"
+    blocks:
+      - type: language-task
+        id: n-deklination-luecken
+        languages: { source: en, target: de }
+        mode: gap
+        task:
+          de: "Ergänze die richtige Form des schwachen maskulinen Nomens."
+          en: "Fill in the right form of each weak masculine noun."
+        items:
+          - source: "Sam meets a colleague (der Kollege, acc.) of Herr Weber."
+            target: "Sam trifft einen [Kollegen] von Herr Weber."
+            mistakes:
+              - answer: "Kollege"
+                message:
+                  de: "*der Kollege* gehört zur n-Deklination → im Akkusativ *einen Kollegen*."
+                  en: "*der Kollege* is a weak masculine noun → accusative *einen Kollegen*."
+          - source: "Lukas helps the neighbor (der Nachbar, dat.) in the garden."
+            target: "Lukas hilft dem [Nachbarn] im Garten."
+            mistakes:
+              - answer: "Nachbar"
+                message:
+                  de: "*der Nachbar* bekommt im Dativ ein *-n*: *dem Nachbarn*."
+                  en: "*der Nachbar* adds *-n* in the dative: *dem Nachbarn*."
+          - source: "That is the backpack of the student (der Student, gen.)."
+            target: "Das ist der Rucksack des [Studenten]."
+            mistakes:
+              - answer: "Students"
+                message:
+                  de: "Bei der n-Deklination steht im Genitiv *-en* statt *-s*: *des Studenten*."
+                  en: "Weak masculine nouns take *-en* instead of *-s* in the genitive: *des Studenten*."
+          - source: "Do you know the name (der Name, acc.) of the street?"
+            target: "Kennst du den [Namen] der Straße?"
+        explanation:
+          de: "Schwache maskuline Nomen wie *Kollege, Nachbar, Student, Mensch, Junge, Name* erhalten im Akkusativ, Dativ und Genitiv *-n* oder *-en*."
+          en: "Weak masculine nouns like *Kollege, Nachbar, Student, Mensch, Junge, Name* take *-n* or *-en* in accusative, dative, and genitive."
+      - type: single-choice
+        id: n-deklination-unterscheiden
+        text:
+          de: "Welches maskuline Nomen gehört **nicht** zur n-Deklination?"
+          en: "Which masculine noun does **not** belong to the n-declension?"
+        options:
+          - text:
+              de: "der Lehrer (den Lehrer, dem Lehrer, des Lehrers)"
+              en: "der Lehrer (den Lehrer, dem Lehrer, des Lehrers)"
+            correct: true
+            info:
+              de: "Richtig! *der Lehrer* ist ein reguläres maskulines Nomen (Genitiv *des Lehrers*, kein *-n* im Akkusativ/Dativ)."
+              en: "Correct! *der Lehrer* is a regular masculine noun (genitive *des Lehrers*, no *-n* in accusative/dative)."
+          - text:
+              de: "der Mensch (den Menschen, dem Menschen, des Menschen)"
+              en: "der Mensch (den Menschen, dem Menschen, des Menschen)"
+            correct: false
+            info:
+              de: "*der Mensch* ist ein klassisches Nomen der n-Deklination."
+              en: "*der Mensch* is a classic weak masculine noun."
+          - text:
+              de: "der Kollege (den Kollegen, dem Kollegen, des Kollegen)"
+              en: "der Kollege (den Kollegen, dem Kollegen, des Kollegen)"
+            correct: false
+            info:
+              de: "Maskuline Personen auf *-e* wie *der Kollege* oder *der Junge* gehören zur n-Deklination."
+              en: "Masculine nouns for people ending in *-e* like *der Kollege* or *der Junge* belong to the n-declension."
+        explanation:
+          de: "Zur n-Deklination gehören vor allem maskuline Lebewesen auf *-e* (*Kollege, Junge*) sowie feste Wörter wie *Mensch, Student, Nachbar, Herr*."
+          en: "The n-declension mostly includes masculine people/animals ending in *-e* (*Kollege, Junge*) plus key nouns like *Mensch, Student, Nachbar, Herr*."

@@ -1,0 +1,11 @@
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
+title:
+  de: "Akkusativ, Pronomen und Possessivartikel"
+  en: "Accusative, Pronouns and Possessives"
+summary:
+  de: "Ich kann den Akkusativ für direkte Objekte mit Artikeln, Personalpronomen und Possessivartikeln verwenden."
+  en: "I can use the accusative case for direct objects with articles, personal pronouns, and possessive determiners."
+pages:
+  - akkusativ-artikel
+  - akkusativ-pronomen
+  - possessivartikel-nom-akk

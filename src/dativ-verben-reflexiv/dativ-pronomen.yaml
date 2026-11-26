@@ -1,0 +1,94 @@
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
+title:
+  de: "Personalpronomen im Dativ"
+  en: "Dative Personal Pronouns"
+description:
+  de: "Personalpronomen im Dativ (mir, dir, ihm, ihr, uns, euch, ihnen, Ihnen) sicher verwenden."
+  en: "Use dative personal pronouns (mir, dir, ihm, ihr, uns, euch, ihnen, Ihnen) in everyday sentences."
+competencies: [dativ-pronomen]
+blocks:
+  - type: section
+    id: stellvertreter-dativ
+    title:
+      de: "Stellvertreter-Karten: Jetzt auch im Dativ"
+      en: "Stand-in Cards: Now with Dative"
+    blocks:
+      - type: text
+        text:
+          de: "Unsere **Stellvertreter-Karten** bekommen ihre Dativ-Zeile! Besonders wichtig ist der Unterschied zwischen **Akkusativ** (*mich, dich, ihn, sie*) und **Dativ** (*mir, dir, ihm, ihr, ihnen*). Nur *uns* und *euch* bleiben in beiden Fällen gleich."
+          en: "Our **Stand-in Cards** now get their dative row! Pay close attention to the difference between **accusative** (*mich, dich, ihn, sie*) and **dative** (*mir, dir, ihm, ihr, ihnen*). Only *uns* and *euch* stay identical in both cases."
+      - type: figure
+        image: images/standin-pronouns.svg
+        source:
+          de: "Eigene Zeichnung"
+          en: "Own diagram"
+        licence: CC-BY-SA-4.0
+        alt:
+          de: "Stellvertreter-Karten für alle Personalpronomen mit Nominativ, Akkusativ und Dativ: ich/mich/mir, du/dich/dir, er/ihn/ihm, sie/sie/ihr, es/es/ihm, wir/uns/uns, ihr/euch/euch, sie/sie/ihnen, Sie/Sie/Ihnen."
+          en: "Stand-in Cards for all personal pronouns showing Nominative, Accusative, and Dative: ich/mich/mir, du/dich/dir, er/ihn/ihm, sie/sie/ihr, es/es/ihm, wir/uns/uns, ihr/euch/euch, sie/sie/ihnen, Sie/Sie/Ihnen."
+        caption:
+          de: "Alle Stellvertreter-Karten im Vergleich: Akkusativ (blau) vs. Dativ (gelb)."
+          en: "All Stand-in Cards side by side: Accusative (blue) vs. Dative (amber)."
+      - type: example
+        title:
+          de: "Akkusativ vs. Dativ im Vergleich"
+          en: "Accusative vs. Dative Side by Side"
+        blocks:
+          - type: text
+            text:
+              de: "Vergleiche: *Ich sehe **ihn**.* (Wen? Akkusativ) — *Ich gebe **ihm** das Buch.* (Wem? Dativ). *Sam besucht **sie** (Mina).* — *Sam schenkt **ihr** eine Karte.*"
+              en: "Compare: *Ich sehe **ihn**.* (Whom? Accusative) — *Ich gebe **ihm** das Buch.* (To whom? Dative). *Sam besucht **sie** (Mina).* — *Sam schenkt **ihr** eine Karte.*"
+  - type: section
+    id: uebung
+    title:
+      de: "Übung"
+      en: "Practice"
+    blocks:
+      - type: matching
+        id: pronomen-nom-dat-zuordnen
+        text:
+          de: "Ordne jedem Nominativpronomen seine Dativ-Karte zu."
+          en: "Match each nominative pronoun with its dative Stand-in Card."
+        pairs:
+          - left: { de: "ich", en: "ich" }
+            right: { de: "mir", en: "mir" }
+          - left: { de: "du", en: "du" }
+            right: { de: "dir", en: "dir" }
+          - left: { de: "er (Lukas)", en: "er (Lukas)" }
+            right: { de: "ihm", en: "ihm" }
+          - left: { de: "sie (Mina)", en: "sie (Mina)" }
+            right: { de: "ihr", en: "ihr" }
+          - left: { de: "sie (die Webers)", en: "sie (the Webers)" }
+            right: { de: "ihnen", en: "ihnen" }
+        explanation:
+          de: "Die Dativpronomen lauten *mir, dir, ihm, ihr, ihm, uns, euch, ihnen, Ihnen*."
+          en: "The dative pronouns are *mir, dir, ihm, ihr, ihm, uns, euch, ihnen, Ihnen*."
+      - type: language-task
+        id: dativ-pronomen-luecken
+        languages: { source: en, target: de }
+        mode: gap
+        task:
+          de: "Ergänze das richtige Dativpronomen (mir, dir, ihm, ihr, ihnen, Ihnen)."
+          en: "Fill in the right dative pronoun (mir, dir, ihm, ihr, ihnen, Ihnen)."
+        items:
+          - source: "Lukas shows me (ich) the school in Lindenberg."
+            target: "Lukas zeigt [mir] die Schule in Lindenberg."
+            mistakes:
+              - answer: "mich"
+                message:
+                  de: "Wer bekommt etwas gezeigt (Wem?) → Dativ *mir*, nicht Akkusativ *mich*."
+                  en: "Who is being shown something (to whom?) → dative *mir*, not accusative *mich*."
+          - source: "Sam buys her (Mina) a book."
+            target: "Sam kauft [ihr] ein Buch."
+            mistakes:
+              - answer: "sie"
+                message:
+                  de: "Mina ist die Empfängerin (Wem?) → Dativ von *sie (f)* ist *ihr*."
+                  en: "Mina is the recipient (to whom?) → dative of *sie (f)* is *ihr*."
+          - source: "Nadia writes him (Lukas) a message."
+            target: "Nadia schreibt [ihm] eine Nachricht."
+          - source: "Sam brings them (the Webers) bread rolls."
+            target: "Sam bringt [ihnen] Brötchen."
+        explanation:
+          de: "Für Empfänger (Wem?) stehen immer die Dativ-Karten: *mir, dir, ihm, ihr, uns, euch, ihnen, Ihnen*."
+          en: "Recipients (to whom?) always use the dative cards: *mir, dir, ihm, ihr, uns, euch, ihnen, Ihnen*."
