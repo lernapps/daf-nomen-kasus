@@ -10,13 +10,13 @@ blocks:
   - type: section
     id: sams-zimmer
     title:
-      de: "Die vier Farbspalten in Sams Zimmer"
-      en: "The Four Color Columns in Sam's Room"
+      de: "Die vier Farbspalten in Peters Zimmer"
+      en: "The Four Color Columns in Peter's Room"
     blocks:
       - type: text
         text:
-          de: "Sam richtet sein neues Zimmer bei Familie Weber in Lindenberg ein. Jedes deutsche Nomen hat ein grammatisches Geschlecht (**Genus**): **maskulin** (*der*, blau), **feminin** (*die*, rot) oder **neutrum** (*das*, grün). Im Plural steht immer **die** (gelb)."
-          en: "Sam is setting up his new room at the Webers' house in Lindenberg. Every German noun has a grammatical gender: **masculine** (*der*, blue), **feminine** (*die*, red), or **neuter** (*das*, green). Plural always uses **die** (amber)."
+          de: "Peter richtet sein neues Zimmer bei Familie Weber in Lindenberg ein. Jedes deutsche Nomen hat ein grammatisches Geschlecht (**Genus**): **maskulin** (*der*, blau), **feminin** (*die*, rot) oder **neutrum** (*das*, grün). Im Plural steht immer **die** (gelb)."
+          en: "Peter is setting up his new room at the Webers' house in Lindenberg. Every German noun has a grammatical gender: **masculine** (*der*, blue), **feminine** (*die*, red), or **neuter** (*das*, green). Plural always uses **die** (amber)."
       - type: figure
         image: images/case-table-ch1.svg
         source:
@@ -40,8 +40,8 @@ blocks:
               en: "Always learn each noun together with its article. Some endings give reliable clues: **-ung, -heit, -keit, -tät** are always feminine (*die Wohnung, die Freiheit*), and **-chen, -lein** are always neuter (*das Brötchen, das Mädchen*)."
       - type: vocabulary
         caption:
-          de: "Dinge in Sams Zimmer"
-          en: "Objects in Sam's Room"
+          de: "Dinge in Peters Zimmer"
+          en: "Objects in Peter's Room"
         languages: { source: en, target: de }
         entries:
           - target: der Schreibtisch
@@ -69,8 +69,8 @@ blocks:
         languages: { source: en, target: de }
         mode: choice
         task:
-          de: "Wähle den passenden bestimmten oder unbestimmten Artikel für Sams Zimmer."
-          en: "Choose the matching definite or indefinite article for Sam's room."
+          de: "Wähle den passenden bestimmten oder unbestimmten Artikel für Peters Zimmer."
+          en: "Choose the matching definite or indefinite article for Peter's room."
         items:
           - source: "The desk is big."
             target: "[Der] Schreibtisch ist groß."
@@ -90,8 +90,8 @@ blocks:
       - type: single-choice
         id: genus-endung-check
         text:
-          de: "Sam kauft in Lindenberg ein Brötchen und sucht die Zeitung. Welches Paar stimmt?"
-          en: "Sam buys a bread roll in Lindenberg and looks for the newspaper. Which pair is correct?"
+          de: "Peter kauft in Lindenberg ein Brötchen und sucht die Zeitung. Welches Paar stimmt?"
+          en: "Peter buys a bread roll in Lindenberg and looks for the newspaper. Which pair is correct?"
         options:
           - text:
               de: "das Brötchen (n) · die Zeitung (f)"

@@ -15,8 +15,8 @@ blocks:
     blocks:
       - type: text
         text:
-          de: "Statt ein Nomen oder einen Namen zu wiederholen, legen Sam und Nadia **Stellvertreter-Karten** (Personalpronomen) auf den Tisch. Steht das Pronomen als direktes Objekt (Wen oder was?), brauchst du die **Akkusativ-Form**: *Kennst du Lukas? Ja, ich kenne **ihn**!*"
-          en: "Instead of repeating a noun or name, Sam and Nadia use **Stand-in Cards** (personal pronouns). When the pronoun is the direct object (whom or what?), you use the **accusative form**: *Kennst du Lukas? Ja, ich kenne **ihn**!*"
+          de: "Statt ein Nomen oder einen Namen zu wiederholen, legen Peter und Nadia **Stellvertreter-Karten** (Personalpronomen) auf den Tisch. Steht das Pronomen als direktes Objekt (Wen oder was?), brauchst du die **Akkusativ-Form**: *Kennst du Lukas? Ja, ich kenne **ihn**!*"
+          en: "Instead of repeating a noun or name, Peter and Nadia use **Stand-in Cards** (personal pronouns). When the pronoun is the direct object (whom or what?), you use the **accusative form**: *Kennst du Lukas? Ja, ich kenne **ihn**!*"
       - type: table
         caption:
           de: "Personalpronomen: Nominativ → Akkusativ"
@@ -94,8 +94,8 @@ blocks:
             target: "Nadia besucht [uns] in Lindenberg."
           - source: "Do you see the lamp (die Lampe)? Yes, I see it."
             target: "Siehst du die Lampe? Ja, ich sehe [sie]."
-          - source: "Sam asks me about the homework."
-            target: "Sam fragt [mich] nach den Hausaufgaben."
+          - source: "Peter asks me about the homework."
+            target: "Peter fragt [mich] nach den Hausaufgaben."
             mistakes:
               - answer: "mir"
                 message:

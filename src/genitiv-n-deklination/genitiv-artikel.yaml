@@ -36,8 +36,8 @@ blocks:
         blocks:
           - type: text
             text:
-              de: "Maskuline und neutrale Nomen erhalten meist **-s** (*des Lehrers, des Regens*). Kurze einsilbige Nomen oder Wörter auf *s, ß, x, z* erhalten **-es** (*des Tages, des Hauses*). Eigennamen stehen mit **-s** vor dem Nomen: *Sams Zimmer, Minas Gitarre*."
-              en: "Masculine and neuter nouns usually add **-s** (*des Lehrers, des Regens*). Short one-syllable nouns or words ending in *s, ß, x, z* add **-es** (*des Tages, des Hauses*). Proper names take **-s** before the noun: *Sams Zimmer, Minas Gitarre*."
+              de: "Maskuline und neutrale Nomen erhalten meist **-s** (*des Lehrers, des Regens*). Kurze einsilbige Nomen oder Wörter auf *s, ß, x, z* erhalten **-es** (*des Tages, des Hauses*). Eigennamen stehen mit **-s** vor dem Nomen: *Peters Zimmer, Minas Gitarre*."
+              en: "Masculine and neuter nouns usually add **-s** (*des Lehrers, des Regens*). Short one-syllable nouns or words ending in *s, ß, x, z* add **-es** (*des Tages, des Hauses*). Proper names take **-s** before the noun: *Peters Zimmer, Minas Gitarre*."
       - type: example
         title:
           de: "Die vier Genitivpräpositionen in Lindenberg"
@@ -45,8 +45,8 @@ blocks:
         blocks:
           - type: text
             text:
-              de: "**wegen** (because of): *Wegen **des Regens** fährt Sam mit dem Bus.* · **trotz** (despite): *Trotz **der Kälte** trainiert Mina draußen.* · **während** (during): *Während **des Unterrichts** macht Sam Notizen.* · **statt** (instead of): *Statt **eines Buches** kauft er ein Spiel.*"
-              en: "**wegen** (because of): *Wegen **des Regens** fährt Sam mit dem Bus.* · **trotz** (despite): *Trotz **der Kälte** trainiert Mina draußen.* · **während** (during): *Während **des Unterrichts** macht Sam Notizen.* · **statt** (instead of): *Statt **eines Buches** kauft er ein Spiel.*"
+              de: "**wegen** (because of): *Wegen **des Regens** fährt Peter mit dem Bus.* · **trotz** (despite): *Trotz **der Kälte** trainiert Mina draußen.* · **während** (during): *Während **des Unterrichts** macht Peter Notizen.* · **statt** (instead of): *Statt **eines Buches** kauft er ein Spiel.*"
+              en: "**wegen** (because of): *Wegen **des Regens** fährt Peter mit dem Bus.* · **trotz** (despite): *Trotz **der Kälte** trainiert Mina draußen.* · **während** (during): *Während **des Unterrichts** macht Peter Notizen.* · **statt** (instead of): *Statt **eines Buches** kauft er ein Spiel.*"
   - type: section
     id: uebung
     title:
@@ -75,8 +75,8 @@ blocks:
                 message:
                   de: "Feminine Nomen bekommen im Genitiv **kein** *-s*: *der Schwester*."
                   en: "Feminine nouns do **not** take *-s* in the genitive: *der Schwester*."
-          - source: "During the weekend (das Wochenende), Sam visits Nadia."
-            target: "Während [des Wochenendes] besucht Sam Nadia."
+          - source: "During the weekend (das Wochenende), Peter visits Nadia."
+            target: "Während [des Wochenendes] besucht Peter Nadia."
           - source: "Despite the cold (die Kälte), Lukas rides his bike."
             target: "Trotz [der Kälte] fährt Lukas Fahrrad."
         explanation:
@@ -85,8 +85,8 @@ blocks:
       - type: single-choice
         id: genitiv-besitz-check
         text:
-          de: "Wie fragt Sam richtig nach dem Zimmer seines Gastbruders (*mein Gastbruder*, m)?"
-          en: "How does Sam correctly refer to the room of his host brother (*mein Gastbruder*, m)?"
+          de: "Wie fragt Peter richtig nach dem Zimmer seines Gastbruders (*mein Gastbruder*, m)?"
+          en: "How does Peter correctly refer to the room of his host brother (*mein Gastbruder*, m)?"
         options:
           - text:
               de: "Das ist das Zimmer meines Gastbruders."

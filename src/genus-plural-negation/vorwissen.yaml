@@ -22,8 +22,8 @@ blocks:
       - type: single-choice
         id: recap-verb-pronomen
         text:
-          de: "Welcher Satz aus Sams Alltag in Lindenberg hat die richtige Verb-Zweitstellung und das passende Subjektpronomen?"
-          en: "Which sentence from Sam's daily life in Lindenberg uses correct verb-second word order and the right subject pronoun?"
+          de: "Welcher Satz aus Peters Alltag in Lindenberg hat die richtige Verb-Zweitstellung und das passende Subjektpronomen?"
+          en: "Which sentence from Peter's daily life in Lindenberg uses correct verb-second word order and the right subject pronoun?"
         options:
           - text:
               de: "Heute wohnt er bei Familie Weber in Lindenberg."

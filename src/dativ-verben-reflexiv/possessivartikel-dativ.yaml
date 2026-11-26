@@ -61,8 +61,8 @@ blocks:
           de: "Ergänze den richtigen Possessivartikel im Dativ."
           en: "Fill in the right dative possessive determiner."
         items:
-          - source: "Sam helps his host brother (sein Gastbruder)."
-            target: "Sam hilft [seinem] Gastbruder."
+          - source: "Peter helps his host brother (sein Gastbruder)."
+            target: "Peter hilft [seinem] Gastbruder."
             mistakes:
               - answer: "seinen"
                 message:
@@ -94,22 +94,22 @@ blocks:
           en: "Which sentence is completely correct in the dative plural?"
         options:
           - text:
-              de: "Sam zeigt seinen Freunden das Zimmer."
-              en: "Sam zeigt seinen Freunden das Zimmer."
+              de: "Peter zeigt seinen Freunden das Zimmer."
+              en: "Peter zeigt seinen Freunden das Zimmer."
             correct: true
             info:
               de: "Richtig! *seinen* (Dativ Plural *-en*) und *Freunden* (Nomen + *-n*)."
               en: "Correct! *seinen* (dative plural *-en*) and *Freunden* (noun + *-n*)."
           - text:
-              de: "Sam zeigt seinen Freunde das Zimmer."
-              en: "Sam zeigt seinen Freunde das Zimmer."
+              de: "Peter zeigt seinen Freunde das Zimmer."
+              en: "Peter zeigt seinen Freunde das Zimmer."
             correct: false
             info:
               de: "Der Possessivartikel stimmt, aber im Dativ Plural fehlt das *-n* an *Freunden*."
               en: "The possessive determiner is right, but *Freunden* is missing its dative plural *-n*."
           - text:
-              de: "Sam zeigt seinem Freunden das Zimmer."
-              en: "Sam zeigt seinem Freunden das Zimmer."
+              de: "Peter zeigt seinem Freunden das Zimmer."
+              en: "Peter zeigt seinem Freunden das Zimmer."
             correct: false
             info:
               de: "*-em* ist Singular (m/n). Im Dativ Plural braucht der Possessivartikel *-en* (*seinen*)."

@@ -15,8 +15,8 @@ blocks:
     blocks:
       - type: text
         text:
-          de: "Bei einem Nachbarschaftsfest in Lindenberg lernt Sam einen Kollegen von Herr Weber, den Nachbarn und einen Studenten kennen. Eine besondere Gruppe **maskuliner Nomen** — die **n-Deklination** — hängt in **allen Fällen außer Nominativ Singular** ein **-n** oder **-en** an!"
-          en: "At a neighborhood party in Lindenberg, Sam meets a colleague of Herr Weber, the neighbor, and a university student. A special group of **masculine nouns** — the **n-declension** — adds **-n** or **-en** in **every case except nominative singular**!"
+          de: "Bei einem Nachbarschaftsfest in Lindenberg lernt Peter einen Kollegen von Herr Weber, den Nachbarn und einen Studenten kennen. Eine besondere Gruppe **maskuliner Nomen** — die **n-Deklination** — hängt in **allen Fällen außer Nominativ Singular** ein **-n** oder **-en** an!"
+          en: "At a neighborhood party in Lindenberg, Peter meets a colleague of Herr Weber, the neighbor, and a university student. A special group of **masculine nouns** — the **n-declension** — adds **-n** or **-en** in **every case except nominative singular**!"
       - type: figure
         image: images/n-declension-card.svg
         source:
@@ -73,8 +73,8 @@ blocks:
           de: "Ergänze die richtige Form des schwachen maskulinen Nomens."
           en: "Fill in the right form of each weak masculine noun."
         items:
-          - source: "Sam meets a colleague (der Kollege, acc.) of Herr Weber."
-            target: "Sam trifft einen [Kollegen] von Herr Weber."
+          - source: "Peter meets a colleague (der Kollege, acc.) of Herr Weber."
+            target: "Peter trifft einen [Kollegen] von Herr Weber."
             mistakes:
               - answer: "Kollege"
                 message:

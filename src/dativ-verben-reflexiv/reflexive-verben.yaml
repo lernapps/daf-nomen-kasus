@@ -10,13 +10,13 @@ blocks:
   - type: section
     id: morgen-in-lindenberg
     title:
-      de: "Sams Morgen: Akkusativ oder Dativ beim Reflexivpronomen?"
-      en: "Sam's Morning: Accusative or Dative Reflexive Pronoun?"
+      de: "Peters Morgen: Akkusativ oder Dativ beim Reflexivpronomen?"
+      en: "Peter's Morning: Accusative or Dative Reflexive Pronoun?"
     blocks:
       - type: text
         text:
-          de: "Bei einem **reflexiven Verb** zeigt die Handlung auf das Subjekt zurück: *Sam freut **sich** auf die Schule.* Meistens steht das Reflexivpronomen im **Akkusativ** (*mich, dich, sich, uns, euch, sich*). Kommt aber ein **zweites Akkusativobjekt** (z. B. ein Körperteil oder ein Gegenstand) dazu, wechseln *ich* und *du* in den **Dativ** (*mir, dir*)!"
-          en: "With a **reflexive verb**, the action refers back to the subject: *Sam freut **sich** auf die Schule.* Usually the reflexive pronoun is **accusative** (*mich, dich, sich, uns, euch, sich*). However, when there is a **second accusative object** (such as a body part or item), *ich* and *du* switch to **dative** (*mir, dir*)!"
+          de: "Bei einem **reflexiven Verb** zeigt die Handlung auf das Subjekt zurück: *Peter freut **sich** auf die Schule.* Meistens steht das Reflexivpronomen im **Akkusativ** (*mich, dich, sich, uns, euch, sich*). Kommt aber ein **zweites Akkusativobjekt** (z. B. ein Körperteil oder ein Gegenstand) dazu, wechseln *ich* und *du* in den **Dativ** (*mir, dir*)!"
+          en: "With a **reflexive verb**, the action refers back to the subject: *Peter freut **sich** auf die Schule.* Usually the reflexive pronoun is **accusative** (*mich, dich, sich, uns, euch, sich*). However, when there is a **second accusative object** (such as a body part or item), *ich* and *du* switch to **dative** (*mir, dir*)!"
       - type: table
         caption:
           de: "Reflexivpronomen: Akkusativ vs. Dativ"
@@ -75,8 +75,8 @@ blocks:
                 message:
                   de: "*die Hände* ist bereits das Akkusativobjekt, deshalb wechselt das Reflexivpronomen zu Dativ *mir*."
                   en: "*die Hände* is already the accusative object, so the reflexive pronoun shifts to dative *mir*."
-          - source: "Sam and Nadia meet at the sports club."
-            target: "Sam und Nadia treffen [sich] im Sportverein."
+          - source: "Peter and Nadia meet at the sports club."
+            target: "Peter und Nadia treffen [sich] im Sportverein."
           - source: "You (du) buy yourself a new bike."
             target: "Du kaufst [dir] ein neues Fahrrad."
         explanation:

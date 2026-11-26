@@ -15,8 +15,8 @@ blocks:
     blocks:
       - type: text
         text:
-          de: "Sam kauft in der Lindenberger Innenstadt kleine Geschenke für Familie Weber. In *Sam kauft **einen Rucksack*** ist *Sam* das Subjekt (**Nominativ** — Wer?) und *einen Rucksack* das direkte Objekt (**Akkusativ** — Wen oder was?). Die gute Nachricht: Im Akkusativ ändert sich **nur Maskulin**!"
-          en: "Sam is shopping in central Lindenberg for small gifts for the Webers. In *Sam kauft **einen Rucksack***, *Sam* is the subject (**nominative** — who?) and *einen Rucksack* is the direct object (**accusative** — whom or what?). The good news: in the accusative, **only masculine changes**!"
+          de: "Peter kauft in der Lindenberger Innenstadt kleine Geschenke für Familie Weber. In *Peter kauft **einen Rucksack*** ist *Peter* das Subjekt (**Nominativ** — Wer?) und *einen Rucksack* das direkte Objekt (**Akkusativ** — Wen oder was?). Die gute Nachricht: Im Akkusativ ändert sich **nur Maskulin**!"
+          en: "Peter is shopping in central Lindenberg for small gifts for the Webers. In *Peter kauft **einen Rucksack***, *Peter* is the subject (**nominative** — who?) and *einen Rucksack* is the direct object (**accusative** — whom or what?). The good news: in the accusative, **only masculine changes**!"
       - type: figure
         image: images/case-table-ch2.svg
         source:
@@ -36,8 +36,8 @@ blocks:
         blocks:
           - type: text
             text:
-              de: "Verben wie **haben, kaufen, suchen, brauchen, sehen, finden, nehmen, lesen** verlangen ein Akkusativobjekt: *Sam sucht **den** Schlüssel. Er kauft **einen** Ball, **eine** Tasche und **ein** Buch. Er hat **keinen** Regenschirm.*"
-              en: "Verbs like **haben, kaufen, suchen, brauchen, sehen, finden, nehmen, lesen** take an accusative direct object: *Sam sucht **den** Schlüssel. Er kauft **einen** Ball, **eine** Tasche und **ein** Buch. Er hat **keinen** Regenschirm.*"
+              de: "Verben wie **haben, kaufen, suchen, brauchen, sehen, finden, nehmen, lesen** verlangen ein Akkusativobjekt: *Peter sucht **den** Schlüssel. Er kauft **einen** Ball, **eine** Tasche und **ein** Buch. Er hat **keinen** Regenschirm.*"
+              en: "Verbs like **haben, kaufen, suchen, brauchen, sehen, finden, nehmen, lesen** take an accusative direct object: *Peter sucht **den** Schlüssel. Er kauft **einen** Ball, **eine** Tasche und **ein** Buch. Er hat **keinen** Regenschirm.*"
   - type: section
     id: uebung
     title:
@@ -52,8 +52,8 @@ blocks:
           de: "Ergänze den passenden Artikel im Akkusativ (den, einen, eine, ein, keinen)."
           en: "Fill in the right accusative article (den, einen, eine, ein, keinen)."
         items:
-          - source: "Sam buys a backpack (der Rucksack)."
-            target: "Sam kauft [einen] Rucksack."
+          - source: "Peter buys a backpack (der Rucksack)."
+            target: "Peter kauft [einen] Rucksack."
             mistakes:
               - answer: "ein"
                 message:
@@ -81,16 +81,16 @@ blocks:
       - type: single-choice
         id: subjekt-oder-objekt
         text:
-          de: "Im Satz *Den Stuhl braucht Sam heute* — was ist das Subjekt im Nominativ?"
-          en: "In the sentence *Den Stuhl braucht Sam heute* — what is the nominative subject?"
+          de: "Im Satz *Den Stuhl braucht Peter heute* — was ist das Subjekt im Nominativ?"
+          en: "In the sentence *Den Stuhl braucht Peter heute* — what is the nominative subject?"
         options:
           - text:
-              de: "Sam"
-              en: "Sam"
+              de: "Peter"
+              en: "Peter"
             correct: true
             info:
-              de: "Richtig! *Den Stuhl* steht zwar vorne, ist aber wegen *den* klar der Akkusativ. *Sam* ist das Subjekt."
-              en: "Correct! Even though *Den Stuhl* stands first, *den* marks it as accusative. *Sam* is the subject."
+              de: "Richtig! *Den Stuhl* steht zwar vorne, ist aber wegen *den* klar der Akkusativ. *Peter* ist das Subjekt."
+              en: "Correct! Even though *Den Stuhl* stands first, *den* marks it as accusative. *Peter* is the subject."
           - text:
               de: "Den Stuhl"
               en: "Den Stuhl"

@@ -36,8 +36,8 @@ blocks:
         blocks:
           - type: text
             text:
-              de: "Vergleiche: *Ich sehe **ihn**.* (Wen? Akkusativ) — *Ich gebe **ihm** das Buch.* (Wem? Dativ). *Sam besucht **sie** (Mina).* — *Sam schenkt **ihr** eine Karte.*"
-              en: "Compare: *Ich sehe **ihn**.* (Whom? Accusative) — *Ich gebe **ihm** das Buch.* (To whom? Dative). *Sam besucht **sie** (Mina).* — *Sam schenkt **ihr** eine Karte.*"
+              de: "Vergleiche: *Ich sehe **ihn**.* (Wen? Akkusativ) — *Ich gebe **ihm** das Buch.* (Wem? Dativ). *Peter besucht **sie** (Mina).* — *Peter schenkt **ihr** eine Karte.*"
+              en: "Compare: *Ich sehe **ihn**.* (Whom? Accusative) — *Ich gebe **ihm** das Buch.* (To whom? Dative). *Peter besucht **sie** (Mina).* — *Peter schenkt **ihr** eine Karte.*"
   - type: section
     id: uebung
     title:
@@ -78,8 +78,8 @@ blocks:
                 message:
                   de: "Wer bekommt etwas gezeigt (Wem?) → Dativ *mir*, nicht Akkusativ *mich*."
                   en: "Who is being shown something (to whom?) → dative *mir*, not accusative *mich*."
-          - source: "Sam buys her (Mina) a book."
-            target: "Sam kauft [ihr] ein Buch."
+          - source: "Peter buys her (Mina) a book."
+            target: "Peter kauft [ihr] ein Buch."
             mistakes:
               - answer: "sie"
                 message:
@@ -87,8 +87,8 @@ blocks:
                   en: "Mina is the recipient (to whom?) → dative of *sie (f)* is *ihr*."
           - source: "Nadia writes him (Lukas) a message."
             target: "Nadia schreibt [ihm] eine Nachricht."
-          - source: "Sam brings them (the Webers) bread rolls."
-            target: "Sam bringt [ihnen] Brötchen."
+          - source: "Peter brings them (the Webers) bread rolls."
+            target: "Peter bringt [ihnen] Brötchen."
         explanation:
           de: "Für Empfänger (Wem?) stehen immer die Dativ-Karten: *mir, dir, ihm, ihr, uns, euch, ihnen, Ihnen*."
           en: "Recipients (to whom?) always use the dative cards: *mir, dir, ihm, ihr, uns, euch, ihnen, Ihnen*."

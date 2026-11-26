@@ -34,7 +34,7 @@ blocks:
             example: { target: "Das Fahrrad gehört der Schwester.", source: "The bike belongs to the sister." }
           - target: danken
             source: to thank
-            example: { target: "Sam dankt den Eltern.", source: "Sam thanks the parents." }
+            example: { target: "Peter dankt den Eltern.", source: "Peter thanks the parents." }
           - target: schmecken
             source: to taste good to
             example: { target: "Die Brötchen schmecken uns.", source: "We enjoy the bread rolls." }

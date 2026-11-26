@@ -61,8 +61,8 @@ blocks:
           de: "Wähle den passenden Possessivartikel (Besitzer + Kasus/Genus)."
           en: "Choose the right possessive determiner (owner + case/gender)."
         items:
-          - source: "Sam is looking for his key (der Schlüssel)."
-            target: "Sam sucht [seinen] Schlüssel."
+          - source: "Peter is looking for his key (der Schlüssel)."
+            target: "Peter sucht [seinen] Schlüssel."
             distractors: [[sein, seine]]
           - source: "Mina takes her guitar (die Gitarre)."
             target: "Mina nimmt [ihre] Gitarre."
@@ -81,8 +81,8 @@ blocks:
         languages: { source: en, target: de }
         mode: gap
         task:
-          de: "Ergänze den Possessivartikel in Sams Gespräch mit Lukas und Mina."
-          en: "Fill in the possessive determiner in Sam's conversation with Lukas and Mina."
+          de: "Ergänze den Possessivartikel in Peters Gespräch mit Lukas und Mina."
+          en: "Fill in the possessive determiner in Peter's conversation with Lukas and Mina."
         items:
           - source: "I cannot find my backpack (der Rucksack)."
             target: "Ich finde [meinen] Rucksack nicht."

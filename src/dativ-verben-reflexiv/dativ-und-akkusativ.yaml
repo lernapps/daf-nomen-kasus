@@ -24,8 +24,8 @@ blocks:
           en: "Own diagram"
         licence: CC-BY-SA-4.0
         alt:
-          de: "Pfeildiagramm: Sam (Nominativ) schenkt -> der Schwester / ihr (Dativ, Empfänger) und ein Buch / es (Akkusativ, Sache). Regeln: 2 Nomen Dativ vor Akkusativ; 1 Pronomen zuerst; 2 Pronomen Akkusativ vor Dativ."
-          en: "Arrow diagram: Sam (Nominative) schenkt -> der Schwester / ihr (Dative, recipient) and ein Buch / es (Accusative, thing). Rules: 2 nouns Dative before Accusative; 1 pronoun goes first; 2 pronouns Accusative before Dative."
+          de: "Pfeildiagramm: Peter (Nominativ) schenkt -> der Schwester / ihr (Dativ, Empfänger) und ein Buch / es (Akkusativ, Sache). Regeln: 2 Nomen Dativ vor Akkusativ; 1 Pronomen zuerst; 2 Pronomen Akkusativ vor Dativ."
+          en: "Arrow diagram: Peter (Nominative) schenkt -> der Schwester / ihr (Dative, recipient) and ein Buch / es (Accusative, thing). Rules: 2 nouns Dative before Accusative; 1 pronoun goes first; 2 pronouns Accusative before Dative."
         caption:
           de: "Drei klare Reihenfolge-Regeln für Sätze mit Dativ- und Akkusativobjekt."
           en: "Three clear word-order rules for sentences with both dative and accusative objects."
@@ -40,16 +40,16 @@ blocks:
         rows:
           - - { de: "2 Nomen", en: "2 nouns" }
             - { de: "Dativ → Akkusativ", en: "Dative → Accusative" }
-            - { de: "Sam schenkt der Schwester ein Buch.", en: "Sam schenkt der Schwester ein Buch." }
+            - { de: "Peter schenkt der Schwester ein Buch.", en: "Peter schenkt der Schwester ein Buch." }
           - - { de: "1 Pronomen + 1 Nomen", en: "1 pronoun + 1 noun" }
             - { de: "Pronomen zuerst", en: "Pronoun first" }
             - {
-                de: "Sam schenkt ihr ein Buch. / Sam schenkt es Mina.",
-                en: "Sam schenkt ihr ein Buch. / Sam schenkt es Mina.",
+                de: "Peter schenkt ihr ein Buch. / Peter schenkt es Mina.",
+                en: "Peter schenkt ihr ein Buch. / Peter schenkt es Mina.",
               }
           - - { de: "2 Pronomen", en: "2 pronouns" }
             - { de: "Akkusativ → Dativ", en: "Accusative → Dative" }
-            - { de: "Sam schenkt es ihr.", en: "Sam schenkt es ihr." }
+            - { de: "Peter schenkt es ihr.", en: "Peter schenkt es ihr." }
   - type: section
     id: uebung
     title:
@@ -59,10 +59,10 @@ blocks:
       - type: ordering
         id: zwei-objekte-ordnen
         text:
-          de: "Bringe die Satzteile in die richtige Reihenfolge: *Sam lends his brother the bike.*"
-          en: "Put the sentence parts in the right order: *Sam lends his brother the bike.*"
+          de: "Bringe die Satzteile in die richtige Reihenfolge: *Peter lends his brother the bike.*"
+          en: "Put the sentence parts in the right order: *Peter lends his brother the bike.*"
         items:
-          - { de: "Sam", en: "Sam" }
+          - { de: "Peter", en: "Peter" }
           - { de: "leiht", en: "leiht" }
           - { de: "dem Bruder", en: "dem Bruder" }
           - { de: "das Fahrrad.", en: "das Fahrrad." }
@@ -77,15 +77,15 @@ blocks:
           de: "Wähle die richtige Objekt-Reihenfolge mit Pronomen."
           en: "Choose the right object order with pronouns."
         items:
-          - source: "Sam gives it (das Buch) to her (Mina)."
-            target: "Sam gibt [es ihr]."
+          - source: "Peter gives it (das Buch) to her (Mina)."
+            target: "Peter gibt [es ihr]."
             distractors: [[ihr es, sie ihr]]
-          - source: "Lukas shows it (den Ball) to Sam."
-            target: "Lukas zeigt [ihn Sam]."
-            distractors: [[Sam ihn, ihm Sam]]
+          - source: "Lukas shows it (den Ball) to Peter."
+            target: "Lukas zeigt [ihn Peter]."
+            distractors: [[Peter ihn, ihm Peter]]
           - source: "Nadia writes him (Lukas) a card."
             target: "Nadia schreibt [ihm eine Karte]."
             distractors: [[eine Karte ihm, ihn eine Karte]]
         explanation:
-          de: "Ein Pronomen steht vor dem Nomen (*ihn Sam*, *ihm eine Karte*). Bei zwei Pronomen steht Akkusativ vor Dativ (*es ihr*)."
-          en: "A single pronoun comes before a noun (*ihn Sam*, *ihm eine Karte*). With two pronouns, accusative comes before dative (*es ihr*)."
+          de: "Ein Pronomen steht vor dem Nomen (*ihn Peter*, *ihm eine Karte*). Bei zwei Pronomen steht Akkusativ vor Dativ (*es ihr*)."
+          en: "A single pronoun comes before a noun (*ihn Peter*, *ihm eine Karte*). With two pronouns, accusative comes before dative (*es ihr*)."

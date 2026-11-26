@@ -10,13 +10,13 @@ blocks:
   - type: section
     id: kisten-auspacken
     title:
-      de: "Sam packt seine Kisten aus"
-      en: "Sam Unpacks His Boxes"
+      de: "Peter packt seine Kisten aus"
+      en: "Peter Unpacks His Boxes"
     blocks:
       - type: text
         text:
-          de: "In Sams Umzugskisten liegen nicht nur ein Buch und ein Foto, sondern viele Dinge! Im Plural haben **alle** deutschen Nomen den bestimmten Artikel **die** — egal ob sie im Singular *der*, *die* oder *das* heißen. Es gibt keinen unbestimmten Artikel im Plural."
-          en: "Sam's moving boxes hold more than one book and one photo! In the plural, **every** German noun uses the definite article **die** — whether it was *der*, *die*, or *das* in the singular. There is no indefinite article in the plural."
+          de: "In Peters Umzugskisten liegen nicht nur ein Buch und ein Foto, sondern viele Dinge! Im Plural haben **alle** deutschen Nomen den bestimmten Artikel **die** — egal ob sie im Singular *der*, *die* oder *das* heißen. Es gibt keinen unbestimmten Artikel im Plural."
+          en: "Peter's moving boxes hold more than one book and one photo! In the plural, **every** German noun uses the definite article **die** — whether it was *der*, *die*, or *das* in the singular. There is no indefinite article in the plural."
       - type: table
         caption:
           de: "Die fünf häufigsten Pluralmuster"
@@ -43,8 +43,8 @@ blocks:
             - { de: "Nomen auf -er, -el, -en, -chen", en: "nouns ending in -er, -el, -en, -chen" }
       - type: vocabulary
         caption:
-          de: "Wichtige Pluralformen für Sams Zimmer"
-          en: "Key Plurals for Sam's Room"
+          de: "Wichtige Pluralformen für Peters Zimmer"
+          en: "Key Plurals for Peter's Room"
         languages: { source: en, target: de }
         entries:
           - target: der Tisch

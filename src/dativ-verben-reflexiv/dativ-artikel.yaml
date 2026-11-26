@@ -15,8 +15,8 @@ blocks:
     blocks:
       - type: text
         text:
-          de: "Sam verteilt seine Geschenke an Familie Weber. Die Person, die etwas bekommt (das indirekte Objekt — **Wem?**), steht im **Dativ**. Im Dativ ändern sich **alle vier Spalten**: Maskulin und Neutrum bekommen **-m** (*dem/einem*), Feminin wird zu **-r** (*der/einer*) und Plural wird zu **den + -n** am Nomen!"
-          en: "Sam hands out his gifts to the Weber family. The recipient (indirect object — **Wem?** / to whom?) takes the **dative case**. In the dative, **all four columns change**: masculine and neuter take **-m** (*dem/einem*), feminine changes to **-r** (*der/einer*), and plural takes **den + -n** on the noun!"
+          de: "Peter verteilt seine Geschenke an Familie Weber. Die Person, die etwas bekommt (das indirekte Objekt — **Wem?**), steht im **Dativ**. Im Dativ ändern sich **alle vier Spalten**: Maskulin und Neutrum bekommen **-m** (*dem/einem*), Feminin wird zu **-r** (*der/einer*) und Plural wird zu **den + -n** am Nomen!"
+          en: "Peter hands out his gifts to the Weber family. The recipient (indirect object — **Wem?** / to whom?) takes the **dative case**. In the dative, **all four columns change**: masculine and neuter take **-m** (*dem/einem*), feminine changes to **-r** (*der/einer*), and plural takes **den + -n** on the noun!"
       - type: figure
         image: images/case-table-ch3.svg
         source:
@@ -52,17 +52,17 @@ blocks:
           de: "Wähle den richtigen Dativartikel für die Empfänger."
           en: "Choose the right dative article for each recipient."
         items:
-          - source: "Sam gives the brother (der Bruder) a book."
-            target: "Sam schenkt [dem] Bruder ein Buch."
+          - source: "Peter gives the brother (der Bruder) a book."
+            target: "Peter schenkt [dem] Bruder ein Buch."
             distractors: [[den, der]]
-          - source: "Sam gives the sister (die Schwester) a ball."
-            target: "Sam schenkt [der] Schwester einen Ball."
+          - source: "Peter gives the sister (die Schwester) a ball."
+            target: "Peter schenkt [der] Schwester einen Ball."
             distractors: [[die, dem]]
-          - source: "Sam gives the child (das Kind) a game."
-            target: "Sam schenkt [dem] Kind ein Spiel."
+          - source: "Peter gives the child (das Kind) a game."
+            target: "Peter schenkt [dem] Kind ein Spiel."
             distractors: [[das, der]]
-          - source: "Sam gives a friend (ein Freund) a card."
-            target: "Sam schenkt [einem] Freund eine Karte."
+          - source: "Peter gives a friend (ein Freund) a card."
+            target: "Peter schenkt [einem] Freund eine Karte."
             distractors: [[einen, einer]]
         explanation:
           de: "Dativ-Artikel: maskulin *dem/einem*, feminin *der/einer*, neutrum *dem/einem*, Plural *den*."
@@ -75,8 +75,8 @@ blocks:
           de: "Ergänze Artikel und Pluralnomen im Dativ (denke an das -n!)."
           en: "Fill in the dative plural article and noun (remember the extra -n!)."
         items:
-          - source: "Sam writes cards to the friends (die Freunde)."
-            target: "Sam schreibt [den Freunden] Karten."
+          - source: "Peter writes cards to the friends (die Freunde)."
+            target: "Peter schreibt [den Freunden] Karten."
             mistakes:
               - answer: "den Freunde"
                 message:

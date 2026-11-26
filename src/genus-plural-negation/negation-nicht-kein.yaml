@@ -10,13 +10,13 @@ blocks:
   - type: section
     id: nicht-oder-kein
     title:
-      de: "Was fehlt in Sams Zimmer?"
-      en: "What Is Missing in Sam's Room?"
+      de: "Was fehlt in Peters Zimmer?"
+      en: "What Is Missing in Peter's Room?"
     blocks:
       - type: text
         text:
-          de: "Sam prüft seine Checkliste in Lindenberg. Im Deutschen gibt es zwei Verneinungswörter: **kein/keine** und **nicht**. Welches Wort du wählst, hängt davon ab, was du verneinst."
-          en: "Sam checks his room checklist in Lindenberg. German has two negation words: **kein/keine** and **nicht**. Your choice depends on what you are negating."
+          de: "Peter prüft seine Checkliste in Lindenberg. Im Deutschen gibt es zwei Verneinungswörter: **kein/keine** und **nicht**. Welches Wort du wählst, hängt davon ab, was du verneinst."
+          en: "Peter checks his room checklist in Lindenberg. German has two negation words: **kein/keine** and **nicht**. Your choice depends on what you are negating."
       - type: table
         caption:
           de: "kein vs. nicht im Überblick"
@@ -42,8 +42,8 @@ blocks:
         blocks:
           - type: text
             text:
-              de: "Verneinst du ein einzelnes Wort (z. B. ein Adjektiv), steht **nicht direkt davor**: *Der Stuhl ist **nicht** neu.* Verneinst du den ganzen Satz (das Verb), steht **nicht am Satzende**: *Sam schläft heute **nicht**.*"
-              en: "When negating a specific word (such as an adjective), **nicht stands directly before it**: *Der Stuhl ist **nicht** neu.* When negating the whole sentence (the verb), **nicht goes to the end**: *Sam schläft heute **nicht**.*"
+              de: "Verneinst du ein einzelnes Wort (z. B. ein Adjektiv), steht **nicht direkt davor**: *Der Stuhl ist **nicht** neu.* Verneinst du den ganzen Satz (das Verb), steht **nicht am Satzende**: *Peter schläft heute **nicht**.*"
+              en: "When negating a specific word (such as an adjective), **nicht stands directly before it**: *Der Stuhl ist **nicht** neu.* When negating the whole sentence (the verb), **nicht goes to the end**: *Peter schläft heute **nicht**.*"
   - type: section
     id: uebung
     title:
@@ -76,8 +76,8 @@ blocks:
       - type: single-choice
         id: negation-wortstellung
         text:
-          de: "Sam sagt, dass das nicht sein Buch ist. Welcher Satz ist richtig?"
-          en: "Sam says that this is not his book (with a definite article). Which sentence is correct?"
+          de: "Peter sagt, dass das nicht sein Buch ist. Welcher Satz ist richtig?"
+          en: "Peter says that this is not his book (with a definite article). Which sentence is correct?"
         options:
           - text:
               de: "Das ist nicht das Buch von Lukas."
