@@ -41,9 +41,9 @@ Nennt die Adresse dieser Seite `bedarf=`, gilt jeder Abschnitt, den sie nennt, m
 
 Häufige deutsche Pluralformen bilden und mit dem Pluralartikel die verwenden.
 
-### Sam packt seine Kisten aus
+### Peter packt seine Kisten aus
 
-In Sams Umzugskisten liegen nicht nur ein Buch und ein Foto, sondern viele Dinge! Im Plural haben **alle** deutschen Nomen den bestimmten Artikel **die** — egal ob sie im Singular *der*, *die* oder *das* heißen. Es gibt keinen unbestimmten Artikel im Plural.
+In Peters Umzugskisten liegen nicht nur ein Buch und ein Foto, sondern viele Dinge! Im Plural haben **alle** deutschen Nomen den bestimmten Artikel **die** — egal ob sie im Singular *der*, *die* oder *das* heißen. Es gibt keinen unbestimmten Artikel im Plural.
 
 Die fünf häufigsten Pluralmuster:
 - Endung | Singular → Plural | Typisch für
@@ -53,7 +53,7 @@ Die fünf häufigsten Pluralmuster:
 - -s | das Foto → die Fotos | Wörter auf a, i, o, u & Lehnwörter
 - — (oft + Umlaut) | das Zimmer → die Zimmer | Nomen auf -er, -el, -en, -chen
 
-Vokabeln (Deutsch – Englisch): Wichtige Pluralformen für Sams Zimmer
+Vokabeln (Deutsch – Englisch): Wichtige Pluralformen für Peters Zimmer
 - der Tisch, die Tische – table
 - der Stuhl, die Stühle – chair
 - die Lampe, die Lampen – lamp

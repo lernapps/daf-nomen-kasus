@@ -43,7 +43,7 @@ Decline common weak masculine nouns like der Mensch, der Kollege, and der Studen
 
 ### The Pattern Card for Weak Masculine Nouns
 
-At a neighborhood party in Lindenberg, Sam meets a colleague of Herr Weber, the neighbor, and a university student. A special group of **masculine nouns** — the **n-declension** — adds **-n** or **-en** in **every case except nominative singular**!
+At a neighborhood party in Lindenberg, Peter meets a colleague of Herr Weber, the neighbor, and a university student. A special group of **masculine nouns** — the **n-declension** — adds **-n** or **-en** in **every case except nominative singular**!
 
 Picture: Pattern card for n-declension: Nominative singular der Kollege / der Mensch, but Accusative den Kollegen / den Menschen, Dative dem Kollegen / dem Menschen, Genitive des Kollegen / des Menschen. Caption: Only nominative singular keeps the base form; accusative, dative, genitive (and plural) all add -n/-en.
 
@@ -68,7 +68,7 @@ Vocabulary (German – English): Key Weak Masculine Nouns
 - Answer format: fill in the gaps in German
 - How the app counts mistakes of form: capital letters wrong, accents wrong, hyphen wrong, apostrophe wrong, punctuation wrong
 - Items (start → solution):
-1. Sam meets a colleague (der Kollege, acc.) of Herr Weber. → Sam trifft einen Kollegen von Herr Weber.
+1. Peter meets a colleague (der Kollege, acc.) of Herr Weber. → Peter trifft einen Kollegen von Herr Weber.
      - Kollege: *der Kollege* is a weak masculine noun → accusative *einen Kollegen*.
 2. Lukas helps the neighbor (der Nachbar, dat.) in the garden. → Lukas hilft dem Nachbarn im Garten.
      - Nachbar: *der Nachbar* adds *-n* in the dative: *dem Nachbarn*.

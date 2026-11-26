@@ -43,13 +43,13 @@ Use definite, indefinite, and negative articles in the accusative case for direc
 
 ### Buying Gifts for the Webers
 
-Sam is shopping in central Lindenberg for small gifts for the Webers. In *Sam kauft **einen Rucksack***, *Sam* is the subject (**nominative** — who?) and *einen Rucksack* is the direct object (**accusative** — whom or what?). The good news: in the accusative, **only masculine changes**!
+Peter is shopping in central Lindenberg for small gifts for the Webers. In *Peter kauft **einen Rucksack***, *Peter* is the subject (**nominative** — who?) and *einen Rucksack* is the direct object (**accusative** — whom or what?). The good news: in the accusative, **only masculine changes**!
 
 Picture: 4-Case Color Table with Nominative and Accusative rows: in the accusative, only masculine changes from der/ein/kein to den/einen/keinen. Caption: Row 2 joins the table: only the blue masculine column changes from der/ein/kein → den/einen/keinen.
 
 **Example: Common Verbs Taking Accusative**
 
-Verbs like **haben, kaufen, suchen, brauchen, sehen, finden, nehmen, lesen** take an accusative direct object: *Sam sucht **den** Schlüssel. Er kauft **einen** Ball, **eine** Tasche und **ein** Buch. Er hat **keinen** Regenschirm.*
+Verbs like **haben, kaufen, suchen, brauchen, sehen, finden, nehmen, lesen** take an accusative direct object: *Peter sucht **den** Schlüssel. Er kauft **einen** Ball, **eine** Tasche und **ein** Buch. Er hat **keinen** Regenschirm.*
 
 ### Practice
 
@@ -63,7 +63,7 @@ Verbs like **haben, kaufen, suchen, brauchen, sehen, finden, nehmen, lesen** tak
 - Answer format: fill in the gaps in German
 - How the app counts mistakes of form: capital letters wrong, accents wrong, hyphen wrong, apostrophe wrong, punctuation wrong
 - Items (start → solution):
-1. Sam buys a backpack (der Rucksack). → Sam kauft einen Rucksack.
+1. Peter buys a backpack (der Rucksack). → Peter kauft einen Rucksack.
      - ein: *Rucksack* is masculine (*der*) and the direct object → accusative *einen*.
 2. He sees the desk (der Schreibtisch). → Er sieht den Schreibtisch.
      - der: After *sehen*, the direct object takes the accusative: *der* becomes *den*.
@@ -76,12 +76,12 @@ Verbs like **haben, kaufen, suchen, brauchen, sehen, finden, nehmen, lesen** tak
 
 ### Exercise subjekt-oder-objekt
 
-- Task: In the sentence *Den Stuhl braucht Sam heute* — what is the nominative subject?
+- Task: In the sentence *Den Stuhl braucht Peter heute* — what is the nominative subject?
 - Answer format: choose one answer
 - Choices (✓ right, ✗ wrong, with the app's message):
-  - ✓ Sam – Correct! Even though *Den Stuhl* stands first, *den* marks it as accusative. *Sam* is the subject.
+  - ✓ Peter – Correct! Even though *Den Stuhl* stands first, *den* marks it as accusative. *Peter* is the subject.
   - ✗ Den Stuhl – *den* marks the accusative case. In German, cases show grammatical role — not always word order!
   - ✗ heute – *heute* is a time adverb, not a subject.
-- Solution: Sam
+- Solution: Peter
 - Explanation: The article *den* clearly marks the accusative — even when the object stands before the verb.
 - Link: [../?via=tutor#subjekt-oder-objekt](../?via=tutor#subjekt-oder-objekt)

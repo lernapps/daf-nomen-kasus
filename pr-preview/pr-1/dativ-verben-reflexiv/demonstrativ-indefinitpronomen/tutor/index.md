@@ -43,7 +43,7 @@ dieser, welcher, jeder sowie man, jemand, niemand, etwas und nichts im Kontext r
 
 ### Welches Geschenk? — dieser, welcher, jeder
 
-Sam und Nadia stehen im Buchladen in Lindenberg: *„**Welches** Buch gefällt Mina?“ — „**Dieses** Buch hier!“* Die Wörter **dieser** (this), **welcher** (which) und **jeder** (every) übernehmen genau die Endungen der **bestimmten Artikel** (*der/die/das/den/dem*).
+Peter und Nadia stehen im Buchladen in Lindenberg: *„**Welches** Buch gefällt Mina?“ — „**Dieses** Buch hier!“* Die Wörter **dieser** (this), **welcher** (which) und **jeder** (every) übernehmen genau die Endungen der **bestimmten Artikel** (*der/die/das/den/dem*).
 
 dieser / welcher / jeder folgen der 4-Fälle-Farbtabelle:
 - Kasus | Maskulin / Neutrum | Feminin / Plural
@@ -72,7 +72,7 @@ Vokabeln (Deutsch – Englisch): Wichtige Indefinitpronomen (immer mit 3. Person
 - Einträge (Vorgabe → Lösung):
 1. Which backpack (der Rucksack, acc.) do you buy? → Welchen Rucksack kaufst du?
 2. I like this book (das Buch, nom.). → Dieses Buch gefällt mir.
-3. Sam helps every friend (der Freund, dat.). → Sam hilft jedem Freund.
+3. Peter helps every friend (der Freund, dat.). → Peter hilft jedem Freund.
 - Erklärung: *dieser, welcher, jeder* tragen genau die Endungen von *der/die/das* (*-er, -e, -es, -en, -em*).
 - So hilfst du: Die App prüft Wort für Wort gegen die Lösungen oben und nennt Fehler der Form (zum Beispiel Akzente) mit den Wörtern des Kindes. Sag nicht die Lösung vor: Frag nach der Regel (Endung, Geschlecht, Zeitform) oder nach einem ähnlichen Satz der Seite. Hält die App eine Fassung des Kindes für falsch, die du für richtig hältst, sag es dem Kind: Die App kennt nur die Fassungen oben.
 - Link: [../?via=tutor#demonstrativ-wahl](../?via=tutor#demonstrativ-wahl)

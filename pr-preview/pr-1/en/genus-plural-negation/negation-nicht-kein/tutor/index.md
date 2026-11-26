@@ -41,9 +41,9 @@ If the address of this page names `bedarf=`, each section it names holds, severa
 
 Negate nouns with kein/keine and verbs, adjectives, or full sentences with nicht.
 
-### What Is Missing in Sam's Room?
+### What Is Missing in Peter's Room?
 
-Sam checks his room checklist in Lindenberg. German has two negation words: **kein/keine** and **nicht**. Your choice depends on what you are negating.
+Peter checks his room checklist in Lindenberg. German has two negation words: **kein/keine** and **nicht**. Your choice depends on what you are negating.
 
 kein vs. nicht at a Glance:
 - Word | Negates … | Example
@@ -52,7 +52,7 @@ kein vs. nicht at a Glance:
 
 **Example: Where Does nicht Go?**
 
-When negating a specific word (such as an adjective), **nicht stands directly before it**: *Der Stuhl ist **nicht** neu.* When negating the whole sentence (the verb), **nicht goes to the end**: *Sam schläft heute **nicht**.*
+When negating a specific word (such as an adjective), **nicht stands directly before it**: *Der Stuhl ist **nicht** neu.* When negating the whole sentence (the verb), **nicht goes to the end**: *Peter schläft heute **nicht**.*
 
 ### Practice
 
@@ -76,7 +76,7 @@ When negating a specific word (such as an adjective), **nicht stands directly be
 
 ### Exercise negation-wortstellung
 
-- Task: Sam says that this is not his book (with a definite article). Which sentence is correct?
+- Task: Peter says that this is not his book (with a definite article). Which sentence is correct?
 - Answer format: choose one answer
 - Choices (✓ right, ✗ wrong, with the app's message):
   - ✓ Das ist nicht das Buch von Lukas. – Correct! Before a definite article (*das Buch*), always use *nicht*, never *kein*.

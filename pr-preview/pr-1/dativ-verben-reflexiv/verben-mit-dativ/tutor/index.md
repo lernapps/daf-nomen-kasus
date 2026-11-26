@@ -49,7 +49,7 @@ Vokabeln (Deutsch – Englisch): Die wichtigsten Dativverben in Lindenberg
 - helfen – to help. Beispiel: Lukas hilft mir bei den Hausaufgaben. – Lukas helps me with homework.
 - gefallen – to please / to be liked by. Beispiel: Das Zimmer gefällt ihm sehr. – He really likes the room.
 - gehören – to belong to. Beispiel: Das Fahrrad gehört der Schwester. – The bike belongs to the sister.
-- danken – to thank. Beispiel: Sam dankt den Eltern. – Sam thanks the parents.
+- danken – to thank. Beispiel: Peter dankt den Eltern. – Peter thanks the parents.
 - schmecken – to taste good to. Beispiel: Die Brötchen schmecken uns. – We enjoy the bread rolls.
 - passen – to fit / to suit. Beispiel: Die Jacke passt dir gut. – The jacket fits you well.
 

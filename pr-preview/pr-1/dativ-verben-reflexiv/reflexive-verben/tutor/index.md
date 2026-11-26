@@ -41,9 +41,9 @@ Nennt die Adresse dieser Seite `bedarf=`, gilt jeder Abschnitt, den sie nennt, m
 
 Häufige reflexive Verben wie sich freuen, sich treffen und sich die Hände waschen richtig verwenden.
 
-### Sams Morgen: Akkusativ oder Dativ beim Reflexivpronomen?
+### Peters Morgen: Akkusativ oder Dativ beim Reflexivpronomen?
 
-Bei einem **reflexiven Verb** zeigt die Handlung auf das Subjekt zurück: *Sam freut **sich** auf die Schule.* Meistens steht das Reflexivpronomen im **Akkusativ** (*mich, dich, sich, uns, euch, sich*). Kommt aber ein **zweites Akkusativobjekt** (z. B. ein Körperteil oder ein Gegenstand) dazu, wechseln *ich* und *du* in den **Dativ** (*mir, dir*)!
+Bei einem **reflexiven Verb** zeigt die Handlung auf das Subjekt zurück: *Peter freut **sich** auf die Schule.* Meistens steht das Reflexivpronomen im **Akkusativ** (*mich, dich, sich, uns, euch, sich*). Kommt aber ein **zweites Akkusativobjekt** (z. B. ein Körperteil oder ein Gegenstand) dazu, wechseln *ich* und *du* in den **Dativ** (*mir, dir*)!
 
 Reflexivpronomen: Akkusativ vs. Dativ:
 - Person | Akkusativ (Standard) | Dativ (+ 2. Objekt)
@@ -72,7 +72,7 @@ Bei *er/sie/es, wir, ihr, sie/Sie* sind Akkusativ- und Dativ-Reflexivpronomen id
      - mir: Hier gibt es kein zweites Akkusativobjekt → *sich freuen* steht mit Akkusativ *mich*.
 2. I wash my hands before breakfast. → Ich wasche mir vor dem Frühstück die Hände.
      - mich: *die Hände* ist bereits das Akkusativobjekt, deshalb wechselt das Reflexivpronomen zu Dativ *mir*.
-3. Sam and Nadia meet at the sports club. → Sam und Nadia treffen sich im Sportverein.
+3. Peter and Nadia meet at the sports club. → Peter und Nadia treffen sich im Sportverein.
 4. You (du) buy yourself a new bike. → Du kaufst dir ein neues Fahrrad.
 - Erklärung: Ohne weiteres Objekt steht Akkusativ (*mich, dich*), mit zusätzlichem Akkusativobjekt (*die Hände, ein Fahrrad*) steht Dativ (*mir, dir*).
 - So hilfst du: Die App prüft Wort für Wort gegen die Lösungen oben und nennt Fehler der Form (zum Beispiel Akzente) mit den Wörtern des Kindes. Sag nicht die Lösung vor: Frag nach der Regel (Endung, Geschlecht, Zeitform) oder nach einem ähnlichen Satz der Seite. Hält die App eine Fassung des Kindes für falsch, die du für richtig hältst, sag es dem Kind: Die App kennt nur die Fassungen oben.

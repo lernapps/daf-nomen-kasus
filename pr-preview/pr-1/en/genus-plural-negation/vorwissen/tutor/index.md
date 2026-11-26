@@ -51,7 +51,7 @@ For German cases and negation, you build on two basics: **Personal pronouns (nom
 
 ### Exercise recap-verb-pronomen
 
-- Task: Which sentence from Sam's daily life in Lindenberg uses correct verb-second word order and the right subject pronoun?
+- Task: Which sentence from Peter's daily life in Lindenberg uses correct verb-second word order and the right subject pronoun?
 - Answer format: choose one answer
 - Choices (✓ right, ✗ wrong, with the app's message):
   - ✓ Heute wohnt er bei Familie Weber in Lindenberg. – Correct! After the time expression *Heute*, the conjugated verb *wohnt* stays in position 2, followed by the subject *er*.

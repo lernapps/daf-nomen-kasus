@@ -41,9 +41,9 @@ Nennt die Adresse dieser Seite `bedarf=`, gilt jeder Abschnitt, den sie nennt, m
 
 Bestimmte (der, die, das) und unbestimmte (ein, eine) Artikel mit den vier Farbspalten lernen.
 
-### Die vier Farbspalten in Sams Zimmer
+### Die vier Farbspalten in Peters Zimmer
 
-Sam richtet sein neues Zimmer bei Familie Weber in Lindenberg ein. Jedes deutsche Nomen hat ein grammatisches Geschlecht (**Genus**): **maskulin** (*der*, blau), **feminin** (*die*, rot) oder **neutrum** (*das*, grün). Im Plural steht immer **die** (gelb).
+Peter richtet sein neues Zimmer bei Familie Weber in Lindenberg ein. Jedes deutsche Nomen hat ein grammatisches Geschlecht (**Genus**): **maskulin** (*der*, blau), **feminin** (*die*, rot) oder **neutrum** (*das*, grün). Im Plural steht immer **die** (gelb).
 
 Bild: 4-Fälle-Farbtabelle mit der ersten Zeile Nominativ: maskulin der/ein, feminin die/eine, neutrum das/ein, Plural die. Bildunterschrift: Unsere 4-Fälle-Farbtabelle startet im Nominativ. Jedes neue Kapitel ergänzt eine Zeile.
 
@@ -51,7 +51,7 @@ Bild: 4-Fälle-Farbtabelle mit der ersten Zeile Nominativ: maskulin der/ein, fem
 
 Lerne jedes Nomen immer mit seinem Artikel. Einige Endungen helfen dir: **-ung, -heit, -keit, -tät** sind immer feminin (*die Wohnung, die Freiheit*), **-chen, -lein** sind immer neutrum (*das Brötchen, das Mädchen*).
 
-Vokabeln (Deutsch – Englisch): Dinge in Sams Zimmer
+Vokabeln (Deutsch – Englisch): Dinge in Peters Zimmer
 - der Schreibtisch – desk. Beispiel: Der Schreibtisch steht am Fenster. – The desk stands by the window.
 - der Stuhl – chair
 - die Lampe – lamp. Beispiel: Eine Lampe steht auf dem Tisch. – A lamp is on the desk.
@@ -67,7 +67,7 @@ Vokabeln (Deutsch – Englisch): Dinge in Sams Zimmer
 
 ### Aufgabe artikel-zimmer-wahl
 
-- Aufgabe: Wähle den passenden bestimmten oder unbestimmten Artikel für Sams Zimmer.
+- Aufgabe: Wähle den passenden bestimmten oder unbestimmten Artikel für Peters Zimmer.
 - Antwortformat: für jede Lücke ein Wort wählen
 - Wie die App Fehler der Form zählt: Groß- und Kleinschreibung falsch, Akzente falsch, Bindestrich falsch, Apostroph falsch, Satzzeichen falsch
 - Einträge (Vorgabe → Lösung):
@@ -81,7 +81,7 @@ Vokabeln (Deutsch – Englisch): Dinge in Sams Zimmer
 
 ### Aufgabe genus-endung-check
 
-- Aufgabe: Sam kauft in Lindenberg ein Brötchen und sucht die Zeitung. Welches Paar stimmt?
+- Aufgabe: Peter kauft in Lindenberg ein Brötchen und sucht die Zeitung. Welches Paar stimmt?
 - Antwortformat: eine Antwort wählen
 - Antworten zur Wahl (✓ richtig, ✗ falsch, mit der Meldung der App):
   - ✓ das Brötchen (n) · die Zeitung (f) – Genau! Nomen auf *-chen* sind immer neutrum (*das*), Nomen auf *-ung* immer feminin (*die*).

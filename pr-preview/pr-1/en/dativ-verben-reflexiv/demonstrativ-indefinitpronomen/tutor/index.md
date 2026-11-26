@@ -43,7 +43,7 @@ Use dieser, welcher, jeder, man, jemand, niemand, etwas, and nichts accurately i
 
 ### Which Gift? — dieser, welcher, jeder
 
-Sam and Nadia are in the Lindenberg bookshop: *"**Welches** Buch gefällt Mina?" — "**Dieses** Buch hier!"* The words **dieser** (this), **welcher** (which), and **jeder** (every) take the exact endings of the **definite articles** (*der/die/das/den/dem*).
+Peter and Nadia are in the Lindenberg bookshop: *"**Welches** Buch gefällt Mina?" — "**Dieses** Buch hier!"* The words **dieser** (this), **welcher** (which), and **jeder** (every) take the exact endings of the **definite articles** (*der/die/das/den/dem*).
 
 dieser / welcher / jeder Follow the 4-Case Color Table:
 - Case | Masculine / Neuter | Feminine / Plural
@@ -72,7 +72,7 @@ Vocabulary (German – English): Key Indefinite Pronouns (Always 3rd Person Sing
 - Items (start → solution):
 1. Which backpack (der Rucksack, acc.) do you buy? → Welchen Rucksack kaufst du?
 2. I like this book (das Buch, nom.). → Dieses Buch gefällt mir.
-3. Sam helps every friend (der Freund, dat.). → Sam hilft jedem Freund.
+3. Peter helps every friend (der Freund, dat.). → Peter hilft jedem Freund.
 - Explanation: *dieser, welcher, jeder* carry the exact endings of *der/die/das* (*-er, -e, -es, -en, -em*).
 - How to help: the app checks word by word against the solutions above and names mistakes of form (e.g. accents) with the child's words. Do not give the solution: ask about the rule (ending, gender, tense) or about a similar sentence of the page. If the app takes a version of the child's as wrong that you think is right, tell the child: the app knows only the versions above.
 - Link: [../?via=tutor#demonstrativ-wahl](../?via=tutor#demonstrativ-wahl)

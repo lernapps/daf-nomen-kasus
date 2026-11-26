@@ -45,13 +45,13 @@ Sätze mit Empfänger (Dativ) und Sache (Akkusativ) in der richtigen Reihenfolge
 
 Verben wie **geben, schenken, zeigen, bringen, leihen, schreiben** brauchen oft zwei Objekte: den **Empfänger** im Dativ (Wem?) und die **Sache** im Akkusativ (Was?). Die Reihenfolge hängt davon ab, ob du Nomen oder Pronomen benutzt.
 
-Bild: Pfeildiagramm: Sam (Nominativ) schenkt -> der Schwester / ihr (Dativ, Empfänger) und ein Buch / es (Akkusativ, Sache). Regeln: 2 Nomen Dativ vor Akkusativ; 1 Pronomen zuerst; 2 Pronomen Akkusativ vor Dativ. Bildunterschrift: Drei klare Reihenfolge-Regeln für Sätze mit Dativ- und Akkusativobjekt.
+Bild: Pfeildiagramm: Peter (Nominativ) schenkt -> der Schwester / ihr (Dativ, Empfänger) und ein Buch / es (Akkusativ, Sache). Regeln: 2 Nomen Dativ vor Akkusativ; 1 Pronomen zuerst; 2 Pronomen Akkusativ vor Dativ. Bildunterschrift: Drei klare Reihenfolge-Regeln für Sätze mit Dativ- und Akkusativobjekt.
 
 Die 3 Reihenfolge-Regeln:
 - Kombination | Reihenfolge | Beispiel
-- 2 Nomen | Dativ → Akkusativ | Sam schenkt der Schwester ein Buch.
-- 1 Pronomen + 1 Nomen | Pronomen zuerst | Sam schenkt ihr ein Buch. / Sam schenkt es Mina.
-- 2 Pronomen | Akkusativ → Dativ | Sam schenkt es ihr.
+- 2 Nomen | Dativ → Akkusativ | Peter schenkt der Schwester ein Buch.
+- 1 Pronomen + 1 Nomen | Pronomen zuerst | Peter schenkt ihr ein Buch. / Peter schenkt es Mina.
+- 2 Pronomen | Akkusativ → Dativ | Peter schenkt es ihr.
 
 ### Übung
 
@@ -61,9 +61,9 @@ Die 3 Reihenfolge-Regeln:
 
 ### Aufgabe zwei-objekte-ordnen
 
-- Aufgabe: Bringe die Satzteile in die richtige Reihenfolge: *Sam lends his brother the bike.*
+- Aufgabe: Bringe die Satzteile in die richtige Reihenfolge: *Peter lends his brother the bike.*
 - Antwortformat: die Einträge in die richtige Reihenfolge bringen (die App zeigt sie gemischt)
-- Lösung: 1. Sam, 2. leiht, 3. dem Bruder, 4. das Fahrrad.
+- Lösung: 1. Peter, 2. leiht, 3. dem Bruder, 4. das Fahrrad.
 - Erklärung: Bei zwei Nomen steht der Dativ (*dem Bruder*) vor dem Akkusativ (*das Fahrrad*).
 - Link: [../?via=tutor#zwei-objekte-ordnen](../?via=tutor#zwei-objekte-ordnen)
 
@@ -73,9 +73,9 @@ Die 3 Reihenfolge-Regeln:
 - Antwortformat: für jede Lücke ein Wort wählen
 - Wie die App Fehler der Form zählt: Groß- und Kleinschreibung falsch, Akzente falsch, Bindestrich falsch, Apostroph falsch, Satzzeichen falsch
 - Einträge (Vorgabe → Lösung):
-1. Sam gives it (das Buch) to her (Mina). → Sam gibt es ihr.
-2. Lukas shows it (den Ball) to Sam. → Lukas zeigt ihn Sam.
+1. Peter gives it (das Buch) to her (Mina). → Peter gibt es ihr.
+2. Lukas shows it (den Ball) to Peter. → Lukas zeigt ihn Peter.
 3. Nadia writes him (Lukas) a card. → Nadia schreibt ihm eine Karte.
-- Erklärung: Ein Pronomen steht vor dem Nomen (*ihn Sam*, *ihm eine Karte*). Bei zwei Pronomen steht Akkusativ vor Dativ (*es ihr*).
+- Erklärung: Ein Pronomen steht vor dem Nomen (*ihn Peter*, *ihm eine Karte*). Bei zwei Pronomen steht Akkusativ vor Dativ (*es ihr*).
 - So hilfst du: Die App prüft Wort für Wort gegen die Lösungen oben und nennt Fehler der Form (zum Beispiel Akzente) mit den Wörtern des Kindes. Sag nicht die Lösung vor: Frag nach der Regel (Endung, Geschlecht, Zeitform) oder nach einem ähnlichen Satz der Seite. Hält die App eine Fassung des Kindes für falsch, die du für richtig hältst, sag es dem Kind: Die App kennt nur die Fassungen oben.
 - Link: [../?via=tutor#zwei-pronomen-wahl](../?via=tutor#zwei-pronomen-wahl)

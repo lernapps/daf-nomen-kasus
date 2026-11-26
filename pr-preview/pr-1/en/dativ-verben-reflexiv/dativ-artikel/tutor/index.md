@@ -43,7 +43,7 @@ Use definite, indefinite, and negative articles in the dative case (dem, der, de
 
 ### Who Gets the Gift? — Row 3 in the Dative
 
-Sam hands out his gifts to the Weber family. The recipient (indirect object — **Wem?** / to whom?) takes the **dative case**. In the dative, **all four columns change**: masculine and neuter take **-m** (*dem/einem*), feminine changes to **-r** (*der/einer*), and plural takes **den + -n** on the noun!
+Peter hands out his gifts to the Weber family. The recipient (indirect object — **Wem?** / to whom?) takes the **dative case**. In the dative, **all four columns change**: masculine and neuter take **-m** (*dem/einem*), feminine changes to **-r** (*der/einer*), and plural takes **den + -n** on the noun!
 
 Picture: 4-Case Color Table with Nominative, Accusative, and the new Dative row: dem/einem (m), der/einer (f), dem/einem (n), den + -n (pl). Caption: Row 3 (Dative): Remember M-R-M-N (dem, der, dem, den + -n on the plural noun).
 
@@ -63,10 +63,10 @@ In the dative plural, add **-n** to the noun unless its plural already ends in *
 - Answer format: choose a word for each gap
 - How the app counts mistakes of form: capital letters wrong, accents wrong, hyphen wrong, apostrophe wrong, punctuation wrong
 - Items (start → solution):
-1. Sam gives the brother (der Bruder) a book. → Sam schenkt dem Bruder ein Buch.
-2. Sam gives the sister (die Schwester) a ball. → Sam schenkt der Schwester einen Ball.
-3. Sam gives the child (das Kind) a game. → Sam schenkt dem Kind ein Spiel.
-4. Sam gives a friend (ein Freund) a card. → Sam schenkt einem Freund eine Karte.
+1. Peter gives the brother (der Bruder) a book. → Peter schenkt dem Bruder ein Buch.
+2. Peter gives the sister (die Schwester) a ball. → Peter schenkt der Schwester einen Ball.
+3. Peter gives the child (das Kind) a game. → Peter schenkt dem Kind ein Spiel.
+4. Peter gives a friend (ein Freund) a card. → Peter schenkt einem Freund eine Karte.
 - Explanation: Dative articles: masculine *dem/einem*, feminine *der/einer*, neuter *dem/einem*, plural *den*.
 - How to help: the app checks word by word against the solutions above and names mistakes of form (e.g. accents) with the child's words. Do not give the solution: ask about the rule (ending, gender, tense) or about a similar sentence of the page. If the app takes a version of the child's as wrong that you think is right, tell the child: the app knows only the versions above.
 - Link: [../?via=tutor#dativ-artikel-wahl](../?via=tutor#dativ-artikel-wahl)
@@ -77,7 +77,7 @@ In the dative plural, add **-n** to the noun unless its plural already ends in *
 - Answer format: fill in the gaps in German
 - How the app counts mistakes of form: capital letters wrong, accents wrong, hyphen wrong, apostrophe wrong, punctuation wrong
 - Items (start → solution):
-1. Sam writes cards to the friends (die Freunde). → Sam schreibt den Freunden Karten.
+1. Peter writes cards to the friends (die Freunde). → Peter schreibt den Freunden Karten.
      - den Freunde: In the dative plural, *Freunde* needs the extra *-n*: *den Freunden*.
 2. Frau Weber reads a story to the children (die Kinder). → Frau Weber liest den Kindern eine Geschichte vor.
      - den Kinder: *die Kinder* adds *-n* in the dative plural: *den Kindern*.

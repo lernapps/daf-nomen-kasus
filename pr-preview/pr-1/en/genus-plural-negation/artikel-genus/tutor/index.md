@@ -41,9 +41,9 @@ If the address of this page names `bedarf=`, each section it names holds, severa
 
 Use definite (der, die, das) and indefinite (ein, eine) articles with the four color columns.
 
-### The Four Color Columns in Sam's Room
+### The Four Color Columns in Peter's Room
 
-Sam is setting up his new room at the Webers' house in Lindenberg. Every German noun has a grammatical gender: **masculine** (*der*, blue), **feminine** (*die*, red), or **neuter** (*das*, green). Plural always uses **die** (amber).
+Peter is setting up his new room at the Webers' house in Lindenberg. Every German noun has a grammatical gender: **masculine** (*der*, blue), **feminine** (*die*, red), or **neuter** (*das*, green). Plural always uses **die** (amber).
 
 Picture: 4-Case Color Table showing the first row, Nominative: masculine der/ein, feminine die/eine, neuter das/ein, plural die. Caption: Our 4-Case Color Table starts with the nominative row. Each new chapter adds one row.
 
@@ -51,7 +51,7 @@ Picture: 4-Case Color Table showing the first row, Nominative: masculine der/ein
 
 Always learn each noun together with its article. Some endings give reliable clues: **-ung, -heit, -keit, -tät** are always feminine (*die Wohnung, die Freiheit*), and **-chen, -lein** are always neuter (*das Brötchen, das Mädchen*).
 
-Vocabulary (German – English): Objects in Sam's Room
+Vocabulary (German – English): Objects in Peter's Room
 - der Schreibtisch – desk. Example: Der Schreibtisch steht am Fenster. – The desk stands by the window.
 - der Stuhl – chair
 - die Lampe – lamp. Example: Eine Lampe steht auf dem Tisch. – A lamp is on the desk.
@@ -67,7 +67,7 @@ Vocabulary (German – English): Objects in Sam's Room
 
 ### Exercise artikel-zimmer-wahl
 
-- Task: Choose the matching definite or indefinite article for Sam's room.
+- Task: Choose the matching definite or indefinite article for Peter's room.
 - Answer format: choose a word for each gap
 - How the app counts mistakes of form: capital letters wrong, accents wrong, hyphen wrong, apostrophe wrong, punctuation wrong
 - Items (start → solution):
@@ -81,7 +81,7 @@ Vocabulary (German – English): Objects in Sam's Room
 
 ### Exercise genus-endung-check
 
-- Task: Sam buys a bread roll in Lindenberg and looks for the newspaper. Which pair is correct?
+- Task: Peter buys a bread roll in Lindenberg and looks for the newspaper. Which pair is correct?
 - Answer format: choose one answer
 - Choices (✓ right, ✗ wrong, with the app's message):
   - ✓ das Brötchen (n) · die Zeitung (f) – Exactly! Nouns ending in *-chen* are always neuter (*das*), and nouns ending in *-ung* are always feminine (*die*).

@@ -68,7 +68,7 @@ Bekommt **euer** eine Endung, fällt das zweite **e** weg: *euer Buch* (n), aber
 - Antwortformat: für jede Lücke ein Wort wählen
 - Wie die App Fehler der Form zählt: Groß- und Kleinschreibung falsch, Akzente falsch, Bindestrich falsch, Apostroph falsch, Satzzeichen falsch
 - Einträge (Vorgabe → Lösung):
-1. Sam is looking for his key (der Schlüssel). → Sam sucht seinen Schlüssel.
+1. Peter is looking for his key (der Schlüssel). → Peter sucht seinen Schlüssel.
 2. Mina takes her guitar (die Gitarre). → Mina nimmt ihre Gitarre.
 3. Is that your (pl.) room (das Zimmer)? → Ist das euer Zimmer?
 4. We like our friends (die Freunde, pl.). → Wir mögen unsere Freunde.
@@ -78,7 +78,7 @@ Bekommt **euer** eine Endung, fällt das zweite **e** weg: *euer Buch* (n), aber
 
 ### Aufgabe possessiv-nom-akk-luecken
 
-- Aufgabe: Ergänze den Possessivartikel in Sams Gespräch mit Lukas und Mina.
+- Aufgabe: Ergänze den Possessivartikel in Peters Gespräch mit Lukas und Mina.
 - Antwortformat: die Lücken auf Deutsch füllen
 - Wie die App Fehler der Form zählt: Groß- und Kleinschreibung falsch, Akzente falsch, Bindestrich falsch, Apostroph falsch, Satzzeichen falsch
 - Einträge (Vorgabe → Lösung):

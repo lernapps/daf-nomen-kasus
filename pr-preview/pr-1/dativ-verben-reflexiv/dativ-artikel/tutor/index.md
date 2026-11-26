@@ -43,7 +43,7 @@ Bestimmte, unbestimmte und negative Artikel im Dativ (dem, der, dem, den + -n) v
 
 ### Wer bekommt das Geschenk? — Zeile 3 im Dativ
 
-Sam verteilt seine Geschenke an Familie Weber. Die Person, die etwas bekommt (das indirekte Objekt — **Wem?**), steht im **Dativ**. Im Dativ ändern sich **alle vier Spalten**: Maskulin und Neutrum bekommen **-m** (*dem/einem*), Feminin wird zu **-r** (*der/einer*) und Plural wird zu **den + -n** am Nomen!
+Peter verteilt seine Geschenke an Familie Weber. Die Person, die etwas bekommt (das indirekte Objekt — **Wem?**), steht im **Dativ**. Im Dativ ändern sich **alle vier Spalten**: Maskulin und Neutrum bekommen **-m** (*dem/einem*), Feminin wird zu **-r** (*der/einer*) und Plural wird zu **den + -n** am Nomen!
 
 Bild: 4-Fälle-Farbtabelle mit Nominativ, Akkusativ und neu der Dativ-Zeile: dem/einem (m), der/einer (f), dem/einem (n), den + -n (pl). Bildunterschrift: Zeile 3 (Dativ): Merkwort M-R-M-N (dem, der, dem, den + -n am Pluralnomen).
 
@@ -63,10 +63,10 @@ Im Dativ Plural bekommt das Nomen ein **-n**, wenn der Plural nicht schon auf **
 - Antwortformat: für jede Lücke ein Wort wählen
 - Wie die App Fehler der Form zählt: Groß- und Kleinschreibung falsch, Akzente falsch, Bindestrich falsch, Apostroph falsch, Satzzeichen falsch
 - Einträge (Vorgabe → Lösung):
-1. Sam gives the brother (der Bruder) a book. → Sam schenkt dem Bruder ein Buch.
-2. Sam gives the sister (die Schwester) a ball. → Sam schenkt der Schwester einen Ball.
-3. Sam gives the child (das Kind) a game. → Sam schenkt dem Kind ein Spiel.
-4. Sam gives a friend (ein Freund) a card. → Sam schenkt einem Freund eine Karte.
+1. Peter gives the brother (der Bruder) a book. → Peter schenkt dem Bruder ein Buch.
+2. Peter gives the sister (die Schwester) a ball. → Peter schenkt der Schwester einen Ball.
+3. Peter gives the child (das Kind) a game. → Peter schenkt dem Kind ein Spiel.
+4. Peter gives a friend (ein Freund) a card. → Peter schenkt einem Freund eine Karte.
 - Erklärung: Dativ-Artikel: maskulin *dem/einem*, feminin *der/einer*, neutrum *dem/einem*, Plural *den*.
 - So hilfst du: Die App prüft Wort für Wort gegen die Lösungen oben und nennt Fehler der Form (zum Beispiel Akzente) mit den Wörtern des Kindes. Sag nicht die Lösung vor: Frag nach der Regel (Endung, Geschlecht, Zeitform) oder nach einem ähnlichen Satz der Seite. Hält die App eine Fassung des Kindes für falsch, die du für richtig hältst, sag es dem Kind: Die App kennt nur die Fassungen oben.
 - Link: [../?via=tutor#dativ-artikel-wahl](../?via=tutor#dativ-artikel-wahl)
@@ -77,7 +77,7 @@ Im Dativ Plural bekommt das Nomen ein **-n**, wenn der Plural nicht schon auf **
 - Antwortformat: die Lücken auf Deutsch füllen
 - Wie die App Fehler der Form zählt: Groß- und Kleinschreibung falsch, Akzente falsch, Bindestrich falsch, Apostroph falsch, Satzzeichen falsch
 - Einträge (Vorgabe → Lösung):
-1. Sam writes cards to the friends (die Freunde). → Sam schreibt den Freunden Karten.
+1. Peter writes cards to the friends (die Freunde). → Peter schreibt den Freunden Karten.
      - den Freunde: Im Dativ Plural braucht *Freunde* das Extra-*-n*: *den Freunden*.
 2. Frau Weber reads a story to the children (die Kinder). → Frau Weber liest den Kindern eine Geschichte vor.
      - den Kinder: *die Kinder* bekommt im Dativ Plural ein *-n*: *den Kindern*.

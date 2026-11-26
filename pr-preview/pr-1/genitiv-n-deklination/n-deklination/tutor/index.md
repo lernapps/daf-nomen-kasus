@@ -43,7 +43,7 @@ Häufige schwache maskuline Nomen wie der Mensch, der Kollege und der Student au
 
 ### Die Musterkarte für schwache maskuline Nomen
 
-Bei einem Nachbarschaftsfest in Lindenberg lernt Sam einen Kollegen von Herr Weber, den Nachbarn und einen Studenten kennen. Eine besondere Gruppe **maskuliner Nomen** — die **n-Deklination** — hängt in **allen Fällen außer Nominativ Singular** ein **-n** oder **-en** an!
+Bei einem Nachbarschaftsfest in Lindenberg lernt Peter einen Kollegen von Herr Weber, den Nachbarn und einen Studenten kennen. Eine besondere Gruppe **maskuliner Nomen** — die **n-Deklination** — hängt in **allen Fällen außer Nominativ Singular** ein **-n** oder **-en** an!
 
 Bild: Musterkarte zur n-Deklination: Nominativ Singular der Kollege / der Mensch, aber Akkusativ den Kollegen / den Menschen, Dativ dem Kollegen / dem Menschen, Genitiv des Kollegen / des Menschen. Bildunterschrift: Nur im Nominativ Singular steht die Grundform; in Akkusativ, Dativ, Genitiv (und Plural) kommt -n/-en dazu.
 
@@ -68,7 +68,7 @@ Vokabeln (Deutsch – Englisch): Wichtige Nomen der n-Deklination
 - Antwortformat: die Lücken auf Deutsch füllen
 - Wie die App Fehler der Form zählt: Groß- und Kleinschreibung falsch, Akzente falsch, Bindestrich falsch, Apostroph falsch, Satzzeichen falsch
 - Einträge (Vorgabe → Lösung):
-1. Sam meets a colleague (der Kollege, acc.) of Herr Weber. → Sam trifft einen Kollegen von Herr Weber.
+1. Peter meets a colleague (der Kollege, acc.) of Herr Weber. → Peter trifft einen Kollegen von Herr Weber.
      - Kollege: *der Kollege* gehört zur n-Deklination → im Akkusativ *einen Kollegen*.
 2. Lukas helps the neighbor (der Nachbar, dat.) in the garden. → Lukas hilft dem Nachbarn im Garten.
      - Nachbar: *der Nachbar* bekommt im Dativ ein *-n*: *dem Nachbarn*.

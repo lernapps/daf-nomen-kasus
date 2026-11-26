@@ -68,7 +68,7 @@ In the dative too, *euer* drops its second **e**: *eurem* (m/n), *eurer* (f), *e
 - Answer format: fill in the gaps in German
 - How the app counts mistakes of form: capital letters wrong, accents wrong, hyphen wrong, apostrophe wrong, punctuation wrong
 - Items (start → solution):
-1. Sam helps his host brother (sein Gastbruder). → Sam hilft seinem Gastbruder.
+1. Peter helps his host brother (sein Gastbruder). → Peter hilft seinem Gastbruder.
      - seinen: *helfen* requires the dative: masculine dative ends in *-em* → *seinem*.
 2. Mina gives her mother (ihre Mutter) flowers. → Mina schenkt ihrer Mutter Blumen.
      - ihre: *Mutter* is feminine and the recipient (dative) → *-er*: *ihrer Mutter*.
@@ -84,9 +84,9 @@ In the dative too, *euer* drops its second **e**: *eurem* (m/n), *eurer* (f), *e
 - Task: Which sentence is completely correct in the dative plural?
 - Answer format: choose one answer
 - Choices (✓ right, ✗ wrong, with the app's message):
-  - ✓ Sam zeigt seinen Freunden das Zimmer. – Correct! *seinen* (dative plural *-en*) and *Freunden* (noun + *-n*).
-  - ✗ Sam zeigt seinen Freunde das Zimmer. – The possessive determiner is right, but *Freunden* is missing its dative plural *-n*.
-  - ✗ Sam zeigt seinem Freunden das Zimmer. – *-em* is singular (m/n). Dative plural requires *-en* (*seinen*).
-- Solution: Sam zeigt seinen Freunden das Zimmer.
+  - ✓ Peter zeigt seinen Freunden das Zimmer. – Correct! *seinen* (dative plural *-en*) and *Freunden* (noun + *-n*).
+  - ✗ Peter zeigt seinen Freunde das Zimmer. – The possessive determiner is right, but *Freunden* is missing its dative plural *-n*.
+  - ✗ Peter zeigt seinem Freunden das Zimmer. – *-em* is singular (m/n). Dative plural requires *-en* (*seinen*).
+- Solution: Peter zeigt seinen Freunden das Zimmer.
 - Explanation: In the dative plural, the possessive ends in *-en* and the noun takes *-n*.
 - Link: [../?via=tutor#possessiv-dativ-check](../?via=tutor#possessiv-dativ-check)

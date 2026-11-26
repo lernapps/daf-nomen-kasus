@@ -49,11 +49,11 @@ Picture: Complete 4-Case Color Table with Nominative, Accusative, Dative, and th
 
 **Remember: When -s vs. -es — and What About Names?**
 
-Masculine and neuter nouns usually add **-s** (*des Lehrers, des Regens*). Short one-syllable nouns or words ending in *s, ß, x, z* add **-es** (*des Tages, des Hauses*). Proper names take **-s** before the noun: *Sams Zimmer, Minas Gitarre*.
+Masculine and neuter nouns usually add **-s** (*des Lehrers, des Regens*). Short one-syllable nouns or words ending in *s, ß, x, z* add **-es** (*des Tages, des Hauses*). Proper names take **-s** before the noun: *Peters Zimmer, Minas Gitarre*.
 
 **Example: The Four Genitive Prepositions in Lindenberg**
 
-**wegen** (because of): *Wegen **des Regens** fährt Sam mit dem Bus.* · **trotz** (despite): *Trotz **der Kälte** trainiert Mina draußen.* · **während** (during): *Während **des Unterrichts** macht Sam Notizen.* · **statt** (instead of): *Statt **eines Buches** kauft er ein Spiel.*
+**wegen** (because of): *Wegen **des Regens** fährt Peter mit dem Bus.* · **trotz** (despite): *Trotz **der Kälte** trainiert Mina draußen.* · **während** (during): *Während **des Unterrichts** macht Peter Notizen.* · **statt** (instead of): *Statt **eines Buches** kauft er ein Spiel.*
 
 ### Practice
 
@@ -71,7 +71,7 @@ Masculine and neuter nouns usually add **-s** (*des Lehrers, des Regens*). Short
      - des Regen: In the genitive, masculine *Regen* needs the *-s* ending: *des Regens*.
 2. That is the jacket of the sister (die Schwester). → Das ist die Jacke der Schwester.
      - der Schwesters: Feminine nouns do **not** take *-s* in the genitive: *der Schwester*.
-3. During the weekend (das Wochenende), Sam visits Nadia. → Während des Wochenendes besucht Sam Nadia.
+3. During the weekend (das Wochenende), Peter visits Nadia. → Während des Wochenendes besucht Peter Nadia.
 4. Despite the cold (die Kälte), Lukas rides his bike. → Trotz der Kälte fährt Lukas Fahrrad.
 - Explanation: Masculine and neuter form the genitive with *des/eines* + *-(e)s* on the noun; feminine and plural use *der/einer/keiner* with no *-s*.
 - How to help: the app checks word by word against the solutions above and names mistakes of form (e.g. accents) with the child's words. Do not give the solution: ask about the rule (ending, gender, tense) or about a similar sentence of the page. If the app takes a version of the child's as wrong that you think is right, tell the child: the app knows only the versions above.
@@ -79,7 +79,7 @@ Masculine and neuter nouns usually add **-s** (*des Lehrers, des Regens*). Short
 
 ### Exercise genitiv-besitz-check
 
-- Task: How does Sam correctly refer to the room of his host brother (*mein Gastbruder*, m)?
+- Task: How does Peter correctly refer to the room of his host brother (*mein Gastbruder*, m)?
 - Answer format: choose one answer
 - Choices (✓ right, ✗ wrong, with the app's message):
   - ✓ Das ist das Zimmer meines Gastbruders. – Correct! Possessive *meines* (masculine genitive) + noun *Gastbruders* (+ *-s*).

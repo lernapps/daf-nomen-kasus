@@ -43,7 +43,7 @@ Personalpronomen im Akkusativ (mich, dich, ihn, sie, es, uns, euch, sie, Sie) al
 
 ### Stellvertreter-Karten im Akkusativ
 
-Statt ein Nomen oder einen Namen zu wiederholen, legen Sam und Nadia **Stellvertreter-Karten** (Personalpronomen) auf den Tisch. Steht das Pronomen als direktes Objekt (Wen oder was?), brauchst du die **Akkusativ-Form**: *Kennst du Lukas? Ja, ich kenne **ihn**!*
+Statt ein Nomen oder einen Namen zu wiederholen, legen Peter und Nadia **Stellvertreter-Karten** (Personalpronomen) auf den Tisch. Steht das Pronomen als direktes Objekt (Wen oder was?), brauchst du die **Akkusativ-Form**: *Kennst du Lukas? Ja, ich kenne **ihn**!*
 
 Personalpronomen: Nominativ → Akkusativ:
 - Nominativ | Akkusativ | Beispiel
@@ -80,7 +80,7 @@ Im Deutschen richtet sich das Pronomen nach dem **Genus** des Nomens, nicht nach
      - es: *der Rucksack* ist maskulin — im Deutschen ersetzt man ihn mit *ihn*, nicht mit *es*.
 2. Nadia visits us in Lindenberg. → Nadia besucht uns in Lindenberg.
 3. Do you see the lamp (die Lampe)? Yes, I see it. → Siehst du die Lampe? Ja, ich sehe sie.
-4. Sam asks me about the homework. → Sam fragt mich nach den Hausaufgaben.
+4. Peter asks me about the homework. → Peter fragt mich nach den Hausaufgaben.
      - mir: *fragen* nimmt den Akkusativ → *mich* (nicht Dativ *mir*).
 - Erklärung: Achte bei Sachen auf das Genus (*der→ihn, die→sie, das→es*) und bei Personen auf die Akkusativform (*mich, dich, ihn, sie, uns, euch*).
 - So hilfst du: Die App prüft Wort für Wort gegen die Lösungen oben und nennt Fehler der Form (zum Beispiel Akzente) mit den Wörtern des Kindes. Sag nicht die Lösung vor: Frag nach der Regel (Endung, Geschlecht, Zeitform) oder nach einem ähnlichen Satz der Seite. Hält die App eine Fassung des Kindes für falsch, die du für richtig hältst, sag es dem Kind: Die App kennt nur die Fassungen oben.

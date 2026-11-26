@@ -41,9 +41,9 @@ If the address of this page names `bedarf=`, each section it names holds, severa
 
 Form common German noun plurals and use them with the plural article die.
 
-### Sam Unpacks His Boxes
+### Peter Unpacks His Boxes
 
-Sam's moving boxes hold more than one book and one photo! In the plural, **every** German noun uses the definite article **die** — whether it was *der*, *die*, or *das* in the singular. There is no indefinite article in the plural.
+Peter's moving boxes hold more than one book and one photo! In the plural, **every** German noun uses the definite article **die** — whether it was *der*, *die*, or *das* in the singular. There is no indefinite article in the plural.
 
 The Five Most Common Plural Patterns:
 - Ending | Singular → Plural | Typical for
@@ -53,7 +53,7 @@ The Five Most Common Plural Patterns:
 - -s | das Foto → die Fotos | words ending in a, i, o, u & loanwords
 - — (often + umlaut) | das Zimmer → die Zimmer | nouns ending in -er, -el, -en, -chen
 
-Vocabulary (German – English): Key Plurals for Sam's Room
+Vocabulary (German – English): Key Plurals for Peter's Room
 - der Tisch, die Tische – table
 - der Stuhl, die Stühle – chair
 - die Lampe, die Lampen – lamp

@@ -68,7 +68,7 @@ Auch im Dativ fällt das zweite **e** bei *euer* weg: *eurem* (m/n), *eurer* (f)
 - Antwortformat: die Lücken auf Deutsch füllen
 - Wie die App Fehler der Form zählt: Groß- und Kleinschreibung falsch, Akzente falsch, Bindestrich falsch, Apostroph falsch, Satzzeichen falsch
 - Einträge (Vorgabe → Lösung):
-1. Sam helps his host brother (sein Gastbruder). → Sam hilft seinem Gastbruder.
+1. Peter helps his host brother (sein Gastbruder). → Peter hilft seinem Gastbruder.
      - seinen: *helfen* verlangt den Dativ: Maskulin hat im Dativ *-em* → *seinem*.
 2. Mina gives her mother (ihre Mutter) flowers. → Mina schenkt ihrer Mutter Blumen.
      - ihre: *Mutter* ist feminin und Empfängerin (Dativ) → *-er*: *ihrer Mutter*.
@@ -84,9 +84,9 @@ Auch im Dativ fällt das zweite **e** bei *euer* weg: *eurem* (m/n), *eurer* (f)
 - Aufgabe: Welcher Satz ist im Dativ Plural komplett richtig?
 - Antwortformat: eine Antwort wählen
 - Antworten zur Wahl (✓ richtig, ✗ falsch, mit der Meldung der App):
-  - ✓ Sam zeigt seinen Freunden das Zimmer. – Richtig! *seinen* (Dativ Plural *-en*) und *Freunden* (Nomen + *-n*).
-  - ✗ Sam zeigt seinen Freunde das Zimmer. – Der Possessivartikel stimmt, aber im Dativ Plural fehlt das *-n* an *Freunden*.
-  - ✗ Sam zeigt seinem Freunden das Zimmer. – *-em* ist Singular (m/n). Im Dativ Plural braucht der Possessivartikel *-en* (*seinen*).
-- Lösung: Sam zeigt seinen Freunden das Zimmer.
+  - ✓ Peter zeigt seinen Freunden das Zimmer. – Richtig! *seinen* (Dativ Plural *-en*) und *Freunden* (Nomen + *-n*).
+  - ✗ Peter zeigt seinen Freunde das Zimmer. – Der Possessivartikel stimmt, aber im Dativ Plural fehlt das *-n* an *Freunden*.
+  - ✗ Peter zeigt seinem Freunden das Zimmer. – *-em* ist Singular (m/n). Im Dativ Plural braucht der Possessivartikel *-en* (*seinen*).
+- Lösung: Peter zeigt seinen Freunden das Zimmer.
 - Erklärung: Im Dativ Plural endet der Possessivartikel auf *-en* und das Nomen bekommt ein *-n*.
 - Link: [../?via=tutor#possessiv-dativ-check](../?via=tutor#possessiv-dativ-check)

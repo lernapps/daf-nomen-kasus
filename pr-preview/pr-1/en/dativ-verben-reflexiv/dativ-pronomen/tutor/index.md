@@ -49,7 +49,7 @@ Picture: Stand-in Cards for all personal pronouns showing Nominative, Accusative
 
 **Example: Accusative vs. Dative Side by Side**
 
-Compare: *Ich sehe **ihn**.* (Whom? Accusative) — *Ich gebe **ihm** das Buch.* (To whom? Dative). *Sam besucht **sie** (Mina).* — *Sam schenkt **ihr** eine Karte.*
+Compare: *Ich sehe **ihn**.* (Whom? Accusative) — *Ich gebe **ihm** das Buch.* (To whom? Dative). *Peter besucht **sie** (Mina).* — *Peter schenkt **ihr** eine Karte.*
 
 ### Practice
 
@@ -73,10 +73,10 @@ Compare: *Ich sehe **ihn**.* (Whom? Accusative) — *Ich gebe **ihm** das Buch.*
 - Items (start → solution):
 1. Lukas shows me (ich) the school in Lindenberg. → Lukas zeigt mir die Schule in Lindenberg.
      - mich: Who is being shown something (to whom?) → dative *mir*, not accusative *mich*.
-2. Sam buys her (Mina) a book. → Sam kauft ihr ein Buch.
+2. Peter buys her (Mina) a book. → Peter kauft ihr ein Buch.
      - sie: Mina is the recipient (to whom?) → dative of *sie (f)* is *ihr*.
 3. Nadia writes him (Lukas) a message. → Nadia schreibt ihm eine Nachricht.
-4. Sam brings them (the Webers) bread rolls. → Sam bringt ihnen Brötchen.
+4. Peter brings them (the Webers) bread rolls. → Peter bringt ihnen Brötchen.
 - Explanation: Recipients (to whom?) always use the dative cards: *mir, dir, ihm, ihr, uns, euch, ihnen, Ihnen*.
 - How to help: the app checks word by word against the solutions above and names mistakes of form (e.g. accents) with the child's words. Do not give the solution: ask about the rule (ending, gender, tense) or about a similar sentence of the page. If the app takes a version of the child's as wrong that you think is right, tell the child: the app knows only the versions above.
 - Link: [../?via=tutor#dativ-pronomen-luecken](../?via=tutor#dativ-pronomen-luecken)

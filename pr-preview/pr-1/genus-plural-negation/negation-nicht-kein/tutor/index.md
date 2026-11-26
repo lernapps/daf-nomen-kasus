@@ -41,9 +41,9 @@ Nennt die Adresse dieser Seite `bedarf=`, gilt jeder Abschnitt, den sie nennt, m
 
 Nomen mit kein/keine und Verben, Adjektive oder ganze Sätze mit nicht verneinen.
 
-### Was fehlt in Sams Zimmer?
+### Was fehlt in Peters Zimmer?
 
-Sam prüft seine Checkliste in Lindenberg. Im Deutschen gibt es zwei Verneinungswörter: **kein/keine** und **nicht**. Welches Wort du wählst, hängt davon ab, was du verneinst.
+Peter prüft seine Checkliste in Lindenberg. Im Deutschen gibt es zwei Verneinungswörter: **kein/keine** und **nicht**. Welches Wort du wählst, hängt davon ab, was du verneinst.
 
 kein vs. nicht im Überblick:
 - Wort | Verneint … | Beispiel
@@ -52,7 +52,7 @@ kein vs. nicht im Überblick:
 
 **Beispiel: Wo steht nicht im Satz?**
 
-Verneinst du ein einzelnes Wort (z. B. ein Adjektiv), steht **nicht direkt davor**: *Der Stuhl ist **nicht** neu.* Verneinst du den ganzen Satz (das Verb), steht **nicht am Satzende**: *Sam schläft heute **nicht**.*
+Verneinst du ein einzelnes Wort (z. B. ein Adjektiv), steht **nicht direkt davor**: *Der Stuhl ist **nicht** neu.* Verneinst du den ganzen Satz (das Verb), steht **nicht am Satzende**: *Peter schläft heute **nicht**.*
 
 ### Übung
 
@@ -76,7 +76,7 @@ Verneinst du ein einzelnes Wort (z. B. ein Adjektiv), steht **nicht direkt davor
 
 ### Aufgabe negation-wortstellung
 
-- Aufgabe: Sam sagt, dass das nicht sein Buch ist. Welcher Satz ist richtig?
+- Aufgabe: Peter sagt, dass das nicht sein Buch ist. Welcher Satz ist richtig?
 - Antwortformat: eine Antwort wählen
 - Antworten zur Wahl (✓ richtig, ✗ falsch, mit der Meldung der App):
   - ✓ Das ist nicht das Buch von Lukas. – Richtig! Vor einem bestimmten Artikel (*das Buch*) steht immer *nicht*, niemals *kein*.

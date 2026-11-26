@@ -51,7 +51,7 @@ Für die vier Fälle und die Verneinung brauchst du zwei Grundlagen: **Personalp
 
 ### Aufgabe recap-verb-pronomen
 
-- Aufgabe: Welcher Satz aus Sams Alltag in Lindenberg hat die richtige Verb-Zweitstellung und das passende Subjektpronomen?
+- Aufgabe: Welcher Satz aus Peters Alltag in Lindenberg hat die richtige Verb-Zweitstellung und das passende Subjektpronomen?
 - Antwortformat: eine Antwort wählen
 - Antworten zur Wahl (✓ richtig, ✗ falsch, mit der Meldung der App):
   - ✓ Heute wohnt er bei Familie Weber in Lindenberg. – Richtig! Nach der Zeitangabe *Heute* steht das konjugierte Verb *wohnt* an Position 2, danach folgt das Subjekt *er*.

@@ -41,9 +41,9 @@ If the address of this page names `bedarf=`, each section it names holds, severa
 
 Use common reflexive verbs like sich freuen, sich treffen, and sich die Hände waschen.
 
-### Sam's Morning: Accusative or Dative Reflexive Pronoun?
+### Peter's Morning: Accusative or Dative Reflexive Pronoun?
 
-With a **reflexive verb**, the action refers back to the subject: *Sam freut **sich** auf die Schule.* Usually the reflexive pronoun is **accusative** (*mich, dich, sich, uns, euch, sich*). However, when there is a **second accusative object** (such as a body part or item), *ich* and *du* switch to **dative** (*mir, dir*)!
+With a **reflexive verb**, the action refers back to the subject: *Peter freut **sich** auf die Schule.* Usually the reflexive pronoun is **accusative** (*mich, dich, sich, uns, euch, sich*). However, when there is a **second accusative object** (such as a body part or item), *ich* and *du* switch to **dative** (*mir, dir*)!
 
 Reflexive Pronouns: Accusative vs. Dative:
 - Person | Accusative (default) | Dative (+ 2nd object)
@@ -72,7 +72,7 @@ For *er/sie/es, wir, ihr, sie/Sie*, accusative and dative reflexive pronouns are
      - mir: There is no second accusative object → *sich freuen* takes accusative *mich*.
 2. I wash my hands before breakfast. → Ich wasche mir vor dem Frühstück die Hände.
      - mich: *die Hände* is already the accusative object, so the reflexive pronoun shifts to dative *mir*.
-3. Sam and Nadia meet at the sports club. → Sam und Nadia treffen sich im Sportverein.
+3. Peter and Nadia meet at the sports club. → Peter und Nadia treffen sich im Sportverein.
 4. You (du) buy yourself a new bike. → Du kaufst dir ein neues Fahrrad.
 - Explanation: Without another object use accusative (*mich, dich*); with an extra accusative object (*die Hände, ein Fahrrad*) use dative (*mir, dir*).
 - How to help: the app checks word by word against the solutions above and names mistakes of form (e.g. accents) with the child's words. Do not give the solution: ask about the rule (ending, gender, tense) or about a similar sentence of the page. If the app takes a version of the child's as wrong that you think is right, tell the child: the app knows only the versions above.

@@ -68,7 +68,7 @@ Whenever **euer** takes an ending, it drops the second **e**: *euer Buch* (n), b
 - Answer format: choose a word for each gap
 - How the app counts mistakes of form: capital letters wrong, accents wrong, hyphen wrong, apostrophe wrong, punctuation wrong
 - Items (start → solution):
-1. Sam is looking for his key (der Schlüssel). → Sam sucht seinen Schlüssel.
+1. Peter is looking for his key (der Schlüssel). → Peter sucht seinen Schlüssel.
 2. Mina takes her guitar (die Gitarre). → Mina nimmt ihre Gitarre.
 3. Is that your (pl.) room (das Zimmer)? → Ist das euer Zimmer?
 4. We like our friends (die Freunde, pl.). → Wir mögen unsere Freunde.
@@ -78,7 +78,7 @@ Whenever **euer** takes an ending, it drops the second **e**: *euer Buch* (n), b
 
 ### Exercise possessiv-nom-akk-luecken
 
-- Task: Fill in the possessive determiner in Sam's conversation with Lukas and Mina.
+- Task: Fill in the possessive determiner in Peter's conversation with Lukas and Mina.
 - Answer format: fill in the gaps in German
 - How the app counts mistakes of form: capital letters wrong, accents wrong, hyphen wrong, apostrophe wrong, punctuation wrong
 - Items (start → solution):

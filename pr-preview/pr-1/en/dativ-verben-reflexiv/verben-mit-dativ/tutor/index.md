@@ -49,7 +49,7 @@ Vocabulary (German – English): Core Dative Verbs in Lindenberg
 - helfen – to help. Example: Lukas hilft mir bei den Hausaufgaben. – Lukas helps me with homework.
 - gefallen – to please / to be liked by. Example: Das Zimmer gefällt ihm sehr. – He really likes the room.
 - gehören – to belong to. Example: Das Fahrrad gehört der Schwester. – The bike belongs to the sister.
-- danken – to thank. Example: Sam dankt den Eltern. – Sam thanks the parents.
+- danken – to thank. Example: Peter dankt den Eltern. – Peter thanks the parents.
 - schmecken – to taste good to. Example: Die Brötchen schmecken uns. – We enjoy the bread rolls.
 - passen – to fit / to suit. Example: Die Jacke passt dir gut. – The jacket fits you well.
 

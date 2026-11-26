@@ -49,11 +49,11 @@ Bild: Komplette 4-Fälle-Farbtabelle mit Nominativ, Akkusativ, Dativ und neu der
 
 **Merke: Wann -s, wann -es — und was gilt bei Namen?**
 
-Maskuline und neutrale Nomen erhalten meist **-s** (*des Lehrers, des Regens*). Kurze einsilbige Nomen oder Wörter auf *s, ß, x, z* erhalten **-es** (*des Tages, des Hauses*). Eigennamen stehen mit **-s** vor dem Nomen: *Sams Zimmer, Minas Gitarre*.
+Maskuline und neutrale Nomen erhalten meist **-s** (*des Lehrers, des Regens*). Kurze einsilbige Nomen oder Wörter auf *s, ß, x, z* erhalten **-es** (*des Tages, des Hauses*). Eigennamen stehen mit **-s** vor dem Nomen: *Peters Zimmer, Minas Gitarre*.
 
 **Beispiel: Die vier Genitivpräpositionen in Lindenberg**
 
-**wegen** (because of): *Wegen **des Regens** fährt Sam mit dem Bus.* · **trotz** (despite): *Trotz **der Kälte** trainiert Mina draußen.* · **während** (during): *Während **des Unterrichts** macht Sam Notizen.* · **statt** (instead of): *Statt **eines Buches** kauft er ein Spiel.*
+**wegen** (because of): *Wegen **des Regens** fährt Peter mit dem Bus.* · **trotz** (despite): *Trotz **der Kälte** trainiert Mina draußen.* · **während** (during): *Während **des Unterrichts** macht Peter Notizen.* · **statt** (instead of): *Statt **eines Buches** kauft er ein Spiel.*
 
 ### Übung
 
@@ -71,7 +71,7 @@ Maskuline und neutrale Nomen erhalten meist **-s** (*des Lehrers, des Regens*). 
      - des Regen: Im Genitiv braucht das maskuline Nomen *Regen* die Endung *-s*: *des Regens*.
 2. That is the jacket of the sister (die Schwester). → Das ist die Jacke der Schwester.
      - der Schwesters: Feminine Nomen bekommen im Genitiv **kein** *-s*: *der Schwester*.
-3. During the weekend (das Wochenende), Sam visits Nadia. → Während des Wochenendes besucht Sam Nadia.
+3. During the weekend (das Wochenende), Peter visits Nadia. → Während des Wochenendes besucht Peter Nadia.
 4. Despite the cold (die Kälte), Lukas rides his bike. → Trotz der Kälte fährt Lukas Fahrrad.
 - Erklärung: Maskulin und Neutrum bilden den Genitiv mit *des/eines* + *-(e)s* am Nomen; Feminin und Plural mit *der/einer/keiner* ohne *-s*.
 - So hilfst du: Die App prüft Wort für Wort gegen die Lösungen oben und nennt Fehler der Form (zum Beispiel Akzente) mit den Wörtern des Kindes. Sag nicht die Lösung vor: Frag nach der Regel (Endung, Geschlecht, Zeitform) oder nach einem ähnlichen Satz der Seite. Hält die App eine Fassung des Kindes für falsch, die du für richtig hältst, sag es dem Kind: Die App kennt nur die Fassungen oben.
@@ -79,7 +79,7 @@ Maskuline und neutrale Nomen erhalten meist **-s** (*des Lehrers, des Regens*). 
 
 ### Aufgabe genitiv-besitz-check
 
-- Aufgabe: Wie fragt Sam richtig nach dem Zimmer seines Gastbruders (*mein Gastbruder*, m)?
+- Aufgabe: Wie fragt Peter richtig nach dem Zimmer seines Gastbruders (*mein Gastbruder*, m)?
 - Antwortformat: eine Antwort wählen
 - Antworten zur Wahl (✓ richtig, ✗ falsch, mit der Meldung der App):
   - ✓ Das ist das Zimmer meines Gastbruders. – Richtig! Possessivartikel *meines* (Genitiv m) + Nomen *Gastbruders* (+ *-s*).

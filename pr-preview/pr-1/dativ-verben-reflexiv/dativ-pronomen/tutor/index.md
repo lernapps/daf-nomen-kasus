@@ -49,7 +49,7 @@ Bild: Stellvertreter-Karten für alle Personalpronomen mit Nominativ, Akkusativ 
 
 **Beispiel: Akkusativ vs. Dativ im Vergleich**
 
-Vergleiche: *Ich sehe **ihn**.* (Wen? Akkusativ) — *Ich gebe **ihm** das Buch.* (Wem? Dativ). *Sam besucht **sie** (Mina).* — *Sam schenkt **ihr** eine Karte.*
+Vergleiche: *Ich sehe **ihn**.* (Wen? Akkusativ) — *Ich gebe **ihm** das Buch.* (Wem? Dativ). *Peter besucht **sie** (Mina).* — *Peter schenkt **ihr** eine Karte.*
 
 ### Übung
 
@@ -73,10 +73,10 @@ Vergleiche: *Ich sehe **ihn**.* (Wen? Akkusativ) — *Ich gebe **ihm** das Buch.
 - Einträge (Vorgabe → Lösung):
 1. Lukas shows me (ich) the school in Lindenberg. → Lukas zeigt mir die Schule in Lindenberg.
      - mich: Wer bekommt etwas gezeigt (Wem?) → Dativ *mir*, nicht Akkusativ *mich*.
-2. Sam buys her (Mina) a book. → Sam kauft ihr ein Buch.
+2. Peter buys her (Mina) a book. → Peter kauft ihr ein Buch.
      - sie: Mina ist die Empfängerin (Wem?) → Dativ von *sie (f)* ist *ihr*.
 3. Nadia writes him (Lukas) a message. → Nadia schreibt ihm eine Nachricht.
-4. Sam brings them (the Webers) bread rolls. → Sam bringt ihnen Brötchen.
+4. Peter brings them (the Webers) bread rolls. → Peter bringt ihnen Brötchen.
 - Erklärung: Für Empfänger (Wem?) stehen immer die Dativ-Karten: *mir, dir, ihm, ihr, uns, euch, ihnen, Ihnen*.
 - So hilfst du: Die App prüft Wort für Wort gegen die Lösungen oben und nennt Fehler der Form (zum Beispiel Akzente) mit den Wörtern des Kindes. Sag nicht die Lösung vor: Frag nach der Regel (Endung, Geschlecht, Zeitform) oder nach einem ähnlichen Satz der Seite. Hält die App eine Fassung des Kindes für falsch, die du für richtig hältst, sag es dem Kind: Die App kennt nur die Fassungen oben.
 - Link: [../?via=tutor#dativ-pronomen-luecken](../?via=tutor#dativ-pronomen-luecken)

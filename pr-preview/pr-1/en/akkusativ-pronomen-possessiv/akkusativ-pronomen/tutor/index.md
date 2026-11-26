@@ -43,7 +43,7 @@ Use accusative personal pronouns (mich, dich, ihn, sie, es, uns, euch, sie, Sie)
 
 ### Stand-in Cards in the Accusative
 
-Instead of repeating a noun or name, Sam and Nadia use **Stand-in Cards** (personal pronouns). When the pronoun is the direct object (whom or what?), you use the **accusative form**: *Kennst du Lukas? Ja, ich kenne **ihn**!*
+Instead of repeating a noun or name, Peter and Nadia use **Stand-in Cards** (personal pronouns). When the pronoun is the direct object (whom or what?), you use the **accusative form**: *Kennst du Lukas? Ja, ich kenne **ihn**!*
 
 Personal Pronouns: Nominative → Accusative:
 - Nominative | Accusative | Example
@@ -80,7 +80,7 @@ In German, the pronoun matches the noun's **grammatical gender**, not whether it
      - es: *der Rucksack* is masculine — in German, replace it with *ihn*, not *es*.
 2. Nadia visits us in Lindenberg. → Nadia besucht uns in Lindenberg.
 3. Do you see the lamp (die Lampe)? Yes, I see it. → Siehst du die Lampe? Ja, ich sehe sie.
-4. Sam asks me about the homework. → Sam fragt mich nach den Hausaufgaben.
+4. Peter asks me about the homework. → Peter fragt mich nach den Hausaufgaben.
      - mir: *fragen* takes the accusative → *mich* (not dative *mir*).
 - Explanation: For things, match the grammatical gender (*der→ihn, die→sie, das→es*); for people, use the accusative form (*mich, dich, ihn, sie, uns, euch*).
 - How to help: the app checks word by word against the solutions above and names mistakes of form (e.g. accents) with the child's words. Do not give the solution: ask about the rule (ending, gender, tense) or about a similar sentence of the page. If the app takes a version of the child's as wrong that you think is right, tell the child: the app knows only the versions above.

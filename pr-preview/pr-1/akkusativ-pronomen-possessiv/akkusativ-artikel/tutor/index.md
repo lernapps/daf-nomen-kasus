@@ -43,13 +43,13 @@ Bestimmte, unbestimmte und negative Artikel im Akkusativ für direkte Objekte ve
 
 ### Geschenke für Familie Weber
 
-Sam kauft in der Lindenberger Innenstadt kleine Geschenke für Familie Weber. In *Sam kauft **einen Rucksack*** ist *Sam* das Subjekt (**Nominativ** — Wer?) und *einen Rucksack* das direkte Objekt (**Akkusativ** — Wen oder was?). Die gute Nachricht: Im Akkusativ ändert sich **nur Maskulin**!
+Peter kauft in der Lindenberger Innenstadt kleine Geschenke für Familie Weber. In *Peter kauft **einen Rucksack*** ist *Peter* das Subjekt (**Nominativ** — Wer?) und *einen Rucksack* das direkte Objekt (**Akkusativ** — Wen oder was?). Die gute Nachricht: Im Akkusativ ändert sich **nur Maskulin**!
 
 Bild: 4-Fälle-Farbtabelle mit Nominativ und Akkusativ: Im Akkusativ ändert sich nur Maskulin von der/ein/kein zu den/einen/keinen. Bildunterschrift: Zeile 2 kommt dazu: Nur in der blauen Maskulin-Spalte wird aus der/ein/kein → den/einen/keinen.
 
 **Beispiel: Typische Verben mit Akkusativ**
 
-Verben wie **haben, kaufen, suchen, brauchen, sehen, finden, nehmen, lesen** verlangen ein Akkusativobjekt: *Sam sucht **den** Schlüssel. Er kauft **einen** Ball, **eine** Tasche und **ein** Buch. Er hat **keinen** Regenschirm.*
+Verben wie **haben, kaufen, suchen, brauchen, sehen, finden, nehmen, lesen** verlangen ein Akkusativobjekt: *Peter sucht **den** Schlüssel. Er kauft **einen** Ball, **eine** Tasche und **ein** Buch. Er hat **keinen** Regenschirm.*
 
 ### Übung
 
@@ -63,7 +63,7 @@ Verben wie **haben, kaufen, suchen, brauchen, sehen, finden, nehmen, lesen** ver
 - Antwortformat: die Lücken auf Deutsch füllen
 - Wie die App Fehler der Form zählt: Groß- und Kleinschreibung falsch, Akzente falsch, Bindestrich falsch, Apostroph falsch, Satzzeichen falsch
 - Einträge (Vorgabe → Lösung):
-1. Sam buys a backpack (der Rucksack). → Sam kauft einen Rucksack.
+1. Peter buys a backpack (der Rucksack). → Peter kauft einen Rucksack.
      - ein: *Rucksack* ist maskulin (*der*) und direktes Objekt → Akkusativ *einen*.
 2. He sees the desk (der Schreibtisch). → Er sieht den Schreibtisch.
      - der: Nach *sehen* steht das direkte Objekt im Akkusativ: *der* wird zu *den*.
@@ -76,12 +76,12 @@ Verben wie **haben, kaufen, suchen, brauchen, sehen, finden, nehmen, lesen** ver
 
 ### Aufgabe subjekt-oder-objekt
 
-- Aufgabe: Im Satz *Den Stuhl braucht Sam heute* — was ist das Subjekt im Nominativ?
+- Aufgabe: Im Satz *Den Stuhl braucht Peter heute* — was ist das Subjekt im Nominativ?
 - Antwortformat: eine Antwort wählen
 - Antworten zur Wahl (✓ richtig, ✗ falsch, mit der Meldung der App):
-  - ✓ Sam – Richtig! *Den Stuhl* steht zwar vorne, ist aber wegen *den* klar der Akkusativ. *Sam* ist das Subjekt.
+  - ✓ Peter – Richtig! *Den Stuhl* steht zwar vorne, ist aber wegen *den* klar der Akkusativ. *Peter* ist das Subjekt.
   - ✗ Den Stuhl – *den* zeigt den Akkusativ an. Im Deutschen zeigen die Fälle die Rolle — nicht immer die Wortstellung!
   - ✗ heute – *heute* ist eine Zeitangabe, kein Subjekt.
-- Lösung: Sam
+- Lösung: Peter
 - Erklärung: Der Artikel *den* markiert den Akkusativ eindeutig — auch wenn das Objekt vor dem Verb steht.
 - Link: [../?via=tutor#subjekt-oder-objekt](../?via=tutor#subjekt-oder-objekt)
