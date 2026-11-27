@@ -76,9 +76,33 @@ blocks:
           de: "Im Akkusativ ändern sich *ich→mich, du→dich, er→ihn, wir→uns, ihr→euch*; *sie, es, Sie* bleiben gleich."
           en: "In the accusative, *ich→mich, du→dich, er→ihn, wir→uns, ihr→euch* change; *sie, es, Sie* stay unchanged."
       - type: language-task
+        id: akkusativ-pronomen-wahl
+        languages: { source: en, target: de }
+        mode: choice
+        task:
+          de: "Wähle das passende Akkusativpronomen für jede Situation in Klasse 6."
+          en: "Choose the right accusative pronoun for each Year 6 situation."
+        items:
+          - source: "Where is the ball (der Ball)? Lukas has it."
+            target: "Wo ist der Ball? Lukas hat [ihn]."
+            distractors: [[es, er]]
+          - source: "Do you see the guitar (die Gitarre)? Yes, I see it."
+            target: "Siehst du die Gitarre? Ja, ich sehe [sie]."
+            distractors: [[es, ihn]]
+          - source: "Herr Braun sees you all (Lukas & Nadia)."
+            target: "Herr Braun sieht [euch]."
+            distractors: [[ihr, uns]]
+          - source: "Where is the notebook (das Heft)? Peter needs it."
+            target: "Wo ist das Heft? Peter braucht [es]."
+            distractors: [[ihn, sie]]
+        explanation:
+          de: "Das Pronomen richtet sich nach dem Genus des Nomens (*der → ihn, die → sie, das → es*) und bei Personen nach der Akkusativ-Form (*ihr → euch*)."
+          en: "The pronoun matches the noun's gender (*der → ihn, die → sie, das → es*) and for people takes the accusative form (*ihr → euch*)."
+      - type: language-task
         id: akkusativ-pronomen-ersetzen
         languages: { source: en, target: de }
         mode: gap
+        form: { case: hint, punctuation: ok }
         task:
           de: "Ersetze das Nomen oder die Person durch das richtige Akkusativpronomen."
           en: "Replace the noun or person with the right accusative pronoun."
@@ -104,3 +128,33 @@ blocks:
         explanation:
           de: "Achte bei Sachen auf das Genus (*der→ihn, die→sie, das→es*) und bei Personen auf die Akkusativform (*mich, dich, ihn, sie, uns, euch*)."
           en: "For things, match the grammatical gender (*der→ihn, die→sie, das→es*); for people, use the accusative form (*mich, dich, ihn, sie, uns, euch*)."
+      - type: single-choice
+        id: akkusativ-sachen-check
+        text:
+          de: "Peter sucht seinen Schlüssel (*der Schlüssel*). Warum sagt er *Ich finde ihn* und nicht *Ich finde es*?"
+          en: "Peter is looking for his key (*der Schlüssel*). Why does he say *Ich finde ihn* instead of *Ich finde es*?"
+        options:
+          - text:
+              de: "Weil das Pronomen zum Genus (*der*, maskulin) passt — auch bei Sachen."
+              en: "Because the pronoun matches the noun's gender (*der*, masculine) — even for things."
+            correct: true
+            info:
+              de: "Genau! Im Deutschen richtet sich das Pronomen nach *der/die/das*, nicht nach Mensch oder Sache."
+              en: "Exactly! In German, pronouns follow *der/die/das*, not whether something is a person or a thing."
+          - text:
+              de: "Weil *es* im Deutschen nie im Akkusativ stehen darf."
+              en: "Because *es* can never be used in the accusative in German."
+            correct: false
+            info:
+              de: "Für neutrale Nomen wie *das Buch* benutzt man sehr wohl *es*: *Ich lese es.*"
+              en: "For neuter nouns like *das Buch*, you do use *es*: *Ich lese es.*"
+          - text:
+              de: "Weil *finden* immer das Pronomen *ihn* verlangt."
+              en: "Because *finden* always requires the pronoun *ihn*."
+            correct: false
+            info:
+              de: "*finden* nimmt den Akkusativ, aber das Pronomen hängt vom Nomen ab (*die Tasche → sie*, *das Heft → es*)."
+              en: "*finden* takes the accusative, but the pronoun depends on the noun (*die Tasche → sie*, *das Heft → es*)."
+        explanation:
+          de: "Auch Dinge tragen ihr grammatisches Geschlecht weiter: *der → ihn*, *die → sie*, *das → es*."
+          en: "Things keep their grammatical gender in pronouns too: *der → ihn*, *die → sie*, *das → es*."

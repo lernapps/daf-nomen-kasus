@@ -21,8 +21,8 @@ blocks:
         image: images/case-table-ch4.svg
         source:
           de: "Eigene Zeichnung"
-          en: "Own diagram"
-        licence: CC-BY-SA-4.0
+          en: "Own drawing"
+        licence: CC0-1.0
         alt:
           de: "Komplette 4-Fälle-Farbtabelle mit Nominativ, Akkusativ, Dativ und neu der Genitiv-Zeile: des/eines + -(e)s (m/n), der/einer (f), der/keiner (pl)."
           en: "Complete 4-Case Color Table with Nominative, Accusative, Dative, and the new Genitive row: des/eines + -(e)s (m/n), der/einer (f), der/keiner (pl)."
@@ -53,10 +53,28 @@ blocks:
       de: "Übung"
       en: "Practice"
     blocks:
+      - type: matching
+        id: genitiv-praepositionen-zuordnen
+        text:
+          de: "Ordne jeder Genitivpräposition ihre englische Bedeutung zu."
+          en: "Match each genitive preposition to its English meaning."
+        pairs:
+          - left: { de: "wegen", en: "wegen" }
+            right: { de: "because of", en: "because of" }
+          - left: { de: "trotz", en: "trotz" }
+            right: { de: "despite", en: "despite" }
+          - left: { de: "während", en: "während" }
+            right: { de: "during", en: "during" }
+          - left: { de: "statt", en: "statt" }
+            right: { de: "instead of", en: "instead of" }
+        explanation:
+          de: "*wegen, trotz, während* und *statt* gehören zu den wichtigsten Präpositionen mit Genitiv."
+          en: "*wegen, trotz, während*, and *statt* are the four core prepositions that take the genitive."
       - type: language-task
         id: genitiv-luecken
         languages: { source: en, target: de }
         mode: gap
+        form: { case: hint, punctuation: ok }
         task:
           de: "Ergänze Artikel und Nomen im Genitiv (achte auf -(e)s bei Maskulin/Neutrum)."
           en: "Fill in the genitive article and noun (watch for -(e)s on masculine/neuter nouns)."
@@ -85,30 +103,50 @@ blocks:
       - type: single-choice
         id: genitiv-besitz-check
         text:
-          de: "Wie fragt Peter richtig nach dem Zimmer seines Gastbruders (*mein Gastbruder*, m)?"
-          en: "How does Peter correctly refer to the room of his host brother (*mein Gastbruder*, m)?"
+          de: "Wie nennt Peter richtig das Zimmer seines Freundes (*mein Freund*, m)?"
+          en: "How does Peter correctly refer to the room of his friend (*mein Freund*, m)?"
         options:
           - text:
-              de: "Das ist das Zimmer meines Gastbruders."
-              en: "Das ist das Zimmer meines Gastbruders."
+              de: "Das ist das Zimmer meines Freundes."
+              en: "Das ist das Zimmer meines Freundes."
             correct: true
             info:
-              de: "Richtig! Possessivartikel *meines* (Genitiv m) + Nomen *Gastbruders* (+ *-s*)."
-              en: "Correct! Possessive *meines* (masculine genitive) + noun *Gastbruders* (+ *-s*)."
+              de: "Richtig! Possessivartikel *meines* (Genitiv m) + Nomen *Freundes* (+ *-es*)."
+              en: "Correct! Possessive *meines* (masculine genitive) + noun *Freundes* (+ *-es*)."
           - text:
-              de: "Das ist das Zimmer meinem Gastbruder."
-              en: "Das ist das Zimmer meinem Gastbruder."
+              de: "Das ist das Zimmer meinem Freund."
+              en: "Das ist das Zimmer meinem Freund."
             correct: false
             info:
-              de: "*meinem* ist Dativ. Für direkten Besitz ohne Präposition braucht man den Genitiv: *meines Gastbruders*."
-              en: "*meinem* is dative. Direct possession without a preposition uses the genitive: *meines Gastbruders*."
+              de: "*meinem* ist Dativ. Für direkten Besitz ohne Präposition braucht man den Genitiv: *meines Freundes*."
+              en: "*meinem* is dative. Direct possession without a preposition uses the genitive: *meines Freundes*."
           - text:
-              de: "Das ist das Zimmer meines Gastbruder."
-              en: "Das ist das Zimmer meines Gastbruder."
+              de: "Das ist das Zimmer meines Freund."
+              en: "Das ist das Zimmer meines Freund."
             correct: false
             info:
-              de: "Am maskulinen Nomen fehlt das Genitiv-*-s*: *meines Gastbruders*."
-              en: "The masculine noun is missing its genitive *-s*: *meines Gastbruders*."
+              de: "Am maskulinen Nomen fehlt die Genitiv-Endung *-es*: *meines Freundes*."
+              en: "The masculine noun is missing its genitive *-es* ending: *meines Freundes*."
         explanation:
           de: "Im Genitiv bekommen sowohl Artikel/Possessivartikel (*des/meines*) als auch maskuline und neutrale Nomen ein *-(e)s*."
           en: "In the genitive, both the determiner (*des/meines*) and masculine/neuter nouns take *-(e)s*."
+      - type: language-task
+        id: genitiv-praep-wahl
+        languages: { source: en, target: de }
+        mode: choice
+        task:
+          de: "Wähle die richtige Genitiv-Form nach der Präposition."
+          en: "Choose the right genitive form after each preposition."
+        items:
+          - source: "Instead of a game (ein Spiel, n), Peter buys a book."
+            target: "Statt [eines Spiels] kauft Peter ein Buch."
+            distractors: [[einem Spiel, ein Spiel]]
+          - source: "During the lesson (der Unterricht, m), everyone listens."
+            target: "Während [des Unterrichts] hören alle zu."
+            distractors: [[dem Unterricht, den Unterricht]]
+          - source: "Because of the holidays (die Ferien, pl.), the school is closed."
+            target: "Wegen [der Ferien] ist die Schule geschlossen."
+            distractors: [[den Ferien, die Ferien]]
+        explanation:
+          de: "Nach *statt, während, wegen, trotz* steht der Genitiv: *des/eines + -(e)s* (m/n) und *der* (f/pl)."
+          en: "After *statt, während, wegen, trotz*, use the genitive: *des/eines + -(e)s* (m/n) and *der* (f/pl)."

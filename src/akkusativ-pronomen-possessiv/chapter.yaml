@@ -9,3 +9,13 @@ pages:
   - akkusativ-artikel
   - akkusativ-pronomen
   - possessivartikel-nom-akk
+selfAssessment:
+  pages:
+    - exercises:
+        - /akkusativ-pronomen-possessiv/akkusativ-artikel/#akkusativ-artikel-luecken
+        - /akkusativ-pronomen-possessiv/akkusativ-pronomen/#akkusativ-pronomen-ersetzen
+        - /akkusativ-pronomen-possessiv/possessivartikel-nom-akk/#possessiv-nom-akk-luecken
+    - exercises:
+        - /akkusativ-pronomen-possessiv/akkusativ-artikel/#subjekt-oder-objekt
+        - /akkusativ-pronomen-possessiv/akkusativ-pronomen/#akkusativ-sachen-check
+        - /akkusativ-pronomen-possessiv/possessivartikel-nom-akk/#possessiv-euer-check

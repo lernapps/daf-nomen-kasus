@@ -21,8 +21,8 @@ blocks:
         image: images/standin-pronouns.svg
         source:
           de: "Eigene Zeichnung"
-          en: "Own diagram"
-        licence: CC-BY-SA-4.0
+          en: "Own drawing"
+        licence: CC0-1.0
         alt:
           de: "Stellvertreter-Karten für alle Personalpronomen mit Nominativ, Akkusativ und Dativ: ich/mich/mir, du/dich/dir, er/ihn/ihm, sie/sie/ihr, es/es/ihm, wir/uns/uns, ihr/euch/euch, sie/sie/ihnen, Sie/Sie/Ihnen."
           en: "Stand-in Cards for all personal pronouns showing Nominative, Accusative, and Dative: ich/mich/mir, du/dich/dir, er/ihn/ihm, sie/sie/ihr, es/es/ihm, wir/uns/uns, ihr/euch/euch, sie/sie/ihnen, Sie/Sie/Ihnen."
@@ -64,9 +64,33 @@ blocks:
           de: "Die Dativpronomen lauten *mir, dir, ihm, ihr, ihm, uns, euch, ihnen, Ihnen*."
           en: "The dative pronouns are *mir, dir, ihm, ihr, ihm, uns, euch, ihnen, Ihnen*."
       - type: language-task
+        id: dativ-vs-akk-pronomen-wahl
+        languages: { source: en, target: de }
+        mode: choice
+        task:
+          de: "Akkusativ oder Dativ? Wähle die richtige Stellvertreter-Karte."
+          en: "Accusative or dative? Choose the right Stand-in Card."
+        items:
+          - source: "Nadia gives me (ich) a pencil."
+            target: "Nadia gibt [mir] einen Bleistift."
+            distractors: [[mich, ich]]
+          - source: "Peter visits him (Lukas) after school."
+            target: "Peter besucht [ihn] nach der Schule."
+            distractors: [[ihm, er]]
+          - source: "Lukas lends her (Nadia) his bike."
+            target: "Lukas leiht [ihr] sein Fahrrad."
+            distractors: [[sie, ihm]]
+          - source: "Herr Braun explains the task to us (wir)."
+            target: "Herr Braun erklärt [uns] die Aufgabe."
+            distractors: [[wir, euch]]
+        explanation:
+          de: "Frage nach der Rolle: Empfänger (*Wem?*) → Dativ (*mir, ihr, uns*); direktes Objekt (*Wen?*) → Akkusativ (*ihn*)."
+          en: "Ask about the role: recipient (*Wem?*) → dative (*mir, ihr, uns*); direct object (*Wen?*) → accusative (*ihn*)."
+      - type: language-task
         id: dativ-pronomen-luecken
         languages: { source: en, target: de }
         mode: gap
+        form: { case: hint, punctuation: ok }
         task:
           de: "Ergänze das richtige Dativpronomen (mir, dir, ihm, ihr, ihnen, Ihnen)."
           en: "Fill in the right dative pronoun (mir, dir, ihm, ihr, ihnen, Ihnen)."
@@ -92,3 +116,33 @@ blocks:
         explanation:
           de: "Für Empfänger (Wem?) stehen immer die Dativ-Karten: *mir, dir, ihm, ihr, uns, euch, ihnen, Ihnen*."
           en: "Recipients (to whom?) always use the dative cards: *mir, dir, ihm, ihr, uns, euch, ihnen, Ihnen*."
+      - type: single-choice
+        id: dativ-ihnen-gross-check
+        text:
+          de: "Peter dankt seinem Lehrer Herr Braun höflich. Welcher Satz ist richtig geschrieben?"
+          en: "Peter politely thanks his teacher Herr Braun. Which sentence is written correctly?"
+        options:
+          - text:
+              de: "Ich danke Ihnen, Herr Braun!"
+              en: "Ich danke Ihnen, Herr Braun!"
+            correct: true
+            info:
+              de: "Richtig! Das höfliche *Ihnen* (Dativ von *Sie*) schreibt man immer groß."
+              en: "Correct! Formal *Ihnen* (dative of *Sie*) is always capitalized."
+          - text:
+              de: "Ich danke ihnen, Herr Braun!"
+              en: "Ich danke ihnen, Herr Braun!"
+            correct: false
+            info:
+              de: "Kleines *ihnen* bedeutet *them* (Plural). Für die höfliche Anrede schreibt man *Ihnen* groß."
+              en: "Lowercase *ihnen* means *them* (plural). Formal address requires capital *Ihnen*."
+          - text:
+              de: "Ich danke Sie, Herr Braun!"
+              en: "Ich danke Sie, Herr Braun!"
+            correct: false
+            info:
+              de: "*danken* verlangt den Dativ → *Ihnen*, nicht *Sie*."
+              en: "*danken* takes the dative → *Ihnen*, not *Sie*."
+        explanation:
+          de: "Der Dativ von höflichem *Sie* ist immer großgeschriebenes *Ihnen*."
+          en: "The dative of formal *Sie* is always capitalized *Ihnen*."

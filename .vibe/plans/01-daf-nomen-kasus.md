@@ -8,7 +8,7 @@ phase: code
 # prePushFailures: failed pre-push runs, written by the hook.
 prePushFailures: 0
 # failedChecks: failed rules and runs, written by lernapps check and the hooks.
-failedChecks: {}
+failedChecks: { checks-pass: 1 }
 ---
 
 # Plan: daf-nomen-kasus, first version
@@ -25,15 +25,29 @@ For you, the assistant. The process is in AGENTS.md; this plan holds the method.
 
 ## Goal
 
-<!-- 1–2 sentences: what learners do, what they learn. -->
+English-speaking learners of German (CEFR A1–B1) follow Peter in Lindenberg as he sets up his room, goes to school, and chooses gifts for family friends Familie Weber, mastering German articles, noun gender, plurals, negation (*nicht/kein*), personal/possessive/reflexive/demonstrative/indefinite pronouns, all four cases (Nominative, Accusative, Dative, Genitive), and weak masculine nouns (n-declension).
 
 ## Key decisions
 
-<!-- One line each: decision and reason. Archetype first. Your own choice without the creator: mark "(guess)". -->
+- **Archetype: `explainer` (format 2, `subject: daf`, `strand: daf/grammatik`).** Learners need structured explanations, a growing visual 4-Case Color Table, Stand-in Cards, vocabulary blocks, and 4 progressive exercises per competency page (`language-task`, `matching`, `ordering`, `single-choice`, `multiple-choice`, `true-false`).
+- **Premise & variety: Lindenberg (*Bundesdeutsch*), age-appropriate family move.** Protagonist **Peter** moves to Lindenberg with his parents for a year, joining *Klasse 6* (age 12 at A1, growing to 13–14 at A2 and 15 at B1) with teacher **Herr Braun**, classmates **Lukas** and **Nadia**, and family friends **Familie Weber** (Katrin, Thomas, Lukas, Mina 9). No host-family or language-school framing.
+- **Languages: `[de, en]` (`de` first, full English tree at `/en/`).** Required by `@lernapps/app-templates 0.20.0`.
+- **Self-drawn mobile-first SVGs (`340 px` `viewBox`, `CC0-1.0`).** All 7 figures use `viewBox="0 0 340 <h>"`, ≥ 4.5:1 contrast, ≥ 28 px bottom clearance for the `© CC0-1.0` badge, and non-leaking model examples.
+- **Chapter `selfAssessment` included in all 4 chapters.** Each `chapter.yaml` draws 1–2 self-contained exercises per competency page (23 total across 7 steps; recap page `vorwissen` excluded).
+- **No `scope` in v1.** All exercises are auto-checked with no private creator material.
 
 ## Notes
 
-<!-- Strand or subject, competencies by chapter (ids), didactic approach, scope, sources and licences, open questions. -->
+- **Subject & strand:** `subject: daf`, `strand: daf/grammatik` (`lernapps/apps#875`, part of `lernapps/apps#887`).
+- **Sources verified:** `https://lernapps.net/apps/map/daf.json` (canonical `lernapps/apps/map/daf.yaml`), `lernapps/apps#875`, `lernapps/apps#887`.
+- **Chapters & competencies (15 competencies + 1 recap page):**
+  - **Chapter 1 `genus-plural-negation` (A1 · 5–6):** `vorwissen` (`recap: [daf/personalpronomen-nominativ, daf/verb-zweitstellung]`), `artikel-genus` (der/die/das, ein/eine, gender clues; catches English article omission & ending confusion), `pluralbildung` (5 plural patterns + always *die*; catches *-s* overgeneralization & missing umlauts), `negation-nicht-kein` (*kein* vs. *nicht* & word order; catches *kein* before definite articles/adjectives).
+  - **Chapter 2 `akkusativ-pronomen-possessiv` (A1 · 5–6):** `akkusativ-artikel` (only masculine changes `der/ein/kein → den/einen/keinen`; catches forgetting `-n` on masculine objects & relying on word order over case), `akkusativ-pronomen` (Stand-in Cards; catches using *es* for masculine/feminine things), `possessivartikel-nom-akk` (2-step owner + noun ending; catches `eueren` instead of `euren`).
+  - **Chapter 3 `dativ-verben-reflexiv` (A2 · 7–8):** `dativ-artikel` (M-R-M-N + dative plural `-n`; catches missing `-n` on *Freunden/Kindern* and over-adding `-n` to *Fotos*), `dativ-pronomen` (Stand-in Cards Dativ; catches `mich/mir`, `sie/ihr`, lowercase `ihnen` vs. formal `Ihnen`), `verben-mit-dativ` (*helfen, gefallen, gehören, danken, schmecken, passen*; catches `gefallen` subject swap & accusative after `helfen`), `dativ-und-akkusativ` (Arrow Diagram 3 word-order rules; catches `ihr es` instead of `es ihr`), `possessivartikel-dativ` (`-em/-er/-en`; catches `seinen` instead of `seinem` & missing plural `-n`), `reflexive-verben` (`mich/mir`, `dich/dir` with 2nd object; catches accusative with body parts), `demonstrativ-indefinitpronomen` (`dieser/welcher/jeder` + `man/jemand/niemand/etwas/nichts`; catches `Mann` for `man` & plural verb with `man`).
+  - **Chapter 4 `genitiv-n-deklination` (B1 · 9–10):** `genitiv-artikel` (`des/eines + -(e)s`, `der/einer`, `wegen/trotz/während/statt`; catches missing `-(e)s` on masculine/neuter & adding `-s` to feminine), `n-deklination` (weak masculine nouns `-n/-en` outside Nom. Sg.; catches omitting `-n` in Akk/Dat/Gen & over-applying to regular nouns like `der Lehrer`).
+- **Scope:** In: all 15 competencies of `#875` across 4 chapters + 1 recap page, 7 mobile-first `340 px` SVGs, 4 varied exercises per competency page, chapter self-assessments, `languages: [de, en]`. Out: adjective declension (`#876`), verb tenses/conjugation (`#874`).
+- **Gold-standard upgrade fixes applied:** Removed all host-family (`Gastfamilie`, `Gastbruder`, `Gast`) and old `sams-zimmer` references; fixed `von Herrn Weber` grammar in `n-deklination.yaml`; refactored all 7 SVGs from `640 px` to `340 px` with `CC0-1.0` & ≥ 28 px bottom clearance; expanded all 15 competency pages from 2 to 4 varied exercises; added `selfAssessment` to all 4 chapters.
+
 
 ## Explore
 
@@ -80,19 +94,16 @@ For you, the assistant. The process is in AGENTS.md; this plan holds the method.
 
 ### Answers
 
-<!-- The interview: per topic the creator's answer, in their words. Keep the topics. -->
-
-- Goal: what learners do in the app, what they learn.
-- Learners: subject, school year, prior knowledge.
-- Model and focus: an app of the catalog (https://lernapps.net/apps/llms.txt) as model; what matters most (exercises,
-  visualisations, game feel).
-- Hurdles: misconceptions and mistakes of the learners; the creator's examples and experiments.
-- Content: who writes it (creator, you, from sources); own material (worksheets, tests).
-- Amount: how much content in the first version; what comes later.
-- Languages: German only, or German and English. Never English only.
-- Look and feel: calm like a worksheet, or like a game (colours, praise, effects); dark mode.
-- Terms: the creator's words for the main things in the app, used everywhere.
-- Finding the app: what teachers and parents would search for.
+- Goal: Master German articles, gender, plurals, negation, pronouns, all four cases, and weak masculine nouns (n-declension) across CEFR A1–B1 (`lernapps/apps#875`).
+- Learners: English-speaking learners of German as a Foreign Language (`subject: daf`), starting at age 12 (*Klasse 6*, A1) and progressing through A2–B1; builds on nominative personal pronouns and verb-second word order (`#874`).
+- Model and focus: Modeled on `daf-hallo-lindenberg` and `daf-verben-grundlagen`; focus on clear visual models (growing 4-Case Color Table, Stand-in Cards) and 4 varied auto-checked exercises per competency page.
+- Hurdles: English speakers drop articles, use *es* for gendered things, miss masculine accusative `-n`, forget dative plural `-n`, swap subject/object with *gefallen*, confuse reflexive `mich/mir`, and omit `-n/-en` on weak masculine nouns.
+- Content: Written from verified learning map `map/daf.yaml` and issue brief `lernapps/apps#875`.
+- Amount: Complete v1 covering all 15 competencies across 4 chapters + 1 recap page + 4 chapter self-assessments.
+- Languages: German and English (`languages: [de, en]`).
+- Look and feel: Fixed by the archetype (`explainer`, light and dark mode).
+- Terms: Standard German grammar terms paired with plain-language explanations (*Nominativ / Wer?*, *Akkusativ / Wen?*, *Dativ / Wem?*, *Genitiv / Wessen?*, *4-Fälle-Farbtabelle*, *Stellvertreter-Karten*).
+- Finding the app: German cases, der die das, accusative dative genitive, German pronouns, DaF Grammatik Nomen Kasus.
 
 ## Plan
 
@@ -120,11 +131,10 @@ For you, the assistant. The process is in AGENTS.md; this plan holds the method.
 
 ### Content method
 
-<!-- One line each: the patterns and where; the figures and how they are made; the data files; each component, what it
-checks and what it cannot; how a later agent adds a chapter. It becomes the content guide in Code. -->
-<!-- An explainer: per figure, model and component its learning action in two to four sentences
-(`explainer-representation-explained`); per page its prerequisites the app does not practise, and which get a recap
-page, which a link. -->
+- **Patterns:** Every competency page combines 4 varied exercises from `language-task` (`choice` & `gap` with targeted `mistakes`), `matching`, `ordering`, `single-choice`, `multiple-choice`, and `true-false` (≤ 2 guessable choices, ≥ 2 active tasks).
+- **Figures & learning action:** All 7 SVGs (`340 px`, `CC0-1.0`) anchor visual memory without leaking answers: `case-table-ch1..4.svg` grow the 4-Case Color Table row by row so learners see exactly which cells change in each case; `standin-pronouns.svg` contrasts accusative (blue) vs. dative (amber) pronouns side by side; `dative-accusative-arrows.svg` visualizes recipient vs. thing roles and the 3 word-order rules; `n-declension-card.svg` contrasts base nominative singular against `-n/-en` in all other cases using `der Junge` / `der Löwe`.
+- **Prerequisites & recap:** External prerequisites `daf/personalpronomen-nominativ` and `daf/verb-zweitstellung` (from `#874`) are consolidated on the compact opening recap page `src/genus-plural-negation/vorwissen.yaml`.
+- **Adding a chapter:** Register in `src/app.yaml`, create `chapter.yaml` + competency pages following the 4-exercise and `340 px` SVG conventions, add `selfAssessment`, update `.agents/skills/app-content/SKILL.md`, and verify with `lernapps check`.
 
 ## Code
 

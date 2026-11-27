@@ -8,3 +8,10 @@ summary:
 pages:
   - genitiv-artikel
   - n-deklination
+selfAssessment:
+  pages:
+    - exercises:
+        - /genitiv-n-deklination/genitiv-artikel/#genitiv-luecken
+        - /genitiv-n-deklination/genitiv-artikel/#genitiv-besitz-check
+        - /genitiv-n-deklination/n-deklination/#n-deklination-luecken
+        - /genitiv-n-deklination/n-deklination/#n-deklination-merkmale

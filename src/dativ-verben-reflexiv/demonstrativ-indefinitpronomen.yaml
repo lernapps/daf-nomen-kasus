@@ -82,10 +82,30 @@ blocks:
         explanation:
           de: "*dieser, welcher, jeder* tragen genau die Endungen von *der/die/das* (*-er, -e, -es, -en, -em*)."
           en: "*dieser, welcher, jeder* carry the exact endings of *der/die/das* (*-er, -e, -es, -en, -em*)."
+      - type: matching
+        id: indefinit-bedeutung-zuordnen
+        text:
+          de: "Ordne jedes Indefinitpronomen seiner englischen Bedeutung zu."
+          en: "Match each indefinite pronoun to its English meaning."
+        pairs:
+          - left: { de: "man", en: "man" }
+            right: { de: "one / people in general", en: "one / people in general" }
+          - left: { de: "jemand", en: "jemand" }
+            right: { de: "someone / anyone", en: "someone / anyone" }
+          - left: { de: "niemand", en: "niemand" }
+            right: { de: "nobody / no one", en: "nobody / no one" }
+          - left: { de: "etwas", en: "etwas" }
+            right: { de: "something / anything", en: "something / anything" }
+          - left: { de: "nichts", en: "nichts" }
+            right: { de: "nothing", en: "nothing" }
+        explanation:
+          de: "*man, jemand, niemand* stehen für Personen; *etwas* und *nichts* stehen für Dinge."
+          en: "*man, jemand, niemand* refer to people; *etwas* and *nichts* refer to things."
       - type: language-task
         id: indefinit-luecken
         languages: { source: en, target: de }
         mode: gap
+        form: { case: hint, punctuation: ok }
         task:
           de: "Ergänze man, jemand, niemand, etwas oder nichts."
           en: "Fill in man, jemand, niemand, etwas, or nichts."
@@ -106,3 +126,33 @@ blocks:
         explanation:
           de: "*man, jemand, niemand* beziehen sich auf Personen; *etwas* und *nichts* auf Dinge. Alle stehen mit der Verbform für *er/sie/es*."
           en: "*man, jemand, niemand* refer to people; *etwas* and *nichts* refer to things. All take the *er/sie/es* verb form."
+      - type: single-choice
+        id: indefinit-verbform-check
+        text:
+          de: "Welcher Satz mit *man* hat die richtige Verbform?"
+          en: "Which sentence with *man* uses the right verb form?"
+        options:
+          - text:
+              de: "In Lindenberg fährt man viel Fahrrad."
+              en: "In Lindenberg fährt man viel Fahrrad."
+            correct: true
+            info:
+              de: "Richtig! *man*, *jemand* und *niemand* stehen immer mit der 3. Person Singular (*er/sie/es → fährt*)."
+              en: "Correct! *man*, *jemand*, and *niemand* always take the 3rd person singular verb (*er/sie/es → fährt*)."
+          - text:
+              de: "In Lindenberg fahren man viel Fahrrad."
+              en: "In Lindenberg fahren man viel Fahrrad."
+            correct: false
+            info:
+              de: "Auch wenn *man* für alle Menschen steht, verlangt es grammatisch den Singular (*fährt*)."
+              en: "Even though *man* means people in general, grammatically it always takes the singular (*fährt*)."
+          - text:
+              de: "In Lindenberg fährst man viel Fahrrad."
+              en: "In Lindenberg fährst man viel Fahrrad."
+            correct: false
+            info:
+              de: "*fährst* gehört zu *du*, nicht zu *man* (3. Person Singular → *fährt*)."
+              en: "*fährst* goes with *du*, not with *man* (3rd person singular → *fährt*)."
+        explanation:
+          de: "Indefinitpronomen wie *man, jemand, niemand* stehen immer mit der Verbform von *er/sie/es*."
+          en: "Indefinite pronouns like *man, jemand, niemand* always use the *er/sie/es* verb form."

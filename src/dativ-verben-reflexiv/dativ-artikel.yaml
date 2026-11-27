@@ -21,8 +21,8 @@ blocks:
         image: images/case-table-ch3.svg
         source:
           de: "Eigene Zeichnung"
-          en: "Own diagram"
-        licence: CC-BY-SA-4.0
+          en: "Own drawing"
+        licence: CC0-1.0
         alt:
           de: "4-Fälle-Farbtabelle mit Nominativ, Akkusativ und neu der Dativ-Zeile: dem/einem (m), der/einer (f), dem/einem (n), den + -n (pl)."
           en: "4-Case Color Table with Nominative, Accusative, and the new Dative row: dem/einem (m), der/einer (f), dem/einem (n), den + -n (pl)."
@@ -44,6 +44,23 @@ blocks:
       de: "Übung"
       en: "Practice"
     blocks:
+      - type: matching
+        id: dativ-spalten-zuordnen
+        text:
+          de: "Ordne jedem Nominativ-Artikel seine Dativ-Form (M-R-M-N) zu."
+          en: "Match each nominative article to its dative form (M-R-M-N)."
+        pairs:
+          - left: { de: "der (Maskulin)", en: "der (Masculine)" }
+            right: { de: "dem / einem", en: "dem / einem" }
+          - left: { de: "die (Feminin)", en: "die (Feminine)" }
+            right: { de: "der / einer", en: "der / einer" }
+          - left: { de: "das (Neutrum)", en: "das (Neuter)" }
+            right: { de: "dem / einem (n)", en: "dem / einem (n)" }
+          - left: { de: "die (Plural)", en: "die (Plural)" }
+            right: { de: "den + -n am Nomen", en: "den + -n on the noun" }
+        explanation:
+          de: "Im Dativ ändern sich alle vier Spalten nach dem Muster M-R-M-N: *dem, der, dem, den (+ -n)*."
+          en: "In the dative, all four columns change following M-R-M-N: *dem, der, dem, den (+ -n)*."
       - type: language-task
         id: dativ-artikel-wahl
         languages: { source: en, target: de }
@@ -71,6 +88,7 @@ blocks:
         id: dativ-plural-luecken
         languages: { source: en, target: de }
         mode: gap
+        form: { case: hint, punctuation: ok }
         task:
           de: "Ergänze Artikel und Pluralnomen im Dativ (denke an das -n!)."
           en: "Fill in the dative plural article and noun (remember the extra -n!)."
@@ -94,3 +112,33 @@ blocks:
         explanation:
           de: "Im Dativ Plural steht *den* und das Nomen bekommt ein *-n*, falls es nicht schon auf *-n* oder *-s* endet."
           en: "Dative plural uses *den* and adds *-n* to the noun unless it already ends in *-n* or *-s*."
+      - type: single-choice
+        id: dativ-plural-s-check
+        text:
+          de: "Welcher Dativ Plural braucht **kein** zusätzliches *-n* am Nomen?"
+          en: "Which dative plural does **not** add an extra *-n* to the noun?"
+        options:
+          - text:
+              de: "mit den Fotos (Plural: die Fotos)"
+              en: "mit den Fotos (plural: die Fotos)"
+            correct: true
+            info:
+              de: "Richtig! Pluralformen auf *-s* (und auf *-n*) bekommen im Dativ Plural kein weiteres *-n*."
+              en: "Correct! Plurals already ending in *-s* (or *-n*) do not add another *-n* in the dative plural."
+          - text:
+              de: "mit den Büchern (Plural: die Bücher)"
+              en: "mit den Büchern (plural: die Bücher)"
+            correct: false
+            info:
+              de: "*die Bücher* endet auf *-r* und bekommt deshalb ein *-n*: *mit den Büchern*."
+              en: "*die Bücher* ends in *-r*, so it adds *-n*: *mit den Büchern*."
+          - text:
+              de: "mit den Stühlen (Plural: die Stühle)"
+              en: "mit den Stühlen (plural: die Stühle)"
+            correct: false
+            info:
+              de: "*die Stühle* endet auf *-e* und bekommt deshalb ein *-n*: *mit den Stühlen*."
+              en: "*die Stühle* ends in *-e*, so it adds *-n*: *mit den Stühlen*."
+        explanation:
+          de: "Nur Pluralformen, die schon auf *-n* oder *-s* enden (*die Lampen, die Fotos*), bleiben im Dativ Plural ohne zusätzliches *-n*."
+          en: "Only plurals already ending in *-n* or *-s* (*die Lampen, die Fotos*) skip the extra *-n* in the dative plural."

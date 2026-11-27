@@ -71,10 +71,30 @@ blocks:
       de: "Übung"
       en: "Practice"
     blocks:
+      - type: matching
+        id: plural-muster-zuordnen
+        text:
+          de: "Ordne jedes Nomen im Singular seiner passenden Pluralform zu."
+          en: "Match each singular noun with its correct plural form."
+        pairs:
+          - left: { de: "die Tasche", en: "die Tasche" }
+            right: { de: "die Taschen (-n)", en: "die Taschen (-n)" }
+          - left: { de: "der Ball", en: "der Ball" }
+            right: { de: "die Bälle (Umlaut + -e)", en: "die Bälle (umlaut + -e)" }
+          - left: { de: "das Kind", en: "das Kind" }
+            right: { de: "die Kinder (-er)", en: "die Kinder (-er)" }
+          - left: { de: "das Handy", en: "das Handy" }
+            right: { de: "die Handys (-s)", en: "die Handys (-s)" }
+          - left: { de: "das Zimmer", en: "das Zimmer" }
+            right: { de: "die Zimmer (—)", en: "die Zimmer (—)" }
+        explanation:
+          de: "Die fünf häufigsten Pluralmuster sind *-n/-en*, *-e*, *-er*, *-s* und keine Endung (oft mit Umlaut)."
+          en: "The five most common plural patterns are *-n/-en*, *-e*, *-er*, *-s*, and no ending (often with an umlaut)."
       - type: language-task
         id: plural-schreiben
         languages: { source: en, target: de }
         mode: gap
+        form: { case: hint, punctuation: ok }
         task:
           de: "Schreibe die passende Pluralform mit dem Artikel die in die Lücke."
           en: "Type the matching plural form with the article die in each gap."
@@ -130,3 +150,40 @@ blocks:
         explanation:
           de: "Im Plural steht im Nominativ immer *die*, und die Pluralendung hängt vom jeweiligen Nomen ab."
           en: "Nominative plural always takes *die*, and the plural ending depends on the noun."
+      - type: multiple-choice
+        id: plural-ohne-endung-check
+        text:
+          de: "Welche dieser Nomen bleiben im Plural ohne neue Endung (Endung —)?"
+          en: "Which of these nouns take no new ending in the plural (— pattern)?"
+        options:
+          - text:
+              de: "das Brötchen → die Brötchen"
+              en: "das Brötchen → die Brötchen"
+            correct: true
+            info:
+              de: "Richtig! Nomen auf *-chen* bleiben im Plural unverändert."
+              en: "Correct! Nouns ending in *-chen* stay unchanged in the plural."
+          - text:
+              de: "der Lehrer → die Lehrer"
+              en: "der Lehrer → die Lehrer"
+            correct: true
+            info:
+              de: "Richtig! Viele Nomen auf *-er* bekommen im Plural keine zusätzliche Endung."
+              en: "Correct! Many nouns ending in *-er* take no extra ending in the plural."
+          - text:
+              de: "die Schule → die Schulen"
+              en: "die Schule → die Schulen"
+            correct: false
+            info:
+              de: "*die Schule* bekommt ein *-n*: *die Schulen*."
+              en: "*die Schule* adds *-n*: *die Schulen*."
+          - text:
+              de: "das Buch → die Bücher"
+              en: "das Buch → die Bücher"
+            correct: false
+            info:
+              de: "*das Buch* bekommt Umlaut und *-er*: *die Bücher*."
+              en: "*das Buch* adds an umlaut and *-er*: *die Bücher*."
+        explanation:
+          de: "Nomen auf *-er, -el, -en, -chen* bleiben im Plural oft ohne Endung (*die Lehrer, die Brötchen, die Zimmer*)."
+          en: "Nouns ending in *-er, -el, -en, -chen* often take no plural ending (*die Lehrer, die Brötchen, die Zimmer*)."

@@ -21,8 +21,8 @@ blocks:
         image: images/case-table-ch2.svg
         source:
           de: "Eigene Zeichnung"
-          en: "Own diagram"
-        licence: CC-BY-SA-4.0
+          en: "Own drawing"
+        licence: CC0-1.0
         alt:
           de: "4-Fälle-Farbtabelle mit Nominativ und Akkusativ: Im Akkusativ ändert sich nur Maskulin von der/ein/kein zu den/einen/keinen."
           en: "4-Case Color Table with Nominative and Accusative rows: in the accusative, only masculine changes from der/ein/kein to den/einen/keinen."
@@ -45,9 +45,33 @@ blocks:
       en: "Practice"
     blocks:
       - type: language-task
+        id: akkusativ-artikel-wahl
+        languages: { source: en, target: de }
+        mode: choice
+        task:
+          de: "Wähle den passenden Artikel im Akkusativ."
+          en: "Choose the right accusative article."
+        items:
+          - source: "Peter needs a pencil (der Bleistift)."
+            target: "Peter braucht [einen] Bleistift."
+            distractors: [[ein, eine]]
+          - source: "Nadia takes the guitar (die Gitarre)."
+            target: "Nadia nimmt [die] Gitarre."
+            distractors: [[den, das]]
+          - source: "Lukas finds the football (der Fußball)."
+            target: "Lukas findet [den] Fußball."
+            distractors: [[der, das]]
+          - source: "Peter buys a notebook (das Heft)."
+            target: "Peter kauft [ein] Heft."
+            distractors: [[einen, eine]]
+        explanation:
+          de: "Nur maskuline Nomen wechseln im Akkusativ zu *den / einen / keinen*."
+          en: "Only masculine nouns switch to *den / einen / keinen* in the accusative."
+      - type: language-task
         id: akkusativ-artikel-luecken
         languages: { source: en, target: de }
         mode: gap
+        form: { case: hint, punctuation: ok }
         task:
           de: "Ergänze den passenden Artikel im Akkusativ (den, einen, eine, ein, keinen)."
           en: "Fill in the right accusative article (den, einen, eine, ein, keinen)."
@@ -108,3 +132,12 @@ blocks:
         explanation:
           de: "Der Artikel *den* markiert den Akkusativ eindeutig — auch wenn das Objekt vor dem Verb steht."
           en: "The article *den* clearly marks the accusative — even when the object stands before the verb."
+      - type: true-false
+        id: akkusativ-regel-check
+        text:
+          de: "Im Akkusativ ändert sich der feminine Artikel die zu der."
+          en: "In the accusative case, the feminine article die changes to der."
+        answer: false
+        explanation:
+          de: "Falsch! Im Akkusativ ändert sich **nur Maskulin** (*der → den*). Feminin (*die*), Neutrum (*das*) und Plural (*die*) bleiben genau wie im Nominativ."
+          en: "False! In the accusative, **only masculine** changes (*der → den*). Feminine (*die*), neuter (*das*), and plural (*die*) stay identical to the nominative."

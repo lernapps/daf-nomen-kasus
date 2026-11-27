@@ -26,22 +26,22 @@ blocks:
           en: "Which sentence from Peter's daily life in Lindenberg uses correct verb-second word order and the right subject pronoun?"
         options:
           - text:
-              de: "Heute wohnt er bei Familie Weber in Lindenberg."
-              en: "Heute wohnt er bei Familie Weber in Lindenberg."
+              de: "Heute wohnt er mit seinen Eltern in Lindenberg."
+              en: "Heute wohnt er mit seinen Eltern in Lindenberg."
             correct: true
             info:
               de: "Richtig! Nach der Zeitangabe *Heute* steht das konjugierte Verb *wohnt* an Position 2, danach folgt das Subjekt *er*."
               en: "Correct! After the time expression *Heute*, the conjugated verb *wohnt* stays in position 2, followed by the subject *er*."
           - text:
-              de: "Heute er wohnt bei Familie Weber in Lindenberg."
-              en: "Heute er wohnt bei Familie Weber in Lindenberg."
+              de: "Heute er wohnt mit seinen Eltern in Lindenberg."
+              en: "Heute er wohnt mit seinen Eltern in Lindenberg."
             correct: false
             info:
               de: "Hier steht das Verb an dritter Stelle. Im deutschen Aussagesatz bleibt das konjugierte Verb an Position 2."
               en: "Here the verb is in third position. In a German main-clause statement, the conjugated verb stays in position 2."
           - text:
-              de: "Heute wohnt ihn bei Familie Weber in Lindenberg."
-              en: "Heute wohnt ihn bei Familie Weber in Lindenberg."
+              de: "Heute wohnt ihn mit seinen Eltern in Lindenberg."
+              en: "Heute wohnt ihn mit seinen Eltern in Lindenberg."
             correct: false
             info:
               de: "*ihn* ist kein Subjektpronomen im Nominativ. Das Subjekt braucht *er*."

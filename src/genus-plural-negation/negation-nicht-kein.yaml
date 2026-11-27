@@ -76,8 +76,8 @@ blocks:
       - type: single-choice
         id: negation-wortstellung
         text:
-          de: "Peter sagt, dass das nicht sein Buch ist. Welcher Satz ist richtig?"
-          en: "Peter says that this is not his book (with a definite article). Which sentence is correct?"
+          de: "Peter sagt, dass das nicht das Buch von Lukas ist. Welcher Satz ist richtig?"
+          en: "Peter says that this is not Lukas's book (with a definite article). Which sentence is correct?"
         options:
           - text:
               de: "Das ist nicht das Buch von Lukas."
@@ -103,3 +103,47 @@ blocks:
         explanation:
           de: "Steht vor dem Nomen ein bestimmter Artikel (*der/die/das*), verneinst du mit *nicht* davor."
           en: "When a noun has a definite article (*der/die/das*), negate it with *nicht* in front of it."
+      - type: ordering
+        id: negation-satz-ordnen
+        text:
+          de: "Bringe die Wörter in die richtige Reihenfolge: *Peter has no homework today.*"
+          en: "Put the words in the right order: *Peter has no homework today.*"
+        items:
+          - { de: "Peter", en: "Peter" }
+          - { de: "hat", en: "hat" }
+          - { de: "heute", en: "heute" }
+          - { de: "keine", en: "keine" }
+          - { de: "Hausaufgaben.", en: "Hausaufgaben." }
+        explanation:
+          de: "*keine* steht direkt vor dem Pluralnomen *Hausaufgaben*, und das Verb *hat* bleibt an Position 2."
+          en: "*keine* stands directly before the plural noun *Hausaufgaben*, while the verb *hat* stays in position 2."
+      - type: language-task
+        id: negation-luecken
+        languages: { source: en, target: de }
+        mode: gap
+        form: { case: hint, punctuation: ok }
+        task:
+          de: "Schreibe *kein*, *keine* oder *nicht* in die Lücke."
+          en: "Type *kein*, *keine*, or *nicht* in each gap."
+        items:
+          - source: "Peter has no bicycle (das Fahrrad)."
+            target: "Peter hat [kein] Fahrrad."
+            mistakes:
+              - answer: "nicht"
+                message:
+                  de: "Vor einem Nomen ohne Artikel oder mit *ein* brauchst du *kein* (*kein Fahrrad*)."
+                  en: "Before a noun with *ein* or no article, use *kein* (*kein Fahrrad*)."
+          - source: "The football match is not boring."
+            target: "Das Fußballspiel ist [nicht] langweilig."
+            mistakes:
+              - answer: "kein"
+                message:
+                  de: "Adjektive (*langweilig*) verneinst du immer mit *nicht*."
+                  en: "Always negate adjectives (*langweilig*) with *nicht*."
+          - source: "Here are no posters (die Poster, pl.)."
+            target: "Hier hängen [keine] Poster."
+          - source: "Lukas is not playing today."
+            target: "Lukas spielt heute [nicht]."
+        explanation:
+          de: "*kein/keine* verneint Nomen (*kein Fahrrad, keine Poster*); *nicht* verneint Adjektive (*nicht langweilig*) und Verben (*spielt heute nicht*)."
+          en: "*kein/keine* negates nouns (*kein Fahrrad, keine Poster*); *nicht* negates adjectives (*nicht langweilig*) and verbs (*spielt heute nicht*)."

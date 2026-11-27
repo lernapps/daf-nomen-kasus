@@ -10,8 +10,8 @@ blocks:
   - type: section
     id: possessiv-dativ-regel
     title:
-      de: "Geschenke für meine Gastfamilie"
-      en: "Gifts for My Host Family"
+      de: "Geschenke für Familie Weber"
+      en: "Gifts for the Weber Family"
     blocks:
       - type: text
         text:
@@ -28,7 +28,7 @@ blocks:
         rows:
           - - { de: "Maskulin (m)", en: "Masculine (m)" }
             - { de: "-em", en: "-em" }
-            - { de: "meinem Bruder · eurem Lehrer", en: "meinem Bruder · eurem Lehrer" }
+            - { de: "meinem Freund · eurem Lehrer", en: "meinem Freund · eurem Lehrer" }
           - - { de: "Feminin (f)", en: "Feminine (f)" }
             - { de: "-er", en: "-er" }
             - { de: "deiner Schwester · ihrer Mutter", en: "deiner Schwester · ihrer Mutter" }
@@ -54,15 +54,39 @@ blocks:
       en: "Practice"
     blocks:
       - type: language-task
+        id: possessiv-dativ-wahl
+        languages: { source: en, target: de }
+        mode: choice
+        task:
+          de: "Wähle den passenden Possessivartikel im Dativ."
+          en: "Choose the right possessive determiner in the dative."
+        items:
+          - source: "Peter writes a card to his mother (seine Mutter)."
+            target: "Peter schreibt [seiner] Mutter eine Karte."
+            distractors: [[seine, seinem]]
+          - source: "Lukas plays with our dog (unser Hund)."
+            target: "Lukas spielt mit [unserem] Hund."
+            distractors: [[unseren, unserer]]
+          - source: "Nadia gives her parents (ihre Eltern) a photo."
+            target: "Nadia schenkt [ihren] Eltern ein Foto."
+            distractors: [[ihrem, ihrer]]
+          - source: "Herr Braun talks with my father (mein Vater)."
+            target: "Herr Braun spricht mit [meinem] Vater."
+            distractors: [[meinen, meiner]]
+        explanation:
+          de: "Dativ-Endungen für Possessivartikel: *-em* (m/n), *-er* (f) und *-en* (pl)."
+          en: "Dative endings for possessive determiners: *-em* (m/n), *-er* (f), and *-en* (pl)."
+      - type: language-task
         id: possessiv-dativ-luecken
         languages: { source: en, target: de }
         mode: gap
+        form: { case: hint, punctuation: ok }
         task:
           de: "Ergänze den richtigen Possessivartikel im Dativ."
           en: "Fill in the right dative possessive determiner."
         items:
-          - source: "Peter helps his host brother (sein Gastbruder)."
-            target: "Peter hilft [seinem] Gastbruder."
+          - source: "Peter helps his friend (sein Freund)."
+            target: "Peter hilft [seinem] Freund."
             mistakes:
               - answer: "seinen"
                 message:
@@ -77,13 +101,13 @@ blocks:
                   en: "*Mutter* is feminine and the recipient (dative) → *-er*: *ihrer Mutter*."
           - source: "We thank our friends (unsere Freunde)."
             target: "Wir danken [unseren] Freunden."
-          - source: "The room belongs to your (pl.) guest (euer Gast)."
-            target: "Das Zimmer gehört [eurem] Gast."
+          - source: "The ball belongs to your (pl.) dog (euer Hund)."
+            target: "Der Ball gehört [eurem] Hund."
             mistakes:
               - answer: "euerem"
                 message:
-                  de: "*euer* verliert mit Endung das zweite *e*: *eurem Gast*."
-                  en: "*euer* drops its second *e* before endings: *eurem Gast*."
+                  de: "*euer* verliert mit Endung das zweite *e*: *eurem Hund*."
+                  en: "*euer* drops its second *e* before endings: *eurem Hund*."
         explanation:
           de: "Im Dativ enden Possessivartikel auf *-em* (m/n), *-er* (f) und *-en* (pl)."
           en: "In the dative, possessive determiners end in *-em* (m/n), *-er* (f), and *-en* (pl)."
@@ -117,3 +141,17 @@ blocks:
         explanation:
           de: "Im Dativ Plural endet der Possessivartikel auf *-en* und das Nomen bekommt ein *-n*."
           en: "In the dative plural, the possessive ends in *-en* and the noun takes *-n*."
+      - type: ordering
+        id: possessiv-dativ-ordnen
+        text:
+          de: "Bringe die Wörter in die richtige Reihenfolge: *Peter warmly thanks his friends.*"
+          en: "Put the words in the right order: *Peter warmly thanks his friends.*"
+        items:
+          - { de: "Peter", en: "Peter" }
+          - { de: "dankt", en: "dankt" }
+          - { de: "seinen", en: "seinen" }
+          - { de: "Freunden", en: "Freunden" }
+          - { de: "herzlich.", en: "herzlich." }
+        explanation:
+          de: "*danken* verlangt den Dativ: *seinen Freunden* (Possessivartikel *-en* + Nomen *-n*)."
+          en: "*danken* requires the dative: *seinen Freunden* (possessive *-en* + noun *-n*)."

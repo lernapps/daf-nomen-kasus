@@ -56,10 +56,55 @@ blocks:
       de: "Übung"
       en: "Practice"
     blocks:
+      - type: multiple-choice
+        id: dativverben-auswaehlen
+        text:
+          de: "Welche dieser Verben verlangen direkt den **Dativ**?"
+          en: "Which of these verbs directly require the **dative**?"
+        options:
+          - text:
+              de: "helfen"
+              en: "helfen (to help)"
+            correct: true
+            info:
+              de: "Richtig! *helfen* steht immer mit dem Dativ (*hilf mir*)."
+              en: "Correct! *helfen* always takes the dative (*hilf mir*)."
+          - text:
+              de: "gehören"
+              en: "gehören (to belong to)"
+            correct: true
+            info:
+              de: "Richtig! *gehören* verlangt immer den Dativ (*gehört dem Bruder*)."
+              en: "Correct! *gehören* always requires the dative (*gehört dem Bruder*)."
+          - text:
+              de: "schmecken"
+              en: "schmecken (to taste good to)"
+            correct: true
+            info:
+              de: "Richtig! *schmecken* steht mit Dativ (*schmeckt uns*)."
+              en: "Correct! *schmecken* takes the dative (*schmeckt uns*)."
+          - text:
+              de: "kaufen"
+              en: "kaufen (to buy)"
+            correct: false
+            info:
+              de: "*kaufen* nimmt für die Sache den Akkusativ (*einen Ball kaufen*)."
+              en: "*kaufen* takes the accusative for the thing bought (*einen Ball kaufen*)."
+          - text:
+              de: "sehen"
+              en: "sehen (to see)"
+            correct: false
+            info:
+              de: "*sehen* verlangt den Akkusativ (*ich sehe ihn*)."
+              en: "*sehen* takes the accusative (*ich sehe ihn*)."
+        explanation:
+          de: "*helfen, gehören, schmecken, gefallen, danken, passen* gehören zu den wichtigsten Dativverben."
+          en: "*helfen, gehören, schmecken, gefallen, danken, passen* are core dative verbs."
       - type: language-task
         id: dativverben-luecken
         languages: { source: en, target: de }
         mode: gap
+        form: { case: hint, punctuation: ok }
         task:
           de: "Ergänze das Dativpronomen oder den Dativartikel nach dem Dativverb."
           en: "Fill in the dative pronoun or article after each dative verb."
@@ -115,3 +160,16 @@ blocks:
         explanation:
           de: "Bei *gefallen* stimmt das Verb mit der Sache überein (*die Geschenke gefallen*), und die Person steht im Dativ (*der Familie*)."
           en: "With *gefallen*, the verb agrees with the thing (*die Geschenke gefallen*), and the person is in the dative (*der Familie*)."
+      - type: ordering
+        id: dativverb-satz-ordnen
+        text:
+          de: "Bringe die Satzteile in die richtige Reihenfolge: *The friend likes the new bicycle.*"
+          en: "Put the sentence parts in the right order: *The friend likes the new bicycle.*"
+        items:
+          - { de: "Das neue Fahrrad", en: "Das neue Fahrrad" }
+          - { de: "gefällt", en: "gefällt" }
+          - { de: "dem Freund", en: "dem Freund" }
+          - { de: "sehr gut.", en: "sehr gut." }
+        explanation:
+          de: "*Das neue Fahrrad* ist das Subjekt (Nominativ), *gefällt* steht an Position 2, und *dem Freund* steht im Dativ."
+          en: "*Das neue Fahrrad* is the subject (nominative), *gefällt* takes position 2, and *dem Freund* is in the dative."

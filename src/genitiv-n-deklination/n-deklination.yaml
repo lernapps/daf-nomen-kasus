@@ -15,17 +15,17 @@ blocks:
     blocks:
       - type: text
         text:
-          de: "Bei einem Nachbarschaftsfest in Lindenberg lernt Peter einen Kollegen von Herr Weber, den Nachbarn und einen Studenten kennen. Eine besondere Gruppe **maskuliner Nomen** — die **n-Deklination** — hängt in **allen Fällen außer Nominativ Singular** ein **-n** oder **-en** an!"
+          de: "Bei einem Nachbarschaftsfest in Lindenberg lernt Peter einen Kollegen von Herrn Weber, den Nachbarn und einen Studenten kennen. Eine besondere Gruppe **maskuliner Nomen** — die **n-Deklination** — hängt in **allen Fällen außer Nominativ Singular** ein **-n** oder **-en** an!"
           en: "At a neighborhood party in Lindenberg, Peter meets a colleague of Herr Weber, the neighbor, and a university student. A special group of **masculine nouns** — the **n-declension** — adds **-n** or **-en** in **every case except nominative singular**!"
       - type: figure
         image: images/n-declension-card.svg
         source:
           de: "Eigene Zeichnung"
-          en: "Own diagram"
-        licence: CC-BY-SA-4.0
+          en: "Own drawing"
+        licence: CC0-1.0
         alt:
-          de: "Musterkarte zur n-Deklination: Nominativ Singular der Kollege / der Mensch, aber Akkusativ den Kollegen / den Menschen, Dativ dem Kollegen / dem Menschen, Genitiv des Kollegen / des Menschen."
-          en: "Pattern card for n-declension: Nominative singular der Kollege / der Mensch, but Accusative den Kollegen / den Menschen, Dative dem Kollegen / dem Menschen, Genitive des Kollegen / des Menschen."
+          de: "Musterkarte zur n-Deklination: Nominativ Singular der Junge / der Löwe, aber Akkusativ den Jungen / den Löwen, Dativ dem Jungen / dem Löwen, Genitiv des Jungen / des Löwen."
+          en: "Pattern card for n-declension: Nominative singular der Junge / der Löwe, but Accusative den Jungen / den Löwen, Dative dem Jungen / dem Löwen, Genitive des Jungen / des Löwen."
         caption:
           de: "Nur im Nominativ Singular steht die Grundform; in Akkusativ, Dativ, Genitiv (und Plural) kommt -n/-en dazu."
           en: "Only nominative singular keeps the base form; accusative, dative, genitive (and plural) all add -n/-en."
@@ -66,15 +66,36 @@ blocks:
       en: "Practice"
     blocks:
       - type: language-task
+        id: n-deklination-wahl
+        languages: { source: en, target: de }
+        mode: choice
+        task:
+          de: "Nominativ oder anderer Fall? Wähle die richtige Form."
+          en: "Nominative or another case? Choose the right form."
+        items:
+          - source: "The boy (der Junge, nom.) plays football."
+            target: "[Der Junge] spielt Fußball."
+            distractors: [[Der Jungen, Den Jungen]]
+          - source: "Peter greets Herr Braun (der Herr, acc.)."
+            target: "Peter grüßt [Herrn] Braun."
+            distractors: [[Herr, Herrens]]
+          - source: "We help the person (der Mensch, dat.)."
+            target: "Wir helfen dem [Menschen]."
+            distractors: [[Mensch, Mensches]]
+        explanation:
+          de: "Im Nominativ Singular bleibt die Grundform (*der Junge*); im Akkusativ, Dativ und Genitiv kommt *-n/-en* dazu (*Herrn, dem Menschen*)."
+          en: "Nominative singular keeps the base form (*der Junge*); accusative, dative, and genitive add *-n/-en* (*Herrn, dem Menschen*)."
+      - type: language-task
         id: n-deklination-luecken
         languages: { source: en, target: de }
         mode: gap
+        form: { case: hint, punctuation: ok }
         task:
           de: "Ergänze die richtige Form des schwachen maskulinen Nomens."
           en: "Fill in the right form of each weak masculine noun."
         items:
           - source: "Peter meets a colleague (der Kollege, acc.) of Herr Weber."
-            target: "Peter trifft einen [Kollegen] von Herr Weber."
+            target: "Peter trifft einen [Kollegen] von Herrn Weber."
             mistakes:
               - answer: "Kollege"
                 message:
@@ -129,3 +150,33 @@ blocks:
         explanation:
           de: "Zur n-Deklination gehören vor allem maskuline Lebewesen auf *-e* (*Kollege, Junge*) sowie feste Wörter wie *Mensch, Student, Nachbar, Herr*."
           en: "The n-declension mostly includes masculine people/animals ending in *-e* (*Kollege, Junge*) plus key nouns like *Mensch, Student, Nachbar, Herr*."
+      - type: multiple-choice
+        id: n-deklination-merkmale
+        text:
+          de: "Welche Aussagen über die n-Deklination stimmen?"
+          en: "Which statements about the n-declension are true?"
+        options:
+          - text:
+              de: "Sie gilt nur für bestimmte maskuline Nomen."
+              en: "It only applies to certain masculine nouns."
+            correct: true
+            info:
+              de: "Richtig! Feminine und neutrale Nomen (außer dem Sonderfall *das Herz*) gehören nicht dazu."
+              en: "Correct! Feminine and neuter nouns (aside from the rare special case *das Herz*) are not part of it."
+          - text:
+              de: "Nur im Nominativ Singular steht die Grundform ohne -n/-en."
+              en: "Only the nominative singular keeps the base form without -n/-en."
+            correct: true
+            info:
+              de: "Richtig! In Akkusativ, Dativ, Genitiv und Plural steht *-n* oder *-en*."
+              en: "Correct! Accusative, dative, genitive, and plural all take *-n* or *-en*."
+          - text:
+              de: "Alle maskulinen Nomen bekommen im Akkusativ ein -n."
+              en: "Every masculine noun adds -n in the accusative."
+            correct: false
+            info:
+              de: "Nein, normale maskuline Nomen wie *der Tisch* oder *der Lehrer* bleiben im Akkusativ unverändert (*den Tisch, den Lehrer*)."
+              en: "No, regular masculine nouns like *der Tisch* or *der Lehrer* stay unchanged in the accusative (*den Tisch, den Lehrer*)."
+        explanation:
+          de: "Die n-Deklination betrifft eine klar begrenzte Gruppe maskuliner Nomen und fügt in allen Fällen außer Nominativ Singular *-n/-en* hinzu."
+          en: "The n-declension covers a specific group of masculine nouns and adds *-n/-en* in every case except nominative singular."
