@@ -1,0 +1,26 @@
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
+title:
+  de: "Dativ, Dativverben und Reflexivpronomen"
+  en: "Dative Case, Verbs and Reflexive Pronouns"
+summary:
+  de: "Ich kann Dativartikel, Dativpronomen, Possessivartikel im Dativ, Dativverben, Sätze mit zwei Objekten, reflexive Verben sowie Demonstrativ- und Indefinitpronomen verwenden."
+  en: "I can use dative articles, pronouns, possessives, dative verbs, two-object sentences, reflexive verbs, and common demonstratives and indefinites."
+pages:
+  - dativ-artikel
+  - dativ-pronomen
+  - verben-mit-dativ
+  - dativ-und-akkusativ
+  - possessivartikel-dativ
+  - reflexive-verben
+  - demonstrativ-indefinitpronomen
+selfAssessment:
+  pages:
+    - exercises:
+        - /dativ-verben-reflexiv/dativ-artikel/#dativ-plural-luecken
+        - /dativ-verben-reflexiv/dativ-pronomen/#dativ-pronomen-luecken
+        - /dativ-verben-reflexiv/verben-mit-dativ/#dativverben-luecken
+        - /dativ-verben-reflexiv/dativ-und-akkusativ/#zwei-objekte-luecken
+    - exercises:
+        - /dativ-verben-reflexiv/possessivartikel-dativ/#possessiv-dativ-luecken
+        - /dativ-verben-reflexiv/reflexive-verben/#reflexiv-luecken
+        - /dativ-verben-reflexiv/demonstrativ-indefinitpronomen/#indefinit-luecken

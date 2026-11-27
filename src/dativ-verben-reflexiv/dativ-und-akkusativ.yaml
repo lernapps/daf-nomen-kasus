@@ -1,0 +1,128 @@
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
+title:
+  de: "Dativ- und Akkusativobjekt"
+  en: "Dative and Accusative Objects"
+description:
+  de: "Sätze mit Empfänger (Dativ) und Sache (Akkusativ) in der richtigen Reihenfolge bauen."
+  en: "Build sentences with both a dative recipient and an accusative object in the right order."
+competencies: [dativ-und-akkusativ]
+blocks:
+  - type: section
+    id: pfeildiagramm
+    title:
+      de: "Empfänger + Sache: Das Pfeildiagramm"
+      en: "Recipient + Thing: The Arrow Diagram"
+    blocks:
+      - type: text
+        text:
+          de: "Verben wie **geben, schenken, zeigen, bringen, leihen, schreiben** brauchen oft zwei Objekte: den **Empfänger** im Dativ (Wem?) und die **Sache** im Akkusativ (Was?). Die Reihenfolge hängt davon ab, ob du Nomen oder Pronomen benutzt."
+          en: "Verbs like **geben, schenken, zeigen, bringen, leihen, schreiben** often take two objects: the **recipient** in the dative (to whom?) and the **thing** in the accusative (what?). Their word order depends on whether they are nouns or pronouns."
+      - type: figure
+        image: images/dative-accusative-arrows.svg
+        source:
+          de: "Eigene Zeichnung"
+          en: "Own drawing"
+        licence: CC0-1.0
+        alt:
+          de: "Pfeildiagramm: Peter (Nominativ) schenkt -> der Freundin / ihr (Dativ, Empfänger) und ein Spiel / es (Akkusativ, Sache). Regeln: 2 Nomen Dativ vor Akkusativ; 1 Pronomen zuerst; 2 Pronomen Akkusativ vor Dativ."
+          en: "Arrow diagram: Peter (Nominative) schenkt -> der Freundin / ihr (Dative, recipient) and ein Spiel / es (Accusative, thing). Rules: 2 nouns Dative before Accusative; 1 pronoun goes first; 2 pronouns Accusative before Dative."
+        caption:
+          de: "Drei klare Reihenfolge-Regeln für Sätze mit Dativ- und Akkusativobjekt."
+          en: "Three clear word-order rules for sentences with both dative and accusative objects."
+      - type: table
+        caption:
+          de: "Die 3 Reihenfolge-Regeln"
+          en: "The 3 Word-Order Rules"
+        header:
+          - { de: "Kombination", en: "Combination" }
+          - { de: "Reihenfolge", en: "Order" }
+          - { de: "Beispiel", en: "Example" }
+        rows:
+          - - { de: "2 Nomen", en: "2 nouns" }
+            - { de: "Dativ → Akkusativ", en: "Dative → Accusative" }
+            - { de: "Peter schenkt der Freundin ein Spiel.", en: "Peter schenkt der Freundin ein Spiel." }
+          - - { de: "1 Pronomen + 1 Nomen", en: "1 pronoun + 1 noun" }
+            - { de: "Pronomen zuerst", en: "Pronoun first" }
+            - {
+                de: "Peter schenkt ihr ein Spiel. / Peter schenkt es Nadia.",
+                en: "Peter schenkt ihr ein Spiel. / Peter schenkt es Nadia.",
+              }
+          - - { de: "2 Pronomen", en: "2 pronouns" }
+            - { de: "Akkusativ → Dativ", en: "Accusative → Dative" }
+            - { de: "Peter schenkt es ihr.", en: "Peter schenkt es ihr." }
+  - type: section
+    id: uebung
+    title:
+      de: "Übung"
+      en: "Practice"
+    blocks:
+      - type: ordering
+        id: zwei-objekte-ordnen
+        text:
+          de: "Bringe die Satzteile in die richtige Reihenfolge: *Peter lends his friend the bike.*"
+          en: "Put the sentence parts in the right order: *Peter lends his friend the bike.*"
+        items:
+          - { de: "Peter", en: "Peter" }
+          - { de: "leiht", en: "leiht" }
+          - { de: "dem Freund", en: "dem Freund" }
+          - { de: "das Fahrrad.", en: "das Fahrrad." }
+        explanation:
+          de: "Bei zwei Nomen steht der Dativ (*dem Freund*) vor dem Akkusativ (*das Fahrrad*)."
+          en: "With two nouns, the dative (*dem Freund*) comes before the accusative (*das Fahrrad*)."
+      - type: language-task
+        id: zwei-pronomen-wahl
+        languages: { source: en, target: de }
+        mode: choice
+        task:
+          de: "Wähle die richtige Objekt-Reihenfolge mit Pronomen."
+          en: "Choose the right object order with pronouns."
+        items:
+          - source: "Peter gives it (das Buch) to her (Mina)."
+            target: "Peter gibt [es ihr]."
+            distractors: [[ihr es, sie ihr]]
+          - source: "Lukas shows it (den Ball) to Peter."
+            target: "Lukas zeigt [ihn Peter]."
+            distractors: [[Peter ihn, ihm Peter]]
+          - source: "Nadia writes him (Lukas) a card."
+            target: "Nadia schreibt [ihm eine Karte]."
+            distractors: [[eine Karte ihm, ihn eine Karte]]
+        explanation:
+          de: "Ein Pronomen steht vor dem Nomen (*ihn Peter*, *ihm eine Karte*). Bei zwei Pronomen steht Akkusativ vor Dativ (*es ihr*)."
+          en: "A single pronoun comes before a noun (*ihn Peter*, *ihm eine Karte*). With two pronouns, accusative comes before dative (*es ihr*)."
+      - type: language-task
+        id: zwei-objekte-luecken
+        languages: { source: en, target: de }
+        mode: gap
+        form: { case: hint, punctuation: ok }
+        task:
+          de: "Ergänze beide Objekte in der richtigen Reihenfolge."
+          en: "Type both objects in the right order."
+        items:
+          - source: "Peter gives the teacher (der Lehrer) the notebook (das Heft)."
+            target: "Peter gibt [dem Lehrer das Heft]."
+            mistakes:
+              - answer: "das Heft dem Lehrer"
+                message:
+                  de: "Bei zwei Nomen steht der Dativ (*dem Lehrer*) vor dem Akkusativ (*das Heft*)."
+                  en: "With two nouns, dative (*dem Lehrer*) comes before accusative (*das Heft*)."
+          - source: "Lukas brings it (das Buch) to him (Peter)."
+            target: "Lukas bringt [es ihm]."
+            mistakes:
+              - answer: "ihm es"
+                message:
+                  de: "Bei zwei Pronomen steht der Akkusativ (*es*) vor dem Dativ (*ihm*)."
+                  en: "With two pronouns, accusative (*es*) comes before dative (*ihm*)."
+          - source: "Mina gives her (Nadia) the ball (der Ball)."
+            target: "Mina gibt [ihr den Ball]."
+        explanation:
+          de: "Merke: 2 Nomen = Dat → Akk; 1 Pronomen = Pronomen zuerst; 2 Pronomen = Akk → Dat."
+          en: "Remember: 2 nouns = Dat → Acc; 1 pronoun = pronoun first; 2 pronouns = Acc → Dat."
+      - type: true-false
+        id: zwei-pronomen-regel-check
+        text:
+          de: "Wenn beide Objekte Pronomen sind (z. B. es und ihr), steht der Dativ immer zuerst."
+          en: "When both objects are pronouns (such as es and ihr), the dative pronoun always comes first."
+        answer: false
+        explanation:
+          de: "Falsch! Bei zwei Pronomen steht der **Akkusativ vor dem Dativ**: *Peter gibt **es ihr**.*"
+          en: "False! With two pronouns, **accusative comes before dative**: *Peter gibt **es ihr**.*"

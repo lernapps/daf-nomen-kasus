@@ -1,0 +1,17 @@
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
+title:
+  de: "Genitiv und n-Deklination"
+  en: "Genitive Case and Weak Masculine Nouns"
+summary:
+  de: "Ich kann den Genitiv für Besitz und Genitivpräpositionen verwenden und schwache maskuline Nomen (n-Deklination) beugen."
+  en: "I can use the genitive for possession and genitive prepositions and decline weak masculine nouns (n-declension)."
+pages:
+  - genitiv-artikel
+  - n-deklination
+selfAssessment:
+  pages:
+    - exercises:
+        - /genitiv-n-deklination/genitiv-artikel/#genitiv-luecken
+        - /genitiv-n-deklination/genitiv-artikel/#genitiv-besitz-check
+        - /genitiv-n-deklination/n-deklination/#n-deklination-luecken
+        - /genitiv-n-deklination/n-deklination/#n-deklination-merkmale

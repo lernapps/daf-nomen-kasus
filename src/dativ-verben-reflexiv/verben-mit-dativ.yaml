@@ -1,0 +1,175 @@
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
+title:
+  de: "Verben mit Dativ"
+  en: "Verbs with Dative"
+description:
+  de: "Häufige Dativverben wie helfen, gefallen, gehören, danken, schmecken und passen richtig verwenden."
+  en: "Use common dative verbs such as helfen, gefallen, gehören, danken, schmecken, and passen."
+competencies: [verben-mit-dativ]
+blocks:
+  - type: section
+    id: dativverben-alltag
+    title:
+      de: "Verben, die direkt den Dativ verlangen"
+      en: "Verbs That Directly Require Dative"
+    blocks:
+      - type: text
+        text:
+          de: "Manche deutschen Verben haben **kein Akkusativobjekt**, sondern verlangen immer den **Dativ** — auch wenn sie im Englischen ein direktes Objekt haben (*help me → hilf **mir***!). Lerne diese wichtigen Dativverben als feste Gruppe."
+          en: "Some German verbs take **no accusative object** at all — they always require the **dative**, even when English uses a direct object (*help me → hilf **mir***!). Learn these core dative verbs as a group."
+      - type: vocabulary
+        caption:
+          de: "Die wichtigsten Dativverben in Lindenberg"
+          en: "Core Dative Verbs in Lindenberg"
+        languages: { source: en, target: de }
+        entries:
+          - target: helfen
+            source: to help
+            example: { target: "Lukas hilft mir bei den Hausaufgaben.", source: "Lukas helps me with homework." }
+          - target: gefallen
+            source: to please / to be liked by
+            example: { target: "Das Zimmer gefällt ihm sehr.", source: "He really likes the room." }
+          - target: gehören
+            source: to belong to
+            example: { target: "Das Fahrrad gehört der Schwester.", source: "The bike belongs to the sister." }
+          - target: danken
+            source: to thank
+            example: { target: "Peter dankt den Eltern.", source: "Peter thanks the parents." }
+          - target: schmecken
+            source: to taste good to
+            example: { target: "Die Brötchen schmecken uns.", source: "We enjoy the bread rolls." }
+          - target: passen
+            source: to fit / to suit
+            example: { target: "Die Jacke passt dir gut.", source: "The jacket fits you well." }
+      - type: note
+        title:
+          de: "Vorsicht bei gefallen und schmecken!"
+          en: "Watch the Subject with gefallen and schmecken!"
+        blocks:
+          - type: text
+            text:
+              de: "Bei *gefallen* und *schmecken* ist **die Sache das Subjekt** und die Person steht im Dativ: *Das Buch (Subj., Sg.) **gefällt** mir.* — *Die Bücher (Subj., Pl.) **gefallen** mir.*"
+              en: "With *gefallen* and *schmecken*, **the thing is the subject** and the person is in the dative: *Das Buch (subj., sg.) **gefällt** mir.* — *Die Bücher (subj., pl.) **gefallen** mir.*"
+  - type: section
+    id: uebung
+    title:
+      de: "Übung"
+      en: "Practice"
+    blocks:
+      - type: multiple-choice
+        id: dativverben-auswaehlen
+        text:
+          de: "Welche dieser Verben verlangen direkt den **Dativ**?"
+          en: "Which of these verbs directly require the **dative**?"
+        options:
+          - text:
+              de: "helfen"
+              en: "helfen (to help)"
+            correct: true
+            info:
+              de: "Richtig! *helfen* steht immer mit dem Dativ (*hilf mir*)."
+              en: "Correct! *helfen* always takes the dative (*hilf mir*)."
+          - text:
+              de: "gehören"
+              en: "gehören (to belong to)"
+            correct: true
+            info:
+              de: "Richtig! *gehören* verlangt immer den Dativ (*gehört dem Bruder*)."
+              en: "Correct! *gehören* always requires the dative (*gehört dem Bruder*)."
+          - text:
+              de: "schmecken"
+              en: "schmecken (to taste good to)"
+            correct: true
+            info:
+              de: "Richtig! *schmecken* steht mit Dativ (*schmeckt uns*)."
+              en: "Correct! *schmecken* takes the dative (*schmeckt uns*)."
+          - text:
+              de: "kaufen"
+              en: "kaufen (to buy)"
+            correct: false
+            info:
+              de: "*kaufen* nimmt für die Sache den Akkusativ (*einen Ball kaufen*)."
+              en: "*kaufen* takes the accusative for the thing bought (*einen Ball kaufen*)."
+          - text:
+              de: "sehen"
+              en: "sehen (to see)"
+            correct: false
+            info:
+              de: "*sehen* verlangt den Akkusativ (*ich sehe ihn*)."
+              en: "*sehen* takes the accusative (*ich sehe ihn*)."
+        explanation:
+          de: "*helfen, gehören, schmecken, gefallen, danken, passen* gehören zu den wichtigsten Dativverben."
+          en: "*helfen, gehören, schmecken, gefallen, danken, passen* are core dative verbs."
+      - type: language-task
+        id: dativverben-luecken
+        languages: { source: en, target: de }
+        mode: gap
+        form: { case: hint, punctuation: ok }
+        task:
+          de: "Ergänze das Dativpronomen oder den Dativartikel nach dem Dativverb."
+          en: "Fill in the dative pronoun or article after each dative verb."
+        items:
+          - source: "Nadia helps me (ich) with German."
+            target: "Nadia hilft [mir] beim Deutschlernen."
+            mistakes:
+              - answer: "mich"
+                message:
+                  de: "*helfen* ist ein Dativverb → immer *mir*, nie *mich*."
+                  en: "*helfen* is a dative verb → always *mir*, never *mich*."
+          - source: "The bike belongs to the teacher (der Lehrer)."
+            target: "Das Fahrrad gehört [dem] Lehrer."
+            mistakes:
+              - answer: "den"
+                message:
+                  de: "*gehören* verlangt den Dativ: *der Lehrer → dem Lehrer*."
+                  en: "*gehören* requires the dative: *der Lehrer → dem Lehrer*."
+          - source: "Does the bread roll taste good to you (du)?"
+            target: "Schmeckt [dir] das Brötchen?"
+          - source: "The new jacket fits her (Mina)."
+            target: "Die neue Jacke passt [ihr]."
+        explanation:
+          de: "*helfen, gehören, schmecken, passen, gefallen, danken* stehen immer mit dem Dativ."
+          en: "*helfen, gehören, schmecken, passen, gefallen, danken* always take the dative."
+      - type: single-choice
+        id: dativverb-erkennen
+        text:
+          de: "Welcher Satz mit *gefallen* ist grammatisch richtig?"
+          en: "Which sentence with *gefallen* is grammatically correct?"
+        options:
+          - text:
+              de: "Die Geschenke gefallen der Familie Weber."
+              en: "Die Geschenke gefallen der Familie Weber."
+            correct: true
+            info:
+              de: "Richtig! *Die Geschenke* (Plural) ist Subjekt → *gefallen*, und *die Familie* steht im Dativ → *der Familie*."
+              en: "Correct! *Die Geschenke* (plural) is the subject → *gefallen*, and *die Familie* takes the dative → *der Familie*."
+          - text:
+              de: "Die Familie Weber gefällt die Geschenke."
+              en: "Die Familie Weber gefällt die Geschenke."
+            correct: false
+            info:
+              de: "Hier wurden Subjekt und Dativobjekt vertauscht. Die Geschenke gefallen jemandem (Dativ)."
+              en: "Subject and dative object are swapped here. The gifts please someone (dative)."
+          - text:
+              de: "Die Geschenke gefallen die Familie Weber."
+              en: "Die Geschenke gefallen die Familie Weber."
+            correct: false
+            info:
+              de: "*gefallen* verlangt den Dativ: feminin *die Familie* wird zu *der Familie*."
+              en: "*gefallen* requires the dative: feminine *die Familie* becomes *der Familie*."
+        explanation:
+          de: "Bei *gefallen* stimmt das Verb mit der Sache überein (*die Geschenke gefallen*), und die Person steht im Dativ (*der Familie*)."
+          en: "With *gefallen*, the verb agrees with the thing (*die Geschenke gefallen*), and the person is in the dative (*der Familie*)."
+      - type: ordering
+        id: dativverb-satz-ordnen
+        text:
+          de: "Bringe die Satzteile in die richtige Reihenfolge: *The friend likes the new bicycle.*"
+          en: "Put the sentence parts in the right order: *The friend likes the new bicycle.*"
+        items:
+          - { de: "Das neue Fahrrad", en: "Das neue Fahrrad" }
+          - { de: "gefällt", en: "gefällt" }
+          - { de: "dem Freund", en: "dem Freund" }
+          - { de: "sehr gut.", en: "sehr gut." }
+        explanation:
+          de: "*Das neue Fahrrad* ist das Subjekt (Nominativ), *gefällt* steht an Position 2, und *dem Freund* steht im Dativ."
+          en: "*Das neue Fahrrad* is the subject (nominative), *gefällt* takes position 2, and *dem Freund* is in the dative."

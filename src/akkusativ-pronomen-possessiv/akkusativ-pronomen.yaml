@@ -1,0 +1,160 @@
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
+title:
+  de: "Personalpronomen im Akkusativ"
+  en: "Accusative Personal Pronouns"
+description:
+  de: "Personalpronomen im Akkusativ (mich, dich, ihn, sie, es, uns, euch, sie, Sie) als direkte Objekte verwenden."
+  en: "Use accusative personal pronouns (mich, dich, ihn, sie, es, uns, euch, sie, Sie) as direct objects."
+competencies: [akkusativ-pronomen]
+blocks:
+  - type: section
+    id: stellvertreter-akkusativ
+    title:
+      de: "Stellvertreter-Karten im Akkusativ"
+      en: "Stand-in Cards in the Accusative"
+    blocks:
+      - type: text
+        text:
+          de: "Statt ein Nomen oder einen Namen zu wiederholen, legen Peter und Nadia **Stellvertreter-Karten** (Personalpronomen) auf den Tisch. Steht das Pronomen als direktes Objekt (Wen oder was?), brauchst du die **Akkusativ-Form**: *Kennst du Lukas? Ja, ich kenne **ihn**!*"
+          en: "Instead of repeating a noun or name, Peter and Nadia use **Stand-in Cards** (personal pronouns). When the pronoun is the direct object (whom or what?), you use the **accusative form**: *Kennst du Lukas? Ja, ich kenne **ihn**!*"
+      - type: table
+        caption:
+          de: "Personalpronomen: Nominativ → Akkusativ"
+          en: "Personal Pronouns: Nominative → Accusative"
+        header:
+          - { de: "Nominativ", en: "Nominative" }
+          - { de: "Akkusativ", en: "Accusative" }
+          - { de: "Beispiel", en: "Example" }
+        rows:
+          - - { de: "ich / du", en: "ich / du" }
+            - { de: "mich / dich", en: "mich / dich" }
+            - { de: "Nadia ruft mich an. Ich sehe dich.", en: "Nadia ruft mich an. Ich sehe dich." }
+          - - { de: "er / sie / es", en: "er / sie / es" }
+            - { de: "ihn / sie / es", en: "ihn / sie / es" }
+            - {
+                de: "Ich kaufe ihn (den Ball), sie (die Lampe), es (das Buch).",
+                en: "Ich kaufe ihn (den Ball), sie (die Lampe), es (das Buch).",
+              }
+          - - { de: "wir / ihr", en: "wir / ihr" }
+            - { de: "uns / euch", en: "uns / euch" }
+            - { de: "Herr Braun fragt uns. Wir besuchen euch.", en: "Herr Braun fragt uns. Wir besuchen euch." }
+          - - { de: "sie (pl) / Sie", en: "sie (pl) / Sie" }
+            - { de: "sie / Sie", en: "sie / Sie" }
+            - { de: "Ich kenne sie (die Bücher). Ich frage Sie.", en: "Ich kenne sie (die Bücher). Ich frage Sie." }
+      - type: note
+        title:
+          de: "Dinge haben auch ein Pronomen!"
+          en: "Things Use Pronouns Too!"
+        blocks:
+          - type: text
+            text:
+              de: "Im Deutschen richtet sich das Pronomen nach dem **Genus** des Nomens, nicht nach Mensch oder Sache: *der Rucksack → **ihn***, *die Gitarre → **sie***, *das Regal → **es***."
+              en: "In German, the pronoun matches the noun's **grammatical gender**, not whether it is a person or a thing: *der Rucksack → **ihn***, *die Gitarre → **sie***, *das Regal → **es***."
+  - type: section
+    id: uebung
+    title:
+      de: "Übung"
+      en: "Practice"
+    blocks:
+      - type: matching
+        id: pronomen-nom-akk-zuordnen
+        text:
+          de: "Ordne jeder Nominativ-Karte die passende Akkusativ-Karte zu."
+          en: "Match each nominative card with its accusative stand-in card."
+        pairs:
+          - left: { de: "ich", en: "ich" }
+            right: { de: "mich", en: "mich" }
+          - left: { de: "du", en: "du" }
+            right: { de: "dich", en: "dich" }
+          - left: { de: "er (der Stuhl)", en: "er (der Stuhl)" }
+            right: { de: "ihn", en: "ihn" }
+          - left: { de: "wir", en: "wir" }
+            right: { de: "uns", en: "uns" }
+          - left: { de: "ihr", en: "ihr" }
+            right: { de: "euch", en: "euch" }
+        explanation:
+          de: "Im Akkusativ ändern sich *ich→mich, du→dich, er→ihn, wir→uns, ihr→euch*; *sie, es, Sie* bleiben gleich."
+          en: "In the accusative, *ich→mich, du→dich, er→ihn, wir→uns, ihr→euch* change; *sie, es, Sie* stay unchanged."
+      - type: language-task
+        id: akkusativ-pronomen-wahl
+        languages: { source: en, target: de }
+        mode: choice
+        task:
+          de: "Wähle das passende Akkusativpronomen für jede Situation in Klasse 6."
+          en: "Choose the right accusative pronoun for each Year 6 situation."
+        items:
+          - source: "Where is the ball (der Ball)? Lukas has it."
+            target: "Wo ist der Ball? Lukas hat [ihn]."
+            distractors: [[es, er]]
+          - source: "Do you see the guitar (die Gitarre)? Yes, I see it."
+            target: "Siehst du die Gitarre? Ja, ich sehe [sie]."
+            distractors: [[es, ihn]]
+          - source: "Herr Braun sees you all (Lukas & Nadia)."
+            target: "Herr Braun sieht [euch]."
+            distractors: [[ihr, uns]]
+          - source: "Where is the notebook (das Heft)? Peter needs it."
+            target: "Wo ist das Heft? Peter braucht [es]."
+            distractors: [[ihn, sie]]
+        explanation:
+          de: "Das Pronomen richtet sich nach dem Genus des Nomens (*der → ihn, die → sie, das → es*) und bei Personen nach der Akkusativ-Form (*ihr → euch*)."
+          en: "The pronoun matches the noun's gender (*der → ihn, die → sie, das → es*) and for people takes the accusative form (*ihr → euch*)."
+      - type: language-task
+        id: akkusativ-pronomen-ersetzen
+        languages: { source: en, target: de }
+        mode: gap
+        form: { case: hint, punctuation: ok }
+        task:
+          de: "Ersetze das Nomen oder die Person durch das richtige Akkusativpronomen."
+          en: "Replace the noun or person with the right accusative pronoun."
+        items:
+          - source: "Where is the backpack (der Rucksack)? I am looking for it."
+            target: "Wo ist der Rucksack? Ich suche [ihn]."
+            mistakes:
+              - answer: "es"
+                message:
+                  de: "*der Rucksack* ist maskulin — im Deutschen ersetzt man ihn mit *ihn*, nicht mit *es*."
+                  en: "*der Rucksack* is masculine — in German, replace it with *ihn*, not *es*."
+          - source: "Nadia visits us in Lindenberg."
+            target: "Nadia besucht [uns] in Lindenberg."
+          - source: "Do you see the lamp (die Lampe)? Yes, I see it."
+            target: "Siehst du die Lampe? Ja, ich sehe [sie]."
+          - source: "Peter asks me about the homework."
+            target: "Peter fragt [mich] nach den Hausaufgaben."
+            mistakes:
+              - answer: "mir"
+                message:
+                  de: "*fragen* nimmt den Akkusativ → *mich* (nicht Dativ *mir*)."
+                  en: "*fragen* takes the accusative → *mich* (not dative *mir*)."
+        explanation:
+          de: "Achte bei Sachen auf das Genus (*der→ihn, die→sie, das→es*) und bei Personen auf die Akkusativform (*mich, dich, ihn, sie, uns, euch*)."
+          en: "For things, match the grammatical gender (*der→ihn, die→sie, das→es*); for people, use the accusative form (*mich, dich, ihn, sie, uns, euch*)."
+      - type: single-choice
+        id: akkusativ-sachen-check
+        text:
+          de: "Peter sucht seinen Schlüssel (*der Schlüssel*). Warum sagt er *Ich finde ihn* und nicht *Ich finde es*?"
+          en: "Peter is looking for his key (*der Schlüssel*). Why does he say *Ich finde ihn* instead of *Ich finde es*?"
+        options:
+          - text:
+              de: "Weil das Pronomen zum Genus (*der*, maskulin) passt — auch bei Sachen."
+              en: "Because the pronoun matches the noun's gender (*der*, masculine) — even for things."
+            correct: true
+            info:
+              de: "Genau! Im Deutschen richtet sich das Pronomen nach *der/die/das*, nicht nach Mensch oder Sache."
+              en: "Exactly! In German, pronouns follow *der/die/das*, not whether something is a person or a thing."
+          - text:
+              de: "Weil *es* im Deutschen nie im Akkusativ stehen darf."
+              en: "Because *es* can never be used in the accusative in German."
+            correct: false
+            info:
+              de: "Für neutrale Nomen wie *das Buch* benutzt man sehr wohl *es*: *Ich lese es.*"
+              en: "For neuter nouns like *das Buch*, you do use *es*: *Ich lese es.*"
+          - text:
+              de: "Weil *finden* immer das Pronomen *ihn* verlangt."
+              en: "Because *finden* always requires the pronoun *ihn*."
+            correct: false
+            info:
+              de: "*finden* nimmt den Akkusativ, aber das Pronomen hängt vom Nomen ab (*die Tasche → sie*, *das Heft → es*)."
+              en: "*finden* takes the accusative, but the pronoun depends on the noun (*die Tasche → sie*, *das Heft → es*)."
+        explanation:
+          de: "Auch Dinge tragen ihr grammatisches Geschlecht weiter: *der → ihn*, *die → sie*, *das → es*."
+          en: "Things keep their grammatical gender in pronouns too: *der → ihn*, *die → sie*, *das → es*."

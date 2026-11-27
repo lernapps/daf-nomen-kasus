@@ -1,0 +1,168 @@
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
+title:
+  de: "Artikel und Genus"
+  en: "Articles and Noun Gender"
+description:
+  de: "Bestimmte (der, die, das) und unbestimmte (ein, eine) Artikel mit den vier Farbspalten lernen."
+  en: "Use definite (der, die, das) and indefinite (ein, eine) articles with the four color columns."
+competencies: [artikel-genus]
+blocks:
+  - type: section
+    id: peters-zimmer
+    title:
+      de: "Die vier Farbspalten in Peters Zimmer"
+      en: "The Four Color Columns in Peter's Room"
+    blocks:
+      - type: text
+        text:
+          de: "Peter (12) richtet sein neues Zimmer in der Wohnung seiner Eltern in Lindenberg ein. Jedes deutsche Nomen hat ein grammatisches Geschlecht (**Genus**): **maskulin** (*der*, blau), **feminin** (*die*, rot) oder **neutrum** (*das*, grün). Im Plural steht immer **die** (gelb)."
+          en: "Peter (12) is setting up his new room in his parents' apartment in Lindenberg. Every German noun has a grammatical gender: **masculine** (*der*, blue), **feminine** (*die*, red), or **neuter** (*das*, green). Plural always uses **die** (amber)."
+      - type: figure
+        image: images/case-table-ch1.svg
+        source:
+          de: "Eigene Zeichnung"
+          en: "Own drawing"
+        licence: CC0-1.0
+        alt:
+          de: "4-Fälle-Farbtabelle mit der ersten Zeile Nominativ: maskulin der/ein, feminin die/eine, neutrum das/ein, Plural die."
+          en: "4-Case Color Table showing the first row, Nominative: masculine der/ein, feminine die/eine, neuter das/ein, plural die."
+        caption:
+          de: "Unsere 4-Fälle-Farbtabelle startet im Nominativ. Jedes neue Kapitel ergänzt eine Zeile."
+          en: "Our 4-Case Color Table starts with the nominative row. Each new chapter adds one row."
+      - type: note
+        title:
+          de: "Merktipps für das Genus"
+          en: "Helpful Gender Clues"
+        blocks:
+          - type: text
+            text:
+              de: "Lerne jedes Nomen immer mit seinem Artikel. Einige Endungen helfen dir: **-ung, -heit, -keit, -tät** sind immer feminin (*die Wohnung, die Freiheit*), **-chen, -lein** sind immer neutrum (*das Brötchen, das Mädchen*)."
+              en: "Always learn each noun together with its article. Some endings give reliable clues: **-ung, -heit, -keit, -tät** are always feminine (*die Wohnung, die Freiheit*), and **-chen, -lein** are always neuter (*das Brötchen, das Mädchen*)."
+      - type: vocabulary
+        caption:
+          de: "Dinge in Peters Zimmer"
+          en: "Objects in Peter's Room"
+        languages: { source: en, target: de }
+        entries:
+          - target: der Schreibtisch
+            source: desk
+            example: { target: "Der Schreibtisch steht am Fenster.", source: "The desk stands by the window." }
+          - target: der Rucksack
+            source: backpack
+          - target: die Lampe
+            source: lamp
+            example: { target: "Eine Lampe steht auf dem Tisch.", source: "A lamp is on the desk." }
+          - target: die Gitarre
+            source: guitar
+          - target: das Bett
+            source: bed
+          - target: das Regal
+            source: shelf
+          - target: das Fahrrad
+            source: bicycle
+  - type: section
+    id: uebung
+    title:
+      de: "Übung"
+      en: "Practice"
+    blocks:
+      - type: matching
+        id: artikel-genus-zuordnen
+        text:
+          de: "Ordne jedes Wort aus Peters Alltag seiner Farbspalte zu."
+          en: "Match each word from Peter's daily life to its gender column."
+        pairs:
+          - left: { de: "der Rucksack", en: "der Rucksack" }
+            right: { de: "Maskulin (blau · der/ein)", en: "Masculine (blue · der/ein)" }
+          - left: { de: "die Gitarre", en: "die Gitarre" }
+            right: { de: "Feminin (rot · die/eine)", en: "Feminine (red · die/eine)" }
+          - left: { de: "das Fahrrad", en: "das Fahrrad" }
+            right: { de: "Neutrum (grün · das/ein)", en: "Neuter (green · das/ein)" }
+          - left: { de: "die Bücher", en: "die Bücher" }
+            right: { de: "Plural (gelb · die)", en: "Plural (amber · die)" }
+        explanation:
+          de: "Die vier Spalten bleiben in der ganzen App gleich: Maskulin (*der*), Feminin (*die*), Neutrum (*das*) und Plural (*die*)."
+          en: "The four columns stay the same throughout the app: masculine (*der*), feminine (*die*), neuter (*das*), and plural (*die*)."
+      - type: language-task
+        id: artikel-zimmer-wahl
+        languages: { source: en, target: de }
+        mode: choice
+        task:
+          de: "Wähle den passenden bestimmten oder unbestimmten Artikel für Peters Zimmer."
+          en: "Choose the matching definite or indefinite article for Peter's room."
+        items:
+          - source: "The desk is big."
+            target: "[Der] Schreibtisch ist groß."
+            distractors: [[Die, Das]]
+          - source: "A lamp is standing here."
+            target: "[Eine] Lampe steht hier."
+            distractors: [[Ein, Einen]]
+          - source: "The bed is comfortable."
+            target: "[Das] Bett ist bequem."
+            distractors: [[Der, Die]]
+          - source: "A shelf is next to the bed."
+            target: "[Ein] Regal steht neben dem Bett."
+            distractors: [[Eine, Das]]
+        explanation:
+          de: "Maskulin nimmt *der/ein*, feminin *die/eine* und neutrum *das/ein*."
+          en: "Masculine takes *der/ein*, feminine takes *die/eine*, and neuter takes *das/ein*."
+      - type: single-choice
+        id: genus-endung-check
+        text:
+          de: "Peter kauft in Lindenberg ein Brötchen und sieht eine Zeitung. Welches Paar stimmt?"
+          en: "Peter buys a bread roll in Lindenberg and sees a newspaper. Which pair is correct?"
+        options:
+          - text:
+              de: "das Brötchen (n) · die Zeitung (f)"
+              en: "das Brötchen (n) · die Zeitung (f)"
+            correct: true
+            info:
+              de: "Genau! Nomen auf *-chen* sind immer neutrum (*das*), Nomen auf *-ung* immer feminin (*die*)."
+              en: "Exactly! Nouns ending in *-chen* are always neuter (*das*), and nouns ending in *-ung* are always feminine (*die*)."
+          - text:
+              de: "der Brötchen (m) · die Zeitung (f)"
+              en: "der Brötchen (m) · die Zeitung (f)"
+            correct: false
+            info:
+              de: "*die Zeitung* stimmt, aber *-chen* macht Nomen immer neutrum: *das Brötchen*."
+              en: "*die Zeitung* is right, but *-chen* always makes nouns neuter: *das Brötchen*."
+          - text:
+              de: "das Brötchen (n) · der Zeitung (m)"
+              en: "das Brötchen (n) · der Zeitung (m)"
+            correct: false
+            info:
+              de: "*das Brötchen* stimmt, aber Nomen auf *-ung* sind immer feminin: *die Zeitung*."
+              en: "*das Brötchen* is right, but nouns ending in *-ung* are always feminine: *die Zeitung*."
+        explanation:
+          de: "Endungen wie *-chen* (neutrum) und *-ung* (feminin) zeigen das Genus zuverlässig an."
+          en: "Endings like *-chen* (neuter) and *-ung* (feminine) reliably show a noun's gender."
+      - type: language-task
+        id: artikel-ein-luecken
+        languages: { source: en, target: de }
+        mode: gap
+        form: { case: hint, punctuation: ok }
+        task:
+          de: "Ergänze den passenden Artikel (*ein, eine, der, die, das*) im Nominativ."
+          en: "Type the matching nominative article (*ein, eine, der, die, das*)."
+        items:
+          - source: "That is a backpack (der Rucksack)."
+            target: "Das ist [ein] Rucksack."
+            mistakes:
+              - answer: "eine"
+                message:
+                  de: "*der Rucksack* ist maskulin → unbestimmter Artikel *ein* (ohne *-e*)."
+                  en: "*der Rucksack* is masculine → indefinite article *ein* (no *-e*)."
+          - source: "That is a guitar (die Gitarre)."
+            target: "Das ist [eine] Gitarre."
+            mistakes:
+              - answer: "ein"
+                message:
+                  de: "*die Gitarre* ist feminin → unbestimmter Artikel *eine*."
+                  en: "*die Gitarre* is feminine → indefinite article *eine*."
+          - source: "The bicycle (das Fahrrad) is blue."
+            target: "[Das] Fahrrad ist blau."
+          - source: "Here is a shelf (das Regal)."
+            target: "Hier ist [ein] Regal."
+        explanation:
+          de: "Im Nominativ haben Maskulin und Neutrum den unbestimmten Artikel *ein*, Feminin hat *eine*."
+          en: "In the nominative, masculine and neuter take *ein*, while feminine takes *eine*."

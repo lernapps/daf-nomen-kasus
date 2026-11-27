@@ -1,0 +1,15 @@
+# yaml-language-server: $schema=../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
+format: 2
+strand: daf/grammatik
+title:
+  de: "Nomen, Pronomen und die vier Fälle"
+  en: "Nouns, Pronouns and the Four Cases"
+intro:
+  de: "Begleite Peter in Lindenberg beim Einrichten seines Zimmers und beim Aussuchen von Geschenken für Familie Weber. Mit der wachsenden 4-Fälle-Farbtabelle und Stellvertreter-Karten lernst du Artikel, Plural, Negation, Pronomen und alle vier Fälle."
+  en: "Join Peter in Lindenberg while sorting items in his room and picking gifts for the Weber family. With the growing 4-Case Color Table and Stand-in Cards, you master articles, plurals, negation, pronouns, and all four German cases."
+languages: [de, en]
+chapters:
+  - genus-plural-negation
+  - akkusativ-pronomen-possessiv
+  - dativ-verben-reflexiv
+  - genitiv-n-deklination

@@ -1,0 +1,157 @@
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
+title:
+  de: "Possessivartikel im Dativ"
+  en: "Possessive Determiners (Dative)"
+description:
+  de: "Possessivartikel (meinem, deiner, ihren, unseren, eurem usw.) im Dativ sicher anwenden."
+  en: "Use possessive determiners (meinem, deiner, ihren, unseren, eurem, etc.) in the dative case."
+competencies: [possessivartikel-dativ]
+blocks:
+  - type: section
+    id: possessiv-dativ-regel
+    title:
+      de: "Geschenke für Familie Weber"
+      en: "Gifts for the Weber Family"
+    blocks:
+      - type: text
+        text:
+          de: "Wie im Nominativ und Akkusativ tragen **Possessivartikel im Dativ** genau dieselben Endungen wie *einem / einer / keinen*: **-em** (Maskulin & Neutrum), **-er** (Feminin) und **-en** (Plural, plus **-n** am Nomen!)."
+          en: "Just like in nominative and accusative, **possessive determiners in the dative** take the exact same endings as *einem / einer / keinen*: **-em** (masculine & neuter), **-er** (feminine), and **-en** (plural, plus **-n** on the noun!)."
+      - type: table
+        caption:
+          de: "Possessivartikel im Dativ (am Beispiel mein- & euer-)"
+          en: "Possessive Determiners in Dative (mein- & euer-)"
+        header:
+          - { de: "Genus / Zahl", en: "Gender / Number" }
+          - { de: "Endung", en: "Ending" }
+          - { de: "Beispiele im Dativ", en: "Dative Examples" }
+        rows:
+          - - { de: "Maskulin (m)", en: "Masculine (m)" }
+            - { de: "-em", en: "-em" }
+            - { de: "meinem Freund · eurem Lehrer", en: "meinem Freund · eurem Lehrer" }
+          - - { de: "Feminin (f)", en: "Feminine (f)" }
+            - { de: "-er", en: "-er" }
+            - { de: "deiner Schwester · ihrer Mutter", en: "deiner Schwester · ihrer Mutter" }
+          - - { de: "Neutrum (n)", en: "Neuter (n)" }
+            - { de: "-em", en: "-em" }
+            - { de: "seinem Kind · unserem Haus", en: "seinem Kind · unserem Haus" }
+          - - { de: "Plural (pl)", en: "Plural (pl)" }
+            - { de: "-en (+ -n)", en: "-en (+ -n)" }
+            - { de: "unseren Freunden · euren Eltern", en: "unseren Freunden · euren Eltern" }
+      - type: note
+        title:
+          de: "Merkregel für euer im Dativ"
+          en: "Remember euer in the Dative"
+        blocks:
+          - type: text
+            text:
+              de: "Auch im Dativ fällt das zweite **e** bei *euer* weg: *eurem* (m/n), *eurer* (f), *euren* (pl)."
+              en: "In the dative too, *euer* drops its second **e**: *eurem* (m/n), *eurer* (f), *euren* (pl)."
+  - type: section
+    id: uebung
+    title:
+      de: "Übung"
+      en: "Practice"
+    blocks:
+      - type: language-task
+        id: possessiv-dativ-wahl
+        languages: { source: en, target: de }
+        mode: choice
+        task:
+          de: "Wähle den passenden Possessivartikel im Dativ."
+          en: "Choose the right possessive determiner in the dative."
+        items:
+          - source: "Peter writes a card to his mother (seine Mutter)."
+            target: "Peter schreibt [seiner] Mutter eine Karte."
+            distractors: [[seine, seinem]]
+          - source: "Lukas plays with our dog (unser Hund)."
+            target: "Lukas spielt mit [unserem] Hund."
+            distractors: [[unseren, unserer]]
+          - source: "Nadia gives her parents (ihre Eltern) a photo."
+            target: "Nadia schenkt [ihren] Eltern ein Foto."
+            distractors: [[ihrem, ihrer]]
+          - source: "Herr Braun talks with my father (mein Vater)."
+            target: "Herr Braun spricht mit [meinem] Vater."
+            distractors: [[meinen, meiner]]
+        explanation:
+          de: "Dativ-Endungen für Possessivartikel: *-em* (m/n), *-er* (f) und *-en* (pl)."
+          en: "Dative endings for possessive determiners: *-em* (m/n), *-er* (f), and *-en* (pl)."
+      - type: language-task
+        id: possessiv-dativ-luecken
+        languages: { source: en, target: de }
+        mode: gap
+        form: { case: hint, punctuation: ok }
+        task:
+          de: "Ergänze den richtigen Possessivartikel im Dativ."
+          en: "Fill in the right dative possessive determiner."
+        items:
+          - source: "Peter helps his friend (sein Freund)."
+            target: "Peter hilft [seinem] Freund."
+            mistakes:
+              - answer: "seinen"
+                message:
+                  de: "*helfen* verlangt den Dativ: Maskulin hat im Dativ *-em* → *seinem*."
+                  en: "*helfen* requires the dative: masculine dative ends in *-em* → *seinem*."
+          - source: "Mina gives her mother (ihre Mutter) flowers."
+            target: "Mina schenkt [ihrer] Mutter Blumen."
+            mistakes:
+              - answer: "ihre"
+                message:
+                  de: "*Mutter* ist feminin und Empfängerin (Dativ) → *-er*: *ihrer Mutter*."
+                  en: "*Mutter* is feminine and the recipient (dative) → *-er*: *ihrer Mutter*."
+          - source: "We thank our friends (unsere Freunde)."
+            target: "Wir danken [unseren] Freunden."
+          - source: "The ball belongs to your (pl.) dog (euer Hund)."
+            target: "Der Ball gehört [eurem] Hund."
+            mistakes:
+              - answer: "euerem"
+                message:
+                  de: "*euer* verliert mit Endung das zweite *e*: *eurem Hund*."
+                  en: "*euer* drops its second *e* before endings: *eurem Hund*."
+        explanation:
+          de: "Im Dativ enden Possessivartikel auf *-em* (m/n), *-er* (f) und *-en* (pl)."
+          en: "In the dative, possessive determiners end in *-em* (m/n), *-er* (f), and *-en* (pl)."
+      - type: single-choice
+        id: possessiv-dativ-check
+        text:
+          de: "Welcher Satz ist im Dativ Plural komplett richtig?"
+          en: "Which sentence is completely correct in the dative plural?"
+        options:
+          - text:
+              de: "Peter zeigt seinen Freunden das Zimmer."
+              en: "Peter zeigt seinen Freunden das Zimmer."
+            correct: true
+            info:
+              de: "Richtig! *seinen* (Dativ Plural *-en*) und *Freunden* (Nomen + *-n*)."
+              en: "Correct! *seinen* (dative plural *-en*) and *Freunden* (noun + *-n*)."
+          - text:
+              de: "Peter zeigt seinen Freunde das Zimmer."
+              en: "Peter zeigt seinen Freunde das Zimmer."
+            correct: false
+            info:
+              de: "Der Possessivartikel stimmt, aber im Dativ Plural fehlt das *-n* an *Freunden*."
+              en: "The possessive determiner is right, but *Freunden* is missing its dative plural *-n*."
+          - text:
+              de: "Peter zeigt seinem Freunden das Zimmer."
+              en: "Peter zeigt seinem Freunden das Zimmer."
+            correct: false
+            info:
+              de: "*-em* ist Singular (m/n). Im Dativ Plural braucht der Possessivartikel *-en* (*seinen*)."
+              en: "*-em* is singular (m/n). Dative plural requires *-en* (*seinen*)."
+        explanation:
+          de: "Im Dativ Plural endet der Possessivartikel auf *-en* und das Nomen bekommt ein *-n*."
+          en: "In the dative plural, the possessive ends in *-en* and the noun takes *-n*."
+      - type: ordering
+        id: possessiv-dativ-ordnen
+        text:
+          de: "Bringe die Wörter in die richtige Reihenfolge: *Peter warmly thanks his friends.*"
+          en: "Put the words in the right order: *Peter warmly thanks his friends.*"
+        items:
+          - { de: "Peter", en: "Peter" }
+          - { de: "dankt", en: "dankt" }
+          - { de: "seinen", en: "seinen" }
+          - { de: "Freunden", en: "Freunden" }
+          - { de: "herzlich.", en: "herzlich." }
+        explanation:
+          de: "*danken* verlangt den Dativ: *seinen Freunden* (Possessivartikel *-en* + Nomen *-n*)."
+          en: "*danken* requires the dative: *seinen Freunden* (possessive *-en* + noun *-n*)."

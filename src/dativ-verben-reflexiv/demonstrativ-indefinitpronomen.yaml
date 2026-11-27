@@ -1,0 +1,158 @@
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
+title:
+  de: "Demonstrativ- und Indefinitpronomen"
+  en: "Demonstrative & Indefinite Pronouns"
+description:
+  de: "dieser, welcher, jeder sowie man, jemand, niemand, etwas und nichts im Kontext richtig verwenden."
+  en: "Use dieser, welcher, jeder, man, jemand, niemand, etwas, and nichts accurately in context."
+competencies: [demonstrativ-indefinitpronomen]
+blocks:
+  - type: section
+    id: im-laden
+    title:
+      de: "Welches Geschenk? — dieser, welcher, jeder"
+      en: "Which Gift? — dieser, welcher, jeder"
+    blocks:
+      - type: text
+        text:
+          de: "Peter und Nadia stehen im Buchladen in Lindenberg: *„**Welches** Buch gefällt Mina?“ — „**Dieses** Buch hier!“* Die Wörter **dieser** (this), **welcher** (which) und **jeder** (every) übernehmen genau die Endungen der **bestimmten Artikel** (*der/die/das/den/dem*)."
+          en: 'Peter and Nadia are in the Lindenberg bookshop: *"**Welches** Buch gefällt Mina?" — "**Dieses** Buch hier!"* The words **dieser** (this), **welcher** (which), and **jeder** (every) take the exact endings of the **definite articles** (*der/die/das/den/dem*).'
+      - type: table
+        caption:
+          de: "dieser / welcher / jeder folgen der 4-Fälle-Farbtabelle"
+          en: "dieser / welcher / jeder Follow the 4-Case Color Table"
+        header:
+          - { de: "Kasus", en: "Case" }
+          - { de: "Maskulin / Neutrum", en: "Masculine / Neuter" }
+          - { de: "Feminin / Plural", en: "Feminine / Plural" }
+        rows:
+          - - { de: "Nominativ", en: "Nominative" }
+            - { de: "dieser / dieses", en: "dieser / dieses" }
+            - { de: "diese / diese", en: "diese / diese" }
+          - - { de: "Akkusativ", en: "Accusative" }
+            - { de: "diesen / dieses", en: "diesen / dieses" }
+            - { de: "diese / diese", en: "diese / diese" }
+          - - { de: "Dativ", en: "Dative" }
+            - { de: "diesem / diesem", en: "diesem / diesem" }
+            - { de: "dieser / diesen", en: "dieser / diesen" }
+      - type: vocabulary
+        caption:
+          de: "Wichtige Indefinitpronomen (immer mit 3. Person Singular!)"
+          en: "Key Indefinite Pronouns (Always 3rd Person Singular!)"
+        languages: { source: en, target: de }
+        entries:
+          - target: man
+            source: one / people in general
+            example: { target: "In Lindenberg fährt man viel Fahrrad.", source: "In Lindenberg people cycle a lot." }
+          - target: jemand
+            source: someone / anyone
+            example: { target: "Hat jemand meinen Schlüssel gesehen?", source: "Has anyone seen my key?" }
+          - target: niemand
+            source: nobody / no one
+            example: { target: "Niemand ist zu Hause.", source: "Nobody is at home." }
+          - target: etwas
+            source: something / anything
+            example: { target: "Möchtest du etwas trinken?", source: "Would you like something to drink?" }
+          - target: nichts
+            source: nothing
+            example: { target: "Ich habe nichts vergessen.", source: "I haven't forgotten anything." }
+  - type: section
+    id: uebung
+    title:
+      de: "Übung"
+      en: "Practice"
+    blocks:
+      - type: language-task
+        id: demonstrativ-wahl
+        languages: { source: en, target: de }
+        mode: choice
+        task:
+          de: "Wähle die richtige Form von dieser, welcher oder jeder."
+          en: "Choose the right form of dieser, welcher, or jeder."
+        items:
+          - source: "Which backpack (der Rucksack, acc.) do you buy?"
+            target: "[Welchen] Rucksack kaufst du?"
+            distractors: [[Welcher, Welchem]]
+          - source: "I like this book (das Buch, nom.)."
+            target: "[Dieses] Buch gefällt mir."
+            distractors: [[Dieser, Diese]]
+          - source: "Peter helps every friend (der Freund, dat.)."
+            target: "Peter hilft [jedem] Freund."
+            distractors: [[jeder, jeden]]
+        explanation:
+          de: "*dieser, welcher, jeder* tragen genau die Endungen von *der/die/das* (*-er, -e, -es, -en, -em*)."
+          en: "*dieser, welcher, jeder* carry the exact endings of *der/die/das* (*-er, -e, -es, -en, -em*)."
+      - type: matching
+        id: indefinit-bedeutung-zuordnen
+        text:
+          de: "Ordne jedes Indefinitpronomen seiner englischen Bedeutung zu."
+          en: "Match each indefinite pronoun to its English meaning."
+        pairs:
+          - left: { de: "man", en: "man" }
+            right: { de: "one / people in general", en: "one / people in general" }
+          - left: { de: "jemand", en: "jemand" }
+            right: { de: "someone / anyone", en: "someone / anyone" }
+          - left: { de: "niemand", en: "niemand" }
+            right: { de: "nobody / no one", en: "nobody / no one" }
+          - left: { de: "etwas", en: "etwas" }
+            right: { de: "something / anything", en: "something / anything" }
+          - left: { de: "nichts", en: "nichts" }
+            right: { de: "nothing", en: "nothing" }
+        explanation:
+          de: "*man, jemand, niemand* stehen für Personen; *etwas* und *nichts* stehen für Dinge."
+          en: "*man, jemand, niemand* refer to people; *etwas* and *nichts* refer to things."
+      - type: language-task
+        id: indefinit-luecken
+        languages: { source: en, target: de }
+        mode: gap
+        form: { case: hint, punctuation: ok }
+        task:
+          de: "Ergänze man, jemand, niemand, etwas oder nichts."
+          en: "Fill in man, jemand, niemand, etwas, or nichts."
+        items:
+          - source: "Here you (people in general) can buy fresh bread rolls."
+            target: "Hier kann [man] frische Brötchen kaufen."
+            mistakes:
+              - answer: "Mann"
+                message:
+                  de: "Das Indefinitpronomen *man* schreibt man klein und mit einem *n*."
+                  en: "The indefinite pronoun *man* is lowercase with a single *n*."
+          - source: "Nobody knows the answer."
+            target: "[Niemand] kennt die Antwort."
+          - source: "Is someone in the room?"
+            target: "Ist [jemand] im Zimmer?"
+          - source: "I see nothing on the desk."
+            target: "Ich sehe [nichts] auf dem Schreibtisch."
+        explanation:
+          de: "*man, jemand, niemand* beziehen sich auf Personen; *etwas* und *nichts* auf Dinge. Alle stehen mit der Verbform für *er/sie/es*."
+          en: "*man, jemand, niemand* refer to people; *etwas* and *nichts* refer to things. All take the *er/sie/es* verb form."
+      - type: single-choice
+        id: indefinit-verbform-check
+        text:
+          de: "Welcher Satz mit *man* hat die richtige Verbform?"
+          en: "Which sentence with *man* uses the right verb form?"
+        options:
+          - text:
+              de: "In Lindenberg fährt man viel Fahrrad."
+              en: "In Lindenberg fährt man viel Fahrrad."
+            correct: true
+            info:
+              de: "Richtig! *man*, *jemand* und *niemand* stehen immer mit der 3. Person Singular (*er/sie/es → fährt*)."
+              en: "Correct! *man*, *jemand*, and *niemand* always take the 3rd person singular verb (*er/sie/es → fährt*)."
+          - text:
+              de: "In Lindenberg fahren man viel Fahrrad."
+              en: "In Lindenberg fahren man viel Fahrrad."
+            correct: false
+            info:
+              de: "Auch wenn *man* für alle Menschen steht, verlangt es grammatisch den Singular (*fährt*)."
+              en: "Even though *man* means people in general, grammatically it always takes the singular (*fährt*)."
+          - text:
+              de: "In Lindenberg fährst man viel Fahrrad."
+              en: "In Lindenberg fährst man viel Fahrrad."
+            correct: false
+            info:
+              de: "*fährst* gehört zu *du*, nicht zu *man* (3. Person Singular → *fährt*)."
+              en: "*fährst* goes with *du*, not with *man* (3rd person singular → *fährt*)."
+        explanation:
+          de: "Indefinitpronomen wie *man, jemand, niemand* stehen immer mit der Verbform von *er/sie/es*."
+          en: "Indefinite pronouns like *man, jemand, niemand* always use the *er/sie/es* verb form."

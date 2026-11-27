@@ -1,0 +1,51 @@
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
+title:
+  de: "Das brauchst du hier"
+  en: "What You Need Before You Start"
+description:
+  de: "Kurze Wiederholung: Personalpronomen im Nominativ und Verb-Zweitstellung im Aussagesatz."
+  en: "Quick recap: nominative personal pronouns and verb-second word order in statements."
+recap:
+  - daf/personalpronomen-nominativ
+  - daf/verb-zweitstellung
+blocks:
+  - type: section
+    id: check
+    title:
+      de: "Kannst du das schon?"
+      en: "Can you already do this?"
+    blocks:
+      - type: text
+        text:
+          de: "Für die vier Fälle und die Verneinung brauchst du zwei Grundlagen: **Personalpronomen im Nominativ** (*Ich kann deutsche Personalpronomen im Nominativ wie ich, du, er, sie, es, wir, ihr, sie, Sie als Subjekt verwenden*) und **Verb-Zweitstellung** (*Ich kann deutsche Aussagesätze mit dem konjugierten Verb an zweiter Stelle bilden, auch mit Inversion nach Zeit oder Ort*)."
+          en: "For German cases and negation, you build on two basics: **Personal pronouns (nominative)** (*I can use German nominative personal pronouns — ich, du, er, sie, es, wir, ihr, sie, Sie — as sentence subjects*) and **Verb-second word order** (*I can build German statements with the conjugated verb in second position, including inversion after time or place*)."
+      - type: single-choice
+        id: recap-verb-pronomen
+        text:
+          de: "Welcher Satz aus Peters Alltag in Lindenberg hat die richtige Verb-Zweitstellung und das passende Subjektpronomen?"
+          en: "Which sentence from Peter's daily life in Lindenberg uses correct verb-second word order and the right subject pronoun?"
+        options:
+          - text:
+              de: "Heute wohnt er mit seinen Eltern in Lindenberg."
+              en: "Heute wohnt er mit seinen Eltern in Lindenberg."
+            correct: true
+            info:
+              de: "Richtig! Nach der Zeitangabe *Heute* steht das konjugierte Verb *wohnt* an Position 2, danach folgt das Subjekt *er*."
+              en: "Correct! After the time expression *Heute*, the conjugated verb *wohnt* stays in position 2, followed by the subject *er*."
+          - text:
+              de: "Heute er wohnt mit seinen Eltern in Lindenberg."
+              en: "Heute er wohnt mit seinen Eltern in Lindenberg."
+            correct: false
+            info:
+              de: "Hier steht das Verb an dritter Stelle. Im deutschen Aussagesatz bleibt das konjugierte Verb an Position 2."
+              en: "Here the verb is in third position. In a German main-clause statement, the conjugated verb stays in position 2."
+          - text:
+              de: "Heute wohnt ihn mit seinen Eltern in Lindenberg."
+              en: "Heute wohnt ihn mit seinen Eltern in Lindenberg."
+            correct: false
+            info:
+              de: "*ihn* ist kein Subjektpronomen im Nominativ. Das Subjekt braucht *er*."
+              en: "*ihn* is not a nominative subject pronoun. The subject needs *er*."
+        explanation:
+          de: "Im deutschen Aussagesatz steht das konjugierte Verb immer an zweiter Stelle, und das Subjekt steht im Nominativ."
+          en: "In a German statement, the conjugated verb always takes second position, and the subject uses the nominative case."

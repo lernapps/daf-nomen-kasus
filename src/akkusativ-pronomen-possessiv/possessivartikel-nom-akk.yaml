@@ -1,0 +1,155 @@
+# yaml-language-server: $schema=../../node_modules/@lernapps/app-templates/runtime/explainer/explainer.v2.schema.json
+title:
+  de: "Possessivartikel (Nominativ & Akkusativ)"
+  en: "Possessive Determiners (Nom./Acc.)"
+description:
+  de: "Possessivartikel (mein, dein, sein, ihr, unser, euer, ihr, Ihr) im Nominativ und Akkusativ richtig verwenden."
+  en: "Use possessive determiners (mein, dein, sein, ihr, unser, euer, ihr, Ihr) in nominative and accusative."
+competencies: [possessivartikel-nom-akk]
+blocks:
+  - type: section
+    id: wem-gehoert-was
+    title:
+      de: "Zwei Schritte im Flur bei Familie Weber"
+      en: "Two Steps in the Webers' Hallway"
+    blocks:
+      - type: text
+        text:
+          de: "Im Flur bei Familie Weber liegen Rucksäcke, Jacken und Bücher durcheinander. Für den richtigen **Possessivartikel** brauchst du immer **zwei Schritte**: (1) Wer ist der Besitzer? → wähle den Stamm (*mein, dein, sein, ihr, unser, euer, ihr, Ihr*). (2) Welches Genus und welchen Kasus hat das **Nomen**? → hänge die **ein/kein-Endung** an!"
+          en: "Backpacks, jackets, and books are piled up in the Webers' hallway. Building the right **possessive determiner** always takes **two steps**: (1) Who is the owner? → pick the stem (*mein, dein, sein, ihr, unser, euer, ihr, Ihr*). (2) What is the **noun's** gender and case? → add the **ein/kein ending**!"
+      - type: table
+        caption:
+          de: "Besitzer → Stamm (und Endungen wie bei ein/kein)"
+          en: "Owner → Stem (plus ein/kein Endings)"
+        header:
+          - { de: "Besitzer", en: "Owner" }
+          - { de: "Stamm", en: "Stem" }
+          - { de: "Endungen (Nom. / Akk.)", en: "Endings (Nom. / Acc.)" }
+        rows:
+          - - { de: "ich / du", en: "ich / du" }
+            - { de: "mein- / dein-", en: "mein- / dein-" }
+            - { de: "m: — / -en (mein / meinen)", en: "m: — / -en (mein / meinen)" }
+          - - { de: "er, es / sie (f)", en: "er, es / sie (f)" }
+            - { de: "sein- / ihr-", en: "sein- / ihr-" }
+            - { de: "f: -e / -e (seine / ihre)", en: "f: -e / -e (seine / ihre)" }
+          - - { de: "wir / ihr (pl)", en: "wir / ihr (pl)" }
+            - { de: "unser- / euer-", en: "unser- / euer-" }
+            - { de: "n: — / — (unser / euer)", en: "n: — / — (unser / euer)" }
+          - - { de: "sie (pl) / Sie", en: "sie (pl) / Sie" }
+            - { de: "ihr- / Ihr-", en: "ihr- / Ihr-" }
+            - { de: "pl: -e / -e (ihre / Ihre)", en: "pl: -e / -e (ihre / Ihre)" }
+      - type: note
+        title:
+          de: "Achtung bei euer!"
+          en: "Watch Out for euer!"
+        blocks:
+          - type: text
+            text:
+              de: "Bekommt **euer** eine Endung, fällt das zweite **e** weg: *euer Buch* (n), aber *eure Tasche* (f), *euren Rucksack* (m, Akk.)."
+              en: "Whenever **euer** takes an ending, it drops the second **e**: *euer Buch* (n), but *eure Tasche* (f), *euren Rucksack* (m, acc.)."
+  - type: section
+    id: uebung
+    title:
+      de: "Übung"
+      en: "Practice"
+    blocks:
+      - type: matching
+        id: possessiv-besitzer-zuordnen
+        text:
+          de: "Schritt 1: Ordne jedem Besitzer den richtigen Possessivstamm zu."
+          en: "Step 1: Match each owner to the right possessive stem."
+        pairs:
+          - left: { de: "Peter (er)", en: "Peter (er)" }
+            right: { de: "sein-", en: "sein-" }
+          - left: { de: "Mina (sie)", en: "Mina (sie)" }
+            right: { de: "ihr-", en: "ihr-" }
+          - left: { de: "wir", en: "wir" }
+            right: { de: "unser-", en: "unser-" }
+          - left: { de: "Lukas & Mina (ihr)", en: "Lukas & Mina (ihr)" }
+            right: { de: "euer-", en: "euer-" }
+          - left: { de: "Herr Braun (Sie)", en: "Herr Braun (Sie)" }
+            right: { de: "Ihr-", en: "Ihr-" }
+        explanation:
+          de: "Zuerst wählst du den Stamm nach dem Besitzer, danach die Endung nach dem Nomen."
+          en: "First choose the stem for the owner, then add the ending for the noun."
+      - type: language-task
+        id: possessiv-nom-akk-wahl
+        languages: { source: en, target: de }
+        mode: choice
+        task:
+          de: "Wähle den passenden Possessivartikel (Besitzer + Kasus/Genus)."
+          en: "Choose the right possessive determiner (owner + case/gender)."
+        items:
+          - source: "Peter is looking for his key (der Schlüssel)."
+            target: "Peter sucht [seinen] Schlüssel."
+            distractors: [[sein, seine]]
+          - source: "Mina takes her guitar (die Gitarre)."
+            target: "Mina nimmt [ihre] Gitarre."
+            distractors: [[ihr, ihren]]
+          - source: "Is that your (pl.) room (das Zimmer)?"
+            target: "Ist das [euer] Zimmer?"
+            distractors: [[eure, euren]]
+          - source: "We like our friends (die Freunde, pl.)."
+            target: "Wir mögen [unsere] Freunde."
+            distractors: [[unser, unseren]]
+        explanation:
+          de: "Der Stamm zeigt den Besitzer (*sein, ihr, euer, unser*), die Endung richtet sich nach dem Nomen (*-en* bei Maskulin Akkusativ, *-e* bei Feminin/Plural)."
+          en: "The stem shows the owner (*sein, ihr, euer, unser*); the ending matches the noun (*-en* for masculine accusative, *-e* for feminine/plural)."
+      - type: language-task
+        id: possessiv-nom-akk-luecken
+        languages: { source: en, target: de }
+        mode: gap
+        form: { case: hint, punctuation: ok }
+        task:
+          de: "Ergänze den Possessivartikel in Peters Gespräch mit Lukas und Mina."
+          en: "Fill in the possessive determiner in Peter's conversation with Lukas and Mina."
+        items:
+          - source: "I cannot find my backpack (der Rucksack)."
+            target: "Ich finde [meinen] Rucksack nicht."
+            mistakes:
+              - answer: "mein"
+                message:
+                  de: "*Rucksack* ist maskulin und direktes Objekt nach *finden* → Akkusativ *meinen*."
+                  en: "*Rucksack* is masculine and the direct object of *finden* → accusative *meinen*."
+          - source: "Where are your (pl.) books (die Bücher)?"
+            target: "Wo sind [eure] Bücher?"
+            mistakes:
+              - answer: "euere"
+                message:
+                  de: "Mit Endung verliert *euer* das zweite *e*: *eure Bücher*."
+                  en: "When taking an ending, *euer* drops its second *e*: *eure Bücher*."
+          - source: "Frau Weber, is this your (formal) jacket (die Jacke)?"
+            target: "Frau Weber, ist das [Ihre] Jacke?"
+        explanation:
+          de: "Possessivartikel tragen genau dieselben Endungen wie *ein/kein* — im Nominativ und im Akkusativ."
+          en: "Possessive determiners take the exact same endings as *ein/kein* in both nominative and accusative."
+      - type: single-choice
+        id: possessiv-euer-check
+        text:
+          de: "Lukas und Mina suchen ihren Fußball (*der Ball*, m). Wie fragt Peter richtig?"
+          en: "Lukas and Mina are looking for their football (*der Ball*, m). How does Peter ask correctly?"
+        options:
+          - text:
+              de: "Sucht ihr euren Ball?"
+              en: "Sucht ihr euren Ball?"
+            correct: true
+            info:
+              de: "Richtig! Maskulin Akkusativ braucht *-en*, und *euer* verliert dabei das zweite *e* → *euren*."
+              en: "Correct! Masculine accusative needs *-en*, and *euer* drops its second *e* → *euren*."
+          - text:
+              de: "Sucht ihr eueren Ball?"
+              en: "Sucht ihr eueren Ball?"
+            correct: false
+            info:
+              de: "Sobald *euer* eine Endung bekommt, fällt das zweite *e* weg: *euren Ball*."
+              en: "Whenever *euer* takes an ending, the second *e* drops: *euren Ball*."
+          - text:
+              de: "Sucht ihr euer Ball?"
+              en: "Sucht ihr euer Ball?"
+            correct: false
+            info:
+              de: "*der Ball* ist maskulin im Akkusativ und braucht die Endung *-en*: *euren Ball*."
+              en: "*der Ball* is masculine accusative and needs the *-en* ending: *euren Ball*."
+        explanation:
+          de: "Bei *euer* mit Endung fällt das zweite *e* aus: *eure* (f/pl), *euren* (m Akk.)."
+          en: "With an ending, *euer* drops its second *e*: *eure* (f/pl), *euren* (m acc.)."
