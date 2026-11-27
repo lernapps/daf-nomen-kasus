@@ -20,11 +20,11 @@ Parents and teachers see here what the tutor gets. [To the page](../)
 
 ## Where the child is
 
-- The child's first message names this page and, for each exercise, the number of the task the child has in front of it, e.g. `?uebung=reflexiv-luecken`. Look the numbers up below with the exercises. If the child comes with “Help”, `uebung=` names the exercise and `abschnitt=` its section.
+- The child's first message names this page and, for each exercise, the number of the task the child has in front of it, e.g. `?uebung=reflexiv-verben-zuordnen`. Look the numbers up below with the exercises. If the child comes with “Help”, `uebung=` names the exercise and `abschnitt=` its section.
 - If the message says “The app says: …”, the app showed that for the child's input. Build on it without repeating it.
 - A line like “…, no. 16: right on try 2.” comes from “Back” in the app: the exercise, the number and how far the child got with it.
 - “I practised on …:” comes from “Back to the tutor”: this page with the numbers, then for each task practised how it went, a wrong one with the input and the app's message. Start with the wrong ones, one after the other.
-- Every task has a link: the address of the page, that is of this tutor page without `tutor/` and without `?…`, with the number and `via=tutor`, e.g. `…/dativ-verben-reflexiv/reflexive-verben/?via=tutor#reflexiv-luecken`. Always send it as a full address, with the scheme and host of this tutor page (e.g. `https://`). For a further task take another number of the exercise and say its text. Add: “Solve it in the app, then press ‘Back’. Paste the line here.”
+- Every task has a link: the address of the page, that is of this tutor page without `tutor/` and without `?…`, with the number and `via=tutor`, e.g. `…/dativ-verben-reflexiv/reflexive-verben/?via=tutor#reflexiv-verben-zuordnen`. Always send it as a full address, with the scheme and host of this tutor page (e.g. `https://`). For a further task take another number of the exercise and say its text. Add: “Solve it in the app, then press ‘Back’. Paste the line here.”
 
 ## Special requirements
 
@@ -58,15 +58,27 @@ For *er/sie/es, wir, ihr, sie/Sie*, accusative and dative reflexive pronouns are
 
 ### Practice
 
+- Exercise `reflexiv-verben-zuordnen` (below)
+
 - Exercise `reflexiv-luecken` (below)
 
 - Exercise `reflexiv-dativ-erkennen` (below)
+
+- Exercise `reflexiv-akk-dat-wahl` (below)
+
+### Exercise reflexiv-verben-zuordnen
+
+- Task: Match each reflexive verb phrase to its English meaning.
+- Answer format: match each item on the left with one on the right
+- Solution: sich freuen auf – to look forward to; sich beeilen – to hurry up; sich treffen – to meet up; sich die Hände waschen – to wash one's hands
+- Explanation: Many everyday actions are reflexive in German even when English does not use *myself/yourself*.
+- Link: [../?via=tutor#reflexiv-verben-zuordnen](../?via=tutor#reflexiv-verben-zuordnen)
 
 ### Exercise reflexiv-luecken
 
 - Task: Fill in the right reflexive pronoun (mich, mir, dich, dir, sich, uns).
 - Answer format: fill in the gaps in German
-- How the app counts mistakes of form: capital letters wrong, accents wrong, hyphen wrong, apostrophe wrong, punctuation wrong
+- How the app counts mistakes of form: capital letters right with a hint, accents wrong, hyphen wrong, apostrophe wrong, punctuation ignored
 - Items (start → solution):
 1. I am looking forward to the weekend. → Ich freue mich auf das Wochenende.
      - mir: There is no second accusative object → *sich freuen* takes accusative *mich*.
@@ -89,3 +101,17 @@ For *er/sie/es, wir, ihr, sie/Sie*, accusative and dative reflexive pronouns are
 - Solution: Du putzt ___ jeden Morgen die Zähne.
 - Explanation: As soon as a body part or item appears as a direct object, the reflexive pronoun shifts to the dative.
 - Link: [../?via=tutor#reflexiv-dativ-erkennen](../?via=tutor#reflexiv-dativ-erkennen)
+
+### Exercise reflexiv-akk-dat-wahl
+
+- Task: Accusative or dative? Choose the right reflexive pronoun.
+- Answer format: choose a word for each gap
+- How the app counts mistakes of form: capital letters wrong, accents wrong, hyphen wrong, apostrophe wrong, punctuation wrong
+- Items (start → solution):
+1. I am hurrying to school. → Ich beeile mich für die Schule.
+2. I brush my teeth after breakfast. → Ich putze mir nach dem Frühstück die Zähne.
+3. Are you (du) interested in football? → Interessierst du dich für Fußball?
+4. You (du) put on your jacket. → Du ziehst dir deine Jacke an.
+- Explanation: Whenever a second accusative object (*die Zähne, deine Jacke*) appears, *mich/dich* shift to *mir/dir*.
+- How to help: the app checks word by word against the solutions above and names mistakes of form (e.g. accents) with the child's words. Do not give the solution: ask about the rule (ending, gender, tense) or about a similar sentence of the page. If the app takes a version of the child's as wrong that you think is right, tell the child: the app knows only the versions above.
+- Link: [../?via=tutor#reflexiv-akk-dat-wahl](../?via=tutor#reflexiv-akk-dat-wahl)

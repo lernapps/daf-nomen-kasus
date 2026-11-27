@@ -20,11 +20,11 @@ Eltern und Lehrkräfte sehen hier, was der Tutor bekommt. [Zur Seite](../)
 
 ## Wo das Kind gerade ist
 
-- Die erste Nachricht des Kindes nennt diese Seite und je Aufgabe die Nummer, die das Kind gerade vor sich hat, z. B. `?uebung=akkusativ-artikel-luecken`. Schlag die Nummern unten bei den Aufgaben nach. Kommt das Kind mit „Hilfe“, nennt `uebung=` die Aufgabe und `abschnitt=` ihren Abschnitt.
+- Die erste Nachricht des Kindes nennt diese Seite und je Aufgabe die Nummer, die das Kind gerade vor sich hat, z. B. `?uebung=akkusativ-artikel-wahl`. Schlag die Nummern unten bei den Aufgaben nach. Kommt das Kind mit „Hilfe“, nennt `uebung=` die Aufgabe und `abschnitt=` ihren Abschnitt.
 - Steht in der Nachricht „Die App sagt: …“, hat die App das zur Eingabe des Kindes gemeldet. Setz dort an, ohne es zu wiederholen.
 - Eine Zeile wie „…, Nr. 16: richtig im 2. Versuch.“ kommt von „Zurück“ in der App: Aufgabe, Nummer und wie weit das Kind damit kam.
 - „Ich habe auf … geübt:“ kommt von „Zurück zum Tutor“: diese Seite mit den Nummern, dann je geübter Aufgabe, wie es lief, bei einer falschen mit Eingabe und Meldung der App. Setz bei den falschen an, eine nach der anderen.
-- Jede Nummer hat einen Link: die Adresse der Seite, also dieser Tutor-Seite ohne `tutor/` und ohne `?…`, mit der Nummer und `via=tutor`, z. B. `…/akkusativ-pronomen-possessiv/akkusativ-artikel/?via=tutor#akkusativ-artikel-luecken`. Schick ihn immer als volle Adresse, mit Schema und Host dieser Tutor-Seite (z. B. `https://`). Zum Weiterüben nimm eine andere Nummer der Aufgabe und nenn ihren Text. Sag dazu: „Löse sie in der App und drück dann ‚Zurück‘. Füg die Zeile hier ein.“
+- Jede Nummer hat einen Link: die Adresse der Seite, also dieser Tutor-Seite ohne `tutor/` und ohne `?…`, mit der Nummer und `via=tutor`, z. B. `…/akkusativ-pronomen-possessiv/akkusativ-artikel/?via=tutor#akkusativ-artikel-wahl`. Schick ihn immer als volle Adresse, mit Schema und Host dieser Tutor-Seite (z. B. `https://`). Zum Weiterüben nimm eine andere Nummer der Aufgabe und nenn ihren Text. Sag dazu: „Löse sie in der App und drück dann ‚Zurück‘. Füg die Zeile hier ein.“
 
 ## Besondere Anforderungen
 
@@ -53,15 +53,33 @@ Verben wie **haben, kaufen, suchen, brauchen, sehen, finden, nehmen, lesen** ver
 
 ### Übung
 
+- Aufgabe `akkusativ-artikel-wahl` (unten)
+
 - Aufgabe `akkusativ-artikel-luecken` (unten)
 
 - Aufgabe `subjekt-oder-objekt` (unten)
+
+- Aufgabe `akkusativ-regel-check` (unten)
+
+### Aufgabe akkusativ-artikel-wahl
+
+- Aufgabe: Wähle den passenden Artikel im Akkusativ.
+- Antwortformat: für jede Lücke ein Wort wählen
+- Wie die App Fehler der Form zählt: Groß- und Kleinschreibung falsch, Akzente falsch, Bindestrich falsch, Apostroph falsch, Satzzeichen falsch
+- Einträge (Vorgabe → Lösung):
+1. Peter needs a pencil (der Bleistift). → Peter braucht einen Bleistift.
+2. Nadia takes the guitar (die Gitarre). → Nadia nimmt die Gitarre.
+3. Lukas finds the football (der Fußball). → Lukas findet den Fußball.
+4. Peter buys a notebook (das Heft). → Peter kauft ein Heft.
+- Erklärung: Nur maskuline Nomen wechseln im Akkusativ zu *den / einen / keinen*.
+- So hilfst du: Die App prüft Wort für Wort gegen die Lösungen oben und nennt Fehler der Form (zum Beispiel Akzente) mit den Wörtern des Kindes. Sag nicht die Lösung vor: Frag nach der Regel (Endung, Geschlecht, Zeitform) oder nach einem ähnlichen Satz der Seite. Hält die App eine Fassung des Kindes für falsch, die du für richtig hältst, sag es dem Kind: Die App kennt nur die Fassungen oben.
+- Link: [../?via=tutor#akkusativ-artikel-wahl](../?via=tutor#akkusativ-artikel-wahl)
 
 ### Aufgabe akkusativ-artikel-luecken
 
 - Aufgabe: Ergänze den passenden Artikel im Akkusativ (den, einen, eine, ein, keinen).
 - Antwortformat: die Lücken auf Deutsch füllen
-- Wie die App Fehler der Form zählt: Groß- und Kleinschreibung falsch, Akzente falsch, Bindestrich falsch, Apostroph falsch, Satzzeichen falsch
+- Wie die App Fehler der Form zählt: Groß- und Kleinschreibung richtig mit Hinweis, Akzente falsch, Bindestrich falsch, Apostroph falsch, Satzzeichen egal
 - Einträge (Vorgabe → Lösung):
 1. Peter buys a backpack (der Rucksack). → Peter kauft einen Rucksack.
      - ein: *Rucksack* ist maskulin (*der*) und direktes Objekt → Akkusativ *einen*.
@@ -85,3 +103,11 @@ Verben wie **haben, kaufen, suchen, brauchen, sehen, finden, nehmen, lesen** ver
 - Lösung: Peter
 - Erklärung: Der Artikel *den* markiert den Akkusativ eindeutig — auch wenn das Objekt vor dem Verb steht.
 - Link: [../?via=tutor#subjekt-oder-objekt](../?via=tutor#subjekt-oder-objekt)
+
+### Aufgabe akkusativ-regel-check
+
+- Aufgabe: Im Akkusativ ändert sich der feminine Artikel die zu der.
+- Antwortformat: „Stimmt“ oder „Stimmt nicht“ wählen
+- Lösung: Die Aussage stimmt nicht.
+- Erklärung: Falsch! Im Akkusativ ändert sich **nur Maskulin** (*der → den*). Feminin (*die*), Neutrum (*das*) und Plural (*die*) bleiben genau wie im Nominativ.
+- Link: [../?via=tutor#akkusativ-regel-check](../?via=tutor#akkusativ-regel-check)

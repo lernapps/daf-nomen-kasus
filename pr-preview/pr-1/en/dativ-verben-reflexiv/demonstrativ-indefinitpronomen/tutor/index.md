@@ -62,7 +62,11 @@ Vocabulary (German – English): Key Indefinite Pronouns (Always 3rd Person Sing
 
 - Exercise `demonstrativ-wahl` (below)
 
+- Exercise `indefinit-bedeutung-zuordnen` (below)
+
 - Exercise `indefinit-luecken` (below)
+
+- Exercise `indefinit-verbform-check` (below)
 
 ### Exercise demonstrativ-wahl
 
@@ -77,11 +81,19 @@ Vocabulary (German – English): Key Indefinite Pronouns (Always 3rd Person Sing
 - How to help: the app checks word by word against the solutions above and names mistakes of form (e.g. accents) with the child's words. Do not give the solution: ask about the rule (ending, gender, tense) or about a similar sentence of the page. If the app takes a version of the child's as wrong that you think is right, tell the child: the app knows only the versions above.
 - Link: [../?via=tutor#demonstrativ-wahl](../?via=tutor#demonstrativ-wahl)
 
+### Exercise indefinit-bedeutung-zuordnen
+
+- Task: Match each indefinite pronoun to its English meaning.
+- Answer format: match each item on the left with one on the right
+- Solution: man – one / people in general; jemand – someone / anyone; niemand – nobody / no one; etwas – something / anything; nichts – nothing
+- Explanation: *man, jemand, niemand* refer to people; *etwas* and *nichts* refer to things.
+- Link: [../?via=tutor#indefinit-bedeutung-zuordnen](../?via=tutor#indefinit-bedeutung-zuordnen)
+
 ### Exercise indefinit-luecken
 
 - Task: Fill in man, jemand, niemand, etwas, or nichts.
 - Answer format: fill in the gaps in German
-- How the app counts mistakes of form: capital letters wrong, accents wrong, hyphen wrong, apostrophe wrong, punctuation wrong
+- How the app counts mistakes of form: capital letters right with a hint, accents wrong, hyphen wrong, apostrophe wrong, punctuation ignored
 - Items (start → solution):
 1. Here you (people in general) can buy fresh bread rolls. → Hier kann man frische Brötchen kaufen.
      - Mann: The indefinite pronoun *man* is lowercase with a single *n*.
@@ -91,3 +103,15 @@ Vocabulary (German – English): Key Indefinite Pronouns (Always 3rd Person Sing
 - Explanation: *man, jemand, niemand* refer to people; *etwas* and *nichts* refer to things. All take the *er/sie/es* verb form.
 - How to help: the app checks word by word against the solutions above and names mistakes of form (e.g. accents) with the child's words. Do not give the solution: ask about the rule (ending, gender, tense) or about a similar sentence of the page. If the app takes a version of the child's as wrong that you think is right, tell the child: the app knows only the versions above.
 - Link: [../?via=tutor#indefinit-luecken](../?via=tutor#indefinit-luecken)
+
+### Exercise indefinit-verbform-check
+
+- Task: Which sentence with *man* uses the right verb form?
+- Answer format: choose one answer
+- Choices (✓ right, ✗ wrong, with the app's message):
+  - ✓ In Lindenberg fährt man viel Fahrrad. – Correct! *man*, *jemand*, and *niemand* always take the 3rd person singular verb (*er/sie/es → fährt*).
+  - ✗ In Lindenberg fahren man viel Fahrrad. – Even though *man* means people in general, grammatically it always takes the singular (*fährt*).
+  - ✗ In Lindenberg fährst man viel Fahrrad. – *fährst* goes with *du*, not with *man* (3rd person singular → *fährt*).
+- Solution: In Lindenberg fährt man viel Fahrrad.
+- Explanation: Indefinite pronouns like *man, jemand, niemand* always use the *er/sie/es* verb form.
+- Link: [../?via=tutor#indefinit-verbform-check](../?via=tutor#indefinit-verbform-check)

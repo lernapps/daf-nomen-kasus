@@ -20,11 +20,11 @@ Parents and teachers see here what the tutor gets. [To the page](../)
 
 ## Where the child is
 
-- The child's first message names this page and, for each exercise, the number of the task the child has in front of it, e.g. `?uebung=genitiv-luecken`. Look the numbers up below with the exercises. If the child comes with “Help”, `uebung=` names the exercise and `abschnitt=` its section.
+- The child's first message names this page and, for each exercise, the number of the task the child has in front of it, e.g. `?uebung=genitiv-praepositionen-zuordnen`. Look the numbers up below with the exercises. If the child comes with “Help”, `uebung=` names the exercise and `abschnitt=` its section.
 - If the message says “The app says: …”, the app showed that for the child's input. Build on it without repeating it.
 - A line like “…, no. 16: right on try 2.” comes from “Back” in the app: the exercise, the number and how far the child got with it.
 - “I practised on …:” comes from “Back to the tutor”: this page with the numbers, then for each task practised how it went, a wrong one with the input and the app's message. Start with the wrong ones, one after the other.
-- Every task has a link: the address of the page, that is of this tutor page without `tutor/` and without `?…`, with the number and `via=tutor`, e.g. `…/genitiv-n-deklination/genitiv-artikel/?via=tutor#genitiv-luecken`. Always send it as a full address, with the scheme and host of this tutor page (e.g. `https://`). For a further task take another number of the exercise and say its text. Add: “Solve it in the app, then press ‘Back’. Paste the line here.”
+- Every task has a link: the address of the page, that is of this tutor page without `tutor/` and without `?…`, with the number and `via=tutor`, e.g. `…/genitiv-n-deklination/genitiv-artikel/?via=tutor#genitiv-praepositionen-zuordnen`. Always send it as a full address, with the scheme and host of this tutor page (e.g. `https://`). For a further task take another number of the exercise and say its text. Add: “Solve it in the app, then press ‘Back’. Paste the line here.”
 
 ## Special requirements
 
@@ -57,15 +57,27 @@ Masculine and neuter nouns usually add **-s** (*des Lehrers, des Regens*). Short
 
 ### Practice
 
+- Exercise `genitiv-praepositionen-zuordnen` (below)
+
 - Exercise `genitiv-luecken` (below)
 
 - Exercise `genitiv-besitz-check` (below)
+
+- Exercise `genitiv-praep-wahl` (below)
+
+### Exercise genitiv-praepositionen-zuordnen
+
+- Task: Match each genitive preposition to its English meaning.
+- Answer format: match each item on the left with one on the right
+- Solution: wegen – because of; trotz – despite; während – during; statt – instead of
+- Explanation: *wegen, trotz, während*, and *statt* are the four core prepositions that take the genitive.
+- Link: [../?via=tutor#genitiv-praepositionen-zuordnen](../?via=tutor#genitiv-praepositionen-zuordnen)
 
 ### Exercise genitiv-luecken
 
 - Task: Fill in the genitive article and noun (watch for -(e)s on masculine/neuter nouns).
 - Answer format: fill in the gaps in German
-- How the app counts mistakes of form: capital letters wrong, accents wrong, hyphen wrong, apostrophe wrong, punctuation wrong
+- How the app counts mistakes of form: capital letters right with a hint, accents wrong, hyphen wrong, apostrophe wrong, punctuation ignored
 - Items (start → solution):
 1. Because of the rain (der Regen), we stay at home. → Wegen des Regens bleiben wir zu Hause.
      - des Regen: In the genitive, masculine *Regen* needs the *-s* ending: *des Regens*.
@@ -79,12 +91,25 @@ Masculine and neuter nouns usually add **-s** (*des Lehrers, des Regens*). Short
 
 ### Exercise genitiv-besitz-check
 
-- Task: How does Peter correctly refer to the room of his host brother (*mein Gastbruder*, m)?
+- Task: How does Peter correctly refer to the room of his friend (*mein Freund*, m)?
 - Answer format: choose one answer
 - Choices (✓ right, ✗ wrong, with the app's message):
-  - ✓ Das ist das Zimmer meines Gastbruders. – Correct! Possessive *meines* (masculine genitive) + noun *Gastbruders* (+ *-s*).
-  - ✗ Das ist das Zimmer meinem Gastbruder. – *meinem* is dative. Direct possession without a preposition uses the genitive: *meines Gastbruders*.
-  - ✗ Das ist das Zimmer meines Gastbruder. – The masculine noun is missing its genitive *-s*: *meines Gastbruders*.
-- Solution: Das ist das Zimmer meines Gastbruders.
+  - ✓ Das ist das Zimmer meines Freundes. – Correct! Possessive *meines* (masculine genitive) + noun *Freundes* (+ *-es*).
+  - ✗ Das ist das Zimmer meinem Freund. – *meinem* is dative. Direct possession without a preposition uses the genitive: *meines Freundes*.
+  - ✗ Das ist das Zimmer meines Freund. – The masculine noun is missing its genitive *-es* ending: *meines Freundes*.
+- Solution: Das ist das Zimmer meines Freundes.
 - Explanation: In the genitive, both the determiner (*des/meines*) and masculine/neuter nouns take *-(e)s*.
 - Link: [../?via=tutor#genitiv-besitz-check](../?via=tutor#genitiv-besitz-check)
+
+### Exercise genitiv-praep-wahl
+
+- Task: Choose the right genitive form after each preposition.
+- Answer format: choose a word for each gap
+- How the app counts mistakes of form: capital letters wrong, accents wrong, hyphen wrong, apostrophe wrong, punctuation wrong
+- Items (start → solution):
+1. Instead of a game (ein Spiel, n), Peter buys a book. → Statt eines Spiels kauft Peter ein Buch.
+2. During the lesson (der Unterricht, m), everyone listens. → Während des Unterrichts hören alle zu.
+3. Because of the holidays (die Ferien, pl.), the school is closed. → Wegen der Ferien ist die Schule geschlossen.
+- Explanation: After *statt, während, wegen, trotz*, use the genitive: *des/eines + -(e)s* (m/n) and *der* (f/pl).
+- How to help: the app checks word by word against the solutions above and names mistakes of form (e.g. accents) with the child's words. Do not give the solution: ask about the rule (ending, gender, tense) or about a similar sentence of the page. If the app takes a version of the child's as wrong that you think is right, tell the child: the app knows only the versions above.
+- Link: [../?via=tutor#genitiv-praep-wahl](../?via=tutor#genitiv-praep-wahl)

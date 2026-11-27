@@ -20,11 +20,11 @@ Eltern und Lehrkräfte sehen hier, was der Tutor bekommt. [Zur Seite](../)
 
 ## Wo das Kind gerade ist
 
-- Die erste Nachricht des Kindes nennt diese Seite und je Aufgabe die Nummer, die das Kind gerade vor sich hat, z. B. `?uebung=reflexiv-luecken`. Schlag die Nummern unten bei den Aufgaben nach. Kommt das Kind mit „Hilfe“, nennt `uebung=` die Aufgabe und `abschnitt=` ihren Abschnitt.
+- Die erste Nachricht des Kindes nennt diese Seite und je Aufgabe die Nummer, die das Kind gerade vor sich hat, z. B. `?uebung=reflexiv-verben-zuordnen`. Schlag die Nummern unten bei den Aufgaben nach. Kommt das Kind mit „Hilfe“, nennt `uebung=` die Aufgabe und `abschnitt=` ihren Abschnitt.
 - Steht in der Nachricht „Die App sagt: …“, hat die App das zur Eingabe des Kindes gemeldet. Setz dort an, ohne es zu wiederholen.
 - Eine Zeile wie „…, Nr. 16: richtig im 2. Versuch.“ kommt von „Zurück“ in der App: Aufgabe, Nummer und wie weit das Kind damit kam.
 - „Ich habe auf … geübt:“ kommt von „Zurück zum Tutor“: diese Seite mit den Nummern, dann je geübter Aufgabe, wie es lief, bei einer falschen mit Eingabe und Meldung der App. Setz bei den falschen an, eine nach der anderen.
-- Jede Nummer hat einen Link: die Adresse der Seite, also dieser Tutor-Seite ohne `tutor/` und ohne `?…`, mit der Nummer und `via=tutor`, z. B. `…/dativ-verben-reflexiv/reflexive-verben/?via=tutor#reflexiv-luecken`. Schick ihn immer als volle Adresse, mit Schema und Host dieser Tutor-Seite (z. B. `https://`). Zum Weiterüben nimm eine andere Nummer der Aufgabe und nenn ihren Text. Sag dazu: „Löse sie in der App und drück dann ‚Zurück‘. Füg die Zeile hier ein.“
+- Jede Nummer hat einen Link: die Adresse der Seite, also dieser Tutor-Seite ohne `tutor/` und ohne `?…`, mit der Nummer und `via=tutor`, z. B. `…/dativ-verben-reflexiv/reflexive-verben/?via=tutor#reflexiv-verben-zuordnen`. Schick ihn immer als volle Adresse, mit Schema und Host dieser Tutor-Seite (z. B. `https://`). Zum Weiterüben nimm eine andere Nummer der Aufgabe und nenn ihren Text. Sag dazu: „Löse sie in der App und drück dann ‚Zurück‘. Füg die Zeile hier ein.“
 
 ## Besondere Anforderungen
 
@@ -58,15 +58,27 @@ Bei *er/sie/es, wir, ihr, sie/Sie* sind Akkusativ- und Dativ-Reflexivpronomen id
 
 ### Übung
 
+- Aufgabe `reflexiv-verben-zuordnen` (unten)
+
 - Aufgabe `reflexiv-luecken` (unten)
 
 - Aufgabe `reflexiv-dativ-erkennen` (unten)
+
+- Aufgabe `reflexiv-akk-dat-wahl` (unten)
+
+### Aufgabe reflexiv-verben-zuordnen
+
+- Aufgabe: Ordne jedes reflexive Verb seiner englischen Bedeutung zu.
+- Antwortformat: jedem Eintrag links den passenden rechts zuordnen
+- Lösung: sich freuen auf – to look forward to; sich beeilen – to hurry up; sich treffen – to meet up; sich die Hände waschen – to wash one's hands
+- Erklärung: Viele alltägliche Handlungen sind im Deutschen reflexiv, auch wenn das Englische kein *myself/yourself* verwendet.
+- Link: [../?via=tutor#reflexiv-verben-zuordnen](../?via=tutor#reflexiv-verben-zuordnen)
 
 ### Aufgabe reflexiv-luecken
 
 - Aufgabe: Ergänze das passende Reflexivpronomen (mich, mir, dich, dir, sich, uns).
 - Antwortformat: die Lücken auf Deutsch füllen
-- Wie die App Fehler der Form zählt: Groß- und Kleinschreibung falsch, Akzente falsch, Bindestrich falsch, Apostroph falsch, Satzzeichen falsch
+- Wie die App Fehler der Form zählt: Groß- und Kleinschreibung richtig mit Hinweis, Akzente falsch, Bindestrich falsch, Apostroph falsch, Satzzeichen egal
 - Einträge (Vorgabe → Lösung):
 1. I am looking forward to the weekend. → Ich freue mich auf das Wochenende.
      - mir: Hier gibt es kein zweites Akkusativobjekt → *sich freuen* steht mit Akkusativ *mich*.
@@ -89,3 +101,17 @@ Bei *er/sie/es, wir, ihr, sie/Sie* sind Akkusativ- und Dativ-Reflexivpronomen id
 - Lösung: Du putzt ___ jeden Morgen die Zähne.
 - Erklärung: Sobald ein Körperteil oder Gegenstand als direktes Objekt im Satz steht, weicht das Reflexivpronomen in den Dativ aus.
 - Link: [../?via=tutor#reflexiv-dativ-erkennen](../?via=tutor#reflexiv-dativ-erkennen)
+
+### Aufgabe reflexiv-akk-dat-wahl
+
+- Aufgabe: Akkusativ oder Dativ? Wähle das richtige Reflexivpronomen.
+- Antwortformat: für jede Lücke ein Wort wählen
+- Wie die App Fehler der Form zählt: Groß- und Kleinschreibung falsch, Akzente falsch, Bindestrich falsch, Apostroph falsch, Satzzeichen falsch
+- Einträge (Vorgabe → Lösung):
+1. I am hurrying to school. → Ich beeile mich für die Schule.
+2. I brush my teeth after breakfast. → Ich putze mir nach dem Frühstück die Zähne.
+3. Are you (du) interested in football? → Interessierst du dich für Fußball?
+4. You (du) put on your jacket. → Du ziehst dir deine Jacke an.
+- Erklärung: Sobald ein zweites Akkusativobjekt (*die Zähne, deine Jacke*) im Satz steht, werden *mich/dich* zu *mir/dir*.
+- So hilfst du: Die App prüft Wort für Wort gegen die Lösungen oben und nennt Fehler der Form (zum Beispiel Akzente) mit den Wörtern des Kindes. Sag nicht die Lösung vor: Frag nach der Regel (Endung, Geschlecht, Zeitform) oder nach einem ähnlichen Satz der Seite. Hält die App eine Fassung des Kindes für falsch, die du für richtig hältst, sag es dem Kind: Die App kennt nur die Fassungen oben.
+- Link: [../?via=tutor#reflexiv-akk-dat-wahl](../?via=tutor#reflexiv-akk-dat-wahl)

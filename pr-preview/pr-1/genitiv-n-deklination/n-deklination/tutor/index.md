@@ -20,11 +20,11 @@ Eltern und Lehrkräfte sehen hier, was der Tutor bekommt. [Zur Seite](../)
 
 ## Wo das Kind gerade ist
 
-- Die erste Nachricht des Kindes nennt diese Seite und je Aufgabe die Nummer, die das Kind gerade vor sich hat, z. B. `?uebung=n-deklination-luecken`. Schlag die Nummern unten bei den Aufgaben nach. Kommt das Kind mit „Hilfe“, nennt `uebung=` die Aufgabe und `abschnitt=` ihren Abschnitt.
+- Die erste Nachricht des Kindes nennt diese Seite und je Aufgabe die Nummer, die das Kind gerade vor sich hat, z. B. `?uebung=n-deklination-wahl`. Schlag die Nummern unten bei den Aufgaben nach. Kommt das Kind mit „Hilfe“, nennt `uebung=` die Aufgabe und `abschnitt=` ihren Abschnitt.
 - Steht in der Nachricht „Die App sagt: …“, hat die App das zur Eingabe des Kindes gemeldet. Setz dort an, ohne es zu wiederholen.
 - Eine Zeile wie „…, Nr. 16: richtig im 2. Versuch.“ kommt von „Zurück“ in der App: Aufgabe, Nummer und wie weit das Kind damit kam.
 - „Ich habe auf … geübt:“ kommt von „Zurück zum Tutor“: diese Seite mit den Nummern, dann je geübter Aufgabe, wie es lief, bei einer falschen mit Eingabe und Meldung der App. Setz bei den falschen an, eine nach der anderen.
-- Jede Nummer hat einen Link: die Adresse der Seite, also dieser Tutor-Seite ohne `tutor/` und ohne `?…`, mit der Nummer und `via=tutor`, z. B. `…/genitiv-n-deklination/n-deklination/?via=tutor#n-deklination-luecken`. Schick ihn immer als volle Adresse, mit Schema und Host dieser Tutor-Seite (z. B. `https://`). Zum Weiterüben nimm eine andere Nummer der Aufgabe und nenn ihren Text. Sag dazu: „Löse sie in der App und drück dann ‚Zurück‘. Füg die Zeile hier ein.“
+- Jede Nummer hat einen Link: die Adresse der Seite, also dieser Tutor-Seite ohne `tutor/` und ohne `?…`, mit der Nummer und `via=tutor`, z. B. `…/genitiv-n-deklination/n-deklination/?via=tutor#n-deklination-wahl`. Schick ihn immer als volle Adresse, mit Schema und Host dieser Tutor-Seite (z. B. `https://`). Zum Weiterüben nimm eine andere Nummer der Aufgabe und nenn ihren Text. Sag dazu: „Löse sie in der App und drück dann ‚Zurück‘. Füg die Zeile hier ein.“
 
 ## Besondere Anforderungen
 
@@ -43,9 +43,9 @@ Häufige schwache maskuline Nomen wie der Mensch, der Kollege und der Student au
 
 ### Die Musterkarte für schwache maskuline Nomen
 
-Bei einem Nachbarschaftsfest in Lindenberg lernt Peter einen Kollegen von Herr Weber, den Nachbarn und einen Studenten kennen. Eine besondere Gruppe **maskuliner Nomen** — die **n-Deklination** — hängt in **allen Fällen außer Nominativ Singular** ein **-n** oder **-en** an!
+Bei einem Nachbarschaftsfest in Lindenberg lernt Peter einen Kollegen von Herrn Weber, den Nachbarn und einen Studenten kennen. Eine besondere Gruppe **maskuliner Nomen** — die **n-Deklination** — hängt in **allen Fällen außer Nominativ Singular** ein **-n** oder **-en** an!
 
-Bild: Musterkarte zur n-Deklination: Nominativ Singular der Kollege / der Mensch, aber Akkusativ den Kollegen / den Menschen, Dativ dem Kollegen / dem Menschen, Genitiv des Kollegen / des Menschen. Bildunterschrift: Nur im Nominativ Singular steht die Grundform; in Akkusativ, Dativ, Genitiv (und Plural) kommt -n/-en dazu.
+Bild: Musterkarte zur n-Deklination: Nominativ Singular der Junge / der Löwe, aber Akkusativ den Jungen / den Löwen, Dativ dem Jungen / dem Löwen, Genitiv des Jungen / des Löwen. Bildunterschrift: Nur im Nominativ Singular steht die Grundform; in Akkusativ, Dativ, Genitiv (und Plural) kommt -n/-en dazu.
 
 Vokabeln (Deutsch – Englisch): Wichtige Nomen der n-Deklination
 - der Mensch, den/dem/des Menschen – person / human being
@@ -58,17 +58,34 @@ Vokabeln (Deutsch – Englisch): Wichtige Nomen der n-Deklination
 
 ### Übung
 
+- Aufgabe `n-deklination-wahl` (unten)
+
 - Aufgabe `n-deklination-luecken` (unten)
 
 - Aufgabe `n-deklination-unterscheiden` (unten)
+
+- Aufgabe `n-deklination-merkmale` (unten)
+
+### Aufgabe n-deklination-wahl
+
+- Aufgabe: Nominativ oder anderer Fall? Wähle die richtige Form.
+- Antwortformat: für jede Lücke ein Wort wählen
+- Wie die App Fehler der Form zählt: Groß- und Kleinschreibung falsch, Akzente falsch, Bindestrich falsch, Apostroph falsch, Satzzeichen falsch
+- Einträge (Vorgabe → Lösung):
+1. The boy (der Junge, nom.) plays football. → Der Junge spielt Fußball.
+2. Peter greets Herr Braun (der Herr, acc.). → Peter grüßt Herrn Braun.
+3. We help the person (der Mensch, dat.). → Wir helfen dem Menschen.
+- Erklärung: Im Nominativ Singular bleibt die Grundform (*der Junge*); im Akkusativ, Dativ und Genitiv kommt *-n/-en* dazu (*Herrn, dem Menschen*).
+- So hilfst du: Die App prüft Wort für Wort gegen die Lösungen oben und nennt Fehler der Form (zum Beispiel Akzente) mit den Wörtern des Kindes. Sag nicht die Lösung vor: Frag nach der Regel (Endung, Geschlecht, Zeitform) oder nach einem ähnlichen Satz der Seite. Hält die App eine Fassung des Kindes für falsch, die du für richtig hältst, sag es dem Kind: Die App kennt nur die Fassungen oben.
+- Link: [../?via=tutor#n-deklination-wahl](../?via=tutor#n-deklination-wahl)
 
 ### Aufgabe n-deklination-luecken
 
 - Aufgabe: Ergänze die richtige Form des schwachen maskulinen Nomens.
 - Antwortformat: die Lücken auf Deutsch füllen
-- Wie die App Fehler der Form zählt: Groß- und Kleinschreibung falsch, Akzente falsch, Bindestrich falsch, Apostroph falsch, Satzzeichen falsch
+- Wie die App Fehler der Form zählt: Groß- und Kleinschreibung richtig mit Hinweis, Akzente falsch, Bindestrich falsch, Apostroph falsch, Satzzeichen egal
 - Einträge (Vorgabe → Lösung):
-1. Peter meets a colleague (der Kollege, acc.) of Herr Weber. → Peter trifft einen Kollegen von Herr Weber.
+1. Peter meets a colleague (der Kollege, acc.) of Herr Weber. → Peter trifft einen Kollegen von Herrn Weber.
      - Kollege: *der Kollege* gehört zur n-Deklination → im Akkusativ *einen Kollegen*.
 2. Lukas helps the neighbor (der Nachbar, dat.) in the garden. → Lukas hilft dem Nachbarn im Garten.
      - Nachbar: *der Nachbar* bekommt im Dativ ein *-n*: *dem Nachbarn*.
@@ -90,3 +107,15 @@ Vokabeln (Deutsch – Englisch): Wichtige Nomen der n-Deklination
 - Lösung: der Lehrer (den Lehrer, dem Lehrer, des Lehrers)
 - Erklärung: Zur n-Deklination gehören vor allem maskuline Lebewesen auf *-e* (*Kollege, Junge*) sowie feste Wörter wie *Mensch, Student, Nachbar, Herr*.
 - Link: [../?via=tutor#n-deklination-unterscheiden](../?via=tutor#n-deklination-unterscheiden)
+
+### Aufgabe n-deklination-merkmale
+
+- Aufgabe: Welche Aussagen über die n-Deklination stimmen?
+- Antwortformat: alle richtigen Antworten wählen
+- Antworten zur Wahl (✓ richtig, ✗ falsch, mit der Meldung der App):
+  - ✓ Sie gilt nur für bestimmte maskuline Nomen. – Richtig! Feminine und neutrale Nomen (außer dem Sonderfall *das Herz*) gehören nicht dazu.
+  - ✓ Nur im Nominativ Singular steht die Grundform ohne -n/-en. – Richtig! In Akkusativ, Dativ, Genitiv und Plural steht *-n* oder *-en*.
+  - ✗ Alle maskulinen Nomen bekommen im Akkusativ ein -n. – Nein, normale maskuline Nomen wie *der Tisch* oder *der Lehrer* bleiben im Akkusativ unverändert (*den Tisch, den Lehrer*).
+- Lösung: Sie gilt nur für bestimmte maskuline Nomen.; Nur im Nominativ Singular steht die Grundform ohne -n/-en.
+- Erklärung: Die n-Deklination betrifft eine klar begrenzte Gruppe maskuliner Nomen und fügt in allen Fällen außer Nominativ Singular *-n/-en* hinzu.
+- Link: [../?via=tutor#n-deklination-merkmale](../?via=tutor#n-deklination-merkmale)

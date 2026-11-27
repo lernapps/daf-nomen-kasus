@@ -20,11 +20,11 @@ Eltern und Lehrkräfte sehen hier, was der Tutor bekommt. [Zur Seite](../)
 
 ## Wo das Kind gerade ist
 
-- Die erste Nachricht des Kindes nennt diese Seite und je Aufgabe die Nummer, die das Kind gerade vor sich hat, z. B. `?uebung=possessiv-dativ-luecken`. Schlag die Nummern unten bei den Aufgaben nach. Kommt das Kind mit „Hilfe“, nennt `uebung=` die Aufgabe und `abschnitt=` ihren Abschnitt.
+- Die erste Nachricht des Kindes nennt diese Seite und je Aufgabe die Nummer, die das Kind gerade vor sich hat, z. B. `?uebung=possessiv-dativ-wahl`. Schlag die Nummern unten bei den Aufgaben nach. Kommt das Kind mit „Hilfe“, nennt `uebung=` die Aufgabe und `abschnitt=` ihren Abschnitt.
 - Steht in der Nachricht „Die App sagt: …“, hat die App das zur Eingabe des Kindes gemeldet. Setz dort an, ohne es zu wiederholen.
 - Eine Zeile wie „…, Nr. 16: richtig im 2. Versuch.“ kommt von „Zurück“ in der App: Aufgabe, Nummer und wie weit das Kind damit kam.
 - „Ich habe auf … geübt:“ kommt von „Zurück zum Tutor“: diese Seite mit den Nummern, dann je geübter Aufgabe, wie es lief, bei einer falschen mit Eingabe und Meldung der App. Setz bei den falschen an, eine nach der anderen.
-- Jede Nummer hat einen Link: die Adresse der Seite, also dieser Tutor-Seite ohne `tutor/` und ohne `?…`, mit der Nummer und `via=tutor`, z. B. `…/dativ-verben-reflexiv/possessivartikel-dativ/?via=tutor#possessiv-dativ-luecken`. Schick ihn immer als volle Adresse, mit Schema und Host dieser Tutor-Seite (z. B. `https://`). Zum Weiterüben nimm eine andere Nummer der Aufgabe und nenn ihren Text. Sag dazu: „Löse sie in der App und drück dann ‚Zurück‘. Füg die Zeile hier ein.“
+- Jede Nummer hat einen Link: die Adresse der Seite, also dieser Tutor-Seite ohne `tutor/` und ohne `?…`, mit der Nummer und `via=tutor`, z. B. `…/dativ-verben-reflexiv/possessivartikel-dativ/?via=tutor#possessiv-dativ-wahl`. Schick ihn immer als volle Adresse, mit Schema und Host dieser Tutor-Seite (z. B. `https://`). Zum Weiterüben nimm eine andere Nummer der Aufgabe und nenn ihren Text. Sag dazu: „Löse sie in der App und drück dann ‚Zurück‘. Füg die Zeile hier ein.“
 
 ## Besondere Anforderungen
 
@@ -41,13 +41,13 @@ Nennt die Adresse dieser Seite `bedarf=`, gilt jeder Abschnitt, den sie nennt, m
 
 Possessivartikel (meinem, deiner, ihren, unseren, eurem usw.) im Dativ sicher anwenden.
 
-### Geschenke für meine Gastfamilie
+### Geschenke für Familie Weber
 
 Wie im Nominativ und Akkusativ tragen **Possessivartikel im Dativ** genau dieselben Endungen wie *einem / einer / keinen*: **-em** (Maskulin & Neutrum), **-er** (Feminin) und **-en** (Plural, plus **-n** am Nomen!).
 
 Possessivartikel im Dativ (am Beispiel mein- & euer-):
 - Genus / Zahl | Endung | Beispiele im Dativ
-- Maskulin (m) | -em | meinem Bruder · eurem Lehrer
+- Maskulin (m) | -em | meinem Freund · eurem Lehrer
 - Feminin (f) | -er | deiner Schwester · ihrer Mutter
 - Neutrum (n) | -em | seinem Kind · unserem Haus
 - Plural (pl) | -en (+ -n) | unseren Freunden · euren Eltern
@@ -58,23 +58,41 @@ Auch im Dativ fällt das zweite **e** bei *euer* weg: *eurem* (m/n), *eurer* (f)
 
 ### Übung
 
+- Aufgabe `possessiv-dativ-wahl` (unten)
+
 - Aufgabe `possessiv-dativ-luecken` (unten)
 
 - Aufgabe `possessiv-dativ-check` (unten)
+
+- Aufgabe `possessiv-dativ-ordnen` (unten)
+
+### Aufgabe possessiv-dativ-wahl
+
+- Aufgabe: Wähle den passenden Possessivartikel im Dativ.
+- Antwortformat: für jede Lücke ein Wort wählen
+- Wie die App Fehler der Form zählt: Groß- und Kleinschreibung falsch, Akzente falsch, Bindestrich falsch, Apostroph falsch, Satzzeichen falsch
+- Einträge (Vorgabe → Lösung):
+1. Peter writes a card to his mother (seine Mutter). → Peter schreibt seiner Mutter eine Karte.
+2. Lukas plays with our dog (unser Hund). → Lukas spielt mit unserem Hund.
+3. Nadia gives her parents (ihre Eltern) a photo. → Nadia schenkt ihren Eltern ein Foto.
+4. Herr Braun talks with my father (mein Vater). → Herr Braun spricht mit meinem Vater.
+- Erklärung: Dativ-Endungen für Possessivartikel: *-em* (m/n), *-er* (f) und *-en* (pl).
+- So hilfst du: Die App prüft Wort für Wort gegen die Lösungen oben und nennt Fehler der Form (zum Beispiel Akzente) mit den Wörtern des Kindes. Sag nicht die Lösung vor: Frag nach der Regel (Endung, Geschlecht, Zeitform) oder nach einem ähnlichen Satz der Seite. Hält die App eine Fassung des Kindes für falsch, die du für richtig hältst, sag es dem Kind: Die App kennt nur die Fassungen oben.
+- Link: [../?via=tutor#possessiv-dativ-wahl](../?via=tutor#possessiv-dativ-wahl)
 
 ### Aufgabe possessiv-dativ-luecken
 
 - Aufgabe: Ergänze den richtigen Possessivartikel im Dativ.
 - Antwortformat: die Lücken auf Deutsch füllen
-- Wie die App Fehler der Form zählt: Groß- und Kleinschreibung falsch, Akzente falsch, Bindestrich falsch, Apostroph falsch, Satzzeichen falsch
+- Wie die App Fehler der Form zählt: Groß- und Kleinschreibung richtig mit Hinweis, Akzente falsch, Bindestrich falsch, Apostroph falsch, Satzzeichen egal
 - Einträge (Vorgabe → Lösung):
-1. Peter helps his host brother (sein Gastbruder). → Peter hilft seinem Gastbruder.
+1. Peter helps his friend (sein Freund). → Peter hilft seinem Freund.
      - seinen: *helfen* verlangt den Dativ: Maskulin hat im Dativ *-em* → *seinem*.
 2. Mina gives her mother (ihre Mutter) flowers. → Mina schenkt ihrer Mutter Blumen.
      - ihre: *Mutter* ist feminin und Empfängerin (Dativ) → *-er*: *ihrer Mutter*.
 3. We thank our friends (unsere Freunde). → Wir danken unseren Freunden.
-4. The room belongs to your (pl.) guest (euer Gast). → Das Zimmer gehört eurem Gast.
-     - euerem: *euer* verliert mit Endung das zweite *e*: *eurem Gast*.
+4. The ball belongs to your (pl.) dog (euer Hund). → Der Ball gehört eurem Hund.
+     - euerem: *euer* verliert mit Endung das zweite *e*: *eurem Hund*.
 - Erklärung: Im Dativ enden Possessivartikel auf *-em* (m/n), *-er* (f) und *-en* (pl).
 - So hilfst du: Die App prüft Wort für Wort gegen die Lösungen oben und nennt Fehler der Form (zum Beispiel Akzente) mit den Wörtern des Kindes. Sag nicht die Lösung vor: Frag nach der Regel (Endung, Geschlecht, Zeitform) oder nach einem ähnlichen Satz der Seite. Hält die App eine Fassung des Kindes für falsch, die du für richtig hältst, sag es dem Kind: Die App kennt nur die Fassungen oben.
 - Link: [../?via=tutor#possessiv-dativ-luecken](../?via=tutor#possessiv-dativ-luecken)
@@ -90,3 +108,11 @@ Auch im Dativ fällt das zweite **e** bei *euer* weg: *eurem* (m/n), *eurer* (f)
 - Lösung: Peter zeigt seinen Freunden das Zimmer.
 - Erklärung: Im Dativ Plural endet der Possessivartikel auf *-en* und das Nomen bekommt ein *-n*.
 - Link: [../?via=tutor#possessiv-dativ-check](../?via=tutor#possessiv-dativ-check)
+
+### Aufgabe possessiv-dativ-ordnen
+
+- Aufgabe: Bringe die Wörter in die richtige Reihenfolge: *Peter warmly thanks his friends.*
+- Antwortformat: die Einträge in die richtige Reihenfolge bringen (die App zeigt sie gemischt)
+- Lösung: 1. Peter, 2. dankt, 3. seinen, 4. Freunden, 5. herzlich.
+- Erklärung: *danken* verlangt den Dativ: *seinen Freunden* (Possessivartikel *-en* + Nomen *-n*).
+- Link: [../?via=tutor#possessiv-dativ-ordnen](../?via=tutor#possessiv-dativ-ordnen)

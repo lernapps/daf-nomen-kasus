@@ -45,12 +45,12 @@ Sätze mit Empfänger (Dativ) und Sache (Akkusativ) in der richtigen Reihenfolge
 
 Verben wie **geben, schenken, zeigen, bringen, leihen, schreiben** brauchen oft zwei Objekte: den **Empfänger** im Dativ (Wem?) und die **Sache** im Akkusativ (Was?). Die Reihenfolge hängt davon ab, ob du Nomen oder Pronomen benutzt.
 
-Bild: Pfeildiagramm: Peter (Nominativ) schenkt -> der Schwester / ihr (Dativ, Empfänger) und ein Buch / es (Akkusativ, Sache). Regeln: 2 Nomen Dativ vor Akkusativ; 1 Pronomen zuerst; 2 Pronomen Akkusativ vor Dativ. Bildunterschrift: Drei klare Reihenfolge-Regeln für Sätze mit Dativ- und Akkusativobjekt.
+Bild: Pfeildiagramm: Peter (Nominativ) schenkt -> der Freundin / ihr (Dativ, Empfänger) und ein Spiel / es (Akkusativ, Sache). Regeln: 2 Nomen Dativ vor Akkusativ; 1 Pronomen zuerst; 2 Pronomen Akkusativ vor Dativ. Bildunterschrift: Drei klare Reihenfolge-Regeln für Sätze mit Dativ- und Akkusativobjekt.
 
 Die 3 Reihenfolge-Regeln:
 - Kombination | Reihenfolge | Beispiel
-- 2 Nomen | Dativ → Akkusativ | Peter schenkt der Schwester ein Buch.
-- 1 Pronomen + 1 Nomen | Pronomen zuerst | Peter schenkt ihr ein Buch. / Peter schenkt es Mina.
+- 2 Nomen | Dativ → Akkusativ | Peter schenkt der Freundin ein Spiel.
+- 1 Pronomen + 1 Nomen | Pronomen zuerst | Peter schenkt ihr ein Spiel. / Peter schenkt es Nadia.
 - 2 Pronomen | Akkusativ → Dativ | Peter schenkt es ihr.
 
 ### Übung
@@ -59,12 +59,16 @@ Die 3 Reihenfolge-Regeln:
 
 - Aufgabe `zwei-pronomen-wahl` (unten)
 
+- Aufgabe `zwei-objekte-luecken` (unten)
+
+- Aufgabe `zwei-pronomen-regel-check` (unten)
+
 ### Aufgabe zwei-objekte-ordnen
 
-- Aufgabe: Bringe die Satzteile in die richtige Reihenfolge: *Peter lends his brother the bike.*
+- Aufgabe: Bringe die Satzteile in die richtige Reihenfolge: *Peter lends his friend the bike.*
 - Antwortformat: die Einträge in die richtige Reihenfolge bringen (die App zeigt sie gemischt)
-- Lösung: 1. Peter, 2. leiht, 3. dem Bruder, 4. das Fahrrad.
-- Erklärung: Bei zwei Nomen steht der Dativ (*dem Bruder*) vor dem Akkusativ (*das Fahrrad*).
+- Lösung: 1. Peter, 2. leiht, 3. dem Freund, 4. das Fahrrad.
+- Erklärung: Bei zwei Nomen steht der Dativ (*dem Freund*) vor dem Akkusativ (*das Fahrrad*).
 - Link: [../?via=tutor#zwei-objekte-ordnen](../?via=tutor#zwei-objekte-ordnen)
 
 ### Aufgabe zwei-pronomen-wahl
@@ -79,3 +83,26 @@ Die 3 Reihenfolge-Regeln:
 - Erklärung: Ein Pronomen steht vor dem Nomen (*ihn Peter*, *ihm eine Karte*). Bei zwei Pronomen steht Akkusativ vor Dativ (*es ihr*).
 - So hilfst du: Die App prüft Wort für Wort gegen die Lösungen oben und nennt Fehler der Form (zum Beispiel Akzente) mit den Wörtern des Kindes. Sag nicht die Lösung vor: Frag nach der Regel (Endung, Geschlecht, Zeitform) oder nach einem ähnlichen Satz der Seite. Hält die App eine Fassung des Kindes für falsch, die du für richtig hältst, sag es dem Kind: Die App kennt nur die Fassungen oben.
 - Link: [../?via=tutor#zwei-pronomen-wahl](../?via=tutor#zwei-pronomen-wahl)
+
+### Aufgabe zwei-objekte-luecken
+
+- Aufgabe: Ergänze beide Objekte in der richtigen Reihenfolge.
+- Antwortformat: die Lücken auf Deutsch füllen
+- Wie die App Fehler der Form zählt: Groß- und Kleinschreibung richtig mit Hinweis, Akzente falsch, Bindestrich falsch, Apostroph falsch, Satzzeichen egal
+- Einträge (Vorgabe → Lösung):
+1. Peter gives the teacher (der Lehrer) the notebook (das Heft). → Peter gibt dem Lehrer das Heft.
+     - das Heft dem Lehrer: Bei zwei Nomen steht der Dativ (*dem Lehrer*) vor dem Akkusativ (*das Heft*).
+2. Lukas brings it (das Buch) to him (Peter). → Lukas bringt es ihm.
+     - ihm es: Bei zwei Pronomen steht der Akkusativ (*es*) vor dem Dativ (*ihm*).
+3. Mina gives her (Nadia) the ball (der Ball). → Mina gibt ihr den Ball.
+- Erklärung: Merke: 2 Nomen = Dat → Akk; 1 Pronomen = Pronomen zuerst; 2 Pronomen = Akk → Dat.
+- So hilfst du: Die App prüft Wort für Wort gegen die Lösungen oben und nennt Fehler der Form (zum Beispiel Akzente) mit den Wörtern des Kindes. Sag nicht die Lösung vor: Frag nach der Regel (Endung, Geschlecht, Zeitform) oder nach einem ähnlichen Satz der Seite. Hält die App eine Fassung des Kindes für falsch, die du für richtig hältst, sag es dem Kind: Die App kennt nur die Fassungen oben.
+- Link: [../?via=tutor#zwei-objekte-luecken](../?via=tutor#zwei-objekte-luecken)
+
+### Aufgabe zwei-pronomen-regel-check
+
+- Aufgabe: Wenn beide Objekte Pronomen sind (z. B. es und ihr), steht der Dativ immer zuerst.
+- Antwortformat: „Stimmt“ oder „Stimmt nicht“ wählen
+- Lösung: Die Aussage stimmt nicht.
+- Erklärung: Falsch! Bei zwei Pronomen steht der **Akkusativ vor dem Dativ**: *Peter gibt **es ihr**.*
+- Link: [../?via=tutor#zwei-pronomen-regel-check](../?via=tutor#zwei-pronomen-regel-check)

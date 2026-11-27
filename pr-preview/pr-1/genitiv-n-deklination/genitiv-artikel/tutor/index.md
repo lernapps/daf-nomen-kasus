@@ -20,11 +20,11 @@ Eltern und Lehrkräfte sehen hier, was der Tutor bekommt. [Zur Seite](../)
 
 ## Wo das Kind gerade ist
 
-- Die erste Nachricht des Kindes nennt diese Seite und je Aufgabe die Nummer, die das Kind gerade vor sich hat, z. B. `?uebung=genitiv-luecken`. Schlag die Nummern unten bei den Aufgaben nach. Kommt das Kind mit „Hilfe“, nennt `uebung=` die Aufgabe und `abschnitt=` ihren Abschnitt.
+- Die erste Nachricht des Kindes nennt diese Seite und je Aufgabe die Nummer, die das Kind gerade vor sich hat, z. B. `?uebung=genitiv-praepositionen-zuordnen`. Schlag die Nummern unten bei den Aufgaben nach. Kommt das Kind mit „Hilfe“, nennt `uebung=` die Aufgabe und `abschnitt=` ihren Abschnitt.
 - Steht in der Nachricht „Die App sagt: …“, hat die App das zur Eingabe des Kindes gemeldet. Setz dort an, ohne es zu wiederholen.
 - Eine Zeile wie „…, Nr. 16: richtig im 2. Versuch.“ kommt von „Zurück“ in der App: Aufgabe, Nummer und wie weit das Kind damit kam.
 - „Ich habe auf … geübt:“ kommt von „Zurück zum Tutor“: diese Seite mit den Nummern, dann je geübter Aufgabe, wie es lief, bei einer falschen mit Eingabe und Meldung der App. Setz bei den falschen an, eine nach der anderen.
-- Jede Nummer hat einen Link: die Adresse der Seite, also dieser Tutor-Seite ohne `tutor/` und ohne `?…`, mit der Nummer und `via=tutor`, z. B. `…/genitiv-n-deklination/genitiv-artikel/?via=tutor#genitiv-luecken`. Schick ihn immer als volle Adresse, mit Schema und Host dieser Tutor-Seite (z. B. `https://`). Zum Weiterüben nimm eine andere Nummer der Aufgabe und nenn ihren Text. Sag dazu: „Löse sie in der App und drück dann ‚Zurück‘. Füg die Zeile hier ein.“
+- Jede Nummer hat einen Link: die Adresse der Seite, also dieser Tutor-Seite ohne `tutor/` und ohne `?…`, mit der Nummer und `via=tutor`, z. B. `…/genitiv-n-deklination/genitiv-artikel/?via=tutor#genitiv-praepositionen-zuordnen`. Schick ihn immer als volle Adresse, mit Schema und Host dieser Tutor-Seite (z. B. `https://`). Zum Weiterüben nimm eine andere Nummer der Aufgabe und nenn ihren Text. Sag dazu: „Löse sie in der App und drück dann ‚Zurück‘. Füg die Zeile hier ein.“
 
 ## Besondere Anforderungen
 
@@ -57,15 +57,27 @@ Maskuline und neutrale Nomen erhalten meist **-s** (*des Lehrers, des Regens*). 
 
 ### Übung
 
+- Aufgabe `genitiv-praepositionen-zuordnen` (unten)
+
 - Aufgabe `genitiv-luecken` (unten)
 
 - Aufgabe `genitiv-besitz-check` (unten)
+
+- Aufgabe `genitiv-praep-wahl` (unten)
+
+### Aufgabe genitiv-praepositionen-zuordnen
+
+- Aufgabe: Ordne jeder Genitivpräposition ihre englische Bedeutung zu.
+- Antwortformat: jedem Eintrag links den passenden rechts zuordnen
+- Lösung: wegen – because of; trotz – despite; während – during; statt – instead of
+- Erklärung: *wegen, trotz, während* und *statt* gehören zu den wichtigsten Präpositionen mit Genitiv.
+- Link: [../?via=tutor#genitiv-praepositionen-zuordnen](../?via=tutor#genitiv-praepositionen-zuordnen)
 
 ### Aufgabe genitiv-luecken
 
 - Aufgabe: Ergänze Artikel und Nomen im Genitiv (achte auf -(e)s bei Maskulin/Neutrum).
 - Antwortformat: die Lücken auf Deutsch füllen
-- Wie die App Fehler der Form zählt: Groß- und Kleinschreibung falsch, Akzente falsch, Bindestrich falsch, Apostroph falsch, Satzzeichen falsch
+- Wie die App Fehler der Form zählt: Groß- und Kleinschreibung richtig mit Hinweis, Akzente falsch, Bindestrich falsch, Apostroph falsch, Satzzeichen egal
 - Einträge (Vorgabe → Lösung):
 1. Because of the rain (der Regen), we stay at home. → Wegen des Regens bleiben wir zu Hause.
      - des Regen: Im Genitiv braucht das maskuline Nomen *Regen* die Endung *-s*: *des Regens*.
@@ -79,12 +91,25 @@ Maskuline und neutrale Nomen erhalten meist **-s** (*des Lehrers, des Regens*). 
 
 ### Aufgabe genitiv-besitz-check
 
-- Aufgabe: Wie fragt Peter richtig nach dem Zimmer seines Gastbruders (*mein Gastbruder*, m)?
+- Aufgabe: Wie nennt Peter richtig das Zimmer seines Freundes (*mein Freund*, m)?
 - Antwortformat: eine Antwort wählen
 - Antworten zur Wahl (✓ richtig, ✗ falsch, mit der Meldung der App):
-  - ✓ Das ist das Zimmer meines Gastbruders. – Richtig! Possessivartikel *meines* (Genitiv m) + Nomen *Gastbruders* (+ *-s*).
-  - ✗ Das ist das Zimmer meinem Gastbruder. – *meinem* ist Dativ. Für direkten Besitz ohne Präposition braucht man den Genitiv: *meines Gastbruders*.
-  - ✗ Das ist das Zimmer meines Gastbruder. – Am maskulinen Nomen fehlt das Genitiv-*-s*: *meines Gastbruders*.
-- Lösung: Das ist das Zimmer meines Gastbruders.
+  - ✓ Das ist das Zimmer meines Freundes. – Richtig! Possessivartikel *meines* (Genitiv m) + Nomen *Freundes* (+ *-es*).
+  - ✗ Das ist das Zimmer meinem Freund. – *meinem* ist Dativ. Für direkten Besitz ohne Präposition braucht man den Genitiv: *meines Freundes*.
+  - ✗ Das ist das Zimmer meines Freund. – Am maskulinen Nomen fehlt die Genitiv-Endung *-es*: *meines Freundes*.
+- Lösung: Das ist das Zimmer meines Freundes.
 - Erklärung: Im Genitiv bekommen sowohl Artikel/Possessivartikel (*des/meines*) als auch maskuline und neutrale Nomen ein *-(e)s*.
 - Link: [../?via=tutor#genitiv-besitz-check](../?via=tutor#genitiv-besitz-check)
+
+### Aufgabe genitiv-praep-wahl
+
+- Aufgabe: Wähle die richtige Genitiv-Form nach der Präposition.
+- Antwortformat: für jede Lücke ein Wort wählen
+- Wie die App Fehler der Form zählt: Groß- und Kleinschreibung falsch, Akzente falsch, Bindestrich falsch, Apostroph falsch, Satzzeichen falsch
+- Einträge (Vorgabe → Lösung):
+1. Instead of a game (ein Spiel, n), Peter buys a book. → Statt eines Spiels kauft Peter ein Buch.
+2. During the lesson (der Unterricht, m), everyone listens. → Während des Unterrichts hören alle zu.
+3. Because of the holidays (die Ferien, pl.), the school is closed. → Wegen der Ferien ist die Schule geschlossen.
+- Erklärung: Nach *statt, während, wegen, trotz* steht der Genitiv: *des/eines + -(e)s* (m/n) und *der* (f/pl).
+- So hilfst du: Die App prüft Wort für Wort gegen die Lösungen oben und nennt Fehler der Form (zum Beispiel Akzente) mit den Wörtern des Kindes. Sag nicht die Lösung vor: Frag nach der Regel (Endung, Geschlecht, Zeitform) oder nach einem ähnlichen Satz der Seite. Hält die App eine Fassung des Kindes für falsch, die du für richtig hältst, sag es dem Kind: Die App kennt nur die Fassungen oben.
+- Link: [../?via=tutor#genitiv-praep-wahl](../?via=tutor#genitiv-praep-wahl)

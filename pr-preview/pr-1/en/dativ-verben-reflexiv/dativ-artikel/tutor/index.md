@@ -20,11 +20,11 @@ Parents and teachers see here what the tutor gets. [To the page](../)
 
 ## Where the child is
 
-- The child's first message names this page and, for each exercise, the number of the task the child has in front of it, e.g. `?uebung=dativ-artikel-wahl`. Look the numbers up below with the exercises. If the child comes with “Help”, `uebung=` names the exercise and `abschnitt=` its section.
+- The child's first message names this page and, for each exercise, the number of the task the child has in front of it, e.g. `?uebung=dativ-spalten-zuordnen`. Look the numbers up below with the exercises. If the child comes with “Help”, `uebung=` names the exercise and `abschnitt=` its section.
 - If the message says “The app says: …”, the app showed that for the child's input. Build on it without repeating it.
 - A line like “…, no. 16: right on try 2.” comes from “Back” in the app: the exercise, the number and how far the child got with it.
 - “I practised on …:” comes from “Back to the tutor”: this page with the numbers, then for each task practised how it went, a wrong one with the input and the app's message. Start with the wrong ones, one after the other.
-- Every task has a link: the address of the page, that is of this tutor page without `tutor/` and without `?…`, with the number and `via=tutor`, e.g. `…/dativ-verben-reflexiv/dativ-artikel/?via=tutor#dativ-artikel-wahl`. Always send it as a full address, with the scheme and host of this tutor page (e.g. `https://`). For a further task take another number of the exercise and say its text. Add: “Solve it in the app, then press ‘Back’. Paste the line here.”
+- Every task has a link: the address of the page, that is of this tutor page without `tutor/` and without `?…`, with the number and `via=tutor`, e.g. `…/dativ-verben-reflexiv/dativ-artikel/?via=tutor#dativ-spalten-zuordnen`. Always send it as a full address, with the scheme and host of this tutor page (e.g. `https://`). For a further task take another number of the exercise and say its text. Add: “Solve it in the app, then press ‘Back’. Paste the line here.”
 
 ## Special requirements
 
@@ -53,9 +53,21 @@ In the dative plural, add **-n** to the noun unless its plural already ends in *
 
 ### Practice
 
+- Exercise `dativ-spalten-zuordnen` (below)
+
 - Exercise `dativ-artikel-wahl` (below)
 
 - Exercise `dativ-plural-luecken` (below)
+
+- Exercise `dativ-plural-s-check` (below)
+
+### Exercise dativ-spalten-zuordnen
+
+- Task: Match each nominative article to its dative form (M-R-M-N).
+- Answer format: match each item on the left with one on the right
+- Solution: der (Masculine) – dem / einem; die (Feminine) – der / einer; das (Neuter) – dem / einem (n); die (Plural) – den + -n on the noun
+- Explanation: In the dative, all four columns change following M-R-M-N: *dem, der, dem, den (+ -n)*.
+- Link: [../?via=tutor#dativ-spalten-zuordnen](../?via=tutor#dativ-spalten-zuordnen)
 
 ### Exercise dativ-artikel-wahl
 
@@ -75,7 +87,7 @@ In the dative plural, add **-n** to the noun unless its plural already ends in *
 
 - Task: Fill in the dative plural article and noun (remember the extra -n!).
 - Answer format: fill in the gaps in German
-- How the app counts mistakes of form: capital letters wrong, accents wrong, hyphen wrong, apostrophe wrong, punctuation wrong
+- How the app counts mistakes of form: capital letters right with a hint, accents wrong, hyphen wrong, apostrophe wrong, punctuation ignored
 - Items (start → solution):
 1. Peter writes cards to the friends (die Freunde). → Peter schreibt den Freunden Karten.
      - den Freunde: In the dative plural, *Freunde* needs the extra *-n*: *den Freunden*.
@@ -85,3 +97,15 @@ In the dative plural, add **-n** to the noun unless its plural already ends in *
 - Explanation: Dative plural uses *den* and adds *-n* to the noun unless it already ends in *-n* or *-s*.
 - How to help: the app checks word by word against the solutions above and names mistakes of form (e.g. accents) with the child's words. Do not give the solution: ask about the rule (ending, gender, tense) or about a similar sentence of the page. If the app takes a version of the child's as wrong that you think is right, tell the child: the app knows only the versions above.
 - Link: [../?via=tutor#dativ-plural-luecken](../?via=tutor#dativ-plural-luecken)
+
+### Exercise dativ-plural-s-check
+
+- Task: Which dative plural does **not** add an extra *-n* to the noun?
+- Answer format: choose one answer
+- Choices (✓ right, ✗ wrong, with the app's message):
+  - ✓ mit den Fotos (plural: die Fotos) – Correct! Plurals already ending in *-s* (or *-n*) do not add another *-n* in the dative plural.
+  - ✗ mit den Büchern (plural: die Bücher) – *die Bücher* ends in *-r*, so it adds *-n*: *mit den Büchern*.
+  - ✗ mit den Stühlen (plural: die Stühle) – *die Stühle* ends in *-e*, so it adds *-n*: *mit den Stühlen*.
+- Solution: mit den Fotos (plural: die Fotos)
+- Explanation: Only plurals already ending in *-n* or *-s* (*die Lampen, die Fotos*) skip the extra *-n* in the dative plural.
+- Link: [../?via=tutor#dativ-plural-s-check](../?via=tutor#dativ-plural-s-check)

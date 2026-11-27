@@ -20,11 +20,11 @@ Eltern und Lehrkräfte sehen hier, was der Tutor bekommt. [Zur Seite](../)
 
 ## Wo das Kind gerade ist
 
-- Die erste Nachricht des Kindes nennt diese Seite und je Aufgabe die Nummer, die das Kind gerade vor sich hat, z. B. `?uebung=artikel-zimmer-wahl`. Schlag die Nummern unten bei den Aufgaben nach. Kommt das Kind mit „Hilfe“, nennt `uebung=` die Aufgabe und `abschnitt=` ihren Abschnitt.
+- Die erste Nachricht des Kindes nennt diese Seite und je Aufgabe die Nummer, die das Kind gerade vor sich hat, z. B. `?uebung=artikel-genus-zuordnen`. Schlag die Nummern unten bei den Aufgaben nach. Kommt das Kind mit „Hilfe“, nennt `uebung=` die Aufgabe und `abschnitt=` ihren Abschnitt.
 - Steht in der Nachricht „Die App sagt: …“, hat die App das zur Eingabe des Kindes gemeldet. Setz dort an, ohne es zu wiederholen.
 - Eine Zeile wie „…, Nr. 16: richtig im 2. Versuch.“ kommt von „Zurück“ in der App: Aufgabe, Nummer und wie weit das Kind damit kam.
 - „Ich habe auf … geübt:“ kommt von „Zurück zum Tutor“: diese Seite mit den Nummern, dann je geübter Aufgabe, wie es lief, bei einer falschen mit Eingabe und Meldung der App. Setz bei den falschen an, eine nach der anderen.
-- Jede Nummer hat einen Link: die Adresse der Seite, also dieser Tutor-Seite ohne `tutor/` und ohne `?…`, mit der Nummer und `via=tutor`, z. B. `…/genus-plural-negation/artikel-genus/?via=tutor#artikel-zimmer-wahl`. Schick ihn immer als volle Adresse, mit Schema und Host dieser Tutor-Seite (z. B. `https://`). Zum Weiterüben nimm eine andere Nummer der Aufgabe und nenn ihren Text. Sag dazu: „Löse sie in der App und drück dann ‚Zurück‘. Füg die Zeile hier ein.“
+- Jede Nummer hat einen Link: die Adresse der Seite, also dieser Tutor-Seite ohne `tutor/` und ohne `?…`, mit der Nummer und `via=tutor`, z. B. `…/genus-plural-negation/artikel-genus/?via=tutor#artikel-genus-zuordnen`. Schick ihn immer als volle Adresse, mit Schema und Host dieser Tutor-Seite (z. B. `https://`). Zum Weiterüben nimm eine andere Nummer der Aufgabe und nenn ihren Text. Sag dazu: „Löse sie in der App und drück dann ‚Zurück‘. Füg die Zeile hier ein.“
 
 ## Besondere Anforderungen
 
@@ -43,7 +43,7 @@ Bestimmte (der, die, das) und unbestimmte (ein, eine) Artikel mit den vier Farbs
 
 ### Die vier Farbspalten in Peters Zimmer
 
-Peter richtet sein neues Zimmer bei Familie Weber in Lindenberg ein. Jedes deutsche Nomen hat ein grammatisches Geschlecht (**Genus**): **maskulin** (*der*, blau), **feminin** (*die*, rot) oder **neutrum** (*das*, grün). Im Plural steht immer **die** (gelb).
+Peter (12) richtet sein neues Zimmer in der Wohnung seiner Eltern in Lindenberg ein. Jedes deutsche Nomen hat ein grammatisches Geschlecht (**Genus**): **maskulin** (*der*, blau), **feminin** (*die*, rot) oder **neutrum** (*das*, grün). Im Plural steht immer **die** (gelb).
 
 Bild: 4-Fälle-Farbtabelle mit der ersten Zeile Nominativ: maskulin der/ein, feminin die/eine, neutrum das/ein, Plural die. Bildunterschrift: Unsere 4-Fälle-Farbtabelle startet im Nominativ. Jedes neue Kapitel ergänzt eine Zeile.
 
@@ -53,17 +53,30 @@ Lerne jedes Nomen immer mit seinem Artikel. Einige Endungen helfen dir: **-ung, 
 
 Vokabeln (Deutsch – Englisch): Dinge in Peters Zimmer
 - der Schreibtisch – desk. Beispiel: Der Schreibtisch steht am Fenster. – The desk stands by the window.
-- der Stuhl – chair
+- der Rucksack – backpack
 - die Lampe – lamp. Beispiel: Eine Lampe steht auf dem Tisch. – A lamp is on the desk.
 - die Gitarre – guitar
 - das Bett – bed
 - das Regal – shelf
+- das Fahrrad – bicycle
 
 ### Übung
+
+- Aufgabe `artikel-genus-zuordnen` (unten)
 
 - Aufgabe `artikel-zimmer-wahl` (unten)
 
 - Aufgabe `genus-endung-check` (unten)
+
+- Aufgabe `artikel-ein-luecken` (unten)
+
+### Aufgabe artikel-genus-zuordnen
+
+- Aufgabe: Ordne jedes Wort aus Peters Alltag seiner Farbspalte zu.
+- Antwortformat: jedem Eintrag links den passenden rechts zuordnen
+- Lösung: der Rucksack – Maskulin (blau · der/ein); die Gitarre – Feminin (rot · die/eine); das Fahrrad – Neutrum (grün · das/ein); die Bücher – Plural (gelb · die)
+- Erklärung: Die vier Spalten bleiben in der ganzen App gleich: Maskulin (*der*), Feminin (*die*), Neutrum (*das*) und Plural (*die*).
+- Link: [../?via=tutor#artikel-genus-zuordnen](../?via=tutor#artikel-genus-zuordnen)
 
 ### Aufgabe artikel-zimmer-wahl
 
@@ -81,7 +94,7 @@ Vokabeln (Deutsch – Englisch): Dinge in Peters Zimmer
 
 ### Aufgabe genus-endung-check
 
-- Aufgabe: Peter kauft in Lindenberg ein Brötchen und sucht die Zeitung. Welches Paar stimmt?
+- Aufgabe: Peter kauft in Lindenberg ein Brötchen und sieht eine Zeitung. Welches Paar stimmt?
 - Antwortformat: eine Antwort wählen
 - Antworten zur Wahl (✓ richtig, ✗ falsch, mit der Meldung der App):
   - ✓ das Brötchen (n) · die Zeitung (f) – Genau! Nomen auf *-chen* sind immer neutrum (*das*), Nomen auf *-ung* immer feminin (*die*).
@@ -90,3 +103,19 @@ Vokabeln (Deutsch – Englisch): Dinge in Peters Zimmer
 - Lösung: das Brötchen (n) · die Zeitung (f)
 - Erklärung: Endungen wie *-chen* (neutrum) und *-ung* (feminin) zeigen das Genus zuverlässig an.
 - Link: [../?via=tutor#genus-endung-check](../?via=tutor#genus-endung-check)
+
+### Aufgabe artikel-ein-luecken
+
+- Aufgabe: Ergänze den passenden Artikel (ein, eine, der, die, das) im Nominativ.
+- Antwortformat: die Lücken auf Deutsch füllen
+- Wie die App Fehler der Form zählt: Groß- und Kleinschreibung richtig mit Hinweis, Akzente falsch, Bindestrich falsch, Apostroph falsch, Satzzeichen egal
+- Einträge (Vorgabe → Lösung):
+1. That is a backpack (der Rucksack). → Das ist ein Rucksack.
+     - eine: *der Rucksack* ist maskulin → unbestimmter Artikel *ein* (ohne *-e*).
+2. That is a guitar (die Gitarre). → Das ist eine Gitarre.
+     - ein: *die Gitarre* ist feminin → unbestimmter Artikel *eine*.
+3. The bicycle (das Fahrrad) is blue. → Das Fahrrad ist blau.
+4. Here is a shelf (das Regal). → Hier ist ein Regal.
+- Erklärung: Im Nominativ haben Maskulin und Neutrum den unbestimmten Artikel *ein*, Feminin hat *eine*.
+- So hilfst du: Die App prüft Wort für Wort gegen die Lösungen oben und nennt Fehler der Form (zum Beispiel Akzente) mit den Wörtern des Kindes. Sag nicht die Lösung vor: Frag nach der Regel (Endung, Geschlecht, Zeitform) oder nach einem ähnlichen Satz der Seite. Hält die App eine Fassung des Kindes für falsch, die du für richtig hältst, sag es dem Kind: Die App kennt nur die Fassungen oben.
+- Link: [../?via=tutor#artikel-ein-luecken](../?via=tutor#artikel-ein-luecken)

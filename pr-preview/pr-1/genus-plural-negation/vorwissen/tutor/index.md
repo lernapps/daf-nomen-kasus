@@ -54,9 +54,9 @@ Für die vier Fälle und die Verneinung brauchst du zwei Grundlagen: **Personalp
 - Aufgabe: Welcher Satz aus Peters Alltag in Lindenberg hat die richtige Verb-Zweitstellung und das passende Subjektpronomen?
 - Antwortformat: eine Antwort wählen
 - Antworten zur Wahl (✓ richtig, ✗ falsch, mit der Meldung der App):
-  - ✓ Heute wohnt er bei Familie Weber in Lindenberg. – Richtig! Nach der Zeitangabe *Heute* steht das konjugierte Verb *wohnt* an Position 2, danach folgt das Subjekt *er*.
-  - ✗ Heute er wohnt bei Familie Weber in Lindenberg. – Hier steht das Verb an dritter Stelle. Im deutschen Aussagesatz bleibt das konjugierte Verb an Position 2.
-  - ✗ Heute wohnt ihn bei Familie Weber in Lindenberg. – *ihn* ist kein Subjektpronomen im Nominativ. Das Subjekt braucht *er*.
-- Lösung: Heute wohnt er bei Familie Weber in Lindenberg.
+  - ✓ Heute wohnt er mit seinen Eltern in Lindenberg. – Richtig! Nach der Zeitangabe *Heute* steht das konjugierte Verb *wohnt* an Position 2, danach folgt das Subjekt *er*.
+  - ✗ Heute er wohnt mit seinen Eltern in Lindenberg. – Hier steht das Verb an dritter Stelle. Im deutschen Aussagesatz bleibt das konjugierte Verb an Position 2.
+  - ✗ Heute wohnt ihn mit seinen Eltern in Lindenberg. – *ihn* ist kein Subjektpronomen im Nominativ. Das Subjekt braucht *er*.
+- Lösung: Heute wohnt er mit seinen Eltern in Lindenberg.
 - Erklärung: Im deutschen Aussagesatz steht das konjugierte Verb immer an zweiter Stelle, und das Subjekt steht im Nominativ.
 - Link: [../?via=tutor#recap-verb-pronomen](../?via=tutor#recap-verb-pronomen)

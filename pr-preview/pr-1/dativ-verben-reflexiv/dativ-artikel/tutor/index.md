@@ -20,11 +20,11 @@ Eltern und Lehrkräfte sehen hier, was der Tutor bekommt. [Zur Seite](../)
 
 ## Wo das Kind gerade ist
 
-- Die erste Nachricht des Kindes nennt diese Seite und je Aufgabe die Nummer, die das Kind gerade vor sich hat, z. B. `?uebung=dativ-artikel-wahl`. Schlag die Nummern unten bei den Aufgaben nach. Kommt das Kind mit „Hilfe“, nennt `uebung=` die Aufgabe und `abschnitt=` ihren Abschnitt.
+- Die erste Nachricht des Kindes nennt diese Seite und je Aufgabe die Nummer, die das Kind gerade vor sich hat, z. B. `?uebung=dativ-spalten-zuordnen`. Schlag die Nummern unten bei den Aufgaben nach. Kommt das Kind mit „Hilfe“, nennt `uebung=` die Aufgabe und `abschnitt=` ihren Abschnitt.
 - Steht in der Nachricht „Die App sagt: …“, hat die App das zur Eingabe des Kindes gemeldet. Setz dort an, ohne es zu wiederholen.
 - Eine Zeile wie „…, Nr. 16: richtig im 2. Versuch.“ kommt von „Zurück“ in der App: Aufgabe, Nummer und wie weit das Kind damit kam.
 - „Ich habe auf … geübt:“ kommt von „Zurück zum Tutor“: diese Seite mit den Nummern, dann je geübter Aufgabe, wie es lief, bei einer falschen mit Eingabe und Meldung der App. Setz bei den falschen an, eine nach der anderen.
-- Jede Nummer hat einen Link: die Adresse der Seite, also dieser Tutor-Seite ohne `tutor/` und ohne `?…`, mit der Nummer und `via=tutor`, z. B. `…/dativ-verben-reflexiv/dativ-artikel/?via=tutor#dativ-artikel-wahl`. Schick ihn immer als volle Adresse, mit Schema und Host dieser Tutor-Seite (z. B. `https://`). Zum Weiterüben nimm eine andere Nummer der Aufgabe und nenn ihren Text. Sag dazu: „Löse sie in der App und drück dann ‚Zurück‘. Füg die Zeile hier ein.“
+- Jede Nummer hat einen Link: die Adresse der Seite, also dieser Tutor-Seite ohne `tutor/` und ohne `?…`, mit der Nummer und `via=tutor`, z. B. `…/dativ-verben-reflexiv/dativ-artikel/?via=tutor#dativ-spalten-zuordnen`. Schick ihn immer als volle Adresse, mit Schema und Host dieser Tutor-Seite (z. B. `https://`). Zum Weiterüben nimm eine andere Nummer der Aufgabe und nenn ihren Text. Sag dazu: „Löse sie in der App und drück dann ‚Zurück‘. Füg die Zeile hier ein.“
 
 ## Besondere Anforderungen
 
@@ -53,9 +53,21 @@ Im Dativ Plural bekommt das Nomen ein **-n**, wenn der Plural nicht schon auf **
 
 ### Übung
 
+- Aufgabe `dativ-spalten-zuordnen` (unten)
+
 - Aufgabe `dativ-artikel-wahl` (unten)
 
 - Aufgabe `dativ-plural-luecken` (unten)
+
+- Aufgabe `dativ-plural-s-check` (unten)
+
+### Aufgabe dativ-spalten-zuordnen
+
+- Aufgabe: Ordne jedem Nominativ-Artikel seine Dativ-Form (M-R-M-N) zu.
+- Antwortformat: jedem Eintrag links den passenden rechts zuordnen
+- Lösung: der (Maskulin) – dem / einem; die (Feminin) – der / einer; das (Neutrum) – dem / einem (n); die (Plural) – den + -n am Nomen
+- Erklärung: Im Dativ ändern sich alle vier Spalten nach dem Muster M-R-M-N: *dem, der, dem, den (+ -n)*.
+- Link: [../?via=tutor#dativ-spalten-zuordnen](../?via=tutor#dativ-spalten-zuordnen)
 
 ### Aufgabe dativ-artikel-wahl
 
@@ -75,7 +87,7 @@ Im Dativ Plural bekommt das Nomen ein **-n**, wenn der Plural nicht schon auf **
 
 - Aufgabe: Ergänze Artikel und Pluralnomen im Dativ (denke an das -n!).
 - Antwortformat: die Lücken auf Deutsch füllen
-- Wie die App Fehler der Form zählt: Groß- und Kleinschreibung falsch, Akzente falsch, Bindestrich falsch, Apostroph falsch, Satzzeichen falsch
+- Wie die App Fehler der Form zählt: Groß- und Kleinschreibung richtig mit Hinweis, Akzente falsch, Bindestrich falsch, Apostroph falsch, Satzzeichen egal
 - Einträge (Vorgabe → Lösung):
 1. Peter writes cards to the friends (die Freunde). → Peter schreibt den Freunden Karten.
      - den Freunde: Im Dativ Plural braucht *Freunde* das Extra-*-n*: *den Freunden*.
@@ -85,3 +97,15 @@ Im Dativ Plural bekommt das Nomen ein **-n**, wenn der Plural nicht schon auf **
 - Erklärung: Im Dativ Plural steht *den* und das Nomen bekommt ein *-n*, falls es nicht schon auf *-n* oder *-s* endet.
 - So hilfst du: Die App prüft Wort für Wort gegen die Lösungen oben und nennt Fehler der Form (zum Beispiel Akzente) mit den Wörtern des Kindes. Sag nicht die Lösung vor: Frag nach der Regel (Endung, Geschlecht, Zeitform) oder nach einem ähnlichen Satz der Seite. Hält die App eine Fassung des Kindes für falsch, die du für richtig hältst, sag es dem Kind: Die App kennt nur die Fassungen oben.
 - Link: [../?via=tutor#dativ-plural-luecken](../?via=tutor#dativ-plural-luecken)
+
+### Aufgabe dativ-plural-s-check
+
+- Aufgabe: Welcher Dativ Plural braucht **kein** zusätzliches *-n* am Nomen?
+- Antwortformat: eine Antwort wählen
+- Antworten zur Wahl (✓ richtig, ✗ falsch, mit der Meldung der App):
+  - ✓ mit den Fotos (Plural: die Fotos) – Richtig! Pluralformen auf *-s* (und auf *-n*) bekommen im Dativ Plural kein weiteres *-n*.
+  - ✗ mit den Büchern (Plural: die Bücher) – *die Bücher* endet auf *-r* und bekommt deshalb ein *-n*: *mit den Büchern*.
+  - ✗ mit den Stühlen (Plural: die Stühle) – *die Stühle* endet auf *-e* und bekommt deshalb ein *-n*: *mit den Stühlen*.
+- Lösung: mit den Fotos (Plural: die Fotos)
+- Erklärung: Nur Pluralformen, die schon auf *-n* oder *-s* enden (*die Lampen, die Fotos*), bleiben im Dativ Plural ohne zusätzliches *-n*.
+- Link: [../?via=tutor#dativ-plural-s-check](../?via=tutor#dativ-plural-s-check)

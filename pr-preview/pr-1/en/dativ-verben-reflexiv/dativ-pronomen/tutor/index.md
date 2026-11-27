@@ -55,7 +55,11 @@ Compare: *Ich sehe **ihn**.* (Whom? Accusative) — *Ich gebe **ihm** das Buch.*
 
 - Exercise `pronomen-nom-dat-zuordnen` (below)
 
+- Exercise `dativ-vs-akk-pronomen-wahl` (below)
+
 - Exercise `dativ-pronomen-luecken` (below)
+
+- Exercise `dativ-ihnen-gross-check` (below)
 
 ### Exercise pronomen-nom-dat-zuordnen
 
@@ -65,11 +69,25 @@ Compare: *Ich sehe **ihn**.* (Whom? Accusative) — *Ich gebe **ihm** das Buch.*
 - Explanation: The dative pronouns are *mir, dir, ihm, ihr, ihm, uns, euch, ihnen, Ihnen*.
 - Link: [../?via=tutor#pronomen-nom-dat-zuordnen](../?via=tutor#pronomen-nom-dat-zuordnen)
 
+### Exercise dativ-vs-akk-pronomen-wahl
+
+- Task: Accusative or dative? Choose the right Stand-in Card.
+- Answer format: choose a word for each gap
+- How the app counts mistakes of form: capital letters wrong, accents wrong, hyphen wrong, apostrophe wrong, punctuation wrong
+- Items (start → solution):
+1. Nadia gives me (ich) a pencil. → Nadia gibt mir einen Bleistift.
+2. Peter visits him (Lukas) after school. → Peter besucht ihn nach der Schule.
+3. Lukas lends her (Nadia) his bike. → Lukas leiht ihr sein Fahrrad.
+4. Herr Braun explains the task to us (wir). → Herr Braun erklärt uns die Aufgabe.
+- Explanation: Ask about the role: recipient (*Wem?*) → dative (*mir, ihr, uns*); direct object (*Wen?*) → accusative (*ihn*).
+- How to help: the app checks word by word against the solutions above and names mistakes of form (e.g. accents) with the child's words. Do not give the solution: ask about the rule (ending, gender, tense) or about a similar sentence of the page. If the app takes a version of the child's as wrong that you think is right, tell the child: the app knows only the versions above.
+- Link: [../?via=tutor#dativ-vs-akk-pronomen-wahl](../?via=tutor#dativ-vs-akk-pronomen-wahl)
+
 ### Exercise dativ-pronomen-luecken
 
 - Task: Fill in the right dative pronoun (mir, dir, ihm, ihr, ihnen, Ihnen).
 - Answer format: fill in the gaps in German
-- How the app counts mistakes of form: capital letters wrong, accents wrong, hyphen wrong, apostrophe wrong, punctuation wrong
+- How the app counts mistakes of form: capital letters right with a hint, accents wrong, hyphen wrong, apostrophe wrong, punctuation ignored
 - Items (start → solution):
 1. Lukas shows me (ich) the school in Lindenberg. → Lukas zeigt mir die Schule in Lindenberg.
      - mich: Who is being shown something (to whom?) → dative *mir*, not accusative *mich*.
@@ -80,3 +98,15 @@ Compare: *Ich sehe **ihn**.* (Whom? Accusative) — *Ich gebe **ihm** das Buch.*
 - Explanation: Recipients (to whom?) always use the dative cards: *mir, dir, ihm, ihr, uns, euch, ihnen, Ihnen*.
 - How to help: the app checks word by word against the solutions above and names mistakes of form (e.g. accents) with the child's words. Do not give the solution: ask about the rule (ending, gender, tense) or about a similar sentence of the page. If the app takes a version of the child's as wrong that you think is right, tell the child: the app knows only the versions above.
 - Link: [../?via=tutor#dativ-pronomen-luecken](../?via=tutor#dativ-pronomen-luecken)
+
+### Exercise dativ-ihnen-gross-check
+
+- Task: Peter politely thanks his teacher Herr Braun. Which sentence is written correctly?
+- Answer format: choose one answer
+- Choices (✓ right, ✗ wrong, with the app's message):
+  - ✓ Ich danke Ihnen, Herr Braun! – Correct! Formal *Ihnen* (dative of *Sie*) is always capitalized.
+  - ✗ Ich danke ihnen, Herr Braun! – Lowercase *ihnen* means *them* (plural). Formal address requires capital *Ihnen*.
+  - ✗ Ich danke Sie, Herr Braun! – *danken* takes the dative → *Ihnen*, not *Sie*.
+- Solution: Ich danke Ihnen, Herr Braun!
+- Explanation: The dative of formal *Sie* is always capitalized *Ihnen*.
+- Link: [../?via=tutor#dativ-ihnen-gross-check](../?via=tutor#dativ-ihnen-gross-check)

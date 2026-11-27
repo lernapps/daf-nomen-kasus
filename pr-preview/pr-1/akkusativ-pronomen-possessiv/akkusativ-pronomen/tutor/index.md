@@ -60,7 +60,11 @@ Im Deutschen richtet sich das Pronomen nach dem **Genus** des Nomens, nicht nach
 
 - Aufgabe `pronomen-nom-akk-zuordnen` (unten)
 
+- Aufgabe `akkusativ-pronomen-wahl` (unten)
+
 - Aufgabe `akkusativ-pronomen-ersetzen` (unten)
+
+- Aufgabe `akkusativ-sachen-check` (unten)
 
 ### Aufgabe pronomen-nom-akk-zuordnen
 
@@ -70,11 +74,25 @@ Im Deutschen richtet sich das Pronomen nach dem **Genus** des Nomens, nicht nach
 - Erklärung: Im Akkusativ ändern sich *ich→mich, du→dich, er→ihn, wir→uns, ihr→euch*; *sie, es, Sie* bleiben gleich.
 - Link: [../?via=tutor#pronomen-nom-akk-zuordnen](../?via=tutor#pronomen-nom-akk-zuordnen)
 
+### Aufgabe akkusativ-pronomen-wahl
+
+- Aufgabe: Wähle das passende Akkusativpronomen für jede Situation in Klasse 6.
+- Antwortformat: für jede Lücke ein Wort wählen
+- Wie die App Fehler der Form zählt: Groß- und Kleinschreibung falsch, Akzente falsch, Bindestrich falsch, Apostroph falsch, Satzzeichen falsch
+- Einträge (Vorgabe → Lösung):
+1. Where is the ball (der Ball)? Lukas has it. → Wo ist der Ball? Lukas hat ihn.
+2. Do you see the guitar (die Gitarre)? Yes, I see it. → Siehst du die Gitarre? Ja, ich sehe sie.
+3. Herr Braun sees you all (Lukas & Nadia). → Herr Braun sieht euch.
+4. Where is the notebook (das Heft)? Peter needs it. → Wo ist das Heft? Peter braucht es.
+- Erklärung: Das Pronomen richtet sich nach dem Genus des Nomens (*der → ihn, die → sie, das → es*) und bei Personen nach der Akkusativ-Form (*ihr → euch*).
+- So hilfst du: Die App prüft Wort für Wort gegen die Lösungen oben und nennt Fehler der Form (zum Beispiel Akzente) mit den Wörtern des Kindes. Sag nicht die Lösung vor: Frag nach der Regel (Endung, Geschlecht, Zeitform) oder nach einem ähnlichen Satz der Seite. Hält die App eine Fassung des Kindes für falsch, die du für richtig hältst, sag es dem Kind: Die App kennt nur die Fassungen oben.
+- Link: [../?via=tutor#akkusativ-pronomen-wahl](../?via=tutor#akkusativ-pronomen-wahl)
+
 ### Aufgabe akkusativ-pronomen-ersetzen
 
 - Aufgabe: Ersetze das Nomen oder die Person durch das richtige Akkusativpronomen.
 - Antwortformat: die Lücken auf Deutsch füllen
-- Wie die App Fehler der Form zählt: Groß- und Kleinschreibung falsch, Akzente falsch, Bindestrich falsch, Apostroph falsch, Satzzeichen falsch
+- Wie die App Fehler der Form zählt: Groß- und Kleinschreibung richtig mit Hinweis, Akzente falsch, Bindestrich falsch, Apostroph falsch, Satzzeichen egal
 - Einträge (Vorgabe → Lösung):
 1. Where is the backpack (der Rucksack)? I am looking for it. → Wo ist der Rucksack? Ich suche ihn.
      - es: *der Rucksack* ist maskulin — im Deutschen ersetzt man ihn mit *ihn*, nicht mit *es*.
@@ -85,3 +103,15 @@ Im Deutschen richtet sich das Pronomen nach dem **Genus** des Nomens, nicht nach
 - Erklärung: Achte bei Sachen auf das Genus (*der→ihn, die→sie, das→es*) und bei Personen auf die Akkusativform (*mich, dich, ihn, sie, uns, euch*).
 - So hilfst du: Die App prüft Wort für Wort gegen die Lösungen oben und nennt Fehler der Form (zum Beispiel Akzente) mit den Wörtern des Kindes. Sag nicht die Lösung vor: Frag nach der Regel (Endung, Geschlecht, Zeitform) oder nach einem ähnlichen Satz der Seite. Hält die App eine Fassung des Kindes für falsch, die du für richtig hältst, sag es dem Kind: Die App kennt nur die Fassungen oben.
 - Link: [../?via=tutor#akkusativ-pronomen-ersetzen](../?via=tutor#akkusativ-pronomen-ersetzen)
+
+### Aufgabe akkusativ-sachen-check
+
+- Aufgabe: Peter sucht seinen Schlüssel (*der Schlüssel*). Warum sagt er *Ich finde ihn* und nicht *Ich finde es*?
+- Antwortformat: eine Antwort wählen
+- Antworten zur Wahl (✓ richtig, ✗ falsch, mit der Meldung der App):
+  - ✓ Weil das Pronomen zum Genus (*der*, maskulin) passt — auch bei Sachen. – Genau! Im Deutschen richtet sich das Pronomen nach *der/die/das*, nicht nach Mensch oder Sache.
+  - ✗ Weil *es* im Deutschen nie im Akkusativ stehen darf. – Für neutrale Nomen wie *das Buch* benutzt man sehr wohl *es*: *Ich lese es.*
+  - ✗ Weil *finden* immer das Pronomen *ihn* verlangt. – *finden* nimmt den Akkusativ, aber das Pronomen hängt vom Nomen ab (*die Tasche → sie*, *das Heft → es*).
+- Lösung: Weil das Pronomen zum Genus (*der*, maskulin) passt — auch bei Sachen.
+- Erklärung: Auch Dinge tragen ihr grammatisches Geschlecht weiter: *der → ihn*, *die → sie*, *das → es*.
+- Link: [../?via=tutor#akkusativ-sachen-check](../?via=tutor#akkusativ-sachen-check)

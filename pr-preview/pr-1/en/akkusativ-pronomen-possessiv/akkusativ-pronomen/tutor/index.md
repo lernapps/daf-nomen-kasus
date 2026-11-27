@@ -60,7 +60,11 @@ In German, the pronoun matches the noun's **grammatical gender**, not whether it
 
 - Exercise `pronomen-nom-akk-zuordnen` (below)
 
+- Exercise `akkusativ-pronomen-wahl` (below)
+
 - Exercise `akkusativ-pronomen-ersetzen` (below)
+
+- Exercise `akkusativ-sachen-check` (below)
 
 ### Exercise pronomen-nom-akk-zuordnen
 
@@ -70,11 +74,25 @@ In German, the pronoun matches the noun's **grammatical gender**, not whether it
 - Explanation: In the accusative, *ich→mich, du→dich, er→ihn, wir→uns, ihr→euch* change; *sie, es, Sie* stay unchanged.
 - Link: [../?via=tutor#pronomen-nom-akk-zuordnen](../?via=tutor#pronomen-nom-akk-zuordnen)
 
+### Exercise akkusativ-pronomen-wahl
+
+- Task: Choose the right accusative pronoun for each Year 6 situation.
+- Answer format: choose a word for each gap
+- How the app counts mistakes of form: capital letters wrong, accents wrong, hyphen wrong, apostrophe wrong, punctuation wrong
+- Items (start → solution):
+1. Where is the ball (der Ball)? Lukas has it. → Wo ist der Ball? Lukas hat ihn.
+2. Do you see the guitar (die Gitarre)? Yes, I see it. → Siehst du die Gitarre? Ja, ich sehe sie.
+3. Herr Braun sees you all (Lukas & Nadia). → Herr Braun sieht euch.
+4. Where is the notebook (das Heft)? Peter needs it. → Wo ist das Heft? Peter braucht es.
+- Explanation: The pronoun matches the noun's gender (*der → ihn, die → sie, das → es*) and for people takes the accusative form (*ihr → euch*).
+- How to help: the app checks word by word against the solutions above and names mistakes of form (e.g. accents) with the child's words. Do not give the solution: ask about the rule (ending, gender, tense) or about a similar sentence of the page. If the app takes a version of the child's as wrong that you think is right, tell the child: the app knows only the versions above.
+- Link: [../?via=tutor#akkusativ-pronomen-wahl](../?via=tutor#akkusativ-pronomen-wahl)
+
 ### Exercise akkusativ-pronomen-ersetzen
 
 - Task: Replace the noun or person with the right accusative pronoun.
 - Answer format: fill in the gaps in German
-- How the app counts mistakes of form: capital letters wrong, accents wrong, hyphen wrong, apostrophe wrong, punctuation wrong
+- How the app counts mistakes of form: capital letters right with a hint, accents wrong, hyphen wrong, apostrophe wrong, punctuation ignored
 - Items (start → solution):
 1. Where is the backpack (der Rucksack)? I am looking for it. → Wo ist der Rucksack? Ich suche ihn.
      - es: *der Rucksack* is masculine — in German, replace it with *ihn*, not *es*.
@@ -85,3 +103,15 @@ In German, the pronoun matches the noun's **grammatical gender**, not whether it
 - Explanation: For things, match the grammatical gender (*der→ihn, die→sie, das→es*); for people, use the accusative form (*mich, dich, ihn, sie, uns, euch*).
 - How to help: the app checks word by word against the solutions above and names mistakes of form (e.g. accents) with the child's words. Do not give the solution: ask about the rule (ending, gender, tense) or about a similar sentence of the page. If the app takes a version of the child's as wrong that you think is right, tell the child: the app knows only the versions above.
 - Link: [../?via=tutor#akkusativ-pronomen-ersetzen](../?via=tutor#akkusativ-pronomen-ersetzen)
+
+### Exercise akkusativ-sachen-check
+
+- Task: Peter is looking for his key (*der Schlüssel*). Why does he say *Ich finde ihn* instead of *Ich finde es*?
+- Answer format: choose one answer
+- Choices (✓ right, ✗ wrong, with the app's message):
+  - ✓ Because the pronoun matches the noun's gender (*der*, masculine) — even for things. – Exactly! In German, pronouns follow *der/die/das*, not whether something is a person or a thing.
+  - ✗ Because *es* can never be used in the accusative in German. – For neuter nouns like *das Buch*, you do use *es*: *Ich lese es.*
+  - ✗ Because *finden* always requires the pronoun *ihn*. – *finden* takes the accusative, but the pronoun depends on the noun (*die Tasche → sie*, *das Heft → es*).
+- Solution: Because the pronoun matches the noun's gender (*der*, masculine) — even for things.
+- Explanation: Things keep their grammatical gender in pronouns too: *der → ihn*, *die → sie*, *das → es*.
+- Link: [../?via=tutor#akkusativ-sachen-check](../?via=tutor#akkusativ-sachen-check)

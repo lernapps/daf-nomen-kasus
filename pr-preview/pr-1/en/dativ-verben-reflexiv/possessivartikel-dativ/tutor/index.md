@@ -20,11 +20,11 @@ Parents and teachers see here what the tutor gets. [To the page](../)
 
 ## Where the child is
 
-- The child's first message names this page and, for each exercise, the number of the task the child has in front of it, e.g. `?uebung=possessiv-dativ-luecken`. Look the numbers up below with the exercises. If the child comes with “Help”, `uebung=` names the exercise and `abschnitt=` its section.
+- The child's first message names this page and, for each exercise, the number of the task the child has in front of it, e.g. `?uebung=possessiv-dativ-wahl`. Look the numbers up below with the exercises. If the child comes with “Help”, `uebung=` names the exercise and `abschnitt=` its section.
 - If the message says “The app says: …”, the app showed that for the child's input. Build on it without repeating it.
 - A line like “…, no. 16: right on try 2.” comes from “Back” in the app: the exercise, the number and how far the child got with it.
 - “I practised on …:” comes from “Back to the tutor”: this page with the numbers, then for each task practised how it went, a wrong one with the input and the app's message. Start with the wrong ones, one after the other.
-- Every task has a link: the address of the page, that is of this tutor page without `tutor/` and without `?…`, with the number and `via=tutor`, e.g. `…/dativ-verben-reflexiv/possessivartikel-dativ/?via=tutor#possessiv-dativ-luecken`. Always send it as a full address, with the scheme and host of this tutor page (e.g. `https://`). For a further task take another number of the exercise and say its text. Add: “Solve it in the app, then press ‘Back’. Paste the line here.”
+- Every task has a link: the address of the page, that is of this tutor page without `tutor/` and without `?…`, with the number and `via=tutor`, e.g. `…/dativ-verben-reflexiv/possessivartikel-dativ/?via=tutor#possessiv-dativ-wahl`. Always send it as a full address, with the scheme and host of this tutor page (e.g. `https://`). For a further task take another number of the exercise and say its text. Add: “Solve it in the app, then press ‘Back’. Paste the line here.”
 
 ## Special requirements
 
@@ -41,13 +41,13 @@ If the address of this page names `bedarf=`, each section it names holds, severa
 
 Use possessive determiners (meinem, deiner, ihren, unseren, eurem, etc.) in the dative case.
 
-### Gifts for My Host Family
+### Gifts for the Weber Family
 
 Just like in nominative and accusative, **possessive determiners in the dative** take the exact same endings as *einem / einer / keinen*: **-em** (masculine & neuter), **-er** (feminine), and **-en** (plural, plus **-n** on the noun!).
 
 Possessive Determiners in Dative (mein- & euer-):
 - Gender / Number | Ending | Dative Examples
-- Masculine (m) | -em | meinem Bruder · eurem Lehrer
+- Masculine (m) | -em | meinem Freund · eurem Lehrer
 - Feminine (f) | -er | deiner Schwester · ihrer Mutter
 - Neuter (n) | -em | seinem Kind · unserem Haus
 - Plural (pl) | -en (+ -n) | unseren Freunden · euren Eltern
@@ -58,23 +58,41 @@ In the dative too, *euer* drops its second **e**: *eurem* (m/n), *eurer* (f), *e
 
 ### Practice
 
+- Exercise `possessiv-dativ-wahl` (below)
+
 - Exercise `possessiv-dativ-luecken` (below)
 
 - Exercise `possessiv-dativ-check` (below)
+
+- Exercise `possessiv-dativ-ordnen` (below)
+
+### Exercise possessiv-dativ-wahl
+
+- Task: Choose the right possessive determiner in the dative.
+- Answer format: choose a word for each gap
+- How the app counts mistakes of form: capital letters wrong, accents wrong, hyphen wrong, apostrophe wrong, punctuation wrong
+- Items (start → solution):
+1. Peter writes a card to his mother (seine Mutter). → Peter schreibt seiner Mutter eine Karte.
+2. Lukas plays with our dog (unser Hund). → Lukas spielt mit unserem Hund.
+3. Nadia gives her parents (ihre Eltern) a photo. → Nadia schenkt ihren Eltern ein Foto.
+4. Herr Braun talks with my father (mein Vater). → Herr Braun spricht mit meinem Vater.
+- Explanation: Dative endings for possessive determiners: *-em* (m/n), *-er* (f), and *-en* (pl).
+- How to help: the app checks word by word against the solutions above and names mistakes of form (e.g. accents) with the child's words. Do not give the solution: ask about the rule (ending, gender, tense) or about a similar sentence of the page. If the app takes a version of the child's as wrong that you think is right, tell the child: the app knows only the versions above.
+- Link: [../?via=tutor#possessiv-dativ-wahl](../?via=tutor#possessiv-dativ-wahl)
 
 ### Exercise possessiv-dativ-luecken
 
 - Task: Fill in the right dative possessive determiner.
 - Answer format: fill in the gaps in German
-- How the app counts mistakes of form: capital letters wrong, accents wrong, hyphen wrong, apostrophe wrong, punctuation wrong
+- How the app counts mistakes of form: capital letters right with a hint, accents wrong, hyphen wrong, apostrophe wrong, punctuation ignored
 - Items (start → solution):
-1. Peter helps his host brother (sein Gastbruder). → Peter hilft seinem Gastbruder.
+1. Peter helps his friend (sein Freund). → Peter hilft seinem Freund.
      - seinen: *helfen* requires the dative: masculine dative ends in *-em* → *seinem*.
 2. Mina gives her mother (ihre Mutter) flowers. → Mina schenkt ihrer Mutter Blumen.
      - ihre: *Mutter* is feminine and the recipient (dative) → *-er*: *ihrer Mutter*.
 3. We thank our friends (unsere Freunde). → Wir danken unseren Freunden.
-4. The room belongs to your (pl.) guest (euer Gast). → Das Zimmer gehört eurem Gast.
-     - euerem: *euer* drops its second *e* before endings: *eurem Gast*.
+4. The ball belongs to your (pl.) dog (euer Hund). → Der Ball gehört eurem Hund.
+     - euerem: *euer* drops its second *e* before endings: *eurem Hund*.
 - Explanation: In the dative, possessive determiners end in *-em* (m/n), *-er* (f), and *-en* (pl).
 - How to help: the app checks word by word against the solutions above and names mistakes of form (e.g. accents) with the child's words. Do not give the solution: ask about the rule (ending, gender, tense) or about a similar sentence of the page. If the app takes a version of the child's as wrong that you think is right, tell the child: the app knows only the versions above.
 - Link: [../?via=tutor#possessiv-dativ-luecken](../?via=tutor#possessiv-dativ-luecken)
@@ -90,3 +108,11 @@ In the dative too, *euer* drops its second **e**: *eurem* (m/n), *eurer* (f), *e
 - Solution: Peter zeigt seinen Freunden das Zimmer.
 - Explanation: In the dative plural, the possessive ends in *-en* and the noun takes *-n*.
 - Link: [../?via=tutor#possessiv-dativ-check](../?via=tutor#possessiv-dativ-check)
+
+### Exercise possessiv-dativ-ordnen
+
+- Task: Put the words in the right order: *Peter warmly thanks his friends.*
+- Answer format: put the items in the right order (the app shows them shuffled)
+- Solution: 1. Peter, 2. dankt, 3. seinen, 4. Freunden, 5. herzlich.
+- Explanation: *danken* requires the dative: *seinen Freunden* (possessive *-en* + noun *-n*).
+- Link: [../?via=tutor#possessiv-dativ-ordnen](../?via=tutor#possessiv-dativ-ordnen)

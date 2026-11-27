@@ -20,11 +20,11 @@ Eltern und Lehrkräfte sehen hier, was der Tutor bekommt. [Zur Seite](../)
 
 ## Wo das Kind gerade ist
 
-- Die erste Nachricht des Kindes nennt diese Seite und je Aufgabe die Nummer, die das Kind gerade vor sich hat, z. B. `?uebung=plural-schreiben`. Schlag die Nummern unten bei den Aufgaben nach. Kommt das Kind mit „Hilfe“, nennt `uebung=` die Aufgabe und `abschnitt=` ihren Abschnitt.
+- Die erste Nachricht des Kindes nennt diese Seite und je Aufgabe die Nummer, die das Kind gerade vor sich hat, z. B. `?uebung=plural-muster-zuordnen`. Schlag die Nummern unten bei den Aufgaben nach. Kommt das Kind mit „Hilfe“, nennt `uebung=` die Aufgabe und `abschnitt=` ihren Abschnitt.
 - Steht in der Nachricht „Die App sagt: …“, hat die App das zur Eingabe des Kindes gemeldet. Setz dort an, ohne es zu wiederholen.
 - Eine Zeile wie „…, Nr. 16: richtig im 2. Versuch.“ kommt von „Zurück“ in der App: Aufgabe, Nummer und wie weit das Kind damit kam.
 - „Ich habe auf … geübt:“ kommt von „Zurück zum Tutor“: diese Seite mit den Nummern, dann je geübter Aufgabe, wie es lief, bei einer falschen mit Eingabe und Meldung der App. Setz bei den falschen an, eine nach der anderen.
-- Jede Nummer hat einen Link: die Adresse der Seite, also dieser Tutor-Seite ohne `tutor/` und ohne `?…`, mit der Nummer und `via=tutor`, z. B. `…/genus-plural-negation/pluralbildung/?via=tutor#plural-schreiben`. Schick ihn immer als volle Adresse, mit Schema und Host dieser Tutor-Seite (z. B. `https://`). Zum Weiterüben nimm eine andere Nummer der Aufgabe und nenn ihren Text. Sag dazu: „Löse sie in der App und drück dann ‚Zurück‘. Füg die Zeile hier ein.“
+- Jede Nummer hat einen Link: die Adresse der Seite, also dieser Tutor-Seite ohne `tutor/` und ohne `?…`, mit der Nummer und `via=tutor`, z. B. `…/genus-plural-negation/pluralbildung/?via=tutor#plural-muster-zuordnen`. Schick ihn immer als volle Adresse, mit Schema und Host dieser Tutor-Seite (z. B. `https://`). Zum Weiterüben nimm eine andere Nummer der Aufgabe und nenn ihren Text. Sag dazu: „Löse sie in der App und drück dann ‚Zurück‘. Füg die Zeile hier ein.“
 
 ## Besondere Anforderungen
 
@@ -63,15 +63,27 @@ Vokabeln (Deutsch – Englisch): Wichtige Pluralformen für Peters Zimmer
 
 ### Übung
 
+- Aufgabe `plural-muster-zuordnen` (unten)
+
 - Aufgabe `plural-schreiben` (unten)
 
 - Aufgabe `plural-artikel-regel` (unten)
+
+- Aufgabe `plural-ohne-endung-check` (unten)
+
+### Aufgabe plural-muster-zuordnen
+
+- Aufgabe: Ordne jedes Nomen im Singular seiner passenden Pluralform zu.
+- Antwortformat: jedem Eintrag links den passenden rechts zuordnen
+- Lösung: die Tasche – die Taschen (-n); der Ball – die Bälle (Umlaut + -e); das Kind – die Kinder (-er); das Handy – die Handys (-s); das Zimmer – die Zimmer (—)
+- Erklärung: Die fünf häufigsten Pluralmuster sind *-n/-en*, *-e*, *-er*, *-s* und keine Endung (oft mit Umlaut).
+- Link: [../?via=tutor#plural-muster-zuordnen](../?via=tutor#plural-muster-zuordnen)
 
 ### Aufgabe plural-schreiben
 
 - Aufgabe: Schreibe die passende Pluralform mit dem Artikel die in die Lücke.
 - Antwortformat: die Lücken auf Deutsch füllen
-- Wie die App Fehler der Form zählt: Groß- und Kleinschreibung falsch, Akzente falsch, Bindestrich falsch, Apostroph falsch, Satzzeichen falsch
+- Wie die App Fehler der Form zählt: Groß- und Kleinschreibung richtig mit Hinweis, Akzente falsch, Bindestrich falsch, Apostroph falsch, Satzzeichen egal
 - Einträge (Vorgabe → Lösung):
 1. The books are on the shelf. → Die Bücher stehen im Regal.
      - Die Buchs: *das Buch* bildet den Plural mit Umlaut und *-er*: *die Bücher*.
@@ -94,3 +106,16 @@ Vokabeln (Deutsch – Englisch): Wichtige Pluralformen für Peters Zimmer
 - Lösung: Im Nominativ Plural haben alle Nomen den bestimmten Artikel die.
 - Erklärung: Im Plural steht im Nominativ immer *die*, und die Pluralendung hängt vom jeweiligen Nomen ab.
 - Link: [../?via=tutor#plural-artikel-regel](../?via=tutor#plural-artikel-regel)
+
+### Aufgabe plural-ohne-endung-check
+
+- Aufgabe: Welche dieser Nomen bleiben im Plural ohne neue Endung (Endung —)?
+- Antwortformat: alle richtigen Antworten wählen
+- Antworten zur Wahl (✓ richtig, ✗ falsch, mit der Meldung der App):
+  - ✓ das Brötchen → die Brötchen – Richtig! Nomen auf *-chen* bleiben im Plural unverändert.
+  - ✓ der Lehrer → die Lehrer – Richtig! Viele Nomen auf *-er* bekommen im Plural keine zusätzliche Endung.
+  - ✗ die Schule → die Schulen – *die Schule* bekommt ein *-n*: *die Schulen*.
+  - ✗ das Buch → die Bücher – *das Buch* bekommt Umlaut und *-er*: *die Bücher*.
+- Lösung: das Brötchen → die Brötchen; der Lehrer → die Lehrer
+- Erklärung: Nomen auf *-er, -el, -en, -chen* bleiben im Plural oft ohne Endung (*die Lehrer, die Brötchen, die Zimmer*).
+- Link: [../?via=tutor#plural-ohne-endung-check](../?via=tutor#plural-ohne-endung-check)

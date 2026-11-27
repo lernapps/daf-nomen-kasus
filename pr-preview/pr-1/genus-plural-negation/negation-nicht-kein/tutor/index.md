@@ -60,6 +60,10 @@ Verneinst du ein einzelnes Wort (z. B. ein Adjektiv), steht **nicht direkt davor
 
 - Aufgabe `negation-wortstellung` (unten)
 
+- Aufgabe `negation-satz-ordnen` (unten)
+
+- Aufgabe `negation-luecken` (unten)
+
 ### Aufgabe negation-wahl
 
 - Aufgabe: Wähle kein, keine oder nicht.
@@ -76,7 +80,7 @@ Verneinst du ein einzelnes Wort (z. B. ein Adjektiv), steht **nicht direkt davor
 
 ### Aufgabe negation-wortstellung
 
-- Aufgabe: Peter sagt, dass das nicht sein Buch ist. Welcher Satz ist richtig?
+- Aufgabe: Peter sagt, dass das nicht das Buch von Lukas ist. Welcher Satz ist richtig?
 - Antwortformat: eine Antwort wählen
 - Antworten zur Wahl (✓ richtig, ✗ falsch, mit der Meldung der App):
   - ✓ Das ist nicht das Buch von Lukas. – Richtig! Vor einem bestimmten Artikel (*das Buch*) steht immer *nicht*, niemals *kein*.
@@ -85,3 +89,27 @@ Verneinst du ein einzelnes Wort (z. B. ein Adjektiv), steht **nicht direkt davor
 - Lösung: Das ist nicht das Buch von Lukas.
 - Erklärung: Steht vor dem Nomen ein bestimmter Artikel (*der/die/das*), verneinst du mit *nicht* davor.
 - Link: [../?via=tutor#negation-wortstellung](../?via=tutor#negation-wortstellung)
+
+### Aufgabe negation-satz-ordnen
+
+- Aufgabe: Bringe die Wörter in die richtige Reihenfolge: *Peter has no homework today.*
+- Antwortformat: die Einträge in die richtige Reihenfolge bringen (die App zeigt sie gemischt)
+- Lösung: 1. Peter, 2. hat, 3. heute, 4. keine, 5. Hausaufgaben.
+- Erklärung: *keine* steht direkt vor dem Pluralnomen *Hausaufgaben*, und das Verb *hat* bleibt an Position 2.
+- Link: [../?via=tutor#negation-satz-ordnen](../?via=tutor#negation-satz-ordnen)
+
+### Aufgabe negation-luecken
+
+- Aufgabe: Schreibe kein, keine oder nicht in die Lücke.
+- Antwortformat: die Lücken auf Deutsch füllen
+- Wie die App Fehler der Form zählt: Groß- und Kleinschreibung richtig mit Hinweis, Akzente falsch, Bindestrich falsch, Apostroph falsch, Satzzeichen egal
+- Einträge (Vorgabe → Lösung):
+1. Peter has no bicycle (das Fahrrad). → Peter hat kein Fahrrad.
+     - nicht: Vor einem Nomen ohne Artikel oder mit *ein* brauchst du *kein* (*kein Fahrrad*).
+2. The football match is not boring. → Das Fußballspiel ist nicht langweilig.
+     - kein: Adjektive (*langweilig*) verneinst du immer mit *nicht*.
+3. Here are no posters (die Poster, pl.). → Hier hängen keine Poster.
+4. Lukas is not playing today. → Lukas spielt heute nicht.
+- Erklärung: *kein/keine* verneint Nomen (*kein Fahrrad, keine Poster*); *nicht* verneint Adjektive (*nicht langweilig*) und Verben (*spielt heute nicht*).
+- So hilfst du: Die App prüft Wort für Wort gegen die Lösungen oben und nennt Fehler der Form (zum Beispiel Akzente) mit den Wörtern des Kindes. Sag nicht die Lösung vor: Frag nach der Regel (Endung, Geschlecht, Zeitform) oder nach einem ähnlichen Satz der Seite. Hält die App eine Fassung des Kindes für falsch, die du für richtig hältst, sag es dem Kind: Die App kennt nur die Fassungen oben.
+- Link: [../?via=tutor#negation-luecken](../?via=tutor#negation-luecken)

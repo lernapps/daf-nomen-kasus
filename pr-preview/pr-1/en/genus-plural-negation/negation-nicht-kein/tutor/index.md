@@ -60,6 +60,10 @@ When negating a specific word (such as an adjective), **nicht stands directly be
 
 - Exercise `negation-wortstellung` (below)
 
+- Exercise `negation-satz-ordnen` (below)
+
+- Exercise `negation-luecken` (below)
+
 ### Exercise negation-wahl
 
 - Task: Choose kein, keine, or nicht.
@@ -76,7 +80,7 @@ When negating a specific word (such as an adjective), **nicht stands directly be
 
 ### Exercise negation-wortstellung
 
-- Task: Peter says that this is not his book (with a definite article). Which sentence is correct?
+- Task: Peter says that this is not Lukas's book (with a definite article). Which sentence is correct?
 - Answer format: choose one answer
 - Choices (✓ right, ✗ wrong, with the app's message):
   - ✓ Das ist nicht das Buch von Lukas. – Correct! Before a definite article (*das Buch*), always use *nicht*, never *kein*.
@@ -85,3 +89,27 @@ When negating a specific word (such as an adjective), **nicht stands directly be
 - Solution: Das ist nicht das Buch von Lukas.
 - Explanation: When a noun has a definite article (*der/die/das*), negate it with *nicht* in front of it.
 - Link: [../?via=tutor#negation-wortstellung](../?via=tutor#negation-wortstellung)
+
+### Exercise negation-satz-ordnen
+
+- Task: Put the words in the right order: *Peter has no homework today.*
+- Answer format: put the items in the right order (the app shows them shuffled)
+- Solution: 1. Peter, 2. hat, 3. heute, 4. keine, 5. Hausaufgaben.
+- Explanation: *keine* stands directly before the plural noun *Hausaufgaben*, while the verb *hat* stays in position 2.
+- Link: [../?via=tutor#negation-satz-ordnen](../?via=tutor#negation-satz-ordnen)
+
+### Exercise negation-luecken
+
+- Task: Type kein, keine, or nicht in each gap.
+- Answer format: fill in the gaps in German
+- How the app counts mistakes of form: capital letters right with a hint, accents wrong, hyphen wrong, apostrophe wrong, punctuation ignored
+- Items (start → solution):
+1. Peter has no bicycle (das Fahrrad). → Peter hat kein Fahrrad.
+     - nicht: Before a noun with *ein* or no article, use *kein* (*kein Fahrrad*).
+2. The football match is not boring. → Das Fußballspiel ist nicht langweilig.
+     - kein: Always negate adjectives (*langweilig*) with *nicht*.
+3. Here are no posters (die Poster, pl.). → Hier hängen keine Poster.
+4. Lukas is not playing today. → Lukas spielt heute nicht.
+- Explanation: *kein/keine* negates nouns (*kein Fahrrad, keine Poster*); *nicht* negates adjectives (*nicht langweilig*) and verbs (*spielt heute nicht*).
+- How to help: the app checks word by word against the solutions above and names mistakes of form (e.g. accents) with the child's words. Do not give the solution: ask about the rule (ending, gender, tense) or about a similar sentence of the page. If the app takes a version of the child's as wrong that you think is right, tell the child: the app knows only the versions above.
+- Link: [../?via=tutor#negation-luecken](../?via=tutor#negation-luecken)

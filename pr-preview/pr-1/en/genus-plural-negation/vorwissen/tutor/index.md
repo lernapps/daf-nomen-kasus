@@ -54,9 +54,9 @@ For German cases and negation, you build on two basics: **Personal pronouns (nom
 - Task: Which sentence from Peter's daily life in Lindenberg uses correct verb-second word order and the right subject pronoun?
 - Answer format: choose one answer
 - Choices (✓ right, ✗ wrong, with the app's message):
-  - ✓ Heute wohnt er bei Familie Weber in Lindenberg. – Correct! After the time expression *Heute*, the conjugated verb *wohnt* stays in position 2, followed by the subject *er*.
-  - ✗ Heute er wohnt bei Familie Weber in Lindenberg. – Here the verb is in third position. In a German main-clause statement, the conjugated verb stays in position 2.
-  - ✗ Heute wohnt ihn bei Familie Weber in Lindenberg. – *ihn* is not a nominative subject pronoun. The subject needs *er*.
-- Solution: Heute wohnt er bei Familie Weber in Lindenberg.
+  - ✓ Heute wohnt er mit seinen Eltern in Lindenberg. – Correct! After the time expression *Heute*, the conjugated verb *wohnt* stays in position 2, followed by the subject *er*.
+  - ✗ Heute er wohnt mit seinen Eltern in Lindenberg. – Here the verb is in third position. In a German main-clause statement, the conjugated verb stays in position 2.
+  - ✗ Heute wohnt ihn mit seinen Eltern in Lindenberg. – *ihn* is not a nominative subject pronoun. The subject needs *er*.
+- Solution: Heute wohnt er mit seinen Eltern in Lindenberg.
 - Explanation: In a German statement, the conjugated verb always takes second position, and the subject uses the nominative case.
 - Link: [../?via=tutor#recap-verb-pronomen](../?via=tutor#recap-verb-pronomen)

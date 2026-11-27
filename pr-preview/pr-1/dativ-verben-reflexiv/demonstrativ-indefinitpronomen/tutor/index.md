@@ -62,7 +62,11 @@ Vokabeln (Deutsch – Englisch): Wichtige Indefinitpronomen (immer mit 3. Person
 
 - Aufgabe `demonstrativ-wahl` (unten)
 
+- Aufgabe `indefinit-bedeutung-zuordnen` (unten)
+
 - Aufgabe `indefinit-luecken` (unten)
+
+- Aufgabe `indefinit-verbform-check` (unten)
 
 ### Aufgabe demonstrativ-wahl
 
@@ -77,11 +81,19 @@ Vokabeln (Deutsch – Englisch): Wichtige Indefinitpronomen (immer mit 3. Person
 - So hilfst du: Die App prüft Wort für Wort gegen die Lösungen oben und nennt Fehler der Form (zum Beispiel Akzente) mit den Wörtern des Kindes. Sag nicht die Lösung vor: Frag nach der Regel (Endung, Geschlecht, Zeitform) oder nach einem ähnlichen Satz der Seite. Hält die App eine Fassung des Kindes für falsch, die du für richtig hältst, sag es dem Kind: Die App kennt nur die Fassungen oben.
 - Link: [../?via=tutor#demonstrativ-wahl](../?via=tutor#demonstrativ-wahl)
 
+### Aufgabe indefinit-bedeutung-zuordnen
+
+- Aufgabe: Ordne jedes Indefinitpronomen seiner englischen Bedeutung zu.
+- Antwortformat: jedem Eintrag links den passenden rechts zuordnen
+- Lösung: man – one / people in general; jemand – someone / anyone; niemand – nobody / no one; etwas – something / anything; nichts – nothing
+- Erklärung: *man, jemand, niemand* stehen für Personen; *etwas* und *nichts* stehen für Dinge.
+- Link: [../?via=tutor#indefinit-bedeutung-zuordnen](../?via=tutor#indefinit-bedeutung-zuordnen)
+
 ### Aufgabe indefinit-luecken
 
 - Aufgabe: Ergänze man, jemand, niemand, etwas oder nichts.
 - Antwortformat: die Lücken auf Deutsch füllen
-- Wie die App Fehler der Form zählt: Groß- und Kleinschreibung falsch, Akzente falsch, Bindestrich falsch, Apostroph falsch, Satzzeichen falsch
+- Wie die App Fehler der Form zählt: Groß- und Kleinschreibung richtig mit Hinweis, Akzente falsch, Bindestrich falsch, Apostroph falsch, Satzzeichen egal
 - Einträge (Vorgabe → Lösung):
 1. Here you (people in general) can buy fresh bread rolls. → Hier kann man frische Brötchen kaufen.
      - Mann: Das Indefinitpronomen *man* schreibt man klein und mit einem *n*.
@@ -91,3 +103,15 @@ Vokabeln (Deutsch – Englisch): Wichtige Indefinitpronomen (immer mit 3. Person
 - Erklärung: *man, jemand, niemand* beziehen sich auf Personen; *etwas* und *nichts* auf Dinge. Alle stehen mit der Verbform für *er/sie/es*.
 - So hilfst du: Die App prüft Wort für Wort gegen die Lösungen oben und nennt Fehler der Form (zum Beispiel Akzente) mit den Wörtern des Kindes. Sag nicht die Lösung vor: Frag nach der Regel (Endung, Geschlecht, Zeitform) oder nach einem ähnlichen Satz der Seite. Hält die App eine Fassung des Kindes für falsch, die du für richtig hältst, sag es dem Kind: Die App kennt nur die Fassungen oben.
 - Link: [../?via=tutor#indefinit-luecken](../?via=tutor#indefinit-luecken)
+
+### Aufgabe indefinit-verbform-check
+
+- Aufgabe: Welcher Satz mit *man* hat die richtige Verbform?
+- Antwortformat: eine Antwort wählen
+- Antworten zur Wahl (✓ richtig, ✗ falsch, mit der Meldung der App):
+  - ✓ In Lindenberg fährt man viel Fahrrad. – Richtig! *man*, *jemand* und *niemand* stehen immer mit der 3. Person Singular (*er/sie/es → fährt*).
+  - ✗ In Lindenberg fahren man viel Fahrrad. – Auch wenn *man* für alle Menschen steht, verlangt es grammatisch den Singular (*fährt*).
+  - ✗ In Lindenberg fährst man viel Fahrrad. – *fährst* gehört zu *du*, nicht zu *man* (3. Person Singular → *fährt*).
+- Lösung: In Lindenberg fährt man viel Fahrrad.
+- Erklärung: Indefinitpronomen wie *man, jemand, niemand* stehen immer mit der Verbform von *er/sie/es*.
+- Link: [../?via=tutor#indefinit-verbform-check](../?via=tutor#indefinit-verbform-check)

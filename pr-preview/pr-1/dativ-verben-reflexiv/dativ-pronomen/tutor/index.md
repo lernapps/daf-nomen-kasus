@@ -55,7 +55,11 @@ Vergleiche: *Ich sehe **ihn**.* (Wen? Akkusativ) — *Ich gebe **ihm** das Buch.
 
 - Aufgabe `pronomen-nom-dat-zuordnen` (unten)
 
+- Aufgabe `dativ-vs-akk-pronomen-wahl` (unten)
+
 - Aufgabe `dativ-pronomen-luecken` (unten)
+
+- Aufgabe `dativ-ihnen-gross-check` (unten)
 
 ### Aufgabe pronomen-nom-dat-zuordnen
 
@@ -65,11 +69,25 @@ Vergleiche: *Ich sehe **ihn**.* (Wen? Akkusativ) — *Ich gebe **ihm** das Buch.
 - Erklärung: Die Dativpronomen lauten *mir, dir, ihm, ihr, ihm, uns, euch, ihnen, Ihnen*.
 - Link: [../?via=tutor#pronomen-nom-dat-zuordnen](../?via=tutor#pronomen-nom-dat-zuordnen)
 
+### Aufgabe dativ-vs-akk-pronomen-wahl
+
+- Aufgabe: Akkusativ oder Dativ? Wähle die richtige Stellvertreter-Karte.
+- Antwortformat: für jede Lücke ein Wort wählen
+- Wie die App Fehler der Form zählt: Groß- und Kleinschreibung falsch, Akzente falsch, Bindestrich falsch, Apostroph falsch, Satzzeichen falsch
+- Einträge (Vorgabe → Lösung):
+1. Nadia gives me (ich) a pencil. → Nadia gibt mir einen Bleistift.
+2. Peter visits him (Lukas) after school. → Peter besucht ihn nach der Schule.
+3. Lukas lends her (Nadia) his bike. → Lukas leiht ihr sein Fahrrad.
+4. Herr Braun explains the task to us (wir). → Herr Braun erklärt uns die Aufgabe.
+- Erklärung: Frage nach der Rolle: Empfänger (*Wem?*) → Dativ (*mir, ihr, uns*); direktes Objekt (*Wen?*) → Akkusativ (*ihn*).
+- So hilfst du: Die App prüft Wort für Wort gegen die Lösungen oben und nennt Fehler der Form (zum Beispiel Akzente) mit den Wörtern des Kindes. Sag nicht die Lösung vor: Frag nach der Regel (Endung, Geschlecht, Zeitform) oder nach einem ähnlichen Satz der Seite. Hält die App eine Fassung des Kindes für falsch, die du für richtig hältst, sag es dem Kind: Die App kennt nur die Fassungen oben.
+- Link: [../?via=tutor#dativ-vs-akk-pronomen-wahl](../?via=tutor#dativ-vs-akk-pronomen-wahl)
+
 ### Aufgabe dativ-pronomen-luecken
 
 - Aufgabe: Ergänze das richtige Dativpronomen (mir, dir, ihm, ihr, ihnen, Ihnen).
 - Antwortformat: die Lücken auf Deutsch füllen
-- Wie die App Fehler der Form zählt: Groß- und Kleinschreibung falsch, Akzente falsch, Bindestrich falsch, Apostroph falsch, Satzzeichen falsch
+- Wie die App Fehler der Form zählt: Groß- und Kleinschreibung richtig mit Hinweis, Akzente falsch, Bindestrich falsch, Apostroph falsch, Satzzeichen egal
 - Einträge (Vorgabe → Lösung):
 1. Lukas shows me (ich) the school in Lindenberg. → Lukas zeigt mir die Schule in Lindenberg.
      - mich: Wer bekommt etwas gezeigt (Wem?) → Dativ *mir*, nicht Akkusativ *mich*.
@@ -80,3 +98,15 @@ Vergleiche: *Ich sehe **ihn**.* (Wen? Akkusativ) — *Ich gebe **ihm** das Buch.
 - Erklärung: Für Empfänger (Wem?) stehen immer die Dativ-Karten: *mir, dir, ihm, ihr, uns, euch, ihnen, Ihnen*.
 - So hilfst du: Die App prüft Wort für Wort gegen die Lösungen oben und nennt Fehler der Form (zum Beispiel Akzente) mit den Wörtern des Kindes. Sag nicht die Lösung vor: Frag nach der Regel (Endung, Geschlecht, Zeitform) oder nach einem ähnlichen Satz der Seite. Hält die App eine Fassung des Kindes für falsch, die du für richtig hältst, sag es dem Kind: Die App kennt nur die Fassungen oben.
 - Link: [../?via=tutor#dativ-pronomen-luecken](../?via=tutor#dativ-pronomen-luecken)
+
+### Aufgabe dativ-ihnen-gross-check
+
+- Aufgabe: Peter dankt seinem Lehrer Herr Braun höflich. Welcher Satz ist richtig geschrieben?
+- Antwortformat: eine Antwort wählen
+- Antworten zur Wahl (✓ richtig, ✗ falsch, mit der Meldung der App):
+  - ✓ Ich danke Ihnen, Herr Braun! – Richtig! Das höfliche *Ihnen* (Dativ von *Sie*) schreibt man immer groß.
+  - ✗ Ich danke ihnen, Herr Braun! – Kleines *ihnen* bedeutet *them* (Plural). Für die höfliche Anrede schreibt man *Ihnen* groß.
+  - ✗ Ich danke Sie, Herr Braun! – *danken* verlangt den Dativ → *Ihnen*, nicht *Sie*.
+- Lösung: Ich danke Ihnen, Herr Braun!
+- Erklärung: Der Dativ von höflichem *Sie* ist immer großgeschriebenes *Ihnen*.
+- Link: [../?via=tutor#dativ-ihnen-gross-check](../?via=tutor#dativ-ihnen-gross-check)

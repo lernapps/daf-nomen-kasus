@@ -20,11 +20,11 @@ Parents and teachers see here what the tutor gets. [To the page](../)
 
 ## Where the child is
 
-- The child's first message names this page and, for each exercise, the number of the task the child has in front of it, e.g. `?uebung=possessiv-nom-akk-wahl`. Look the numbers up below with the exercises. If the child comes with “Help”, `uebung=` names the exercise and `abschnitt=` its section.
+- The child's first message names this page and, for each exercise, the number of the task the child has in front of it, e.g. `?uebung=possessiv-besitzer-zuordnen`. Look the numbers up below with the exercises. If the child comes with “Help”, `uebung=` names the exercise and `abschnitt=` its section.
 - If the message says “The app says: …”, the app showed that for the child's input. Build on it without repeating it.
 - A line like “…, no. 16: right on try 2.” comes from “Back” in the app: the exercise, the number and how far the child got with it.
 - “I practised on …:” comes from “Back to the tutor”: this page with the numbers, then for each task practised how it went, a wrong one with the input and the app's message. Start with the wrong ones, one after the other.
-- Every task has a link: the address of the page, that is of this tutor page without `tutor/` and without `?…`, with the number and `via=tutor`, e.g. `…/akkusativ-pronomen-possessiv/possessivartikel-nom-akk/?via=tutor#possessiv-nom-akk-wahl`. Always send it as a full address, with the scheme and host of this tutor page (e.g. `https://`). For a further task take another number of the exercise and say its text. Add: “Solve it in the app, then press ‘Back’. Paste the line here.”
+- Every task has a link: the address of the page, that is of this tutor page without `tutor/` and without `?…`, with the number and `via=tutor`, e.g. `…/akkusativ-pronomen-possessiv/possessivartikel-nom-akk/?via=tutor#possessiv-besitzer-zuordnen`. Always send it as a full address, with the scheme and host of this tutor page (e.g. `https://`). For a further task take another number of the exercise and say its text. Add: “Solve it in the app, then press ‘Back’. Paste the line here.”
 
 ## Special requirements
 
@@ -58,9 +58,21 @@ Whenever **euer** takes an ending, it drops the second **e**: *euer Buch* (n), b
 
 ### Practice
 
+- Exercise `possessiv-besitzer-zuordnen` (below)
+
 - Exercise `possessiv-nom-akk-wahl` (below)
 
 - Exercise `possessiv-nom-akk-luecken` (below)
+
+- Exercise `possessiv-euer-check` (below)
+
+### Exercise possessiv-besitzer-zuordnen
+
+- Task: Step 1: Match each owner to the right possessive stem.
+- Answer format: match each item on the left with one on the right
+- Solution: Peter (er) – sein-; Mina (sie) – ihr-; wir – unser-; Lukas & Mina (ihr) – euer-; Herr Braun (Sie) – Ihr-
+- Explanation: First choose the stem for the owner, then add the ending for the noun.
+- Link: [../?via=tutor#possessiv-besitzer-zuordnen](../?via=tutor#possessiv-besitzer-zuordnen)
 
 ### Exercise possessiv-nom-akk-wahl
 
@@ -80,7 +92,7 @@ Whenever **euer** takes an ending, it drops the second **e**: *euer Buch* (n), b
 
 - Task: Fill in the possessive determiner in Peter's conversation with Lukas and Mina.
 - Answer format: fill in the gaps in German
-- How the app counts mistakes of form: capital letters wrong, accents wrong, hyphen wrong, apostrophe wrong, punctuation wrong
+- How the app counts mistakes of form: capital letters right with a hint, accents wrong, hyphen wrong, apostrophe wrong, punctuation ignored
 - Items (start → solution):
 1. I cannot find my backpack (der Rucksack). → Ich finde meinen Rucksack nicht.
      - mein: *Rucksack* is masculine and the direct object of *finden* → accusative *meinen*.
@@ -90,3 +102,15 @@ Whenever **euer** takes an ending, it drops the second **e**: *euer Buch* (n), b
 - Explanation: Possessive determiners take the exact same endings as *ein/kein* in both nominative and accusative.
 - How to help: the app checks word by word against the solutions above and names mistakes of form (e.g. accents) with the child's words. Do not give the solution: ask about the rule (ending, gender, tense) or about a similar sentence of the page. If the app takes a version of the child's as wrong that you think is right, tell the child: the app knows only the versions above.
 - Link: [../?via=tutor#possessiv-nom-akk-luecken](../?via=tutor#possessiv-nom-akk-luecken)
+
+### Exercise possessiv-euer-check
+
+- Task: Lukas and Mina are looking for their football (*der Ball*, m). How does Peter ask correctly?
+- Answer format: choose one answer
+- Choices (✓ right, ✗ wrong, with the app's message):
+  - ✓ Sucht ihr euren Ball? – Correct! Masculine accusative needs *-en*, and *euer* drops its second *e* → *euren*.
+  - ✗ Sucht ihr eueren Ball? – Whenever *euer* takes an ending, the second *e* drops: *euren Ball*.
+  - ✗ Sucht ihr euer Ball? – *der Ball* is masculine accusative and needs the *-en* ending: *euren Ball*.
+- Solution: Sucht ihr euren Ball?
+- Explanation: With an ending, *euer* drops its second *e*: *eure* (f/pl), *euren* (m acc.).
+- Link: [../?via=tutor#possessiv-euer-check](../?via=tutor#possessiv-euer-check)

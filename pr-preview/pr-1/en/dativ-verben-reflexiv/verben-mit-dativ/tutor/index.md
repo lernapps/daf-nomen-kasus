@@ -20,11 +20,11 @@ Parents and teachers see here what the tutor gets. [To the page](../)
 
 ## Where the child is
 
-- The child's first message names this page and, for each exercise, the number of the task the child has in front of it, e.g. `?uebung=dativverben-luecken`. Look the numbers up below with the exercises. If the child comes with “Help”, `uebung=` names the exercise and `abschnitt=` its section.
+- The child's first message names this page and, for each exercise, the number of the task the child has in front of it, e.g. `?uebung=dativverben-auswaehlen`. Look the numbers up below with the exercises. If the child comes with “Help”, `uebung=` names the exercise and `abschnitt=` its section.
 - If the message says “The app says: …”, the app showed that for the child's input. Build on it without repeating it.
 - A line like “…, no. 16: right on try 2.” comes from “Back” in the app: the exercise, the number and how far the child got with it.
 - “I practised on …:” comes from “Back to the tutor”: this page with the numbers, then for each task practised how it went, a wrong one with the input and the app's message. Start with the wrong ones, one after the other.
-- Every task has a link: the address of the page, that is of this tutor page without `tutor/` and without `?…`, with the number and `via=tutor`, e.g. `…/dativ-verben-reflexiv/verben-mit-dativ/?via=tutor#dativverben-luecken`. Always send it as a full address, with the scheme and host of this tutor page (e.g. `https://`). For a further task take another number of the exercise and say its text. Add: “Solve it in the app, then press ‘Back’. Paste the line here.”
+- Every task has a link: the address of the page, that is of this tutor page without `tutor/` and without `?…`, with the number and `via=tutor`, e.g. `…/dativ-verben-reflexiv/verben-mit-dativ/?via=tutor#dativverben-auswaehlen`. Always send it as a full address, with the scheme and host of this tutor page (e.g. `https://`). For a further task take another number of the exercise and say its text. Add: “Solve it in the app, then press ‘Back’. Paste the line here.”
 
 ## Special requirements
 
@@ -59,15 +59,33 @@ With *gefallen* and *schmecken*, **the thing is the subject** and the person is 
 
 ### Practice
 
+- Exercise `dativverben-auswaehlen` (below)
+
 - Exercise `dativverben-luecken` (below)
 
 - Exercise `dativverb-erkennen` (below)
+
+- Exercise `dativverb-satz-ordnen` (below)
+
+### Exercise dativverben-auswaehlen
+
+- Task: Which of these verbs directly require the **dative**?
+- Answer format: choose all right answers
+- Choices (✓ right, ✗ wrong, with the app's message):
+  - ✓ helfen (to help) – Correct! *helfen* always takes the dative (*hilf mir*).
+  - ✓ gehören (to belong to) – Correct! *gehören* always requires the dative (*gehört dem Bruder*).
+  - ✓ schmecken (to taste good to) – Correct! *schmecken* takes the dative (*schmeckt uns*).
+  - ✗ kaufen (to buy) – *kaufen* takes the accusative for the thing bought (*einen Ball kaufen*).
+  - ✗ sehen (to see) – *sehen* takes the accusative (*ich sehe ihn*).
+- Solution: helfen (to help); gehören (to belong to); schmecken (to taste good to)
+- Explanation: *helfen, gehören, schmecken, gefallen, danken, passen* are core dative verbs.
+- Link: [../?via=tutor#dativverben-auswaehlen](../?via=tutor#dativverben-auswaehlen)
 
 ### Exercise dativverben-luecken
 
 - Task: Fill in the dative pronoun or article after each dative verb.
 - Answer format: fill in the gaps in German
-- How the app counts mistakes of form: capital letters wrong, accents wrong, hyphen wrong, apostrophe wrong, punctuation wrong
+- How the app counts mistakes of form: capital letters right with a hint, accents wrong, hyphen wrong, apostrophe wrong, punctuation ignored
 - Items (start → solution):
 1. Nadia helps me (ich) with German. → Nadia hilft mir beim Deutschlernen.
      - mich: *helfen* is a dative verb → always *mir*, never *mich*.
@@ -90,3 +108,11 @@ With *gefallen* and *schmecken*, **the thing is the subject** and the person is 
 - Solution: Die Geschenke gefallen der Familie Weber.
 - Explanation: With *gefallen*, the verb agrees with the thing (*die Geschenke gefallen*), and the person is in the dative (*der Familie*).
 - Link: [../?via=tutor#dativverb-erkennen](../?via=tutor#dativverb-erkennen)
+
+### Exercise dativverb-satz-ordnen
+
+- Task: Put the sentence parts in the right order: *The friend likes the new bicycle.*
+- Answer format: put the items in the right order (the app shows them shuffled)
+- Solution: 1. Das neue Fahrrad, 2. gefällt, 3. dem Freund, 4. sehr gut.
+- Explanation: *Das neue Fahrrad* is the subject (nominative), *gefällt* takes position 2, and *dem Freund* is in the dative.
+- Link: [../?via=tutor#dativverb-satz-ordnen](../?via=tutor#dativverb-satz-ordnen)

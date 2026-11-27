@@ -45,12 +45,12 @@ Build sentences with both a dative recipient and an accusative object in the rig
 
 Verbs like **geben, schenken, zeigen, bringen, leihen, schreiben** often take two objects: the **recipient** in the dative (to whom?) and the **thing** in the accusative (what?). Their word order depends on whether they are nouns or pronouns.
 
-Picture: Arrow diagram: Peter (Nominative) schenkt -> der Schwester / ihr (Dative, recipient) and ein Buch / es (Accusative, thing). Rules: 2 nouns Dative before Accusative; 1 pronoun goes first; 2 pronouns Accusative before Dative. Caption: Three clear word-order rules for sentences with both dative and accusative objects.
+Picture: Arrow diagram: Peter (Nominative) schenkt -> der Freundin / ihr (Dative, recipient) and ein Spiel / es (Accusative, thing). Rules: 2 nouns Dative before Accusative; 1 pronoun goes first; 2 pronouns Accusative before Dative. Caption: Three clear word-order rules for sentences with both dative and accusative objects.
 
 The 3 Word-Order Rules:
 - Combination | Order | Example
-- 2 nouns | Dative → Accusative | Peter schenkt der Schwester ein Buch.
-- 1 pronoun + 1 noun | Pronoun first | Peter schenkt ihr ein Buch. / Peter schenkt es Mina.
+- 2 nouns | Dative → Accusative | Peter schenkt der Freundin ein Spiel.
+- 1 pronoun + 1 noun | Pronoun first | Peter schenkt ihr ein Spiel. / Peter schenkt es Nadia.
 - 2 pronouns | Accusative → Dative | Peter schenkt es ihr.
 
 ### Practice
@@ -59,12 +59,16 @@ The 3 Word-Order Rules:
 
 - Exercise `zwei-pronomen-wahl` (below)
 
+- Exercise `zwei-objekte-luecken` (below)
+
+- Exercise `zwei-pronomen-regel-check` (below)
+
 ### Exercise zwei-objekte-ordnen
 
-- Task: Put the sentence parts in the right order: *Peter lends his brother the bike.*
+- Task: Put the sentence parts in the right order: *Peter lends his friend the bike.*
 - Answer format: put the items in the right order (the app shows them shuffled)
-- Solution: 1. Peter, 2. leiht, 3. dem Bruder, 4. das Fahrrad.
-- Explanation: With two nouns, the dative (*dem Bruder*) comes before the accusative (*das Fahrrad*).
+- Solution: 1. Peter, 2. leiht, 3. dem Freund, 4. das Fahrrad.
+- Explanation: With two nouns, the dative (*dem Freund*) comes before the accusative (*das Fahrrad*).
 - Link: [../?via=tutor#zwei-objekte-ordnen](../?via=tutor#zwei-objekte-ordnen)
 
 ### Exercise zwei-pronomen-wahl
@@ -79,3 +83,26 @@ The 3 Word-Order Rules:
 - Explanation: A single pronoun comes before a noun (*ihn Peter*, *ihm eine Karte*). With two pronouns, accusative comes before dative (*es ihr*).
 - How to help: the app checks word by word against the solutions above and names mistakes of form (e.g. accents) with the child's words. Do not give the solution: ask about the rule (ending, gender, tense) or about a similar sentence of the page. If the app takes a version of the child's as wrong that you think is right, tell the child: the app knows only the versions above.
 - Link: [../?via=tutor#zwei-pronomen-wahl](../?via=tutor#zwei-pronomen-wahl)
+
+### Exercise zwei-objekte-luecken
+
+- Task: Type both objects in the right order.
+- Answer format: fill in the gaps in German
+- How the app counts mistakes of form: capital letters right with a hint, accents wrong, hyphen wrong, apostrophe wrong, punctuation ignored
+- Items (start → solution):
+1. Peter gives the teacher (der Lehrer) the notebook (das Heft). → Peter gibt dem Lehrer das Heft.
+     - das Heft dem Lehrer: With two nouns, dative (*dem Lehrer*) comes before accusative (*das Heft*).
+2. Lukas brings it (das Buch) to him (Peter). → Lukas bringt es ihm.
+     - ihm es: With two pronouns, accusative (*es*) comes before dative (*ihm*).
+3. Mina gives her (Nadia) the ball (der Ball). → Mina gibt ihr den Ball.
+- Explanation: Remember: 2 nouns = Dat → Acc; 1 pronoun = pronoun first; 2 pronouns = Acc → Dat.
+- How to help: the app checks word by word against the solutions above and names mistakes of form (e.g. accents) with the child's words. Do not give the solution: ask about the rule (ending, gender, tense) or about a similar sentence of the page. If the app takes a version of the child's as wrong that you think is right, tell the child: the app knows only the versions above.
+- Link: [../?via=tutor#zwei-objekte-luecken](../?via=tutor#zwei-objekte-luecken)
+
+### Exercise zwei-pronomen-regel-check
+
+- Task: When both objects are pronouns (such as es and ihr), the dative pronoun always comes first.
+- Answer format: choose “true” or “false”
+- Solution: The statement is false.
+- Explanation: False! With two pronouns, **accusative comes before dative**: *Peter gibt **es ihr**.*
+- Link: [../?via=tutor#zwei-pronomen-regel-check](../?via=tutor#zwei-pronomen-regel-check)

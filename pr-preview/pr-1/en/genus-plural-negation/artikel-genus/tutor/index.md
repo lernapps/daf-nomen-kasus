@@ -20,11 +20,11 @@ Parents and teachers see here what the tutor gets. [To the page](../)
 
 ## Where the child is
 
-- The child's first message names this page and, for each exercise, the number of the task the child has in front of it, e.g. `?uebung=artikel-zimmer-wahl`. Look the numbers up below with the exercises. If the child comes with “Help”, `uebung=` names the exercise and `abschnitt=` its section.
+- The child's first message names this page and, for each exercise, the number of the task the child has in front of it, e.g. `?uebung=artikel-genus-zuordnen`. Look the numbers up below with the exercises. If the child comes with “Help”, `uebung=` names the exercise and `abschnitt=` its section.
 - If the message says “The app says: …”, the app showed that for the child's input. Build on it without repeating it.
 - A line like “…, no. 16: right on try 2.” comes from “Back” in the app: the exercise, the number and how far the child got with it.
 - “I practised on …:” comes from “Back to the tutor”: this page with the numbers, then for each task practised how it went, a wrong one with the input and the app's message. Start with the wrong ones, one after the other.
-- Every task has a link: the address of the page, that is of this tutor page without `tutor/` and without `?…`, with the number and `via=tutor`, e.g. `…/genus-plural-negation/artikel-genus/?via=tutor#artikel-zimmer-wahl`. Always send it as a full address, with the scheme and host of this tutor page (e.g. `https://`). For a further task take another number of the exercise and say its text. Add: “Solve it in the app, then press ‘Back’. Paste the line here.”
+- Every task has a link: the address of the page, that is of this tutor page without `tutor/` and without `?…`, with the number and `via=tutor`, e.g. `…/genus-plural-negation/artikel-genus/?via=tutor#artikel-genus-zuordnen`. Always send it as a full address, with the scheme and host of this tutor page (e.g. `https://`). For a further task take another number of the exercise and say its text. Add: “Solve it in the app, then press ‘Back’. Paste the line here.”
 
 ## Special requirements
 
@@ -43,7 +43,7 @@ Use definite (der, die, das) and indefinite (ein, eine) articles with the four c
 
 ### The Four Color Columns in Peter's Room
 
-Peter is setting up his new room at the Webers' house in Lindenberg. Every German noun has a grammatical gender: **masculine** (*der*, blue), **feminine** (*die*, red), or **neuter** (*das*, green). Plural always uses **die** (amber).
+Peter (12) is setting up his new room in his parents' apartment in Lindenberg. Every German noun has a grammatical gender: **masculine** (*der*, blue), **feminine** (*die*, red), or **neuter** (*das*, green). Plural always uses **die** (amber).
 
 Picture: 4-Case Color Table showing the first row, Nominative: masculine der/ein, feminine die/eine, neuter das/ein, plural die. Caption: Our 4-Case Color Table starts with the nominative row. Each new chapter adds one row.
 
@@ -53,17 +53,30 @@ Always learn each noun together with its article. Some endings give reliable clu
 
 Vocabulary (German – English): Objects in Peter's Room
 - der Schreibtisch – desk. Example: Der Schreibtisch steht am Fenster. – The desk stands by the window.
-- der Stuhl – chair
+- der Rucksack – backpack
 - die Lampe – lamp. Example: Eine Lampe steht auf dem Tisch. – A lamp is on the desk.
 - die Gitarre – guitar
 - das Bett – bed
 - das Regal – shelf
+- das Fahrrad – bicycle
 
 ### Practice
+
+- Exercise `artikel-genus-zuordnen` (below)
 
 - Exercise `artikel-zimmer-wahl` (below)
 
 - Exercise `genus-endung-check` (below)
+
+- Exercise `artikel-ein-luecken` (below)
+
+### Exercise artikel-genus-zuordnen
+
+- Task: Match each word from Peter's daily life to its gender column.
+- Answer format: match each item on the left with one on the right
+- Solution: der Rucksack – Masculine (blue · der/ein); die Gitarre – Feminine (red · die/eine); das Fahrrad – Neuter (green · das/ein); die Bücher – Plural (amber · die)
+- Explanation: The four columns stay the same throughout the app: masculine (*der*), feminine (*die*), neuter (*das*), and plural (*die*).
+- Link: [../?via=tutor#artikel-genus-zuordnen](../?via=tutor#artikel-genus-zuordnen)
 
 ### Exercise artikel-zimmer-wahl
 
@@ -81,7 +94,7 @@ Vocabulary (German – English): Objects in Peter's Room
 
 ### Exercise genus-endung-check
 
-- Task: Peter buys a bread roll in Lindenberg and looks for the newspaper. Which pair is correct?
+- Task: Peter buys a bread roll in Lindenberg and sees a newspaper. Which pair is correct?
 - Answer format: choose one answer
 - Choices (✓ right, ✗ wrong, with the app's message):
   - ✓ das Brötchen (n) · die Zeitung (f) – Exactly! Nouns ending in *-chen* are always neuter (*das*), and nouns ending in *-ung* are always feminine (*die*).
@@ -90,3 +103,19 @@ Vocabulary (German – English): Objects in Peter's Room
 - Solution: das Brötchen (n) · die Zeitung (f)
 - Explanation: Endings like *-chen* (neuter) and *-ung* (feminine) reliably show a noun's gender.
 - Link: [../?via=tutor#genus-endung-check](../?via=tutor#genus-endung-check)
+
+### Exercise artikel-ein-luecken
+
+- Task: Type the matching nominative article (ein, eine, der, die, das).
+- Answer format: fill in the gaps in German
+- How the app counts mistakes of form: capital letters right with a hint, accents wrong, hyphen wrong, apostrophe wrong, punctuation ignored
+- Items (start → solution):
+1. That is a backpack (der Rucksack). → Das ist ein Rucksack.
+     - eine: *der Rucksack* is masculine → indefinite article *ein* (no *-e*).
+2. That is a guitar (die Gitarre). → Das ist eine Gitarre.
+     - ein: *die Gitarre* is feminine → indefinite article *eine*.
+3. The bicycle (das Fahrrad) is blue. → Das Fahrrad ist blau.
+4. Here is a shelf (das Regal). → Hier ist ein Regal.
+- Explanation: In the nominative, masculine and neuter take *ein*, while feminine takes *eine*.
+- How to help: the app checks word by word against the solutions above and names mistakes of form (e.g. accents) with the child's words. Do not give the solution: ask about the rule (ending, gender, tense) or about a similar sentence of the page. If the app takes a version of the child's as wrong that you think is right, tell the child: the app knows only the versions above.
+- Link: [../?via=tutor#artikel-ein-luecken](../?via=tutor#artikel-ein-luecken)

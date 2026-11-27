@@ -20,11 +20,11 @@ Parents and teachers see here what the tutor gets. [To the page](../)
 
 ## Where the child is
 
-- The child's first message names this page and, for each exercise, the number of the task the child has in front of it, e.g. `?uebung=plural-schreiben`. Look the numbers up below with the exercises. If the child comes with “Help”, `uebung=` names the exercise and `abschnitt=` its section.
+- The child's first message names this page and, for each exercise, the number of the task the child has in front of it, e.g. `?uebung=plural-muster-zuordnen`. Look the numbers up below with the exercises. If the child comes with “Help”, `uebung=` names the exercise and `abschnitt=` its section.
 - If the message says “The app says: …”, the app showed that for the child's input. Build on it without repeating it.
 - A line like “…, no. 16: right on try 2.” comes from “Back” in the app: the exercise, the number and how far the child got with it.
 - “I practised on …:” comes from “Back to the tutor”: this page with the numbers, then for each task practised how it went, a wrong one with the input and the app's message. Start with the wrong ones, one after the other.
-- Every task has a link: the address of the page, that is of this tutor page without `tutor/` and without `?…`, with the number and `via=tutor`, e.g. `…/genus-plural-negation/pluralbildung/?via=tutor#plural-schreiben`. Always send it as a full address, with the scheme and host of this tutor page (e.g. `https://`). For a further task take another number of the exercise and say its text. Add: “Solve it in the app, then press ‘Back’. Paste the line here.”
+- Every task has a link: the address of the page, that is of this tutor page without `tutor/` and without `?…`, with the number and `via=tutor`, e.g. `…/genus-plural-negation/pluralbildung/?via=tutor#plural-muster-zuordnen`. Always send it as a full address, with the scheme and host of this tutor page (e.g. `https://`). For a further task take another number of the exercise and say its text. Add: “Solve it in the app, then press ‘Back’. Paste the line here.”
 
 ## Special requirements
 
@@ -63,15 +63,27 @@ Vocabulary (German – English): Key Plurals for Peter's Room
 
 ### Practice
 
+- Exercise `plural-muster-zuordnen` (below)
+
 - Exercise `plural-schreiben` (below)
 
 - Exercise `plural-artikel-regel` (below)
+
+- Exercise `plural-ohne-endung-check` (below)
+
+### Exercise plural-muster-zuordnen
+
+- Task: Match each singular noun with its correct plural form.
+- Answer format: match each item on the left with one on the right
+- Solution: die Tasche – die Taschen (-n); der Ball – die Bälle (umlaut + -e); das Kind – die Kinder (-er); das Handy – die Handys (-s); das Zimmer – die Zimmer (—)
+- Explanation: The five most common plural patterns are *-n/-en*, *-e*, *-er*, *-s*, and no ending (often with an umlaut).
+- Link: [../?via=tutor#plural-muster-zuordnen](../?via=tutor#plural-muster-zuordnen)
 
 ### Exercise plural-schreiben
 
 - Task: Type the matching plural form with the article die in each gap.
 - Answer format: fill in the gaps in German
-- How the app counts mistakes of form: capital letters wrong, accents wrong, hyphen wrong, apostrophe wrong, punctuation wrong
+- How the app counts mistakes of form: capital letters right with a hint, accents wrong, hyphen wrong, apostrophe wrong, punctuation ignored
 - Items (start → solution):
 1. The books are on the shelf. → Die Bücher stehen im Regal.
      - Die Buchs: *das Buch* forms its plural with an umlaut and *-er*: *die Bücher*.
@@ -94,3 +106,16 @@ Vocabulary (German – English): Key Plurals for Peter's Room
 - Solution: In the nominative plural, all nouns take the definite article die.
 - Explanation: Nominative plural always takes *die*, and the plural ending depends on the noun.
 - Link: [../?via=tutor#plural-artikel-regel](../?via=tutor#plural-artikel-regel)
+
+### Exercise plural-ohne-endung-check
+
+- Task: Which of these nouns take no new ending in the plural (— pattern)?
+- Answer format: choose all right answers
+- Choices (✓ right, ✗ wrong, with the app's message):
+  - ✓ das Brötchen → die Brötchen – Correct! Nouns ending in *-chen* stay unchanged in the plural.
+  - ✓ der Lehrer → die Lehrer – Correct! Many nouns ending in *-er* take no extra ending in the plural.
+  - ✗ die Schule → die Schulen – *die Schule* adds *-n*: *die Schulen*.
+  - ✗ das Buch → die Bücher – *das Buch* adds an umlaut and *-er*: *die Bücher*.
+- Solution: das Brötchen → die Brötchen; der Lehrer → die Lehrer
+- Explanation: Nouns ending in *-er, -el, -en, -chen* often take no plural ending (*die Lehrer, die Brötchen, die Zimmer*).
+- Link: [../?via=tutor#plural-ohne-endung-check](../?via=tutor#plural-ohne-endung-check)

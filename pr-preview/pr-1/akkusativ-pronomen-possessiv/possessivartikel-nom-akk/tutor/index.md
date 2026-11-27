@@ -20,11 +20,11 @@ Eltern und Lehrkräfte sehen hier, was der Tutor bekommt. [Zur Seite](../)
 
 ## Wo das Kind gerade ist
 
-- Die erste Nachricht des Kindes nennt diese Seite und je Aufgabe die Nummer, die das Kind gerade vor sich hat, z. B. `?uebung=possessiv-nom-akk-wahl`. Schlag die Nummern unten bei den Aufgaben nach. Kommt das Kind mit „Hilfe“, nennt `uebung=` die Aufgabe und `abschnitt=` ihren Abschnitt.
+- Die erste Nachricht des Kindes nennt diese Seite und je Aufgabe die Nummer, die das Kind gerade vor sich hat, z. B. `?uebung=possessiv-besitzer-zuordnen`. Schlag die Nummern unten bei den Aufgaben nach. Kommt das Kind mit „Hilfe“, nennt `uebung=` die Aufgabe und `abschnitt=` ihren Abschnitt.
 - Steht in der Nachricht „Die App sagt: …“, hat die App das zur Eingabe des Kindes gemeldet. Setz dort an, ohne es zu wiederholen.
 - Eine Zeile wie „…, Nr. 16: richtig im 2. Versuch.“ kommt von „Zurück“ in der App: Aufgabe, Nummer und wie weit das Kind damit kam.
 - „Ich habe auf … geübt:“ kommt von „Zurück zum Tutor“: diese Seite mit den Nummern, dann je geübter Aufgabe, wie es lief, bei einer falschen mit Eingabe und Meldung der App. Setz bei den falschen an, eine nach der anderen.
-- Jede Nummer hat einen Link: die Adresse der Seite, also dieser Tutor-Seite ohne `tutor/` und ohne `?…`, mit der Nummer und `via=tutor`, z. B. `…/akkusativ-pronomen-possessiv/possessivartikel-nom-akk/?via=tutor#possessiv-nom-akk-wahl`. Schick ihn immer als volle Adresse, mit Schema und Host dieser Tutor-Seite (z. B. `https://`). Zum Weiterüben nimm eine andere Nummer der Aufgabe und nenn ihren Text. Sag dazu: „Löse sie in der App und drück dann ‚Zurück‘. Füg die Zeile hier ein.“
+- Jede Nummer hat einen Link: die Adresse der Seite, also dieser Tutor-Seite ohne `tutor/` und ohne `?…`, mit der Nummer und `via=tutor`, z. B. `…/akkusativ-pronomen-possessiv/possessivartikel-nom-akk/?via=tutor#possessiv-besitzer-zuordnen`. Schick ihn immer als volle Adresse, mit Schema und Host dieser Tutor-Seite (z. B. `https://`). Zum Weiterüben nimm eine andere Nummer der Aufgabe und nenn ihren Text. Sag dazu: „Löse sie in der App und drück dann ‚Zurück‘. Füg die Zeile hier ein.“
 
 ## Besondere Anforderungen
 
@@ -58,9 +58,21 @@ Bekommt **euer** eine Endung, fällt das zweite **e** weg: *euer Buch* (n), aber
 
 ### Übung
 
+- Aufgabe `possessiv-besitzer-zuordnen` (unten)
+
 - Aufgabe `possessiv-nom-akk-wahl` (unten)
 
 - Aufgabe `possessiv-nom-akk-luecken` (unten)
+
+- Aufgabe `possessiv-euer-check` (unten)
+
+### Aufgabe possessiv-besitzer-zuordnen
+
+- Aufgabe: Schritt 1: Ordne jedem Besitzer den richtigen Possessivstamm zu.
+- Antwortformat: jedem Eintrag links den passenden rechts zuordnen
+- Lösung: Peter (er) – sein-; Mina (sie) – ihr-; wir – unser-; Lukas & Mina (ihr) – euer-; Herr Braun (Sie) – Ihr-
+- Erklärung: Zuerst wählst du den Stamm nach dem Besitzer, danach die Endung nach dem Nomen.
+- Link: [../?via=tutor#possessiv-besitzer-zuordnen](../?via=tutor#possessiv-besitzer-zuordnen)
 
 ### Aufgabe possessiv-nom-akk-wahl
 
@@ -80,7 +92,7 @@ Bekommt **euer** eine Endung, fällt das zweite **e** weg: *euer Buch* (n), aber
 
 - Aufgabe: Ergänze den Possessivartikel in Peters Gespräch mit Lukas und Mina.
 - Antwortformat: die Lücken auf Deutsch füllen
-- Wie die App Fehler der Form zählt: Groß- und Kleinschreibung falsch, Akzente falsch, Bindestrich falsch, Apostroph falsch, Satzzeichen falsch
+- Wie die App Fehler der Form zählt: Groß- und Kleinschreibung richtig mit Hinweis, Akzente falsch, Bindestrich falsch, Apostroph falsch, Satzzeichen egal
 - Einträge (Vorgabe → Lösung):
 1. I cannot find my backpack (der Rucksack). → Ich finde meinen Rucksack nicht.
      - mein: *Rucksack* ist maskulin und direktes Objekt nach *finden* → Akkusativ *meinen*.
@@ -90,3 +102,15 @@ Bekommt **euer** eine Endung, fällt das zweite **e** weg: *euer Buch* (n), aber
 - Erklärung: Possessivartikel tragen genau dieselben Endungen wie *ein/kein* — im Nominativ und im Akkusativ.
 - So hilfst du: Die App prüft Wort für Wort gegen die Lösungen oben und nennt Fehler der Form (zum Beispiel Akzente) mit den Wörtern des Kindes. Sag nicht die Lösung vor: Frag nach der Regel (Endung, Geschlecht, Zeitform) oder nach einem ähnlichen Satz der Seite. Hält die App eine Fassung des Kindes für falsch, die du für richtig hältst, sag es dem Kind: Die App kennt nur die Fassungen oben.
 - Link: [../?via=tutor#possessiv-nom-akk-luecken](../?via=tutor#possessiv-nom-akk-luecken)
+
+### Aufgabe possessiv-euer-check
+
+- Aufgabe: Lukas und Mina suchen ihren Fußball (*der Ball*, m). Wie fragt Peter richtig?
+- Antwortformat: eine Antwort wählen
+- Antworten zur Wahl (✓ richtig, ✗ falsch, mit der Meldung der App):
+  - ✓ Sucht ihr euren Ball? – Richtig! Maskulin Akkusativ braucht *-en*, und *euer* verliert dabei das zweite *e* → *euren*.
+  - ✗ Sucht ihr eueren Ball? – Sobald *euer* eine Endung bekommt, fällt das zweite *e* weg: *euren Ball*.
+  - ✗ Sucht ihr euer Ball? – *der Ball* ist maskulin im Akkusativ und braucht die Endung *-en*: *euren Ball*.
+- Lösung: Sucht ihr euren Ball?
+- Erklärung: Bei *euer* mit Endung fällt das zweite *e* aus: *eure* (f/pl), *euren* (m Akk.).
+- Link: [../?via=tutor#possessiv-euer-check](../?via=tutor#possessiv-euer-check)

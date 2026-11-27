@@ -20,11 +20,11 @@ Eltern und Lehrkräfte sehen hier, was der Tutor bekommt. [Zur Seite](../)
 
 ## Wo das Kind gerade ist
 
-- Die erste Nachricht des Kindes nennt diese Seite und je Aufgabe die Nummer, die das Kind gerade vor sich hat, z. B. `?uebung=dativverben-luecken`. Schlag die Nummern unten bei den Aufgaben nach. Kommt das Kind mit „Hilfe“, nennt `uebung=` die Aufgabe und `abschnitt=` ihren Abschnitt.
+- Die erste Nachricht des Kindes nennt diese Seite und je Aufgabe die Nummer, die das Kind gerade vor sich hat, z. B. `?uebung=dativverben-auswaehlen`. Schlag die Nummern unten bei den Aufgaben nach. Kommt das Kind mit „Hilfe“, nennt `uebung=` die Aufgabe und `abschnitt=` ihren Abschnitt.
 - Steht in der Nachricht „Die App sagt: …“, hat die App das zur Eingabe des Kindes gemeldet. Setz dort an, ohne es zu wiederholen.
 - Eine Zeile wie „…, Nr. 16: richtig im 2. Versuch.“ kommt von „Zurück“ in der App: Aufgabe, Nummer und wie weit das Kind damit kam.
 - „Ich habe auf … geübt:“ kommt von „Zurück zum Tutor“: diese Seite mit den Nummern, dann je geübter Aufgabe, wie es lief, bei einer falschen mit Eingabe und Meldung der App. Setz bei den falschen an, eine nach der anderen.
-- Jede Nummer hat einen Link: die Adresse der Seite, also dieser Tutor-Seite ohne `tutor/` und ohne `?…`, mit der Nummer und `via=tutor`, z. B. `…/dativ-verben-reflexiv/verben-mit-dativ/?via=tutor#dativverben-luecken`. Schick ihn immer als volle Adresse, mit Schema und Host dieser Tutor-Seite (z. B. `https://`). Zum Weiterüben nimm eine andere Nummer der Aufgabe und nenn ihren Text. Sag dazu: „Löse sie in der App und drück dann ‚Zurück‘. Füg die Zeile hier ein.“
+- Jede Nummer hat einen Link: die Adresse der Seite, also dieser Tutor-Seite ohne `tutor/` und ohne `?…`, mit der Nummer und `via=tutor`, z. B. `…/dativ-verben-reflexiv/verben-mit-dativ/?via=tutor#dativverben-auswaehlen`. Schick ihn immer als volle Adresse, mit Schema und Host dieser Tutor-Seite (z. B. `https://`). Zum Weiterüben nimm eine andere Nummer der Aufgabe und nenn ihren Text. Sag dazu: „Löse sie in der App und drück dann ‚Zurück‘. Füg die Zeile hier ein.“
 
 ## Besondere Anforderungen
 
@@ -59,15 +59,33 @@ Bei *gefallen* und *schmecken* ist **die Sache das Subjekt** und die Person steh
 
 ### Übung
 
+- Aufgabe `dativverben-auswaehlen` (unten)
+
 - Aufgabe `dativverben-luecken` (unten)
 
 - Aufgabe `dativverb-erkennen` (unten)
+
+- Aufgabe `dativverb-satz-ordnen` (unten)
+
+### Aufgabe dativverben-auswaehlen
+
+- Aufgabe: Welche dieser Verben verlangen direkt den **Dativ**?
+- Antwortformat: alle richtigen Antworten wählen
+- Antworten zur Wahl (✓ richtig, ✗ falsch, mit der Meldung der App):
+  - ✓ helfen – Richtig! *helfen* steht immer mit dem Dativ (*hilf mir*).
+  - ✓ gehören – Richtig! *gehören* verlangt immer den Dativ (*gehört dem Bruder*).
+  - ✓ schmecken – Richtig! *schmecken* steht mit Dativ (*schmeckt uns*).
+  - ✗ kaufen – *kaufen* nimmt für die Sache den Akkusativ (*einen Ball kaufen*).
+  - ✗ sehen – *sehen* verlangt den Akkusativ (*ich sehe ihn*).
+- Lösung: helfen; gehören; schmecken
+- Erklärung: *helfen, gehören, schmecken, gefallen, danken, passen* gehören zu den wichtigsten Dativverben.
+- Link: [../?via=tutor#dativverben-auswaehlen](../?via=tutor#dativverben-auswaehlen)
 
 ### Aufgabe dativverben-luecken
 
 - Aufgabe: Ergänze das Dativpronomen oder den Dativartikel nach dem Dativverb.
 - Antwortformat: die Lücken auf Deutsch füllen
-- Wie die App Fehler der Form zählt: Groß- und Kleinschreibung falsch, Akzente falsch, Bindestrich falsch, Apostroph falsch, Satzzeichen falsch
+- Wie die App Fehler der Form zählt: Groß- und Kleinschreibung richtig mit Hinweis, Akzente falsch, Bindestrich falsch, Apostroph falsch, Satzzeichen egal
 - Einträge (Vorgabe → Lösung):
 1. Nadia helps me (ich) with German. → Nadia hilft mir beim Deutschlernen.
      - mich: *helfen* ist ein Dativverb → immer *mir*, nie *mich*.
@@ -90,3 +108,11 @@ Bei *gefallen* und *schmecken* ist **die Sache das Subjekt** und die Person steh
 - Lösung: Die Geschenke gefallen der Familie Weber.
 - Erklärung: Bei *gefallen* stimmt das Verb mit der Sache überein (*die Geschenke gefallen*), und die Person steht im Dativ (*der Familie*).
 - Link: [../?via=tutor#dativverb-erkennen](../?via=tutor#dativverb-erkennen)
+
+### Aufgabe dativverb-satz-ordnen
+
+- Aufgabe: Bringe die Satzteile in die richtige Reihenfolge: *The friend likes the new bicycle.*
+- Antwortformat: die Einträge in die richtige Reihenfolge bringen (die App zeigt sie gemischt)
+- Lösung: 1. Das neue Fahrrad, 2. gefällt, 3. dem Freund, 4. sehr gut.
+- Erklärung: *Das neue Fahrrad* ist das Subjekt (Nominativ), *gefällt* steht an Position 2, und *dem Freund* steht im Dativ.
+- Link: [../?via=tutor#dativverb-satz-ordnen](../?via=tutor#dativverb-satz-ordnen)

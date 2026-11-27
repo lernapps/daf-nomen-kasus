@@ -20,11 +20,11 @@ Parents and teachers see here what the tutor gets. [To the page](../)
 
 ## Where the child is
 
-- The child's first message names this page and, for each exercise, the number of the task the child has in front of it, e.g. `?uebung=n-deklination-luecken`. Look the numbers up below with the exercises. If the child comes with “Help”, `uebung=` names the exercise and `abschnitt=` its section.
+- The child's first message names this page and, for each exercise, the number of the task the child has in front of it, e.g. `?uebung=n-deklination-wahl`. Look the numbers up below with the exercises. If the child comes with “Help”, `uebung=` names the exercise and `abschnitt=` its section.
 - If the message says “The app says: …”, the app showed that for the child's input. Build on it without repeating it.
 - A line like “…, no. 16: right on try 2.” comes from “Back” in the app: the exercise, the number and how far the child got with it.
 - “I practised on …:” comes from “Back to the tutor”: this page with the numbers, then for each task practised how it went, a wrong one with the input and the app's message. Start with the wrong ones, one after the other.
-- Every task has a link: the address of the page, that is of this tutor page without `tutor/` and without `?…`, with the number and `via=tutor`, e.g. `…/genitiv-n-deklination/n-deklination/?via=tutor#n-deklination-luecken`. Always send it as a full address, with the scheme and host of this tutor page (e.g. `https://`). For a further task take another number of the exercise and say its text. Add: “Solve it in the app, then press ‘Back’. Paste the line here.”
+- Every task has a link: the address of the page, that is of this tutor page without `tutor/` and without `?…`, with the number and `via=tutor`, e.g. `…/genitiv-n-deklination/n-deklination/?via=tutor#n-deklination-wahl`. Always send it as a full address, with the scheme and host of this tutor page (e.g. `https://`). For a further task take another number of the exercise and say its text. Add: “Solve it in the app, then press ‘Back’. Paste the line here.”
 
 ## Special requirements
 
@@ -45,7 +45,7 @@ Decline common weak masculine nouns like der Mensch, der Kollege, and der Studen
 
 At a neighborhood party in Lindenberg, Peter meets a colleague of Herr Weber, the neighbor, and a university student. A special group of **masculine nouns** — the **n-declension** — adds **-n** or **-en** in **every case except nominative singular**!
 
-Picture: Pattern card for n-declension: Nominative singular der Kollege / der Mensch, but Accusative den Kollegen / den Menschen, Dative dem Kollegen / dem Menschen, Genitive des Kollegen / des Menschen. Caption: Only nominative singular keeps the base form; accusative, dative, genitive (and plural) all add -n/-en.
+Picture: Pattern card for n-declension: Nominative singular der Junge / der Löwe, but Accusative den Jungen / den Löwen, Dative dem Jungen / dem Löwen, Genitive des Jungen / des Löwen. Caption: Only nominative singular keeps the base form; accusative, dative, genitive (and plural) all add -n/-en.
 
 Vocabulary (German – English): Key Weak Masculine Nouns
 - der Mensch, den/dem/des Menschen – person / human being
@@ -58,17 +58,34 @@ Vocabulary (German – English): Key Weak Masculine Nouns
 
 ### Practice
 
+- Exercise `n-deklination-wahl` (below)
+
 - Exercise `n-deklination-luecken` (below)
 
 - Exercise `n-deklination-unterscheiden` (below)
+
+- Exercise `n-deklination-merkmale` (below)
+
+### Exercise n-deklination-wahl
+
+- Task: Nominative or another case? Choose the right form.
+- Answer format: choose a word for each gap
+- How the app counts mistakes of form: capital letters wrong, accents wrong, hyphen wrong, apostrophe wrong, punctuation wrong
+- Items (start → solution):
+1. The boy (der Junge, nom.) plays football. → Der Junge spielt Fußball.
+2. Peter greets Herr Braun (der Herr, acc.). → Peter grüßt Herrn Braun.
+3. We help the person (der Mensch, dat.). → Wir helfen dem Menschen.
+- Explanation: Nominative singular keeps the base form (*der Junge*); accusative, dative, and genitive add *-n/-en* (*Herrn, dem Menschen*).
+- How to help: the app checks word by word against the solutions above and names mistakes of form (e.g. accents) with the child's words. Do not give the solution: ask about the rule (ending, gender, tense) or about a similar sentence of the page. If the app takes a version of the child's as wrong that you think is right, tell the child: the app knows only the versions above.
+- Link: [../?via=tutor#n-deklination-wahl](../?via=tutor#n-deklination-wahl)
 
 ### Exercise n-deklination-luecken
 
 - Task: Fill in the right form of each weak masculine noun.
 - Answer format: fill in the gaps in German
-- How the app counts mistakes of form: capital letters wrong, accents wrong, hyphen wrong, apostrophe wrong, punctuation wrong
+- How the app counts mistakes of form: capital letters right with a hint, accents wrong, hyphen wrong, apostrophe wrong, punctuation ignored
 - Items (start → solution):
-1. Peter meets a colleague (der Kollege, acc.) of Herr Weber. → Peter trifft einen Kollegen von Herr Weber.
+1. Peter meets a colleague (der Kollege, acc.) of Herr Weber. → Peter trifft einen Kollegen von Herrn Weber.
      - Kollege: *der Kollege* is a weak masculine noun → accusative *einen Kollegen*.
 2. Lukas helps the neighbor (der Nachbar, dat.) in the garden. → Lukas hilft dem Nachbarn im Garten.
      - Nachbar: *der Nachbar* adds *-n* in the dative: *dem Nachbarn*.
@@ -90,3 +107,15 @@ Vocabulary (German – English): Key Weak Masculine Nouns
 - Solution: der Lehrer (den Lehrer, dem Lehrer, des Lehrers)
 - Explanation: The n-declension mostly includes masculine people/animals ending in *-e* (*Kollege, Junge*) plus key nouns like *Mensch, Student, Nachbar, Herr*.
 - Link: [../?via=tutor#n-deklination-unterscheiden](../?via=tutor#n-deklination-unterscheiden)
+
+### Exercise n-deklination-merkmale
+
+- Task: Which statements about the n-declension are true?
+- Answer format: choose all right answers
+- Choices (✓ right, ✗ wrong, with the app's message):
+  - ✓ It only applies to certain masculine nouns. – Correct! Feminine and neuter nouns (aside from the rare special case *das Herz*) are not part of it.
+  - ✓ Only the nominative singular keeps the base form without -n/-en. – Correct! Accusative, dative, genitive, and plural all take *-n* or *-en*.
+  - ✗ Every masculine noun adds -n in the accusative. – No, regular masculine nouns like *der Tisch* or *der Lehrer* stay unchanged in the accusative (*den Tisch, den Lehrer*).
+- Solution: It only applies to certain masculine nouns.; Only the nominative singular keeps the base form without -n/-en.
+- Explanation: The n-declension covers a specific group of masculine nouns and adds *-n/-en* in every case except nominative singular.
+- Link: [../?via=tutor#n-deklination-merkmale](../?via=tutor#n-deklination-merkmale)
